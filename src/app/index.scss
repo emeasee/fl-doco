@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic|Material+Icons);
+
+html {
+  font-family: 'Roboto', serif;
+  height: 100%;
+}
+
+body{
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.browsehappy {
+  background: #ccc;
+  color: #000;
+  margin: .2em 0;
+  padding: .2em 0;
+}
+
+.sidebar-nav{
+  background: rgb(224, 138, 29);
+  color: #fff;
+  width: 256px;
+  min-width: 256px;
+  max-width: 256px;
+
+  & > *{
+    min-width: 256px;
+  }
+}
+
+h2{
+  margin: 0 0 0 10px;
+}
+
+.list-item{
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  outline: none;
+
+  &.ng-hide {
+    transition:0.1s ease-out all;
+    opacity: 0;
+  }
+
+  .list-btn{
+    width: 100%;
+    margin: 0;
+    padding: 0 16px;
+    text-align: left;
+    font-weight: bold;
+
+    &:hover{
+      background: rgb(241, 151, 38);
+    }
+
+    .list-btn{
+
+      padding: 0;
+    }
+
+    .list-item{
+
+      padding: 0;
+      .list-btn{
+
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.md-subheader{
+
+  background: rgb(241, 151, 38);
+  color: #fff;
+  opacity: .9;
+  margin: 0;
+
+  &:after{
+    right: 0!important;
+  }
+
+}
+
+.md-button{
+
+  text-transform: none;
+}
+
+md-divider{
+  background: rgb(241, 151, 38);
+}
+
+
+
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector

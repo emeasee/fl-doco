@@ -1,0 +1,28 @@
+<md-list ng-controller="ListCtrl">
+
+  <md-subheader class="md-no-sticky md-title">Subhead</md-subheader>
+
+  <ul class="list-item" ng-repeat="section in sections">
+
+    <li ng-if="section.type === 'link'" ng-click="" class="md-button list-btn">
+      {{ section.name }}
+    </li>
+
+    <li ng-if="section.type === 'toggle'">
+      <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
+        {{ section.name }}
+      </ul>
+
+      <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
+        <li ng-click="" class="md-button list-btn">
+          {{ child.name }}
+        </li>
+      </ul>
+
+    </li>
+
+    <md-divider></md-divider>
+
+  </ul>
+
+</md-list>

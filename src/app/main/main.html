@@ -1,0 +1,17 @@
+<div layout-fill layout="vertical">
+
+  <md-sidenav  ng-include="'app/components/navlist/navlist.html'" class="md-sidenav-left sidebar-nav"  md-component-id="left" md-is-locked-open="$mdMedia('min-width: 1000px')"></md-sidenav>
+
+  <md-content layout-fill layout="column">
+    <header ng-include="'app/components/navbar/navbar.html'"></header>
+
+    <md-card>
+      <md-card-content layout-padding layout-sm="column" layout="row">
+        <div flex="66">Test</div>
+        <div flex="33">Test</div>
+      </md-card-content>
+    </md-card>
+
+  </md-content>
+
+</div>
