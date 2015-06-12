@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('flDoco')
-  .controller('NavbarCtrl', function ($scope) {
-  
+  .controller('NavbarCtrl', function ($scope, $stateParams) {
+
   });

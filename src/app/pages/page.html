@@ -1,0 +1,26 @@
+<div ng-controller="PageCtrl">
+  <header ng-include="'app/components/navbar/navbar.html'"></header>
+
+  <md-content layout-padding style="padding: 20px;">
+    <!-- Introduction first -->
+    <p>{{ view.intro }}</p>
+
+    <!-- After the intro we show the designer explanations, if relevant -->
+    <md-card class="card" ng-repeat="designer in view.designers">
+      <md-subheader class="md-no-sticky designer"><h2 class="md-title">How to add a Label to your Template</h2></md-subheader>
+      <md-card-content  layout-padding layout-sm="column" layout="row" ng-switch="{{ designer.data.text }}">
+        <div ng-switch-when="">
+          <div flex><img ng-src="{{ designer.data.img }}" alt=""/></div>
+        </div>
+        <div ng-switch-default>
+          <div flex="66">{{ designer.data.text }}</div>
+          <div flex="33"><img ng-src="{{ designer.data.img }}" alt=""/></div>
+        </div>
+      </md-card-content>
+    </md-card>
+
+    <!-- Now we'll show the logger -->
+
+  </md-content>
+
+</div>

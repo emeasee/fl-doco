@@ -2,7 +2,7 @@
 
 html {
   font-family: 'Roboto', serif;
-  height: 100%;
+  position: relative;
 }
 
 body{
@@ -28,10 +28,25 @@ body{
   & > *{
     min-width: 256px;
   }
+
+  img{
+    width: 100%;
+  }
 }
 
 h2{
   margin: 0 0 0 10px;
+}
+
+h3{
+  font-weight: 400;
+}
+
+.menu{
+  overflow: auto;
+  .content{
+    height:1px;
+  }
 }
 
 .list-item{
@@ -39,6 +54,8 @@ h2{
   margin: 0;
   opacity: 1;
   outline: none;
+  color: #fff;
+  text-decoration: none;
 
   &.ng-hide {
     transition:0.1s ease-out all;
@@ -54,6 +71,10 @@ h2{
 
     &:hover{
       background: rgb(241, 151, 38);
+    }
+
+    &.active{
+      background: rgb(143, 90, 25) !important;
     }
 
     .list-btn{
@@ -86,13 +107,33 @@ h2{
 
 }
 
+.card{
+  img{
+    max-width: 100%;
+  }
+  .designer{
+    background: rgb(25, 157, 60);
+  }
+}
+
 .md-button{
 
   text-transform: none;
+
+  .fold{
+
+    float: right;
+    padding: 4px;
+    color: #fff;
+  }
 }
 
 md-divider{
   background: rgb(241, 151, 38);
+}
+
+.div-icon{
+  height: auto;
 }
 
 

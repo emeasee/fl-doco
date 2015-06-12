@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Introduction",
+    "type": "link",
+    "id": "editor-intro"
+  },
+  {
+    "name": "Template Anatomy",
+    "type": "toggle",
+    "id": "template-anatomy",
+    "closed": true,
+    "children": [
+      {
+        "name": "Labels",
+        "id": "labels"
+      },
+      {
+        "name": "Tasks",
+        "id": "tasks"
+      },
+      {
+        "name": "Forms",
+        "id": "forms"
+      },
+      {
+        "name": "Tables",
+        "id": "tables"
+      },
+      {
+        "name": "Loops",
+        "id": "loops"
+      },
+      {
+        "name": "Input Elements",
+        "id": "input-elements"
+      }
+    ]
+  },
+  {
+    "name": "Augmenting your Template",
+    "type": "toggle",
+    "id": "augmenting-templates",
+    "closed": true,
+    "children": [
+      {
+        "name": "Attaching Documentation",
+        "id": "#"
+      },
+      {
+        "name": "Required Step",
+        "id": "#"
+      },
+      {
+        "name": "Blocking Step",
+        "id": "#"
+      },
+      {
+        "name": "Forcing Step Attachment",
+        "id": "#"
+      },
+      {
+        "name": "Adding Conditions",
+        "id": "#"
+      }
+    ]
+  },
+  {
+    "name": "Step Documentation Guidelines",
+    "type": "link",
+    "id": "doco-guidelines"
+  }
+]

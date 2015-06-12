@@ -1,28 +1,34 @@
-<md-list ng-controller="ListCtrl">
+<a ng-href="#/"><img src="assets/images/side_logo.png" alt=""/></a>
 
-  <md-subheader class="md-no-sticky md-title">Subhead</md-subheader>
+<md-list flex class="menu" ng-controller="ListCtrl">
+  <div class="content">
+    <md-subheader class="md-no-sticky md-title">Template Editor</md-subheader>
 
-  <ul class="list-item" ng-repeat="section in sections">
+    <ul ng-cloak class="list-item" ng-repeat="section in sections">
 
-    <li ng-if="section.type === 'link'" ng-click="" class="md-button list-btn">
-      {{ section.name }}
-    </li>
+      <!--//TODO here we need to add the id from the sections.json to the ui-sref -->
+      <li>
+        <a ng-class="setHighlight('{{ section.id }}')" ng-href="#/section/{{section.id}}" ng-if="section.type === 'link'" class="md-button list-btn">
+          {{ section.name }}
+        </a>
+      </li>
 
-    <li ng-if="section.type === 'toggle'">
-      <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
-        {{ section.name }}
-      </ul>
+      <li ng-if="section.type === 'toggle'">
+        <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
+          {{ section.name }}
+          <md-icon class="fold" aria-label="Menu"> keyboard_arrow_down </md-icon>
+        </ul>
 
-      <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
-        <li ng-click="" class="md-button list-btn">
-          {{ child.name }}
-        </li>
-      </ul>
+        <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
+          <li>
+            <a ng-class="setHighlight('{{ child.id }}')" class="md-button list-btn" href="#/section/{{ section.id }}/{{ child.id }}">{{ child.name }}</a>
+          </li>
+        </ul>
 
-    </li>
+      </li>
 
-    <md-divider></md-divider>
+      <md-divider></md-divider>
 
-  </ul>
-
+    </ul>
+  </div>
 </md-list>

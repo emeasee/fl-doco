@@ -1,8 +1,13 @@
 'use strict';
 
 angular.module('flDoco')
-  .controller('MainCtrl', function ($scope, $mdSidenav) {
+  .controller('MainCtrl', ['$scope', '$mdSidenav', '$http', function ($scope, $mdSidenav, $http) {
+    $http.get('assets/docs/sections.json').success(function(data) {
+      $scope.sections = data;
+    });
+
     $scope.openLeftMenu = function () {
       $mdSidenav('left').toggle();
     };
-  });
+
+  }]);

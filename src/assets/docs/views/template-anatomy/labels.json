@@ -1,0 +1,25 @@
+{
+  "title": "Labels",
+  "id": "labels",
+  "section": "Template Anatomy",
+  "intro": "A Label is not an active component of a workflow, in the sense that users do no interact with it. It is used to create headers to a workflow section or to synthetize a question asked to users in order not to repeat unnecessary information. On the designer a Label comprises of a chunk of text that will be displayed as is when users run the template.",
+  "designers": [{
+    "id": 1,
+    "data": {
+      "img": "assets/images/doco-images/img_1-1-1.png",
+      "text": ""
+    }
+  }],
+  "loggers": [{
+    "id": 1,
+    "data": {
+      "img": "",
+      "text": "In (1.), a  Label was created to separate the different phases of a surgical procedures SOP. It allows to visually create a separator between the different section of this template."
+    },
+    "id": 2,
+    "data": {
+      "img": "",
+      "text": "Under the same template, another  Label was used in (1.5) to synthetize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
+    }
+  }]
+}

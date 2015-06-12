@@ -5,7 +5,8 @@
   </md-button>
 
   <h2>
-    <span>Welcome</span>
+    <span class="md-title" ng-show="view.section">{{ view.section }} <md-icon class="div-icon" aria-label="divider"> play_arrow </md-icon> </span>
+    <span class="md-title">{{ view.title || 'FieldLogs Official Documentation' }}</span>
   </h2>
 
 </md-toolbar>
