@@ -136,7 +136,41 @@ md-divider{
   height: auto;
 }
 
+.blockimg{
+  img{
+    width: 100%;
+  }
+}
 
+.singleimg{
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.infobox{
+  background: rgb(255, 253, 191);
+  margin-bottom: 30px;
+
+  md-icon{
+    color: rgb(255, 171, 77);
+  }
+}
+
+.warnbox{
+  background: rgb(255, 191, 198);
+  margin-bottom: 30px;
+
+  md-icon{
+    color: rgb(255, 77, 84);
+  }
+}
+
+.center{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
 
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */

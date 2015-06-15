@@ -2,33 +2,42 @@
 
 <md-list flex class="menu" ng-controller="ListCtrl">
   <div class="content">
-    <md-subheader class="md-no-sticky md-title">Template Editor</md-subheader>
 
-    <ul ng-cloak class="list-item" ng-repeat="section in sections">
+    <div ng-repeat="item in items">
 
-      <!--//TODO here we need to add the id from the sections.json to the ui-sref -->
-      <li>
-        <a ng-class="setHighlight('{{ section.id }}')" ng-href="#/section/{{section.id}}" ng-if="section.type === 'link'" class="md-button list-btn">
-          {{ section.name }}
-        </a>
-      </li>
+    <md-subheader class="md-no-sticky md-title">{{ item.header }}</md-subheader>
 
-      <li ng-if="section.type === 'toggle'">
-        <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
-          {{ section.name }}
-          <md-icon class="fold" aria-label="Menu"> keyboard_arrow_down </md-icon>
-        </ul>
+      <ul ng-cloak class="list-item" ng-repeat="section in item.sections">
 
-        <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
-          <li>
-            <a ng-class="setHighlight('{{ child.id }}')" class="md-button list-btn" href="#/section/{{ section.id }}/{{ child.id }}">{{ child.name }}</a>
-          </li>
-        </ul>
+        <!--//TODO here we need to add the id from the sections.json to the ui-sref -->
+        <li>
+          <a ng-class="setHighlight('{{ section.id }}')" ng-href="#/section/{{section.id}}" ng-if="section.type === 'link'" class="md-button list-btn">
+            {{ section.name }}
+          </a>
+        </li>
 
-      </li>
+        <li ng-if="section.type === 'toggle'">
+          <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
+            {{ section.name }}
+            <md-icon class="fold" aria-label="Menu"> keyboard_arrow_down </md-icon>
+          </ul>
 
-      <md-divider></md-divider>
+          <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
+            <li>
+              <a ng-class="setHighlight('{{ child.id }}')" class="md-button list-btn" href="#/section/{{ section.id }}/{{ child.id }}">{{ child.name }}</a>
+            </li>
+          </ul>
 
-    </ul>
+        </li>
+
+        <md-divider></md-divider>
+
+      </ul>
+
+    </div>
+
+
+
+
   </div>
 </md-list>

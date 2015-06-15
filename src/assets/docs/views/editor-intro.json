@@ -1,5 +1,38 @@
 {
-  "title": "Template Editor Introduction",
+  "title": "1.1. Template Editor Introduction",
   "id": "editor-intro",
-  "intro": "Here will come a written introduction for the Template editor with a basic instruction of how to get to it."
+  "intro": "The Template Editor allows individuals to create, manage templates and to perform a variety of enterprise managed process flow tasks on those templates. In this section we will outline the various user interface elements, what they do and how to access them.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.1.1. Accessing the Template Editor"
+    },
+    {
+      "type": "h2",
+      "content": "1.1.1.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "To access the Template Editor simply navigate via the top menu of the FieldLogs website by selecting 'Templates'. This will load the following screen:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"At the top of the screen"
+        },
+        {
+          "text":"Select 'Templates'"
+        },
+        {
+          "text":"Alternatively: follow the Quickstart Guide to view the Template Editor"
+        }
+      ]
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-0-1.png",
+      "imgAlt":"Image Alt"
+    }
+  ]
 }

@@ -1,21 +1,18 @@
 <div layout-fill layout="row">
 
-  <md-sidenav layout="column" ng-include="'app/components/navlist/navlist.html'" class="md-sidenav-left sidebar-nav"  md-component-id="left" md-is-locked-open="$mdMedia('min-width: 1000px')"></md-sidenav>
+  <md-sidenav layout="column" ng-include="'app/components/navlist/navlist.html'" class="md-sidenav-left sidebar-nav md-whiteframe-z1"  md-component-id="left" md-is-locked-open="$mdMedia('min-width: 1000px')"></md-sidenav>
 
-  <md-content flex>
+  <div ui-view layout="column">
+    <md-toolbar ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
+    <md-content md-scroll-y flex layout-padding style="padding: 20px;">
+      <h3>Welcome to the FieldLogs documentation reference</h3>
+      <p>
+        This documentation exists to provide help, guidance and answers to frequently asked questions. By using the menu on the
+        right you can easily navigate the various topics. To help yoy get started take a look below at some of the most popular
+        sections:
+      </p>
+    </md-content>
+  </div>
 
-    <div ui-view>
-      <header ng-include="'app/components/navbar/navbar.html'"></header>
-      <md-content layout-padding style="padding: 20px;">
-        <h3>Welcome to the FieldLogs documentation reference</h3>
-        <p>
-          This documentation exists to provide help, guidance and answers to frequently asked questions. By using the menu on the
-          right you can easily navigate the various topics. To help yoy get started take a look below at some of the most popular
-          sections:
-        </p>
-      </md-content>
-    </div>
-
-  </md-content>
 
 </div>

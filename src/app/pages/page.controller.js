@@ -17,6 +17,5 @@ angular.module('flDoco')
       + '.json')
       .success(function(data) {
         $scope.view = data;
-        console.log(data);
     });
   }]);

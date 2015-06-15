@@ -1,26 +1,53 @@
-<div ng-controller="PageCtrl">
-  <header ng-include="'app/components/navbar/navbar.html'"></header>
+<md-toolbar class="md-whiteframe-z1" ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
 
-  <md-content layout-padding style="padding: 20px;">
-    <!-- Introduction first -->
-    <p>{{ view.intro }}</p>
+<md-content md-scroll-y flex ng-controller="PageCtrl" layout-padding style="padding: 25px;height:1px;">
+  <!-- Introduction first -->
+  <p>{{ view.intro }}</p>
 
-    <!-- After the intro we show the designer explanations, if relevant -->
-    <md-card class="card" ng-repeat="designer in view.designers">
-      <md-subheader class="md-no-sticky designer"><h2 class="md-title">How to add a Label to your Template</h2></md-subheader>
-      <md-card-content  layout-padding layout-sm="column" layout="row" ng-switch="{{ designer.data.text }}">
-        <div ng-switch-when="">
-          <div flex><img ng-src="{{ designer.data.img }}" alt=""/></div>
-        </div>
-        <div ng-switch-default>
-          <div flex="66">{{ designer.data.text }}</div>
-          <div flex="33"><img ng-src="{{ designer.data.img }}" alt=""/></div>
-        </div>
-      </md-card-content>
-    </md-card>
+  <div ng-repeat="block in view.blocks">
 
-    <!-- Now we'll show the logger -->
+    <!-- Big header-->
+    <h1 ng-if="block.type === 'h1'">{{ block.content }}</h1>
 
-  </md-content>
+    <!-- Small header-->
+    <h4 ng-if="block.type === 'h2'">{{ block.content }}</h4>
 
-</div>
+    <!-- Normal text-->
+    <p ng-if="block.type === 'text'">{{ block.content }}</p>
+
+    <!-- Image with caption-->
+    <div class="blockimg" layout="row" layout-sm="column" layout-padding style="padding:20px;" ng-if="block.type === 'image'">
+      <span flex="40" flex-sm="100"><img class="md-whiteframe-z3" ng-src="{{ block.img }}" alt=""/></span>
+      <p flex="60" flex-sm="100"> {{ block.caption }}</p>
+    </div>
+
+    <!-- Image only-->
+    <span class="center" ng-if="block.type === 'img'">
+      <img class="md-whiteframe-z3 singleimg" style="margin-top:20px;" ng-src="{{ block.img }}" alt="{{ block.imgAlt }}"/>
+    </span>
+
+    <!-- Bullet list-->
+    <ul ng-if="block.type === 'bullet'">
+      <li ng-repeat="bullet in block.points">{{ bullet.text }}</li>
+    </ul>
+
+    <!-- Numbered list-->
+    <ol ng-if="block.type === 'numbers'">
+      <li ng-repeat="bullet in block.points">{{ bullet.text }}</li>
+    </ol>
+
+    <!-- Info Box-->
+    <div class="infobox" layout="row" layout-padding ng-if="block.type === 'info'">
+      <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Info"> info </md-icon>
+      <span flex="95" flex-sm="90">{{ block.content }}</span>
+    </div>
+
+    <!-- Warning box-->
+    <div class="warnbox" layout="row" layout-padding ng-if="block.type === 'warn'">
+      <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Warning"> warning </md-icon>
+      <span flex="95" flex-sm="90">{{ block.content }}</span>
+    </div>
+
+  </div>
+
+</md-content>
