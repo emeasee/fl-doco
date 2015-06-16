@@ -47,23 +47,31 @@
         "children": [
           {
             "name": "Attaching Documentation",
-            "id": "#"
+            "id": "attach-documentation"
           },
           {
             "name": "Required Step",
-            "id": "#"
+            "id": "required-step"
           },
           {
             "name": "Blocking Step",
-            "id": "#"
+            "id": "blocked-step"
           },
           {
             "name": "Forcing Step Attachment",
-            "id": "#"
+            "id": "force-step-attachment"
           },
           {
             "name": "Adding Conditions",
-            "id": "#"
+            "id": "conditions"
+          },
+          {
+            "name": "Adding Tags",
+            "id": "tags"
+          },
+          {
+            "name": "Scripting",
+            "id": "scripting"
           }
         ]
       },

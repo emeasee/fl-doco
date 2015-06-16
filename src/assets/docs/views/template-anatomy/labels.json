@@ -1,25 +1,57 @@
 {
   "title": "Labels",
   "id": "labels",
-  "section": "Template Anatomy",
-  "intro": "A Label is not an active component of a workflow, in the sense that users do no interact with it. It is used to create headers to a workflow section or to synthetize a question asked to users in order not to repeat unnecessary information. On the designer a Label comprises of a chunk of text that will be displayed as is when users run the template.",
-  "designers": [{
-    "id": 1,
-    "data": {
-      "img": "assets/images/doco-images/img_1-1-1.png",
-      "text": ""
-    }
-  }],
-  "loggers": [{
-    "id": 1,
-    "data": {
-      "img": "",
-      "text": "In (1.), a  Label was created to separate the different phases of a surgical procedures SOP. It allows to visually create a separator between the different section of this template."
+  "section": "1.2. Template Anatomy",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.1. Labels"
     },
-    "id": 2,
-    "data": {
-      "img": "",
-      "text": "Under the same template, another  Label was used in (1.5) to synthetize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
+    {
+      "type": "h2",
+      "content": "1.2.1.1. What are Labels?"
+    },
+    {
+      "type": "text",
+      "content": "A Label is not an active component of a workflow, in the sense that users do no interact with it. It is used to create headers to a workflow section or to synthesize a question asked to users in order not to repeat unnecessary information. On the Template a Label comprises of a chunk of text that will be displayed as is when users run the template."
+    },
+    {
+      "type": "h2",
+      "content": "1.2.1.2. Creating Labels in the Editor"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Label Step icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Label Step in the orange bar below"
+        },
+        {
+          "text":"Add Label text to the input field"
+        },
+        {
+          "text":"Validate the Step by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.1.3. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-1-2.png",
+      "imgAlt":"Labels on iOS",
+      "caption": "A <i></i> Label was created to separate the different phases of a surgical procedures SOP. It allows to visually create a separator between the different section of this template."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-1-3.png",
+      "imgAlt":"Labels on iOS 2",
+      "caption": "Under the same template, another <i></i> Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
     }
-  }]
+  ]
 }

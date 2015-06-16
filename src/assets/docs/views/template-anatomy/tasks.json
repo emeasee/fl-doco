@@ -1,5 +1,51 @@
 {
   "title": "Tasks",
   "id": "tasks",
-  "section": "Template Anatomy"
+  "section": "1.2. Template Anatomy",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.2. Tasks"
+    },
+    {
+      "type": "h2",
+      "content": "1.2.2.1. What are Tasks?"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Task helps template designers in grouping subsequent actions that have a logical connection. Tasks are semi-active components as they do not directly collect data from users. They help organize the data collection strategy. They are elements that are collapsible, helping users navigating through their workflow. It is especially useful for use with reduced screen sizes."
+    },
+    {
+      "type": "h2",
+      "content": "1.2.2.2. Creating Tasks in the Editor"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Task Step icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Task Step in the orange bar below"
+        },
+        {
+          "text":"Add Task text to the input field"
+        },
+        {
+          "text":"Validate the Step by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.2.3. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-2.png",
+      "imgAlt":"Tasks on iOS",
+      "caption": "This template uses a Task <i></i> to logically group the following three instructions. The red badge on the right suggests the Task comprises of three instructions. Below the badge is an arrow that suggests the whole task can be collapsed."
+    }
+  ]
 }

@@ -1,5 +1,392 @@
 {
   "title": "Input Elements",
   "id": "input-elements",
-  "section": "Template Anatomy"
+  "section": "1.2. Template Anatomy",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.6. Input Elements"
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.1. What are Input Elements?"
+    },
+    {
+      "type": "text",
+      "content": "Input elements are different types of data input specifically formatted to provide consistent input formats & enhance user experience when running Templates and acquiring data in the field. Here we will provide information about each type currently supported by FieldLogs."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.2. <i></i> Free Input"
+    },
+    {
+      "type": "text",
+      "content": "Free Input inputs <i></i> are ideal to collect user information via text-fields in your workflows. There are cases when information captured cannot be anticipated and some flexibility is required in term of the format of what is collected, whether it is raw text and number."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Free Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Free Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.2.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-2.png",
+      "imgAlt":"Free input on iOS",
+      "caption": "Three <i></i> Free Input inputs are highlighted here (2.4.5 to 2.4.7). In this example the user is required to enter the version of a protocol, a 'media' and a location. The answer provided by users will be collected as is."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.3. <i></i> Yes/No/NA Input"
+    },
+    {
+      "type": "text",
+      "content": "This step <i></i> simple lets the user running a workflow answer Yes or No to a question scripted in your workflow."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Yes/No/NA Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Yes/No/NA Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.3.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-3.png",
+      "imgAlt":"Yes/No/NA input on iOS",
+      "caption": "3.11.5 has a <i></i> Yes/No/NA Step to which the user answer by tapping on the desired answer."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.4. <i></i> Multi-choice Input"
+    },
+    {
+      "type": "text",
+      "content": "Much like a drop down list, the Multi-choice input <i></i> presents a list of predefined values to facilitate the collection of data. Only one value can be selected from a Multi choice input."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Multi-choice Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Multi-choice Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Add choices that the user can select when running the Template. The <i></i> plus icon adds a new answer."
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.4.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-4.png",
+      "imgAlt":"Multi-choice input on iOS",
+      "caption": "A clear message denotes the users ability to tap and select from a list of choices."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.5. <i></i> Multi-check Input"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Multi-check input is similar to a Multi-choice input except that the user can select multiple answers from the list."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Multi-check Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Multi-check Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Add choices that the user can select when running the Template. The <i></i> plus icon adds a new answer."
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.5.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-5.png",
+      "imgAlt":"Multi-check input on iOS",
+      "caption": "2.3.4 displays a <i></i> Multi-check input from a user perspective. The user would tap on the “Select answer(s)” field to bring up the possible answers."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-5-1.png",
+      "imgAlt":"Multi-check input on iOS",
+      "caption": "Selecting various answers."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-5-2.png",
+      "imgAlt":"Multi-check input on iOS",
+      "caption": "Once submitted, answers appear inline with the rest of the workflow."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.6. <i></i> Check Input"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Check input is the best way for users to efficiently acknowledge a task was accomplished."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the check Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the check Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.6.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-6.png",
+      "imgAlt":"Check input on iOS",
+      "caption": "A clearly marked action message on the button lets user toggle the input as checked or un-checked"
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.7. <i></i> Date/Time Input"
+    },
+    {
+      "type": "text",
+      "content": "Your templates may required for users to enter a date or time component, such as the time an incident occurred in the past or when a future maintenance is required. All tasks acted upon in a workflow are time stamped automatically. A <i></i> Date/Time input is to capture dates and/or time that are outside of the context of a given workflow."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Date/Time Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Date/Time Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Select a format for you input"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.7.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-7.png",
+      "imgAlt":"Date/Time input on iOS",
+      "caption": "A clearly marked action message on the button lets the user enter a date/time"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-7-1.png",
+      "imgAlt":"Date/Time input on iOS",
+      "caption": "The user is able to select a specific date or, optionally, simply select the current Date/Time by tapping 'Now' on the toolbar"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-7-2.png",
+      "imgAlt":"Date/Time input on iOS",
+      "caption": "The correctly formatted date/time is submitted"
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.8. <i></i> Numeric Input"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Numeric Input is a task that lets users only enter numbers. There might be cases when you would like to enforce a strict input policy with regards to input types. Numeric Inputs also let you precise (if relevant), the corresponding unit of measurement linked with the number you are looking to capture, for instance meters (m) for a distance. The unit will display on runtime to avoid confusion as to what data is expected."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Numeric Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Numeric Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.8.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-8.png",
+      "imgAlt":"Numeric input on iOS",
+      "caption": "On (2.2.1.2) the input will require users to enter a number in meters."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.9. <i></i> Drawing Input"
+    },
+    {
+      "type": "text",
+      "content": "When attaching a picture to a step is not sufficient, you can actually draw on top of it or from a blank sheet. This is the <i></i> Drawing input, which lets you sketch using your finger directly on your device."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Drawing Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Drawing Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.9.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-9.png",
+      "imgAlt":"Drawing input on iOS",
+      "caption": "A clearly marked action message on the button lets the user enter the sketching screen"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-9-1.png",
+      "imgAlt":"Drawing input on iOS",
+      "caption": "Here we have provided useful options for simple sketching on a device. Once the sketch is finished, tapping 'Use' attaches the sketch to the step"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-9-2.png",
+      "imgAlt":"Drawing input on iOS",
+      "caption": "As with other logs, the sketch is attached below the step with a preview so it can be easily identified."
+    },
+    {
+      "type": "h1",
+      "content": "1.2.6.10. <i></i> Signature Input"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Signature input collect ones signature, as instructed in the workflow. It allows to digitally confirm one acknowledges a task was carried out as planned."
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Signature Input icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Signature Input in the orange bar below"
+        },
+        {
+          "text":"Add title text to the input field"
+        },
+        {
+          "text":"Validate the Input element by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.6.10.1. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-10.png",
+      "imgAlt":"Signature input on iOS",
+      "caption": "A clearly marked action message on the button lets the user enter the sketching screen"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-10-1.png",
+      "imgAlt":"Signature input on iOS",
+      "caption": "A simple scratchpad allows for freehand drawing an entering of the desired signature"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-10-2.png",
+      "imgAlt":"Signature input on iOS",
+      "caption": "As with other logs, the signature is attached below the step with a preview so it can be easily identified."
+    }
+  ]
 }

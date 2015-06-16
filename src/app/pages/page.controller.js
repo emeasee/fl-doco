@@ -18,4 +18,9 @@ angular.module('flDoco')
       .success(function(data) {
         $scope.view = data;
     });
+  }])
+  .filter('to_trusted', ['$sce', function($sce){
+    return function(text){
+      return $sce.trustAsHtml(text);
+    };
   }]);

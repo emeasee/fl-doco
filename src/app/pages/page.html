@@ -1,24 +1,24 @@
 <md-toolbar class="md-whiteframe-z1" ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
 
-<md-content md-scroll-y flex ng-controller="PageCtrl" layout-padding style="padding: 25px;height:1px;">
+<md-content md-scroll-y flex layout-padding style="padding: 25px;height:1px;">
   <!-- Introduction first -->
-  <p>{{ view.intro }}</p>
+  <p ng-bind-html="view.intro | to_trusted"></p>
 
   <div ng-repeat="block in view.blocks">
 
     <!-- Big header-->
-    <h1 ng-if="block.type === 'h1'">{{ block.content }}</h1>
+    <h1 ng-if="block.type === 'h1'" ng-bind-html="block.content | to_trusted"></h1>
 
     <!-- Small header-->
-    <h4 ng-if="block.type === 'h2'">{{ block.content }}</h4>
+    <h4 ng-if="block.type === 'h2'" ng-bind-html="block.content | to_trusted"></h4>
 
     <!-- Normal text-->
-    <p ng-if="block.type === 'text'">{{ block.content }}</p>
+    <p ng-if="block.type === 'text'" ng-bind-html="block.content | to_trusted"></p>
 
     <!-- Image with caption-->
     <div class="blockimg" layout="row" layout-sm="column" layout-padding style="padding:20px;" ng-if="block.type === 'image'">
       <span flex="40" flex-sm="100"><img class="md-whiteframe-z3" ng-src="{{ block.img }}" alt=""/></span>
-      <p flex="60" flex-sm="100"> {{ block.caption }}</p>
+      <p flex="60" flex-sm="100" ng-bind-html="block.caption | to_trusted"></p>
     </div>
 
     <!-- Image only-->
@@ -28,24 +28,24 @@
 
     <!-- Bullet list-->
     <ul ng-if="block.type === 'bullet'">
-      <li ng-repeat="bullet in block.points">{{ bullet.text }}</li>
+      <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
     </ul>
 
     <!-- Numbered list-->
     <ol ng-if="block.type === 'numbers'">
-      <li ng-repeat="bullet in block.points">{{ bullet.text }}</li>
+      <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
     </ol>
 
     <!-- Info Box-->
     <div class="infobox" layout="row" layout-padding ng-if="block.type === 'info'">
       <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Info"> info </md-icon>
-      <span flex="95" flex-sm="90">{{ block.content }}</span>
+      <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
     </div>
 
     <!-- Warning box-->
     <div class="warnbox" layout="row" layout-padding ng-if="block.type === 'warn'">
       <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Warning"> warning </md-icon>
-      <span flex="95" flex-sm="90">{{ block.content }}</span>
+      <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
     </div>
 
   </div>

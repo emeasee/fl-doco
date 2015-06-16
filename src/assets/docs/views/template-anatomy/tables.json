@@ -1,5 +1,54 @@
 {
   "title": "Tables",
   "id": "tables",
-  "section": "Template Anatomy"
+  "section": "1.2. Template Anatomy",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.4. Tables"
+    },
+    {
+      "type": "h2",
+      "content": "1.2.4.1. What are Tables?"
+    },
+    {
+      "type": "text",
+      "content": "A <i></i> Table helps template designers create a table formatted input element containing columns of different data types, giving a traditional spreadsheet structure to data. Each row of the Table is a new input iteration over the specified data types. They are especially useful to enter a large volume of information in a structured way, quickly."
+    },
+    {
+      "type": "h2",
+      "content": "1.2.4.2. Creating Tables in the Editor"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Table Step icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Table Step in the orange bar below"
+        },
+        {
+          "text":"Add Table text to the input field"
+        },
+        {
+          "text":"Add different <a href='#/section/template-anatomy/input-elements'>Input elements</a> into the Table Step"
+        },
+        {
+          "text":"Validate the Step by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.4.3. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-4.png",
+      "imgAlt":"Tables on iOS",
+      "caption": "Caption"
+    }
+  ]
 }

@@ -1,5 +1,57 @@
 {
-  "title": "Labels",
-  "id": "labels",
-  "section": "Template Anatomy"
+  "title": "Loops",
+  "id": "loops",
+  "section": "1.2. Template Anatomy",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.5. Loops"
+    },
+    {
+      "type": "h2",
+      "content": "1.2.5.1. What are Loops?"
+    },
+    {
+      "type": "text",
+      "content": "Loops <i></i> are a way to iterate multiple times through a set of questions or tasks. Loops can “embed” any of the step types exiting in the system, marking it highly powerful."
+    },
+    {
+      "type": "h2",
+      "content": "1.2.5.2. Creating Loops in the Editor"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Select the Loop Step icon: <i></i>"
+        },
+        {
+          "text":"Choose where you want to put the Loop Step in the orange bar below"
+        },
+        {
+          "text":"Add Loop text to the input field"
+        },
+        {
+          "text":"Set the amount of iterations"
+        },
+        {
+          "text":"Add different <a href='#/section/template-anatomy/input-elements'>Input elements</a> into the Loop Step to loop over"
+        },
+        {
+          "text":"Validate the Step by clicking the green tick: <i></i>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.2.5.3. Usage examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-4.png",
+      "imgAlt":"Loops on iOS",
+      "caption": "Caption"
+    }
+  ]
 }

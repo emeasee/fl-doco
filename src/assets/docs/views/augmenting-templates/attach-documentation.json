@@ -1,0 +1,59 @@
+{
+  "title": "Attaching Documentation",
+  "id": "attach-documentation",
+  "section": "1.3. Augmenting your Template",
+  "intro": "While controlling the exactness of data that users will capture, you can provide them with supplementary information on how one can carry out a task. This is done through <i></i> Documentation. Each task present in a workflow can be augmented by adding documentation to it. A documentation takes form of a file, a picture a voice or text memo or a URL. Users running your template are then free to consult the documentation provided to help them in their tasks.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.1. Attaching Documentation"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "Under the template editor, expand a task where documentation should be added, and hit the “Add documentation” link."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-1-1.png",
+      "imgAlt":"Add documentation button"
+    },
+    {
+      "type": "text",
+      "content": "A new window opens, select the type of documentation you wish to add on the left, and supply the relevant information on the right side of the screen. Save when done."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-1-1-1.png",
+      "imgAlt":"Documentation window"
+    },
+    {
+      "type": "text",
+      "content": "The documentation section visually informs you a documentation has been added to the task."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-1-1-2.png",
+      "imgAlt":"Documentation visual"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.2. Usage Examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-1-2.png",
+      "imgAlt":"Documentation visuals on table",
+      "caption": "A thumbnail shows a documentation attached to a step"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-1-2-1.png",
+      "imgAlt":"Doco-Mode",
+      "caption": "When tapping on the documentation, the user is taken to the 'Doco-Mode' navigation where a large version of all documentation attached to step can be seen. Here, one can also action of the relevant step."
+    }
+  ]
+}
