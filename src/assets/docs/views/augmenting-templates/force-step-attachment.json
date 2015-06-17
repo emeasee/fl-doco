@@ -1,0 +1,44 @@
+{
+  "title": "Forcing Step Attachment",
+  "id": "force-step-attachment",
+  "section": "1.3. Augmenting your Template",
+  "intro": "An individual step can be set as required to force users to respond to it prior to moving on. Similarly, a template can be built to force users to attach some more information to a task. This can take the form of rich content such as a picture, a voice/text memo or even a video. Regardless of the type of task, there might be cases where you would like an operator to take a picture upon reassembly of a machine. Forcing a step attachment will enforce this, in just a single click.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.4. Forcing Step Attachment"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.4.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "In the editor, each step presents a set of four icons. Each icon represent a type of media that you would require the user to attach to a given step."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-4-1.png",
+      "imgAlt":"Attachment requirements"
+    },
+    {
+      "type": "text",
+      "content": "To enable a particular media, simply click on it. In this case, a picture would have to be attached to this question in order to be able to move on."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-4-1-1.png",
+      "imgAlt":"Attachment requirements toggled"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.4.2. Usage Examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-4-2.png",
+      "imgAlt":"Required attachment runtime visuals",
+      "caption": "A user running a workflow with a required attachment, will be reminded in three locations about the requirement.."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "title": "1.4. Step Documentation Guidelines",
+  "id": "doco-guidelines",
+  "intro": "Please refer to these simple guidelines when uploading your Documentation to your Template Steps. This will ensure that your media is presented well across all devices & platforms.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.4.1. Images"
+    },
+    {
+      "type": "h2",
+      "content": "1.4.1.1. General Guidelines"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"It is recommended to use an image minimum 610px width."
+        },
+        {
+          "text":"It is recommended to use an image maximum 920px width to keep file size small."
+        },
+        {
+          "text":"A maximum of 1000px height is recommended to accommodate portrait devices such as smartphones."
+        },
+        {
+          "text":"A file size around 150-200kb is realistic for these recommended sizes after optimization."
+        },
+        {
+          "text":"For best results use jpg imagery and optimize them if the file sizes are large."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.4.1.2. Cover Images"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Minimum of 160px by 160px and recommended to be a square aspect ratio but not required."
+        },
+        {
+          "text":"Make sure images are JPG or PNG ideally and are compressed using an image optimizer such as <a href='https://kraken.io/web-interface'>Kraken</a> if the file is large."
+        },
+        {
+          "text":"When using a logo try to ensure the background is white."
+        },
+        {
+          "text":"A size between 15-20kb for the cover is realistic for these recommended sizes after optimization."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.4.1.3. Resizing and Creating optimal imagery"
+    },
+    {
+      "type": "text",
+      "content": "Apple Preview can easily crop or resize your images but avoid blowing up images already too small. Microsoft Paint or Photoshop are good alternatives on Windows."
+    },
+    {
+      "type": "h1",
+      "content": "1.4.2. Videos"
+    },
+    {
+      "type": "h2",
+      "content": "1.4.2.1. Recommended settings for uploading Videos"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Video files must be mp4 and less than 30MB."
+        },
+        {
+          "text":"For best results on multiple platforms make sure the video is 640 x 480 (480p). Anything larger does not make a difference on devices and can increase file sizes significantly."
+        },
+        {
+          "text":"A standard 4:3 aspect ratio is the best."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "1.4.2.2. Resizing and formatting video for use on FieldLogs."
+    },
+    {
+      "type": "text",
+      "content": "Converting video files from multiple sizes and file types to these recommendation can be done using the open source tool <a href='https://handbrake.fr/'>Handbrake</a>. It has preset called Universal to support a wide range of devices."
+    }
+  ]
+}

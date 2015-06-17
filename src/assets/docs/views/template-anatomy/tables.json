@@ -49,6 +49,10 @@
       "img":"assets/images/doco-images/img_1-2-4.png",
       "imgAlt":"Tables on iOS",
       "caption": "Caption"
+    },
+    {
+      "type": "info",
+      "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
     }
   ]
 }

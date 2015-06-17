@@ -1,0 +1,41 @@
+{
+  "title": "Blocking Step",
+  "id": "blocked-step",
+  "section": "1.3. Augmenting your Template",
+  "intro": "A Blocking Step <i></i> is a property given to a step during the design of a template. When ran, the template will only show subsequent steps (to the “blocking step) when the blocking step is answered.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.3. Blocking Step"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.3.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "Under a Template step options you can simply enable the step as “blocking” by tapping it."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-3-1.png",
+      "imgAlt":"Blocking step toggle"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.3.2. Usage Examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-3-2.png",
+      "imgAlt":"Blocking step visual runtime",
+      "caption": "There is no visual cue that there is a blocking step from a user perspective. 2.2 is a “blocking step”."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-3-3.png",
+      "imgAlt":"Blocking step answered",
+      "caption": "Once the step is answered the rest of the Template originally blocked by the blocking step will appear."
+    }
+  ]
+}

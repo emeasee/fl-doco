@@ -23,11 +23,12 @@
         },
         {
           "text":"Select 'Templates'"
-        },
-        {
-          "text":"Alternatively: follow the Quickstart Guide to view the Template Editor"
         }
       ]
+    },
+    {
+      "type": "info",
+      "content": "Alternatively and if you have not done so already, you can follow through the Quickstart steps to familiarize yourself with the various screens and concepts of FieldLogs.com"
     },
     {
       "type": "img",

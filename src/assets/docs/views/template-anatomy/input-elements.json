@@ -17,6 +17,10 @@
       "content": "Input elements are different types of data input specifically formatted to provide consistent input formats & enhance user experience when running Templates and acquiring data in the field. Here we will provide information about each type currently supported by FieldLogs."
     },
     {
+      "type": "info",
+      "content": "To re-edit elements you have validated, simply double click them or right click and select 'Edit' from the contextual menu."
+    },
+    {
       "type": "h1",
       "content": "1.2.6.2. <i></i> Free Input"
     },
@@ -365,6 +369,10 @@
           "text":"Validate the Input element by clicking the green tick: <i></i>"
         }
       ]
+    },
+    {
+      "type": "warn",
+      "content": "Signature elements are required by default when the template is run. You will see it is automatically toggled on creation in the Editor."
     },
     {
       "type": "h2",

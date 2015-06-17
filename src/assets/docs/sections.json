@@ -66,6 +66,10 @@
             "id": "conditions"
           },
           {
+            "name": "Translating Templates",
+            "id": "translations"
+          },
+          {
             "name": "Adding Tags",
             "id": "tags"
           },
@@ -79,6 +83,92 @@
         "name": "Step Documentation Guidelines",
         "type": "link",
         "id": "doco-guidelines"
+      }
+    ]
+  },
+  {
+    "header": "2. Enterprise",
+    "sections": [
+      {
+        "name": "Introduction",
+        "type": "link",
+        "id": "enterprise-intro"
+      },
+      {
+        "name": "Setting up an Enterprise",
+        "type": "toggle",
+        "id": "enterprise-setup",
+        "closed": true,
+        "children": [
+          {
+            "name": "Upgrading Accounts",
+            "id": "upgrading"
+          },
+          {
+            "name": "Structure Definition",
+            "id": "structure"
+          },
+          {
+            "name": "Member Management",
+            "id": "member-management"
+          },
+          {
+            "name": "Security",
+            "id": "security"
+          },
+          {
+            "name": "Template Lifecycle Definition",
+            "id": "lifecycles"
+          },
+          {
+            "name": "Example Enterprise Set up",
+            "id": "enterprise-example"
+          }
+        ]
+      },
+      {
+        "name": "Template Lifecycles",
+        "type": "toggle",
+        "id": "lifecycles",
+        "closed": true,
+        "children": [
+          {
+            "name": "Basic Usage Example",
+            "id": "basic-example"
+          },
+          {
+            "name": "The Inbox",
+            "id": "inbox"
+          },
+          {
+            "name": "Lifecycle Actions",
+            "id": "actions"
+          },
+          {
+            "name": "Issues & Errors",
+            "id": "errors"
+          }
+        ]
+      },
+      {
+        "name": "Inbox Actions",
+        "type": "toggle",
+        "id": "inbox-actions",
+        "closed": true,
+        "children": [
+          {
+            "name": "Assigning a Template",
+            "id": "assign-template"
+          },
+          {
+            "name": "Assigning a Job",
+            "id": "assign-job"
+          },
+          {
+            "name": "Re-assigning or Sharing a Task",
+            "id": "share-reassign"
+          }
+        ]
       }
     ]
   }

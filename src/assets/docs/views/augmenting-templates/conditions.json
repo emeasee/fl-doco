@@ -1,0 +1,41 @@
+{
+  "title": "Adding Conditions",
+  "id": "conditions",
+  "section": "1.3. Augmenting your Template",
+  "intro": "FieldLogs embeds a decision engine aimed at providing smarter templates. It dramatically reduces the number of steps/actions a user has to scan in order to find what is relevant. Conditions are a great way to collect data only when required.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.5. Adding Conditions"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.5.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "Simply define if you wish to show the current step by selecting a it as a condition of any other earlier step's value. See the image below for more detail:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-5-1.png",
+      "imgAlt":"Condition selection"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.5.2. Usage Examples"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-5-2.png",
+      "imgAlt":"Condition visual example",
+      "caption": "Here, the defined step 1.2 is not showing as it depends on 1 being checked."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-5-3.png",
+      "imgAlt":"Resulting visual feedback of condition step",
+      "caption": "Once checked and validated, the step appears successfully for input."
+    }
+  ]
+}

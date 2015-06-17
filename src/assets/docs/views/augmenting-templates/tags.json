@@ -1,0 +1,41 @@
+{
+  "title": "Adding Tags",
+  "id": "tags",
+  "section": "1.3. Augmenting your Template",
+  "intro": "Tags can be attached to step allow post-indexation or retrieval of the data attached to those steps after runtime. This can be especially useful for post-processing of job data to extract targeted data.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.7. Adding Tags"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.7.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "Any step has the ability to add a tag. Simple select the '+ Tags' button to open the Tag Editor"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-7-1.png",
+      "imgAlt":"Adding tags from the editor"
+    },
+    {
+      "type": "text",
+      "content": "Once open, the Tag editor allows a user to add simple text based tags. The user has the ability to add multiple tags."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-7-1-1.png",
+      "imgAlt":"Tag editor empty",
+      "caption": "Tags are added by simply typing a tag in the input field and clicking Add"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-7-1-2.png",
+      "imgAlt":"Added tag to Tag editor",
+      "caption": "The ability to manage your tags are displayed below the input field. Here it is possible to remove tags, if required, by clicking the cross."
+    }
+  ]
+}

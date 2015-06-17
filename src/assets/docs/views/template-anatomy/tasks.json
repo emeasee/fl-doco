@@ -46,6 +46,10 @@
       "img":"assets/images/doco-images/img_1-2-2.png",
       "imgAlt":"Tasks on iOS",
       "caption": "This template uses a Task <i></i> to logically group the following three instructions. The red badge on the right suggests the Task comprises of three instructions. Below the badge is an arrow that suggests the whole task can be collapsed."
+    },
+    {
+      "type": "info",
+      "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
     }
   ]
 }

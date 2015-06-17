@@ -49,9 +49,19 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-4.png",
+      "img":"assets/images/doco-images/img_1-2-5.png",
       "imgAlt":"Loops on iOS",
-      "caption": "Caption"
+      "caption": "Under (2.2.1) is a loop to collect two pieces of information, a location and cable run. In this example, users where required to iterate through various on-site locations."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-5-1.png",
+      "imgAlt":"Loops on iOS",
+      "caption": "Once done with the first location, a user would enter values for the next location by tapping on “Create Next Iteration” (previous screen). Loops <i></i> can have a fixed number of iterations or can be infinite. The current number of iterations is displayed in a badge next to the related question or task. In this example, there are two iterations."
+    },
+    {
+      "type": "info",
+      "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
     }
   ]
 }
