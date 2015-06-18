@@ -1,0 +1,38 @@
+{
+  "title": "Upgrading",
+  "id": "upgrading",
+  "section": "2.3. Setting up an Enterprise",
+  "intro": "If you wish to upgrade to FieldLogs Enterprise the process is easy to start. Simply follow the instructions in this section.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.3.1. Upgrading Step by Step"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Navigate to the Settings page by clicking the gear icon in the top bar <i></i>"
+        },
+        {
+          "text":"Select the Enterprise subsection"
+        },
+        {
+          "text":"Fill in your details and submit the form"
+        },
+        {
+          "text":"The staff at FieldLogs will be in contact with you personally to set up your custom Enterprise structure"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "content": "We are following this procedure while we are in Closed Preview of our Enterprise features. In the future we will automate and make this step much quicker & easier for our users  "
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-1-1.png",
+      "imgAlt":""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "2.2. Accessing Enterprise",
+  "id": "enterprise-access",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.2.1. Accessing the Enterprise section"
+    },
+    {
+      "type": "h2",
+      "content": "2.2.1.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "To access the Enterprise management screen simply navigate via the top menu of the FieldLogs website by selecting 'Enterprise'. This will load the following screen:"
+    },
+    {
+      "type": "info",
+      "content": "You will need to have upgraded your account or have accepted an invitation to join an Enterprise to see the menu item in the header. See <a href='#/section/enterprise-setup/upgrading'>'Upgrading Accounts'</a> in the 'Setting up an Enterprise' section if you have not done so already."
+    },
+    {
+      "type": "text",
+      "content": "Depending on the if you are creating a new Enterprise or joining an existing Enterprise, you should see some variation of the screen below:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-2-1-1.png",
+      "imgAlt":"Enterprise management screen"
+    }
+  ]
+}

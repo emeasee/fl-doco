@@ -1,11 +1,16 @@
 [
   {
-    "header": "1. Template Editor",
+    "header": "1. Templates",
     "sections": [
       {
         "name": "Introduction",
         "type": "link",
-        "id": "editor-intro"
+        "id": "templates-intro"
+      },
+      {
+        "name": "Accessing the Editor",
+        "type": "link",
+        "id": "editor-access"
       },
       {
         "name": "Template Anatomy",
@@ -93,6 +98,11 @@
         "name": "Introduction",
         "type": "link",
         "id": "enterprise-intro"
+      },
+      {
+        "name": "Accessing Enterprise",
+        "type": "link",
+        "id": "enterprise-access"
       },
       {
         "name": "Setting up an Enterprise",

@@ -5,33 +5,43 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "2.1.1. Accessing the Enterprise section"
-    },
-    {
-      "type": "h2",
-      "content": "2.1.1.1. On the Web"
+      "content": "2.1.1. What is FieldLogs Enterprise?"
     },
     {
       "type": "text",
-      "content": "To access the Enterprise management screen simply navigate via the top menu of the FieldLogs website by selecting 'Enterprise'. This will load the following screen:"
+      "content": "FieldLogs Enterprise is a product upgrade which enables an advanced set of features tailored at groups of individuals such as small businesses, expert groups and large company structures. The key improvement of Enterprise is the ability to collectively author, review and publish Templates through Lifecycles as well as assign Tasks (such as authoring and running Templates) to members within the Enterprise."
+    },
+    {
+      "type": "text",
+      "content": "The main benefit of this upgrade is to provide tools for collaborative authoring of Templates that may need 'many eyes' before it can be used in a live context. Some examples of areas in which this is important are: Agriculture, Energy, Installation, Field Data Collection & Equipment Assembly."
+    },
+    {
+      "type": "text",
+      "content": "Below is a summary of some of the additional features:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Enterprise roles & rules (Template and Job access authorization)"
+        },
+        {
+          "text":"Lifecycle definition to various business contexts. Maps directly to Member roles."
+        },
+        {
+          "text":"Assignment of existing jobs (continuation of Jobs by another member)"
+        },
+        {
+          "text":"More advanced Dashboard with added Inbox to allow members to filter & view the progress of Tasks assigned to others."
+        },
+        {
+          "text":"Search through Enterprise data"
+        }
+      ]
     },
     {
       "type": "info",
-      "content": "You will need to have upgraded your account or have accepted an invitation to join an Enterprise to see the menu item in the header. See <a href='#/section/enterprise-setup/upgrading'>'Upgrading Accounts'</a> in the 'Setting up an Enterprise' section if you have not done so already."
-    },
-    {
-      "type": "img",
-      "img":"assets/images/doco-images/img_1-0-1.png",
-      "imgAlt":"Dashboard empty"
-    },
-    {
-      "type": "text",
-      "content": "Depending on the if you are creating a new Enterprise or joining an existing Enterprise, you should see some variation of the screen below:"
-    },
-    {
-      "type": "img",
-      "img":"assets/images/doco-images/img_2-0-2.png",
-      "imgAlt":"Template editor empty"
+      "content": "You will need to have upgraded your account or have accepted an invitation be able to use these additional features. See <a href='#/section/enterprise-setup/upgrading'>'Upgrading Accounts'</a> in the 'Setting up an Enterprise' section if you have not done so already."
     }
   ]
 }
