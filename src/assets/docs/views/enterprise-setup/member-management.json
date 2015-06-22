@@ -1,0 +1,46 @@
+{
+  "title": "Member Management",
+  "id": "member-management",
+  "section": "2.3. Setting up an Enterprise",
+  "intro": "Managing the users of your system is key. Therefore we believe tt is important to provide a good set of administration tools that allows a project/company executive the power he needs to manage his changing workforce.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.3.3. Member Management"
+    },
+    {
+      "type": "text",
+      "content":"FieldLogs Enterprise allows you to manage the members of your Enterprise right alongside the organisation of your Enterprise Hierarchy. By selecting a Group in the Hierarchy you will be able to add/invite members to the various group and subdivisions of your organisation structure. This allows administrators to restrict access to Templates and member information from group depending on their position in the hierarchy tree. "
+    },
+    {
+      "type": "warn",
+      "content": "Make sure to use a valid email when adding members. New members will be sent an email to the address you type in informing them they have been invited to join the Enterprise. They will need to confirm this from their accounts."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.3.1. Adding a Member"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "Begin by typing the full email address of the user you wish to add to a certain group in your Enterprise Hierarchy."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "Hit enter on your keyboard to add the email to the members list of the group. The input field also doubles as a search field for existing members. Therefore as you type the list will be filtered to reveal if the email your entered already exists."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-3.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once the user has been added to the list, you need to complete the process by inviting the user by clicking the Invite to Enterprise button. Alternatively if you have added a number of emails you can simply click Invite all in the top bar of the Enterprise members to invite all outstanding additions to the members list."
+    },
+    {
+      "type": "info",
+      "content": "If you believe you have made a mistake in the email you entered, you can simple remove the member from the list and re-type the correct email, hitting enter again to add them to the member list and finally, inviting that user to the Enterprise by clicking the Invite to Enterpise button."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Template Lifecycle Definition",
+  "id": "lifecycles-definition",
+  "section": "2.3. Setting up an Enterprise",
+  "intro": "Lifecycles provide a clear development route for creating approved SWIs. They allow the inclusion of review stages, collaborative authorship and quality control.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.3.5. Creating Lifecycles"
+    },
+    {
+      "type": "text",
+      "content":"FieldLogs allows the creation of as many different Lifecycles as you like to meet your Enterprise needs. Depending on where they area created, they can either be accessible by only some groups or the entire organisation structure (if created in the root, for example)."
+    },
+    {
+      "type": "info",
+      "content": "Please refer to our dedicated a <a href='#/section/lifecycles/basic-example'>Lifecycle</a> section to get a better understanding as to why you would want to use Lifecycles and some use cases."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-5-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h2",
+      "content": "2.3.5.1. Understanding the UI"
+    },
+    {
+      "type": "text",
+      "content":"The visual representation of the Lifecycle allows your administrators and members to see the various steps in the Lifecycle and which role is responible for passing each stage. Some more detail:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"The Lifecycle diagram should be read from the top to the bottom."
+        },
+        {
+          "text":"Template Status shows a visual representation of the Templates status along various steps as it passes along the Lifecycle."
+        },
+        {
+          "text":"A <i></i> star indicates that a certain step in the Lifecycle is a minimum requirement for working with Lifecycles. "
+        },
+        {
+          "text":"All steps are linked to a specific member role which can be defined on the detail panel to the right of the screen."
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "Structure Definition",
   "id": "structure",
   "section": "2.3. Setting up an Enterprise",
-  "intro": "",
+  "intro": "Visually expressing the structure of your company, along with the groups & teams within it, gives you an overview serving as a starting point for building SWI workflows and distributing Standard Work templates to the places in your business where they are needed.",
   "blocks": [
     {
       "type": "h1",
@@ -10,19 +10,27 @@
     },
     {
       "type": "text",
-      "content":"FieldLogs provides a simple tree based enterprise structure that an administrator of an Enterprise account can build and maintain. An administrator can select 'Add' in the Hierarchy toolbar and select what type of structural element they wish to add. Below is a breakdown of these:"
+      "content":"FieldLogs Enterprise provides a simple tree based enterprise structure that an administrator of an Enterprise account can build and maintain. . An administrator can select 'Add' in the Hierarchy toolbar and select what type of structural element they wish to add. Below is a breakdown of these:"
     },
     {
-      "type": "bullets",
+      "type": "info",
+      "content": "Members with the correct security permissions can create entities in the Hierarchy by clicking the 'Add' button or hovering over an element and clicking the smaller add button that appears in the cell."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.2.1. Hierarchy Entities"
+    },
+    {
+      "type": "bullet",
       "points": [
         {
-          "text":"Groups <i></i> are general entities that group members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside a Groups."
+          "text":"Groups <i></i> are general entities that group members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside other Groups."
         },
         {
           "text":"Template DBs <i></i> are databases of Templates with the same level of access as other entities inside its parent group."
         },
         {
-          "text":"Lifecycles are specific authoring workflows for Templates that produce 'Published' Templates and store them in Template DB's"
+          "text":"Lifecycles are specific authoring workflows for Templates that produce 'Published' Templates and store them in Template DB's for access by the Enterprise."
         }
       ]
     },
@@ -30,19 +38,19 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-1.png",
       "imgAlt":"Image Alt",
-      "caption": ""
+      "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-2.png",
       "imgAlt":"Image Alt",
-      "caption": ""
+      "caption": "An example of a Template DB within the specific Quality Assurance group. Here, only users who are in the Quality Assurance group or in the root level of the Enterprise have access to the Templates within"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-3.png",
       "imgAlt":"Image Alt",
-      "caption": ""
-    },
+      "caption": "This designates a Lifecycle that can be used by group members to collaboratively 'approve' Templates for use in the Enterprise."
+    }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "title": "Security",
+  "id": "security",
+  "section": "2.3. Setting up an Enterprise",
+  "intro": " Managing roles and having fine grain control over security privileges gets complex the larger an organisation gets. There is need for a product that provides a simple user interface between a products core functionality and a changing hierarchy structure of people in large & small groups.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.3.4. Security Manager"
+    },
+    {
+      "type": "text",
+      "content":"FieldLogs Enterprise's Security Manager allows administrators the ability to create and edit roles that exist within the Enterprise. Members are assigned a role within the Enterprise which dictates their access to various elements of the FieldLogs platform. Roles can even be even be given rules that contain extra conditional logic, giving very fine grain control over access to types of Templates, Jobs and more. By default every Enterprise comes with a set of roles already configured to cover a modern SWI workflow. Administrators may wish to edit these default roles by renaming or adding custom rules, or even adding new roles that suit better the enterprise workflow."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "warn",
+      "content": "The Security Manager is currently in active development and may have some features missing that allow ultimate control over roles and rules. We are working hard on this important aspect and you will see more features appear over time."
+    }
+  ]
+}

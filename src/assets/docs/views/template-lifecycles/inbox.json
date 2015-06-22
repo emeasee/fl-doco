@@ -1,0 +1,41 @@
+{
+  "title": "Dahsboard & Inbox",
+  "id": "inbox",
+  "section": "2.4. Template Lifecycles",
+  "intro": "The intention of the Dashboard for Enterprise users is to provide a place where members can be kept informed of any notifications or requests (in FieldLogs these are called Tasks) that the Lifecycle generates when Templates are being pushed through its process flow.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.4.1. Using the Inbox"
+    },
+    {
+      "type": "text",
+      "content":"The Inbox collects Tasks so that members of the enterprise get a tailored, up to date view of Template states and if they are required to take action. Whether a member sees a generate Task depends on two things:"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"Whether the member has the role required to action upon the Templates stage in the Lifecycle"
+        },
+        {
+          "text":"Whether the member has sufficient rights to view Templates & Tasks that are associated with the particular Lifecycle and where it is in the Enterprise Hierarchy."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "2.4.1.1. Lifecycle Tasks"
+    },
+    {
+      "type": "text",
+      "content":"A Lifecycle Task (among many other tasks) are displayed on the Dashboard inside your Inbox. Below we identify a Lifecycle task and deconstruct it:"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": ""
+    }
+  ]
+}

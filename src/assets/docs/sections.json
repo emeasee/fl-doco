@@ -128,7 +128,7 @@
           },
           {
             "name": "Template Lifecycle Definition",
-            "id": "lifecycles"
+            "id": "lifecycles-definition"
           },
           {
             "name": "Example Enterprise Set up",
@@ -139,13 +139,9 @@
       {
         "name": "Template Lifecycles",
         "type": "toggle",
-        "id": "lifecycles",
+        "id": "template-lifecycles",
         "closed": true,
         "children": [
-          {
-            "name": "Basic Usage Example",
-            "id": "basic-example"
-          },
           {
             "name": "The Inbox",
             "id": "inbox"
@@ -153,6 +149,10 @@
           {
             "name": "Lifecycle Actions",
             "id": "actions"
+          },
+          {
+            "name": "Basic Usage Example",
+            "id": "basic-example"
           },
           {
             "name": "Issues & Errors",

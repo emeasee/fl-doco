@@ -1,0 +1,25 @@
+{
+  "title": "Basic Usage Example",
+  "id": "basic-example",
+  "section": "2.4. Template Lifecycles",
+  "intro": "On this page we will cover a very basic example of a Lifecycle in action. We have set up a small enterprise structure and have created a Lifecycle. (If you don't know how to create a lifecycle, please refer to our page in the Enterprise Setup section, <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition</a>",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.4.1. Basic Usage Example"
+    },
+    {
+      "type": "info",
+      "content": "It is recommended that you are familiar with how to run Templates on the web, view & edit Templates in the Template editor and are familiar with the Inbox."
+    },
+    {
+      "type": "text",
+      "content":""
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-5-1.png",
+      "imgAlt":"Image Alt"
+    }
+  ]
+}
