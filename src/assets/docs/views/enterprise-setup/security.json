@@ -13,13 +13,107 @@
       "content":"FieldLogs Enterprise's Security Manager allows administrators the ability to create and edit roles that exist within the Enterprise. Members are assigned a role within the Enterprise which dictates their access to various elements of the FieldLogs platform. Roles can even be even be given rules that contain extra conditional logic, giving very fine grain control over access to types of Templates, Jobs and more. By default every Enterprise comes with a set of roles already configured to cover a modern SWI workflow. Administrators may wish to edit these default roles by renaming or adding custom rules, or even adding new roles that suit better the enterprise workflow."
     },
     {
+      "type": "warn",
+      "content": "The Security Manager is currently in active development and may have some features missing that allow ultimate control over roles and rules. We are working hard on this important aspect and you will see more features appear over time."
+    },
+    {
       "type": "img",
       "img":"assets/images/doco-images/img_2-3-4-1.png",
       "imgAlt":"Image Alt"
     },
     {
+      "type": "h2",
+      "content": "2.3.4.1 Configuring roles with rules"
+    },
+    {
+      "type": "text",
+      "content":"It's important to understand how a Role is constructed and what it means to assign a role to a member in your Enterprise. Roles consist of security rules that explicitly tells FieldLogs what kind of access rights a role has to certain securable objects. Let's go through each one of these objects & access rights and explain what they mean."
+    },
+    {
+      "type": "info",
+      "content": "Click on the 'Add new rule' button to add new rules to a Role."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.2 Types of Securable Objects"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "A securable object needs to be selected for a rule. Templates is the default selection."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Templates</b> & <b>Jobs</b> are the core content that FieldLogs allows users to create using it's platform."
+        },
+        {
+          "text":"<b>User</b> means the members of FieldLogs Enterprises."
+        },
+        {
+          "text":"<b>Enterprise</b> is anything do with the Enterprise structure."
+        },
+        {
+          "text":"<b>Tasks</b> are generated notifications of job assignments & lifecycle stages."
+        },
+        {
+          "text":"<b>Roles</b> mean security roles."
+        },
+        {
+          "text":"<b>Lifecycles</b> facilitate collaborative template edition."
+        },
+        {
+          "text":"<b>Everything</b> refers to everything above."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.3 Types of Access Rights"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-3.png",
+      "imgAlt":"Image Alt",
+      "caption": "Read is the default access right for newly created rules. Click the dropdown to view rules for a selected Securable object."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Read</b> refers to the ability to read information."
+        },
+        {
+          "text":"<b>Write</b> refers to the ability to write new information."
+        },
+        {
+          "text":"<b>Translate</b> is the act of translating templates, therefore only available for Templates."
+        },
+        {
+          "text":"<b>Assign</b> is the ability to assign a template or Job to other members."
+        },
+        {
+          "text":"<b>Acquire data</b> is the ability to acquire data related to a Job or Template"
+        },
+        {
+          "text":"<b>Edit info</b> refers to the ability to edit meta data relating to Jobs or Templates"
+        },
+        {
+          "text":"<b>Export</b> is the right to export Job data in Excel format."
+        },
+        {
+          "text":"<b>Edit logs</b> refers specifically to the right to edit logs attached to a Job."
+        },
+        {
+          "text":"<b>All</b> applies all the available access rights to the selected securable object."
+        }
+      ]
+    },
+    {
       "type": "warn",
-      "content": "The Security Manager is currently in active development and may have some features missing that allow ultimate control over roles and rules. We are working hard on this important aspect and you will see more features appear over time."
+      "content": "Not all access rights are available for all securable objects as it depends on the nature of the object. "
     }
   ]
 }

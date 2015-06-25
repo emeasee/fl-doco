@@ -137,13 +137,13 @@
         ]
       },
       {
-        "name": "Template Lifecycles",
+        "name": "Template Edition Platform",
         "type": "toggle",
         "id": "template-lifecycles",
         "closed": true,
         "children": [
           {
-            "name": "The Inbox",
+            "name": "Lifecycle Stages & the Inbox",
             "id": "inbox"
           },
           {
@@ -153,17 +153,13 @@
           {
             "name": "Basic Usage Example",
             "id": "basic-example"
-          },
-          {
-            "name": "Issues & Errors",
-            "id": "errors"
           }
         ]
       },
       {
-        "name": "Inbox Actions",
+        "name": "Collaborative Jobs",
         "type": "toggle",
-        "id": "inbox-actions",
+        "id": "collaborative-jobs",
         "closed": true,
         "children": [
           {
@@ -177,6 +173,14 @@
           {
             "name": "Re-assigning or Sharing a Task",
             "id": "share-reassign"
+          },
+          {
+            "name": "Collaborative Features",
+            "id": "features"
+          },
+          {
+            "name": "Issues & Errors",
+            "id": "errors"
           }
         ]
       }

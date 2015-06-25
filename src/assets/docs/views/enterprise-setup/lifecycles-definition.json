@@ -2,7 +2,7 @@
   "title": "Template Lifecycle Definition",
   "id": "lifecycles-definition",
   "section": "2.3. Setting up an Enterprise",
-  "intro": "Lifecycles provide a clear development route for creating approved SWIs. They allow the inclusion of review stages, collaborative authorship and quality control.",
+  "intro": "Lifecycles provide a clear development stages for creating approved SWIs. They allow the inclusion of review stages, collaborative authorship and quality control.",
   "blocks": [
     {
       "type": "h1",
@@ -27,7 +27,7 @@
     },
     {
       "type": "text",
-      "content":"The visual representation of the Lifecycle allows your administrators and members to see the various steps in the Lifecycle and which role is responible for passing each stage. Some more detail:"
+      "content":"The visual representation of the Lifecycle allows your administrators and members to see the various stages in the Lifecycle and which role is responsible for passing each stage. Some more detail:"
     },
     {
       "type": "bullet",
@@ -36,13 +36,13 @@
           "text":"The Lifecycle diagram should be read from the top to the bottom."
         },
         {
-          "text":"Template Status shows a visual representation of the Templates status along various steps as it passes along the Lifecycle."
+          "text":"Template Status shows a visual representation of the Template's status along various stages as it passes along the Lifecycle."
         },
         {
-          "text":"A <i></i> star indicates that a certain step in the Lifecycle is a minimum requirement for working with Lifecycles. "
+          "text":"A <i></i> star indicates that a certain stage in the Lifecycle is a minimum requirement for working with Lifecycles. The two logical requirements shown above are the 'Edit' stage (which is an authoring stage) and the 'Publish' stage (with once passed creates a Published Template to the Enterprise."
         },
         {
-          "text":"All steps are linked to a specific member role which can be defined on the detail panel to the right of the screen."
+          "text":"All stages are linked to a specific member role which can be defined on the detail panel to the right of the screen. This essentially indicates that members of the role assigned to a Lifecycle stage will be assigned tasks that need to be completed to move the Template to the next stage in the Lifecycle."
         }
       ]
     }

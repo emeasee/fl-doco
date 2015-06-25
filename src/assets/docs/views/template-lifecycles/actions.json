@@ -1,0 +1,69 @@
+{
+  "title": "Lifecycle Actions",
+  "id": "actions",
+  "section": "2.4. Template Lifecycles",
+  "intro": "Of main importance to the Lifecycle system is providing members with clear actions that allow Templates to be edited, reviewed, submitted, rejected and finally, published. In this section we will look at the interaction of members and Lifecycle tasks via actions to facilitate this collaboration.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.4.2. Lifecycle Actions"
+    },
+    {
+      "type": "text",
+      "content":"Lifecycle Actions are the way that members confirm within FieldLogs that a certain lifecycle stage is complete. These actions can be given specific names when creating a Lifecycle for the Enterprise."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Confirm</b> actions are identified as <i></i> ticks"
+        },
+        {
+          "text":"<b>Reject</b> actions are identified as <i></i> crosses"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-4-2-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "In the Enterprise administration panel, selecting a Lifecycle and a specific stage allows one to rename the 'Confirm' and 'Reject' actions for each stage depending on the nature and context of the Stage. Here for example, instead of Confirm the administrator has renamed the action to Initiate."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.2.1. Submitting a Template to a Lifecycle"
+    },
+    {
+      "type": "text",
+      "content":"Lifecycle Actions are the way that members confirm within FieldLogs that a certain lifecycle stage is complete. These actions can be given specific names when creating a Lifecycle for the Enterprise."
+    },
+    {
+      "type": "text",
+      "content":"Before any of this can happen however, a Template needs to be submitted to a desired Lifecycle from the Template editor:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Template editor submit button"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Template lifecycle submission",
+      "caption": "Once a member is sure of submission, the Submission popup window allows the member to choose a Lifecycle and add any additional comments before submitting the Template. Once submitted, the Template will automatically move to the first stage in the Lifecycle and the relevant roles will receive Tasks in the their Inboxes."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.2.2. Taking action on Templates in a Lifecycle"
+    },
+    {
+      "type": "text",
+      "content":"Once a Template reaches a given stage, all members assigned a specific role will receive a Task in their Inboxes. Tapping 'View' on the Task cell will open the Template in the Template Editor and display the relevant Actions depending on the Lifecycle stage. Below you can see an example of a Template needing Review with the relevant actions in the top right hand side of the screen:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Template review action buttons"
+    }
+  ]
+}

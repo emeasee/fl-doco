@@ -6,20 +6,131 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.1. Basic Usage Example"
+      "content": "2.4.3. Basic Usage Example"
     },
     {
       "type": "info",
-      "content": "It is recommended that you are familiar with how to run Templates on the web, view & edit Templates in the Template editor and are familiar with the Inbox."
+      "content": "It is recommended that you are familiar with how to run Templates on the web, view & edit Templates in the Template editor and are familiar with the Inbox before trying to follow along with this example."
     },
     {
       "type": "text",
-      "content":""
+      "content":"Assuming that you have already set up your Enterprise structure, have more than a single member and have created a Lifecycle, let's now run through a basic scenario to see how Lifecycle-based Template Edition works. If you want to run through the example yourself make sure to have the following:"
     },
     {
-      "type": "img",
-      "img":"assets/images/doco-images/img_2-3-5-1.png",
-      "imgAlt":"Image Alt"
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Access to 2 to 3 different accounts"
+        },
+        {
+          "text":"A lifecycle set up in the same Group as these accounts"
+        },
+        {
+          "text":"Each member should have a different role assigned that covers the Lifecycle stages"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.1. Submitting a Template"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "We've created a new Template and made sure to give it a name and 10 steps. Clicking on 'Submit' we are presented with the Submission window."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "When submitting the Template, a member must select the Lifecycle to submit it to. This can be done in the dropdown show here."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once submitted the member will see a small notification to confirm the successful submission."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.2. Submitting a Template for Review/Approval"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "In our example, we have set up an edit stage which specifies that the Template is required to go through an author. At this point a member with the Author role picks up the Task from their Dashboard by clicking 'View'."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "The Task is opened in the Template Editor and allows the Author member to continue to add more detail to the Template definition structure."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once the Author is happy with the Template structure, they can then submit the Template to the next stage, Review. This is achieved by clicking the Review action button in the top corner (this area is reserved for all Lifecycle actions, showing only those that are relevant for the stage that the Template is in."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Upon submission, the member is asked to confirm their choice and the once confirm is submitted to the next stage. As before, the member will receive a notification confirming the submission."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.3. Reviewing a Template"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "For those members with reviewing roles, the task will show up in their Inboxes and display the correct information. Like the previous tasks, the member clicks 'View' to open the Template in the Template Editor."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Reviewing Templates displays a read-only version of the Template which gives a full overview of the entire structure without the ability to add or delete steps from the Template. A member happy with the Template can use the appropriate Lifecycle actions to move the Template to the next stage."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.4. Final Approval & Publishing a Template"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Depending on your Lifecycle stage setup, you may pass through many review stages before a final review stage allowing members with the correct role to finally approve the Template and publish it to the Enterprise. Here, we show the Inbox Task relating to the stage."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Much like the previous stages, once opening the Task the member is given a read-only view of the Template."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.5. Rejecting Templates"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Rejecting Templates that are in the review/approval stages will send that Template back to the edition stage. This is mainly to allow changes to be made to the Template by the author after having been reviewed by an expert. This is done by simply clicking the red button with the label given to the action at Lifecycle creation."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.6. Archiving Templates"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Archiving Templates allows specifically designated roles to be able to remove the Template from the Lifecycle and archive. This is particularly useful for Templates that have been superceeded by a newer version or have halted. Archiving is available only to the role that was specified at Lifecycle creation.e"
     }
   ]
 }

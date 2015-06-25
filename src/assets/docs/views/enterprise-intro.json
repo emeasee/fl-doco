@@ -26,16 +26,16 @@
           "text":"Enterprise roles & rules (Template and Job access authorization)"
         },
         {
-          "text":"Lifecycle definition to various business contexts. Maps directly to Member roles."
+          "text":"Lifecycle definition for various business contexts. Maps directly to Member roles."
         },
         {
-          "text":"Assignment of existing jobs (continuation of Jobs by another member)"
+          "text":"Collaborative jobs and Task assignment from Templates."
         },
         {
-          "text":"More advanced Dashboard with added Inbox to allow members to filter & view the progress of Tasks assigned to others."
+          "text":"Inbox to allow members to filter & view the progress of Tasks assigned to others."
         },
         {
-          "text":"Search through Enterprise data"
+          "text":"Search through Enterprise data."
         }
       ]
     },

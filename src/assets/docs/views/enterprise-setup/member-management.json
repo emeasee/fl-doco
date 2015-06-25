@@ -2,7 +2,7 @@
   "title": "Member Management",
   "id": "member-management",
   "section": "2.3. Setting up an Enterprise",
-  "intro": "Managing the users of your system is key. Therefore we believe tt is important to provide a good set of administration tools that allows a project/company executive the power he needs to manage his changing workforce.",
+  "intro": "Managing the users of your system is key. Therefore we believe it is important to provide a good set of administration tools that allows a project/company executive the power he needs to manage his  workforce.",
   "blocks": [
     {
       "type": "h1",
@@ -39,8 +39,14 @@
       "caption": "Once the user has been added to the list, you need to complete the process by inviting the user by clicking the Invite to Enterprise button. Alternatively if you have added a number of emails you can simply click Invite all in the top bar of the Enterprise members to invite all outstanding additions to the members list."
     },
     {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-4.png",
+      "imgAlt":"Image Alt",
+      "caption": "Either before or after the user has been invited, it is possible to assign a specific role granting, or limiting, them access to various aspects of FieldLogs Enterprise. <a href='#/section/enterprise-setup/security'>View our page</a> on Security to understand the concept of roles & rules in FieldLogs"
+    },
+    {
       "type": "info",
-      "content": "If you believe you have made a mistake in the email you entered, you can simple remove the member from the list and re-type the correct email, hitting enter again to add them to the member list and finally, inviting that user to the Enterprise by clicking the Invite to Enterpise button."
+      "content": "If you believe you have made a mistake in the email you entered, you can simple remove the member from the list and re-type the correct email, hitting enter again to add them to the member list and finally, inviting that user to the Enterprise by clicking the Invite to Enterprise button."
     }
   ]
 }

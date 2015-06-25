@@ -10,7 +10,7 @@
     },
     {
       "type": "text",
-      "content":"FieldLogs Enterprise provides a simple tree based enterprise structure that an administrator of an Enterprise account can build and maintain. . An administrator can select 'Add' in the Hierarchy toolbar and select what type of structural element they wish to add. Below is a breakdown of these:"
+      "content":"FieldLogs Enterprise provides a simple tree based enterprise structure that an administrator of an Enterprise account can build and maintain. An administrator can select 'Add' in the Hierarchy toolbar and select what type of structural element they wish to add. Below is a breakdown of these:"
     },
     {
       "type": "info",
@@ -18,19 +18,23 @@
     },
     {
       "type": "h2",
-      "content": "2.3.2.1. Hierarchy Entities"
+      "content": "2.3.2.1. Data Scope & Hierarchy Entities"
+    },
+    {
+      "type": "text",
+      "content":"When adding entities to your Hierarchy it is important to understand their scope and it's importance in data separation for the various groups of your Enterprise structure. As an example, members in a Group at the root level will not have access to Templates at the root level itself, only to Templates inside the Group they have been assigned. They will have access to any sub-Groups created inside it. This allows an administrator to separate the data between various departments, where the same Templates and users are not needed. Below are the tools available to achieve this:"
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"Groups <i></i> are general entities that group members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside other Groups."
+          "text":"<b>Groups</b> <i></i> are general entities that group members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside other Groups. These can come to mean whatever is required for your organisations strucutre."
         },
         {
-          "text":"Template DBs <i></i> are databases of Templates with the same level of access as other entities inside its parent group."
+          "text":"<b>Template DBs</b> <i></i> are repositories of Templates with the same level of access as other entities inside its parent group. They store approved Templates that are of use to a particular group for job execution."
         },
         {
-          "text":"Lifecycles are specific authoring workflows for Templates that produce 'Published' Templates and store them in Template DB's for access by the Enterprise."
+          "text":"<b>Lifecycles</b> are specific authoring workflows for Templates that produce 'Published' Templates and store them in Template DBs for access by the Enterprise."
         }
       ]
     },
@@ -38,19 +42,25 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-1.png",
       "imgAlt":"Image Alt",
-      "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined."
+      "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined. Members added at this level will be able to view & edit (depending on their security role) Templates of the entire Enterprise."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-2.png",
       "imgAlt":"Image Alt",
-      "caption": "An example of a Template DB within the specific Quality Assurance group. Here, only users who are in the Quality Assurance group or in the root level of the Enterprise have access to the Templates within"
+      "caption": "An example of a Template DB within the specific Quality Assurance group. Here, only users who are in the Quality Assurance group or in the root level of the Enterprise have access to the Templates within. Templates stored in this repository are available to members inside of the Quality Assurance group."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-3.png",
       "imgAlt":"Image Alt",
-      "caption": "This designates a Lifecycle that can be used by group members to collaboratively 'approve' Templates for use in the Enterprise."
+      "caption": "This designates a Lifecycle that can be used by group members to collaboratively 'approve' Templates for use in the Enterprise. Templates approved using this Lifecycle will be stored in the TestPaths repository."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-2-4.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once turned on, it is possible to see where members are within the hierarchy. It is possible to see a simple count at all times on the right side of the Hierarchy window."
     }
   ]
 }
