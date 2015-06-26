@@ -1,0 +1,12 @@
+{
+  "title": "Example Enterprise Set up",
+  "id": "enterprise-example",
+  "section": "2.3. Setting up an Enterprise",
+  "intro": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.3.6. Example Enterprise Set up"
+    }
+  ]
+}

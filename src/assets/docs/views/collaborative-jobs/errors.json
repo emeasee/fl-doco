@@ -1,0 +1,53 @@
+{
+  "title": "Issues & Errors",
+  "id": "errors",
+  "section": "2.5. Collaborative Jobs",
+  "intro": "Since security is a major component of the FieldLogs platform, error reporting due to permission problems is of great importance to help refine and fix issues in the Enterprise structure and security set up.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.5.5. Issues & Errors"
+    },
+    {
+      "type": "text",
+      "content":"When assigning Templates to other members, it can often arise that certain members do not have sufficient privileges to view the Template. This can arise for a number of reasons:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"The member is not in the correct scope in the hierarchy of the Enterprise to be able to view the Template."
+        },
+        {
+          "text":"The member does not have the correct role or security permissions to be able to action on the Task, i.e. Run the Template"
+        },
+        {
+          "text":"The status of the Template has been changed to Private after the Task is created."
+        },
+        {
+          "text":"If assigning the continuation of a Job and the subsequent Job is deleted."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content":"Typically, these errors arise as the Enterprise structure, security roles and organisation & status of data (Templates & Jobs) change. It is therefore important to be able to identify and fix these issues. FieldLogs takes an indirect approach by providing a clear indication of an error, and the providing information relating to that error so that administrators of the Enterprise can work with effected members to make the right adjustments to the security set up. Once one of the issues above is solved, the task is correctly rendered."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.5.1 Identifying errors"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Errors on the web take two subtly different forms: assignee & assigner errors. When assigning a task, an error task is generated in both Inboxes. This prompt provides the information help in fixing the issue. Here we show an example of an error in the assignees Inbox. "
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "On the app"
+    }
+  ]
+}

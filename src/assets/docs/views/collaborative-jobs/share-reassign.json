@@ -1,0 +1,52 @@
+{
+  "title": "Re-assigning or Sharing a Task",
+  "id": "share-reassign",
+  "section": "2.5. Collaborative Jobs",
+  "intro": "There are often circumstances in the day to day assignment of Templates and Jobs in an Enterprise that require more individuals to be kept up to date on a running Job or Tasks to be re-assigned to other members due to member absence and other such situations. FieldLogs provides a few useful tools that we detail here.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.5.3. Re-assignment and Sharing a Task"
+    },
+    {
+      "type": "text",
+      "content":"Tasks may need to be re-assigned or shared to other members by the original assignee. Re-assigning a Task simply creates a new assignment task for the member that it is being re-assigned to. The original assigner and the member re-assigning will both have a 'Sent' task in their Inboxes allowing them to follow the progress of the task if ran."
+    },
+    {
+      "type": "text",
+      "content":"Sharing tasks to other members is a simple way to inform other members of a task that they have been assigned. Think of this as a 'CC' of a task, much like the feature when sending emails."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.3.1 Re-assigning a Task"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the web, this can be easily achieved by using the Action button dropdown and selecting Re-assign. Much like the Assignment pop up window, the resulting popup window allows the member to choose who to re-assign the task to and to then confirm that choice."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the app re-assignment can be achieved by tapping on a task and choosing Re-assign from the Action panel. Following the on screen member selection screen allows the member to confirm the re-assignment."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.3.2. Sharing a Task"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the web, much like re-assigning a task, the member opens the Action button dropdown and select Share. This opens a similar pop up window in which the member must confirm the member to share with."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the app, the member selects Share from the Action panel. A run through the member selection screen similar to re-assigning a task then allow the successful sharing of a task."
+    }
+  ]
+}

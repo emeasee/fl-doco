@@ -1,0 +1,54 @@
+{
+  "title": "Assigning a Template",
+  "id": "assign-template",
+  "section": "2.5. Collaborative Jobs",
+  "intro": "Being able to collaborative create Templates is only one side of FieldLogs. The other is the ability to assign Templates to those in the field so that you can set a standard work practice for field data capture that can optionally be viewed in real-time by others in the Enterprise. The ability fully utilises the apps that we have built for modern mobile devices. A product manager, for example, can assign a newly approved template to their teams in the field, in less than a few minutes.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.5.1. Assigning a Template"
+    },
+    {
+      "type": "text",
+      "content":"Members of an Enterprise have the ability to assign Templates to anybody else in the Enterprise. Templates that are Published, Shared or Public are shared without changing their status however Private Templates will be changed to Shared to indicate that they will now be available to everyone in the Enterprise to view."
+    },
+    {
+      "type": "warn",
+      "content": "Security restrictions apply on the side of the assignee. The task generated will show correctly only if the member has the correct permissions to view the Template being assigned. If not, the assignee will see a Task error in their Inbox. See more about <a href='#/section/collaborative-jobs/errors'>Issues & Errors</a>"
+    },
+    {
+      "type": "text",
+      "content":"Template assignment can be done on both the web and on our mobile devices. Below we detail how to do so on both:"
+    },
+    {
+      "type": "h2",
+      "content": "2.5.1.1. Assigning a Template from the web"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Templates can be assigned from either the Template list on the Dashboard or from the Template editor Template List. Here we show assignment from the Template Editor list which is achieved using the action dropdown on the Template cell."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.1.2. Assigning a Template from the App"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the App (Android, iPhone & iPad) the assignment can be achieved by selecting a Template from the Template tab and finding the correct action from the Action Panel."
+    },
+    {
+      "type": "text",
+      "content":"In both examples the assigner receives a 'Sent' task in their Inboxes. This task is both a confirmation and a time-stamped reference for the assignment of this Template and can be referred to, for example, when viewing the execution of the Template in real-time or for viewing whether the Task has been seen or completed by the assignee. A Sent task is denoted with a simple <i></i> sent icon to identify it."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Here we see both sent task cell designs from the web & the apps. You can see the icon and text denoting that the task is a Sent task. These can be filtered out quite easily using the Inbox Filter bar by deselecting Sent task items."
+    }
+  ]
+}

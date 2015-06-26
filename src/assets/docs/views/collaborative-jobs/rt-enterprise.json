@@ -1,0 +1,34 @@
+{
+  "title": "Real-Time Jobs & Enterprise",
+  "id": "rt-enterprise",
+  "section": "2.5. Collaborative Jobs",
+  "intro": "Of equal importance to the ability to assign Tasks to members is the ability to keep track of the resulting Jobs and collect the field data as fast as possible. With FieldLogs this process is in real-time. On this page we will outline the various features of FieldLogs and their relevance to an Enterprise set up.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.5.4. Real-Time Jobs"
+    },
+    {
+      "type": "h2",
+      "content": "2.5.4.1. Task feedback"
+    },
+    {
+      "type": "text",
+      "content":"As we have touched upon, assigning Templates or the continuation of Jobs creates both the task in the assignees Inbox but also Sent task notification in the assigners inbox. When an assignee runs the Template attached to a task, sent tasks in the assigners Inbox (and in anyone who the task has been shared with) display a different way to visually communicate that the Task is being completed and can be followed in Real-Time."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "The color red is reserved almost exclusively on the FieldLogs platform to indicate Real-Time data capture. Here you can see the Real-Time indication on the task list. Tapping/Clicking 'Follow' allows the member to view in real-time the data streaming in from the field."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.4.2. Chat"
+    },
+    {
+      "type": "text",
+      "content":"Chat remains a key feature of collaboration for an Enterprise. It allows collaboration between members both on and off the field in real-time. For Enterprise, chat is available between assigner, assignee, any member re-assigned a Task and those who have been shared the task."
+    }
+  ]
+}

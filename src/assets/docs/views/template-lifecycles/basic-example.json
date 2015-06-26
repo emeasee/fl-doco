@@ -1,7 +1,7 @@
 {
   "title": "Basic Usage Example",
   "id": "basic-example",
-  "section": "2.4. Template Lifecycles",
+  "section": "2.4. Template Edition Platform",
   "intro": "On this page we will cover a very basic example of a Lifecycle in action. We have set up a small enterprise structure and have created a Lifecycle. (If you don't know how to create a lifecycle, please refer to our page in the Enterprise Setup section, <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition</a>",
   "blocks": [
     {

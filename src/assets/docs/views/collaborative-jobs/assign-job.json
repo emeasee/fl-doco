@@ -1,0 +1,44 @@
+{
+  "title": "Assigning a Job",
+  "id": "assign-job",
+  "section": "2.5. Collaborative Jobs",
+  "intro": "Jobs that have been started from a Template can sometimes need the involvement of multiple members to complete. For example, a specific Template might require two stages of work in different locations by different departments to complete. This is where assignment of the continuation of a Job becomes useful",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.5.2. Assigning a Job"
+    },
+    {
+      "type": "text",
+      "content":"Members of an Enterprise have the ability to assign Jobs to anybody else in the Enterprise. Jobs need to be shared to the enterprise of Public to be able to assigned. The same logic applies to Jobs as to Templates. If the assignee does not have sufficient permissions to view the Job or the Template from which it is based, it will result in an error in the assignees Inbox."
+    },
+    {
+      "type": "warn",
+      "content": "Security restrictions apply on the side of the assignee. The task generated will show correctly only if the member has the correct permissions to view the Job being assigned. If not, the assignee will see a Task error in their Inbox. See more about <a href='#/section/collaborative-jobs/errors'>Issues & Errors</a>"
+    },
+    {
+      "type": "text",
+      "content":"Job assignment can be done on both the web and on our mobile devices. Below we detail how to do so on both:"
+    },
+    {
+      "type": "h2",
+      "content": "2.5.2.1. Assigning a Job from the web"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Jobs can be assigned from either the Job list on the Dashboard or from the Jobs section. In this example we show assignment from the Job section which is achieved using the action dropdown on the Job cell."
+    },
+    {
+      "type": "h2",
+      "content": "2.5.2.2. Assigning a Job from the App"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the App (Android, iPhone & iPad) the assignment can be achieved by selecting a Job from the Jobs tab and finding the correct action from the Action Panel."
+    }
+  ]
+}
