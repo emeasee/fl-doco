@@ -2,11 +2,77 @@
   "title": "Example Enterprise Set up",
   "id": "enterprise-example",
   "section": "2.3. Setting up an Enterprise",
-  "intro": "",
+  "intro": "To help understand how the basic concepts for setting up an enterprise come together, we will run through setting up an example enterprise.",
   "blocks": [
     {
       "type": "h1",
       "content": "2.3.6. Example Enterprise Set up"
+    },
+    {
+      "type": "h2",
+      "content": "2.3.6.1. Hierarchy Set up"
+    },
+    {
+      "type": "text",
+      "content": "The first thing after <a href='#/section/enterprise-setup/upgrading'>upgrading</a> to an Enterprise account is to set up the Hierarchy structure that best suits your business / collaboration needs."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "From the root of the enterprise we are going to set up a few empty Groups to simulate departments of my Enterprise. Clicking on the 'Add' button in the header of the Hierarchy window gives you the available options."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Here we have added a new Group inside another group, effectively nesting it. In this case we have used it to denote a separate team inside a larger department."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Changing an entities (Group or Template DB) can be done in the panel on the right hand side of the screen. You can change the name & icon of Groups and name & availability (public / private) of Template DB's."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.6.2. Setting up Roles"
+    },
+    {
+      "type": "text",
+      "content": "Before adding your first members to your newly created structure, we will need to review and define roles with security rules to assign to our members."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Selecting the 'Security' tab in the top bar will allow you to navigate to the Security Manager."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "All Enterprises are created with default roles which can be edited to suit your needs. Refer to our dedicated guide on the <a href='#/section/enterprise-setup/security'>Security Manager</a> to help you set up the correct rules for your roles"
+    },
+    {
+      "type": "h2",
+      "content": "2.3.6.5. Template Repositories (DBs) & Lifecycles"
+    },
+    {
+      "type": "text",
+      "content": "A key feature in working with Enterprise is defining repositories of Templates for your departments and enterprise to use that are filled with Approved templates created using Lifecycles."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Template repositories allow you to control the availability of Templates to the members of your Hierarchy, otherwise known as the data scope. Here we have created a structure to give a specific team its own repository along with a Lifecycle that can be used to collaboratively create Templates for internal use within the team."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once the Lifecycle has been added to the hierarchy it is important to customise it to you needs, specifically selecting which stages are needed, names of stages, action labels & roles that are to be linked to each stage. (As defined in the previous steps)."
     }
   ]
 }
