@@ -2,28 +2,56 @@
   "title": "Template Lifecycle Definition",
   "id": "lifecycles-definition",
   "section": "2.3. Setting up an Enterprise",
-  "intro": "Lifecycles provide a clear development stages for creating approved SWIs. They allow the inclusion of review stages, collaborative authorship and quality control.",
+  "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.5. Creating Lifecycles"
+      "content": "2.3.5. Template Lifecycles"
     },
     {
       "type": "text",
-      "content":"FieldLogs allows the creation of as many different Lifecycles as you like to meet your Enterprise needs. Depending on where they area created, they can either be accessible by only some groups or the entire organisation structure (if created in the root, for example)."
+      "content":"Lifecycles provide clear development cycles for creating approved SWIs. They allow the inclusion of stages for reviewing, collaborative authorship and quality control to a variety of workflows and standard work procedures. The main aim is with our Template Edition Platform is to formalise this process to create approved Templates for your Enterprise. <br/><br/>FieldLogs allows the creation of as many different Lifecycles as you like to meet your Enterprise needs."
     },
     {
       "type": "info",
       "content": "Please refer to our dedicated a <a href='#/section/lifecycles/basic-example'>Lifecycle</a> section to get a better understanding as to why you would want to use Lifecycles and some use cases."
     },
     {
-      "type": "img",
-      "img":"assets/images/doco-images/img_2-3-5-1.png",
-      "imgAlt":"Image Alt"
+      "type": "h2",
+      "content": "2.3.5.1. Public & Private Template DBs"
+    },
+    {
+      "type": "text",
+      "content":"Template DBs can either be Public or Private which mean very different things for the resulting Templates created from the Lifecycles inside of these Template DBs. In both cases, Template Repositories are accessible directly up the Hierarchy tree to the root. <b>Therefore, anyone at root level will be able to see all Templates, regardless whether the Repository they belong to is Private or Public.</b> Below we explain the difference in regards to children of the Enterprise root:"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-5-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "<b>Public Template DBs</b>, as can be seen in this hierarchy as 'OGBU2PublicRepository', are Repositories of Templates that make data (Templates) available to sub-groups that are within the Group of the Repository. As an example: the Templates created with the Lifecycle 'OGBU2 Template Lifecycle' are stored in the repository 'OGBU2PublicRepository' which is Public. Therefore the Templates are also available to members within 'OGContractor1' and 'OGCustomer1' groups.<br/><br/><i>Why would you want to do this?</i><br/><br/>Here we have also given some context. Group 'OGBU2' contains sub-groups for Contractors and Customers, which are the types of members that, as an Enterprise, you  may prefer to limit data scope to Repositories. However, here you also wish to provide a way for members of the parent group, OGBU2, to create and deliver Templates to the Repository."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-5-3.png",
+      "imgAlt":"Image Alt",
+      "caption": "<b>Private Template DBs</b>, seen here as 'OGBU1PrivateRepository', are Repositories which limit the data scope of the contained Templates to only the Group in which the Template DB resides (and directly up the hierarchy tree). The members of 'OGSubBU1' here, for example, cannot see Templates made by 'OGBU1 Template Lifecycle' and contained within 'OGBU1PrivateRepository'. The same is true for the availability of the Lifecycle, this also is not available to this sub-group as an option to submit Templates to. Only the members of the parent group, 'OGBU1' and the root, 'OilGassNewCorp' can see Templates in this repository and submit Templates to this Lifecycle.<br/><br/><i>Why would you want to do this?</i><br/><br/>An example may be that you wish to hide sensitive information from Contractor/Customer members or simple provide a clear separation of Templates that have every different functions or exist to service very different fields of expertise. e.g. Management vs. Field operations."
+    },
+    {
+      "type": "info",
+      "content": "By default, all Template DBs created are set to Private. To change this, an administrator with appropriate permissions must change this in the detail editing panel on the right of the Enterprise section."
     },
     {
       "type": "h2",
-      "content": "2.3.5.1. Understanding the UI"
+      "content": "2.3.5.2. Creating a Lifecycle"
+    },
+    {
+      "type": "text",
+      "content":"Below is a visual step by step flow of creating a Lifecycle, highlighting some of the key aspects of the Lifecycle that are to be configured for use of the Template Edition Platform (of which the Lifecycle is very important)."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-5-1.png",
+      "imgAlt":"Image Alt"
     },
     {
       "type": "text",

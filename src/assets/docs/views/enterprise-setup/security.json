@@ -10,11 +10,43 @@
     },
     {
       "type": "text",
-      "content":"FieldLogs Enterprise's Security Manager allows administrators the ability to create and edit roles that exist within the Enterprise. Members are assigned a role within the Enterprise which dictates their access to various elements of the FieldLogs platform. Roles can even be even be given rules that contain extra conditional logic, giving very fine grain control over access to types of Templates, Jobs and more. By default every Enterprise comes with a set of roles already configured to cover a modern SWI workflow. Administrators may wish to edit these default roles by renaming or adding custom rules, or even adding new roles that suit better the enterprise workflow."
+      "content":"FieldLogs Enterprise's Security Manager allows administrators the ability to create and edit roles that exist within the Enterprise. Members are assigned a role within the Enterprise which dictates their access to various elements of the FieldLogs platform. Roles are given rules that contain extra conditional logic, giving very fine grain control over access to types of Templates, Jobs and more. By default every Enterprise comes with a set of roles already configured to cover a modern SWI workflow. Administrators may wish to edit these default roles by renaming or adding custom rules, or even adding new roles that suit better the enterprise workflow."
     },
     {
       "type": "warn",
       "content": "The Security Manager is currently in active development and may have some features missing that allow ultimate control over roles and rules. We are working hard on this important aspect and you will see more features appear over time."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.1 Roles & the Hierarchy"
+    },
+    {
+      "type": "text",
+      "content":"It's important to understand how a Role is constructed and what it means to assign a role to a member in your Enterprise. Roles consist of security rules that explicitly tells FieldLogs what kind of access rights a role has to certain securable objects.<br><br/> This differs from the Hierarchy structure in that it allows the ability to define access to functionality and data for members inside a specific group."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "As an example, let's take another look at our Hierarchy structure. In the subgroup 'OGSubBU1' you will see one manager member and two normal members. Structure-wise the hierarchy shows a manager with two users. <br/><br/>But using <b>Roles</b> we are able to specify a specific role for  members of a group that dictates their access rights to data & role in a the <a href='#/section/enterprise-setup/lifecycles-definition'>Template Edition Platform</a>."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-0.png",
+      "imgAlt":"Image Alt",
+      "caption": "The roles of a member can be added/changed through the member management panel in the middle of the Enterprise screen. Here you can see in more detail that actually we have a distinction between two members that originally appeared to have the same role in the hierarchy. OGUser3 is a template author and OGUser4 is an SME Reviewer."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.2 Configuring roles with rules"
+    },
+    {
+      "type": "text",
+      "content":"Configuring roles can be achieved by navigating to the 'Security' sub-tab when you are on the Enterprise section of the FieldLogs website. Here, the Security Manager provides a simple UI for defining & editing roles with fine grain rules. Let's take a look below in the context of our Enterprise:"
+    },
+    {
+      "type": "info",
+      "content": "Click on the 'Add new rule' button to add new rules to a Role."
     },
     {
       "type": "img",
@@ -22,20 +54,24 @@
       "imgAlt":"Image Alt"
     },
     {
-      "type": "h2",
-      "content": "2.3.4.1 Configuring roles with rules"
-    },
-    {
       "type": "text",
-      "content":"It's important to understand how a Role is constructed and what it means to assign a role to a member in your Enterprise. Roles consist of security rules that explicitly tells FieldLogs what kind of access rights a role has to certain securable objects. Let's go through each one of these objects & access rights and explain what they mean."
+      "content":"Viewing the rules for the roles it will become clear that there can real differences between the roles. The Hierarchy showed these users at the same level in the group but members can have roles to define their relevance to a specific group."
     },
     {
-      "type": "info",
-      "content": "Click on the 'Add new rule' button to add new rules to a Role."
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-0-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "Here the Author role only has access to data-themed securable objects, with the ability to create Templates and Jobs, yet no access to administration functions of the Enterprise."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-0-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "The Product Manager role however has addition rules that allow for a certain amount of administration and viewing of Enterprise elements that are relevant to his job."
     },
     {
       "type": "h2",
-      "content": "2.3.4.2 Types of Securable Objects"
+      "content": "2.3.4.3 Types of Securable Objects"
     },
     {
       "type": "image",
@@ -71,7 +107,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.3 Types of Access Rights"
+      "content": "2.3.4.4 Types of Access Rights"
     },
     {
       "type": "image",

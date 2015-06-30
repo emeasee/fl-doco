@@ -110,27 +110,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_.png",
       "imgAlt":"Image Alt",
-      "caption": "Much like the previous stages, once opening the Task the member is given a read-only view of the Template."
-    },
-    {
-      "type": "h2",
-      "content": "2.4.3.5. Rejecting Templates"
-    },
-    {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "Rejecting Templates that are in the review/approval stages will send that Template back to the edition stage. This is mainly to allow changes to be made to the Template by the author after having been reviewed by an expert. This is done by simply clicking the red button with the label given to the action at Lifecycle creation."
-    },
-    {
-      "type": "h2",
-      "content": "2.4.3.6. Archiving Templates"
-    },
-    {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "Archiving Templates allows specifically designated roles to be able to remove the Template from the Lifecycle and archive. This is particularly useful for Templates that have been superceeded by a newer version or have halted. Archiving is available only to the role that was specified at Lifecycle creation.e"
+      "caption": "Much like the previous stages, and since this is also considered a Review stage, once a member has opened the Task they are given a read-only view of the Template."
     }
   ]
 }
