@@ -58,7 +58,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/`img_2-4-2-3.png",
+      "img":"assets/images/doco-images/img_2-4-2-3.png",
       "imgAlt":"Template lifecycle submission",
       "caption": "Once a member is sure of submission, the Submission popup window allows the member to choose a Lifecycle and add any additional comments before submitting the Template. Once submitted, the Template will automatically move to the first stage in the Lifecycle and the relevant roles will receive Tasks in the their Inboxes."
     },

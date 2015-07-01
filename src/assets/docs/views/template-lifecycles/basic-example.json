@@ -36,81 +36,91 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-1.png",
       "imgAlt":"Image Alt",
-      "caption": "We've created a new Template and made sure to give it a name and 10 steps. Clicking on 'Submit' we are presented with the Submission window."
+      "caption": "We've created a new Template and made sure to give it a name. The Template itself is empty since we will be submitting it to an Author role member to fill in the detail. Clicking on 'Submit' we are presented with the Submission window."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-2.png",
       "imgAlt":"Image Alt",
-      "caption": "When submitting the Template, a member must select the Lifecycle to submit it to. This can be done in the dropdown show here."
-    },
-    {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "Once submitted the member will see a small notification to confirm the successful submission."
+      "caption": "When submitting the Template, a member must select the Lifecycle to submit it to. This can be done in the dropdown show here. Once submitted the member will see a small notification to confirm the successful submission."
     },
     {
       "type": "h2",
-      "content": "2.4.3.2. Submitting a Template for Review/Approval"
+      "content": "2.4.3.2. Initiating Template Lifecycle process"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-3.png",
       "imgAlt":"Image Alt",
-      "caption": "In our example, we have set up an edit stage which specifies that the Template is required to go through an author. At this point a member with the Author role picks up the Task from their Dashboard by clicking 'View'."
+      "caption": "In our example, we have set up an Initiate stage which specifies that the Template is required to go through approval by a Product Manager role to start the Lifecycle process for the Template. At this point therefore a member with the Product Manager role picks up the Task from their Dashboard by clicking 'View'."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-4.png",
+      "imgAlt":"Image Alt",
+      "caption": "Our Product Manager member approves of the need for this type of Template therefore he clicks the Lifecycle action 'Initiate'. Here we are confirming this action."
+    },
+    {
+      "type": "h2",
+      "content": "2.4.3.3. Submitting a Template for Review/Approval"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-4-3-5.png",
       "imgAlt":"Image Alt",
       "caption": "The Task is opened in the Template Editor and allows the Author member to continue to add more detail to the Template definition structure."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-6.png",
       "imgAlt":"Image Alt",
       "caption": "Once the Author is happy with the Template structure, they can then submit the Template to the next stage, Review. This is achieved by clicking the Review action button in the top corner (this area is reserved for all Lifecycle actions, showing only those that are relevant for the stage that the Template is in."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-7.png",
       "imgAlt":"Image Alt",
-      "caption": "Upon submission, the member is asked to confirm their choice and the once confirm is submitted to the next stage. As before, the member will receive a notification confirming the submission."
+      "caption": "Upon submission, the member is asked to confirm their choice. As before, the member will receive a notification confirming the submission."
     },
     {
       "type": "h2",
-      "content": "2.4.3.3. Reviewing a Template"
+      "content": "2.4.3.4. Reviewing a Template"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-8.png",
       "imgAlt":"Image Alt",
       "caption": "For those members with reviewing roles, the task will show up in their Inboxes and display the correct information. Like the previous tasks, the member clicks 'View' to open the Template in the Template Editor."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-9.png",
       "imgAlt":"Image Alt",
       "caption": "Reviewing Templates displays a read-only version of the Template which gives a full overview of the entire structure without the ability to add or delete steps from the Template. A member happy with the Template can use the appropriate Lifecycle actions to move the Template to the next stage."
     },
     {
       "type": "h2",
-      "content": "2.4.3.4. Final Approval & Publishing a Template"
+      "content": "2.4.3.5. Final Approval & Publishing a Template"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-10.png",
       "imgAlt":"Image Alt",
       "caption": "Depending on your Lifecycle stage setup, you may pass through many review stages before a final review stage allowing members with the correct role to finally approve the Template and publish it to the Enterprise. Here, we show the Inbox Task relating to the stage."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-4-3-11.png",
       "imgAlt":"Image Alt",
       "caption": "Much like the previous stages, and since this is also considered a Review stage, once a member has opened the Task they are given a read-only view of the Template."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-4-3-12.png",
+      "imgAlt":"Image Alt",
+      "caption": "Once the Template has been approved and Published you will see the Template in your Templates list (and in the All Enterprise Templates list) display as you can see here. The Published flag indicates it has been approved by Lifecycle and is therefore fit for use."
     }
   ]
 }
