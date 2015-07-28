@@ -21,14 +21,17 @@
       "content": "2.5.3.1 Re-assigning a Task"
     },
     {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "From the web, this can be easily achieved by using the Action button dropdown and selecting Re-assign. Much like the Assignment pop up window, the resulting popup window allows the member to choose who to re-assign the task to and to then confirm that choice."
+      "type":"text",
+      "content":"From the web, this can be easily achieved by using the Action button dropdown and selecting Re-assign. Much like the Assignment pop up window, the resulting popup window allows the member to choose who to re-assign the task to and to then confirm that choice."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-5-2-8.png",
+      "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-5-2-9.png",
       "imgAlt":"Image Alt",
       "caption": "From the app re-assignment can be achieved by tapping on a task and choosing Re-assign from the Action panel. Following the on screen member selection screen allows the member to confirm the re-assignment."
     },
@@ -37,16 +40,27 @@
       "content": "2.5.3.2. Sharing a Task"
     },
     {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "From the web, much like re-assigning a task, the member opens the Action button dropdown and select Share. This opens a similar pop up window in which the member must confirm the member to share with."
+      "type":"text",
+      "content":"Members have the ability to 'share' Tasks with members other than the assigner. This allows those members to follow the progress of the Task giving them access to follow in Real-Time job acquisition."
+    },
+    {
+      "type": "warn",
+      "content": "Sharing tasks can only be done once Tasks have been 'Started', i.e. there is already an acquisition (Job) in progress."
+    },
+    {
+      "type":"text",
+      "content":"From the web, much like re-assigning a task, the member opens the Action button dropdown and select Share. This opens a similar pop up window in which the member must confirm the member to share with."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-5-2-10.png",
+      "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_2-5-2-11.png",
       "imgAlt":"Image Alt",
-      "caption": "From the app, the member selects Share from the Action panel. A run through the member selection screen similar to re-assigning a task then allow the successful sharing of a task."
+      "caption": "From the app, the member selects Share from the Action panel. A Member selection screen similar to re-assigning a task then allows the successful sharing of a task."
     }
   ]
 }

@@ -6,15 +6,27 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.5. Adding Conditions"
-    },
-    {
-      "type": "h2",
-      "content": "1.3.5.1. On the Web"
+      "content": "1.3.5. Defining Conditions"
     },
     {
       "type": "text",
-      "content": "Simply define if you wish to show the current step by selecting a it as a condition of any other earlier step's value. See the image below for more detail:"
+      "content": "Conditions are defined as simple Scripts execution."
+    },
+    {
+      "type": "warn",
+      "content": "It is required for a Condition that the Last Instruction is an <a href='#/section/augmenting-templates/scripting#EvalInstr'>'Expression Evaluation'</a> Instruction, and that this expression's result is a Boolean. If this expression returns 'true' the Step will be displayed, if not, it will remain hidden to the user."
+    },
+    {
+      "type": "warn",
+      "content": "Only a subset of the Scripting instructions are available for condition definition. More information in the <a href='#/section/augmenting-templates/scripting#BasicInstructions'>'Scripting Section'</a>."
+    },
+    {
+      "type": "h2",
+      "content": "1.3.5.1. Adding New Conditions"
+    },
+    {
+      "type": "text",
+      "content": "If a specific Step should be displayed only if in certain condition, just select this Step and open the Condition Editor. See the image below for more detail:"
     },
     {
       "type": "img",
@@ -23,7 +35,35 @@
     },
     {
       "type": "h2",
-      "content": "1.3.5.2. Usage Examples"
+      "content": "1.3.5.2. Modifying an existing Conditions"
+    },
+    {
+      "type": "text",
+      "content": "To modify the Condition on which a specifc Step is displayed, just select this Step and open the Condition Editor. See the image below for more detail:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-5-1.png",
+      "imgAlt":"Condition selection"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.5.3. Usage Examples"
+    },
+    {
+      "type": "text",
+      "content": "Most of the simple conditions will have a format like, 'If the User gave a specific answer to a preceeding Step. This can be achieved easily with a simple Script:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>1st</b> Instruction will retrieve the answer given by the user to the preceeding Step, and keep it in a Local Variable. See the <a href='#/section/augmenting-templates/scripting#GetStepValueInstr'>'Get Step Value'</a> Instruction type"
+        },
+        {
+          "text":"<b>2nd</b> Instruction will be an <a href='#/section/augmenting-templates/scripting#EvalInstr'>'Expression Evaluation'</a> evaluating if the given answer matches the condition."
+        }
+      ]
     },
     {
       "type": "image",

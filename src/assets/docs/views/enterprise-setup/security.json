@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.4. Security Manager"
+      "content": "2.3.4. Security"
     },
     {
       "type": "text",
@@ -150,6 +150,68 @@
     {
       "type": "warn",
       "content": "Not all access rights are available for all securable objects as it depends on the nature of the object. "
+    },
+    {
+      "type": "h1",
+      "content": "2.3.4.5 Security Exceptions"
+    },
+    {
+      "type": "text",
+      "content":"In some situations an administrator or privileged user may find it necessary to allow a user access to a particular resource not located on the same branch of the user. As this breaks the default restrictions of the enterprise hierarchy authorisation, a security exception needs to be created telling the system that access should be granted in this particular case. Repositories can’t be used as this would grant multiple users access to the resource."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "Consider a situation where OGUser7 would like to assign a task to OGContractor1. As OGContractor1 is located lower in the hierarchy structure, access will be denied to the resource associated with the assign task. The only way to bypass this constraint is to create a security exception for OGContractor1 to the resource."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-5.png",
+      "imgAlt":"Image Alt",
+      "caption": "For security reasons, Fieldlogs does now allow for the direct creation of security exceptions. Instead, Fieldlogs will present the option to create a security exception in the case where the system knows that the assignee of the task will not have access to the resource."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-6.png",
+      "imgAlt":"Image Alt",
+      "caption": "An assignee will also have the ability to request access to the resource from the assignor. This can achieved by clicking on the fix button in the task inbox section. This will notify the assignor that the assignee does not have access."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.5.1 Security Exceptions Manager"
+    },
+    {
+      "type": "text",
+      "content":"At any time, created security exceptions can be managed via the Security Exceptions Manager subsection under the Enterprise section. Here we can see the list of security exceptions created throughout the enterprise. Privileged users located higher in the hierarchy will have access to view security exceptions created by users located lower down in the hierarchy. In the manager we can see, and modify a few of, the following attributes associated with security exception:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"The type of security exception created."
+        },
+        {
+          "text":"The creator (grantor) of the exception."
+        },
+        {
+          "text":"The grantee (granted to) of the exception."
+        },
+        {
+          "text":"The start and end date during which the exception will grant access."
+        },
+        {
+          "text":"The resource (item) being accessed."
+        },
+        {
+          "text":"Whether or not the exception is currently enabled."
+        }
+      ]
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-7.png",
+      "imgAlt":"Image Alt"
     }
   ]
 }

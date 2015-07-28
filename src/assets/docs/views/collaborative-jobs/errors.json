@@ -2,7 +2,7 @@
   "title": "Issues & Errors",
   "id": "errors",
   "section": "2.5. Collaborative Jobs",
-  "intro": "Since security is a major component of the FieldLogs platform, error reporting due to permission problems is of great importance to help refine and fix issues in the Enterprise structure and security set up.",
+  "intro": "Since security is a major component of the FieldLogs platform, error reporting due to permission problems is of great importance to help refine and fix issues in your Enterprise structure and security set up.",
   "blocks": [
     {
       "type": "h1",
@@ -38,16 +38,13 @@
       "content": "2.5.5.1 Identifying errors"
     },
     {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "Errors on the web take two subtly different forms: assignee & assigner errors. When assigning a task, an error task is generated in both Inboxes. This prompt provides the information help in fixing the issue. Here we show an example of an error in the assignees Inbox. "
+      "type":"text",
+      "content":"Errors on the web take two subtly different forms: assignee & assigner errors. When assigning a task, an error task is generated in both Inboxes. This prompt provides the information help in fixing the issue. Here we show an example of an error in the assignees Inbox."
     },
     {
-      "type": "image",
-      "img":"assets/images/doco-images/img_.png",
-      "imgAlt":"Image Alt",
-      "caption": "On the app"
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-5-5-1.png",
+      "imgAlt":"Image Alt"
     }
   ]
 }

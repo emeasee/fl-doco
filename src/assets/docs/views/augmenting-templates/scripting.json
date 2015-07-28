@@ -2,6 +2,305 @@
   "title": "Scripting",
   "id": "scripting",
   "section": "1.3. Augmenting your Template",
-  "intro": "",
-  "blocks": []
+  "intro": "FieldLogs embeds a scripting execution engine aimed to create dynamic execution and link data to external sources.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.8. Adding Scripts"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.8.1. On the Web"
+    },
+    {
+      "type": "text",
+      "content": "Simply open the Script Editor on the right side panel. See the image below for more detail:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-8-1.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.8.2. Creating a Script"
+    },
+    {
+      "type": "text",
+      "content": "A script is defined as a list of Instructions to execute when a specific event occured for a step."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition",
+      "caption": "Start by adding a new Script, and giving it a name for furture reference."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition",
+      "caption": "Then select the Event that will trigger the execution"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>OnLoad</b> triggers the execution when the Job Execution starts (or restarts after the application stops, or the Job is Continued). Use this event to initialize some data used in other scripts"
+        },
+        {
+          "text":"<b>BeforeValidation</b> triggers the execution when the step is validated by the User, but before the value is actually saved in the Job."
+        },
+        {
+          "text":"<b>AfterValidation</b> triggers the execution when the step is validated by the User, but after the value is actually saved in the Job."
+        }
+      ]
+    },
+    {
+      "type": "h1",
+      "content": "1.3.8.3. Adding/Editing Instructions in a Script"
+    },
+    {
+      "type": "text",
+      "content": "Each script contains by default a Block Instruction, that is used to add sub-instructions in the script."
+    },
+    {
+      "type": "text",
+      "content": "Each Instruction can be edited by Clicking on it to open the Editor for this Instruction. When Done, the Instruction collapses into a more compact view."
+    },
+    {
+      "type": "h2",
+      "id": "BasicInstructions",
+      "content": "1.3.8.3.1. Basic Instructions"
+    },
+    {
+      "type": "text",
+      "id": "BlockInstr",
+      "content": "<b>Block '{...}' :</b> A Block Instruction is a simple list of Instructions. New Instructions can be added using the '+' button at the top of the Block, and removed using the '-' button at the bottom of the Instruction to remove."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "text",
+      "id": "EvalInstr",
+      "content": "<b>Expression Evaluation :</b> A Basic Instruction that executes the JavaScript expression, and eventually stores the result in a LocalVariable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "h2",
+      "id": "LogicInstructions",
+      "content": "1.3.8.3.6. Logic Instructions: "
+    },
+    {
+      "type": "text",
+      "content": "These Instructions allows for specific Logic/Structure to be defined in the Script execution."
+    },
+    {
+      "type": "text",
+      "id": "IfInstr",
+      "content": "<b>If () Then ... Else ... :</b> Defines a Conditional Block. The JavaScript expression is evaluated and the result must be a Boolean value (true or false). If the result is 'true', the Then Instruction is executed, if the Result is 'false' and there is an Else Instruction defined this one is executed."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "text",
+      "id": "WhileInstr",
+      "content": "<b>While () ... :</b> Defines a While Loop. At each Iteration, the JavaScript Expression in Condition is evaluated and the result must be a Boolean (true or false). If the result is 'true', the Sub-Instruction is executed for another Iteration. If the result is 'false', the loop stops."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "h2",
+      "id": "GlobalVarInstructions",
+      "content": "1.3.8.3.2. Global Value Instructions:"
+    },
+    {
+      "type": "text",
+      "content": "These Instructions allows manipulation of the values of Global Variables. Global Variables are named values that are shared between different Scripts, while Local Variables stays local to the Script/Block they are defined in."
+    },
+    {
+      "type": "text",
+      "id": "GetGlobalVarInstr",
+      "content": "<b> Get Global Value :</b> Retrieves the current value for a Global Variable and stores it in a LocalVariable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "text",
+      "id": "SetGlobalVarInstr",
+      "content": "<b>Set Global Value :</b> Executes the JavaScript expression and sets the result as the current value for a Global Variable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "h2",
+      "id": "StepValueInstructions",
+      "content": "1.3.8.3.3. Step Value Instructions: "
+    },
+    {
+      "type": "text",
+      "content": "These Instructions allows manipulation of the current values of template steps."
+    },
+    {
+      "type": "text",
+      "id": "GetStepValueInstr",
+      "content": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the template and stores it in a LocalVariable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "text",
+      "id": "SetStepValueInstr",
+      "content": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the template"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "h2",
+      "id": "TableInstructions",
+      "content": "1.3.8.3.4. Table Step Value Instructions: "
+    },
+    {
+      "type": "text",
+      "content": "These Instructions allows manipulation of the current values of tables in template steps."
+    },
+    {
+      "type": "text",
+      "id": "AddTableRowInstr",
+      "content": "<b>Add New Row in Table :</b> Adds a new Row at the end of the selected Table, and eventually stores its rowIndex in the Local Variable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "text",
+      "id": "GetTableCellValueInstr",
+      "content": "<b>Get Value of Cell of Table :</b> Retrieves the current value of the cell at the selected Row in the selected Column of the selected Table"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "text",
+      "id": "SetTableCellValueInstr",
+      "content": "<b>Set Value in Cell of Table :</b> Executes the JavaScript expression and sets the result as the current value of the cell at the selected Row in the selected Column of the selected Table"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "h2",
+      "id": "ExternalCallInstructions",
+      "content": "1.3.8.3.5. External Call Instructions: "
+    },
+    {
+      "type": "text",
+      "content": "These Instructions allows to perform HTTP/HTTPS calls to external server either to retrieve values for use in the Template/Script or to push values to an external server."
+    },
+    {
+      "type": "text",
+      "id": "GetExternalCallInstr",
+      "content": "<b>Get External Call Value :</b> Perform the call specified by the given URL and stores the server response in the Local Variable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "warn",
+      "content": "External Call Gets can only be executed by the mobile application if the application is Online and have Network when the event triggers the Script execution"
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "text",
+      "id": "PostExternalCallInstr",
+      "content": "<b>Post Value in External Call:</b> Executes the JavaScript expression and sets the result as the payload of an HTTP request posted to the given URL"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    },
+    {
+      "type": "info",
+      "content": "Unlike 'External Call Gets', 'External Call Posts' can be executed by mobile applications without network. The actual request to post will be stored and synced when the application is Online again with all other data of the Job."
+    },
+    {
+      "type": "warn",
+      "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
+    },
+    {
+      "type": "h2",
+      "id": "IdentityInstructions",
+      "content": "1.3.8.3.6. Identity Instructions: "
+    },
+    {
+      "type": "text",
+      "id": "GetIdentityValueInstr",
+      "content": "<b>Get Value of an Identity Property :</b> Retrieves the value of the selected Property of the selected Identity in the current user profile, and stores it in the Local Variable"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "imgAlt":"Script Edition"
+    }
+  ]
 }

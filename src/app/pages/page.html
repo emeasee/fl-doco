@@ -7,43 +7,43 @@
   <div ng-repeat="block in view.blocks">
 
     <!-- Big header-->
-    <h1 ng-if="block.type === 'h1'" ng-bind-html="block.content | to_trusted"></h1>
+    <h1 id="{{ block.id }}" ng-if="block.type === 'h1'" ng-bind-html="block.content | to_trusted"></h1>
 
     <!-- Small header-->
-    <h4 ng-if="block.type === 'h2'" ng-bind-html="block.content | to_trusted"></h4>
+    <h4 id="{{ block.id }}" ng-if="block.type === 'h2'" ng-bind-html="block.content | to_trusted"></h4>
 
     <!-- Normal text-->
-    <p ng-if="block.type === 'text'" ng-bind-html="block.content | to_trusted"></p>
+    <p id="{{ block.id }}" ng-if="block.type === 'text'" ng-bind-html="block.content | to_trusted"></p>
 
     <!-- Image with caption-->
-    <div class="blockimg" layout="row" layout-sm="column" layout-padding style="padding:20px;" ng-if="block.type === 'image'">
+    <div id="{{ block.id }}" class="blockimg" layout="row" layout-sm="column" layout-padding style="padding:20px;" ng-if="block.type === 'image'">
       <span flex="40" flex-sm="100"><img class="md-whiteframe-z3" ng-src="{{ block.img }}" alt=""/></span>
       <p flex="60" flex-sm="100" ng-bind-html="block.caption | to_trusted"></p>
     </div>
 
     <!-- Image only-->
-    <span ng-if="block.type === 'img'">
+    <span id="{{ block.id }}" ng-if="block.type === 'img'">
       <img class="md-whiteframe-z3 singleimg" style="margin-top:20px;" ng-src="{{ block.img }}" alt="{{ block.imgAlt }}"/>
     </span>
 
     <!-- Bullet list-->
-    <ul ng-if="block.type === 'bullet'">
+    <ul id="{{ block.id }}" ng-if="block.type === 'bullet'">
       <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
     </ul>
 
     <!-- Numbered list-->
-    <ol ng-if="block.type === 'numbers'">
+    <ol id="{{ block.id }}" ng-if="block.type === 'numbers'">
       <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
     </ol>
 
     <!-- Info Box-->
-    <div class="infobox" layout="row" layout-padding ng-if="block.type === 'info'">
+    <div id="{{ block.id }}" class="infobox" layout="row" layout-padding ng-if="block.type === 'info'">
       <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Info"> info </md-icon>
       <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
     </div>
 
     <!-- Warning box-->
-    <div class="warnbox" layout="row" layout-padding ng-if="block.type === 'warn'">
+    <div id="{{ block.id }}" class="warnbox" layout="row" layout-padding ng-if="block.type === 'warn'">
       <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Warning"> warning </md-icon>
       <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
     </div>
