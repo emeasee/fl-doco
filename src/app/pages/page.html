@@ -48,6 +48,30 @@
       <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
     </div>
 
+    <!-- Slide Show-->
+    <div id="{{ block.id }}" ng-if="block.type === 'slideshow'">
+      <style>
+        .galleria{ max-width: 900px; height: 600px; }
+        .galleria .galleria-theme-classic { background:lightgrey; }
+        .galleria .galleria-counter { color:black; }
+      </style>
+      <div class="galleria">
+        <img ng-repeat="image in block.images" src="{{image.src}}" data-title="{{image.title}}" data-description="{{image.description}}">
+      </div>
+      <script>
+        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+        <!-- See http://galleria.io/docs/options/ for a list of Options available -->
+          Galleria.configure({
+            carousel: 'true',
+            thumbnails: 'true',
+            clicknext: 'true',
+            transition: 'fadeslide',
+            imageCrop: false
+          });
+        Galleria.run('.galleria');
+      </script>
+    </div>
+
   </div>
 
 </md-content>

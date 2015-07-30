@@ -31,13 +31,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-2a.png",
       "imgAlt":"Script Edition",
       "caption": "Start by adding a new Script, and giving it a name for furture reference."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-2b.png",
       "imgAlt":"Script Edition",
       "caption": "Then select the Event that will trigger the execution"
     },
@@ -74,28 +74,26 @@
     },
     {
       "type": "text",
-      "id": "BlockInstr",
       "content": "<b>Block '{...}' :</b> A Block Instruction is a simple list of Instructions. New Instructions can be added using the '+' button at the top of the Block, and removed using the '-' button at the bottom of the Instruction to remove."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-1a.png",
       "imgAlt":"Script Edition"
     },
     {
       "type": "text",
-      "id": "EvalInstr",
       "content": "<b>Expression Evaluation :</b> A Basic Instruction that executes the JavaScript expression, and eventually stores the result in a LocalVariable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-1b.png",
       "imgAlt":"Script Edition"
     },
     {
       "type": "h2",
       "id": "LogicInstructions",
-      "content": "1.3.8.3.6. Logic Instructions: "
+      "content": "1.3.8.3.2. Logic Instructions: "
     },
     {
       "type": "text",
@@ -103,12 +101,11 @@
     },
     {
       "type": "text",
-      "id": "IfInstr",
       "content": "<b>If () Then ... Else ... :</b> Defines a Conditional Block. The JavaScript expression is evaluated and the result must be a Boolean value (true or false). If the result is 'true', the Then Instruction is executed, if the Result is 'false' and there is an Else Instruction defined this one is executed."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-2a.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -117,12 +114,11 @@
     },
     {
       "type": "text",
-      "id": "WhileInstr",
       "content": "<b>While () ... :</b> Defines a While Loop. At each Iteration, the JavaScript Expression in Condition is evaluated and the result must be a Boolean (true or false). If the result is 'true', the Sub-Instruction is executed for another Iteration. If the result is 'false', the loop stops."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-2b.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -132,7 +128,7 @@
     {
       "type": "h2",
       "id": "GlobalVarInstructions",
-      "content": "1.3.8.3.2. Global Value Instructions:"
+      "content": "1.3.8.3.3. Global Value Instructions:"
     },
     {
       "type": "text",
@@ -140,22 +136,20 @@
     },
     {
       "type": "text",
-      "id": "GetGlobalVarInstr",
       "content": "<b> Get Global Value :</b> Retrieves the current value for a Global Variable and stores it in a LocalVariable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-3a.png",
       "imgAlt":"Script Edition"
     },
     {
       "type": "text",
-      "id": "SetGlobalVarInstr",
       "content": "<b>Set Global Value :</b> Executes the JavaScript expression and sets the result as the current value for a Global Variable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-3b.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -165,7 +159,7 @@
     {
       "type": "h2",
       "id": "StepValueInstructions",
-      "content": "1.3.8.3.3. Step Value Instructions: "
+      "content": "1.3.8.3.4. Step Value Instructions: "
     },
     {
       "type": "text",
@@ -173,22 +167,20 @@
     },
     {
       "type": "text",
-      "id": "GetStepValueInstr",
       "content": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the template and stores it in a LocalVariable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-4a.png",
       "imgAlt":"Script Edition"
     },
     {
       "type": "text",
-      "id": "SetStepValueInstr",
       "content": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the template"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-4b.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -198,7 +190,7 @@
     {
       "type": "h2",
       "id": "TableInstructions",
-      "content": "1.3.8.3.4. Table Step Value Instructions: "
+      "content": "1.3.8.3.5. Table Step Value Instructions: "
     },
     {
       "type": "text",
@@ -206,12 +198,11 @@
     },
     {
       "type": "text",
-      "id": "AddTableRowInstr",
       "content": "<b>Add New Row in Table :</b> Adds a new Row at the end of the selected Table, and eventually stores its rowIndex in the Local Variable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-5a.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -220,22 +211,20 @@
     },
     {
       "type": "text",
-      "id": "GetTableCellValueInstr",
       "content": "<b>Get Value of Cell of Table :</b> Retrieves the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-5b.png",
       "imgAlt":"Script Edition"
     },
     {
       "type": "text",
-      "id": "SetTableCellValueInstr",
       "content": "<b>Set Value in Cell of Table :</b> Executes the JavaScript expression and sets the result as the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-5c.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -245,7 +234,7 @@
     {
       "type": "h2",
       "id": "ExternalCallInstructions",
-      "content": "1.3.8.3.5. External Call Instructions: "
+      "content": "1.3.8.3.6. External Call Instructions: "
     },
     {
       "type": "text",
@@ -253,12 +242,11 @@
     },
     {
       "type": "text",
-      "id": "GetExternalCallInstr",
       "content": "<b>Get External Call Value :</b> Perform the call specified by the given URL and stores the server response in the Local Variable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-6a.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -271,12 +259,11 @@
     },
     {
       "type": "text",
-      "id": "PostExternalCallInstr",
       "content": "<b>Post Value in External Call:</b> Executes the JavaScript expression and sets the result as the payload of an HTTP request posted to the given URL"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-6b.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -290,16 +277,15 @@
     {
       "type": "h2",
       "id": "IdentityInstructions",
-      "content": "1.3.8.3.6. Identity Instructions: "
+      "content": "1.3.8.3.7. Identity Instructions: "
     },
     {
       "type": "text",
-      "id": "GetIdentityValueInstr",
       "content": "<b>Get Value of an Identity Property :</b> Retrieves the value of the selected Property of the selected Identity in the current user profile, and stores it in the Local Variable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-3-8-3-7a.png",
       "imgAlt":"Script Edition"
     }
   ]

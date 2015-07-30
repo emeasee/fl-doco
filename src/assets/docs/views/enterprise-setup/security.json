@@ -131,10 +131,10 @@
           "text":"<b>Assign</b> is the ability to assign a template or Job to other members."
         },
         {
-          "text":"<b>Acquire data</b> is the ability to acquire data related to a Job or Template"
+          "text":"<b>Acquire data</b> is the ability to acquire data related to a Job or Template."
         },
         {
-          "text":"<b>Edit info</b> refers to the ability to edit meta data relating to Jobs or Templates"
+          "text":"<b>Edit info</b> refers to the ability to edit meta data relating to Jobs or Templates."
         },
         {
           "text":"<b>Export</b> is the right to export Job data in Excel format."
@@ -148,12 +148,140 @@
       ]
     },
     {
+      "type": "h2",
+      "content": "2.3.4.5 Access right permissions"
+    },
+    {
+      "type": "text",
+      "content":"Some access rights can give a user to several access rights at once. The access rights list below shows each access right along with the set of additional access rights that will be granted."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Read</b> grants read access only."
+        },
+        {
+          "text":"<b>Write</b> grants read access, write access, translate access (Templates), edit info access, assign access, export access (Jobs), edit logs access (Jobs), and acquire data access (Jobs)."
+        },
+        {
+          "text":"<b>Translate</b> grants read access and translate access."
+        },
+        {
+          "text":"<b>Assign</b> grants assign access only."
+        },
+        {
+          "text":"<b>Acquire data</b> grants read access, acquire data acces, and edit logs access (Jobs)."
+        },
+        {
+          "text":"<b>Edit info</b> grants read access and edit info access."
+        },
+        {
+          "text":"<b>Export</b> grants read access and export access."
+        },
+        {
+          "text":"<b>Edit logs</b> grants read access and edit logs access."
+        },
+        {
+          "text":"<b>All</b> grants all access."
+        }
+      ]
+    },
+    {
       "type": "warn",
       "content": "Not all access rights are available for all securable objects as it depends on the nature of the object. "
     },
     {
+      "type": "h2",
+      "content": "2.3.4.6 Effects of roles and rules on the user interface"
+    },
+    {
+      "type": "text",
+      "content": "Fieldlogs dynamically renders the user interface depending on the level of access associated with the user. For example, if OGContractor1 is assigned the Author role then access will be granted to write templates, but access will be denied to delete templates not belonging to OGContractor1. This is reflected in the UI where the delete button will be removed from all UI elements associated with the template being accessed."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.4.7 Examples"
+    },
+    {
+      "type": "text",
+      "content":"Let's go ahead and look at some examples of some key roles and their rule combinations and delve into what they mean."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-5-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type":"text",
+      "content": "The Manager Role (above) is a typical administration role that can be used to allows the adminstration of a Group's Members, Templates & Lifecycles within the Enterprise structure. The rule combinations here allow:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Full administration rights (create, delete, assign, etc) of Templates at the Managers scope in the hierarchy."
+        },
+        {
+          "text":"Read rights to the Enterprise structure. This would give this role access to the Enterprise tab to view a scoped view of the Enterprise hierarchy."
+        },
+        {
+          "text":"Full administration rights to manage users within the Manager's scoped Enterprise structure."
+        },
+        {
+          "text":"Full administration rights to manage Lifecycles within the Manager's scoped Enterprise structure."
+        }
+      ]
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-5-2.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type":"text",
+      "content": "The Employee Role example above is a standard rule collection used to provide the necessary rights for a member of an Enterprise to be able to use Enterprise templates. The rule combinations here specifically allow:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Right to view, run and assign Enterprise Templates."
+        },
+        {
+          "text":"Full rights to administer Jobs such as creating, deleting, editing, exporting and assigning the continuation of Jobs."
+        },
+        {
+          "text":"The full ability to view, run and re-assign tasks including creating security exceptions if needed when assigning Tasks to other members within the Employee's Enterprise scope."
+        }
+      ]
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-5-3.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type":"text",
+      "content": "A Contractor Role is specifically aimed at temporary or restricted members of an Enterprise that only need access to data within a narrow scope in the Enterprise. With similar rights as an Employee Role, this role can be considered more as a label. The rule combinations here specifically allow:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"Right to view, run and assign Enterprise Templates."
+        },
+        {
+          "text":"Full rights to administer Jobs such as creating, deleting, editing, exporting and assigning the continuation of Jobs."
+        },
+        {
+          "text":"The full ability to view, run and re-assign tasks including creating security exceptions if needed when assigning Tasks to other members within the Contractor's Enterprise scope."
+        }
+      ]
+    },
+    {
       "type": "h1",
-      "content": "2.3.4.5 Security Exceptions"
+      "content": "2.3.4.8 Security Exceptions"
     },
     {
       "type": "text",
@@ -161,15 +289,30 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-2.png",
+      "img":"assets/images/doco-images/img_2-3-4-5-0.png",
       "imgAlt":"Image Alt",
       "caption": "Consider a situation where OGUser7 would like to assign a task to OGContractor1. As OGContractor1 is located lower in the hierarchy structure, access will be denied to the resource associated with the assign task. The only way to bypass this constraint is to create a security exception for OGContractor1 to the resource."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-4-5-4.png",
+      "imgAlt":"Image Alt",
+      "caption": "To create a security exception, we first need to navigate to the cell of the item. On the right, there will be a dropdown list of actions, one of which is the Assign action. When the assign button is clicked, the assign task popup will appear. Here, we can select the user we want to assign the resource to. In OGUser7’s case, OGContractor1 will be selected. This will prompt the creation of a security exception for OGContractor1."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-5.png",
       "imgAlt":"Image Alt",
       "caption": "For security reasons, Fieldlogs does now allow for the direct creation of security exceptions. Instead, Fieldlogs will present the option to create a security exception in the case where the system knows that the assignee of the task will not have access to the resource."
+    },
+    {
+      "type": "text",
+      "content": "An assignee will also have the ability to request access to the resource from the assignor. This can achieved by clicking on the fix button in the task inbox section."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-4-8.png",
+      "imgAlt":"Image Alt"
     },
     {
       "type": "image",
@@ -179,7 +322,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.5.1 Security Exceptions Manager"
+      "content": "2.3.4.8.1 Security Exceptions Manager"
     },
     {
       "type": "text",

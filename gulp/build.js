@@ -80,9 +80,16 @@ module.exports = function(options) {
       .pipe(gulp.dest(options.dist + '/'));
   });
 
+  gulp.task('galleria', function () {
+    return gulp.src([
+      options.src + '/galleria/**/*'
+    ])
+      .pipe(gulp.dest(options.dist + '/galleria'));
+  });
+
   gulp.task('clean', function (done) {
     $.del([options.dist + '/', options.tmp + '/'], done);
   });
 
-  gulp.task('build', ['html', 'fonts', 'other']);
+  gulp.task('build', ['html', 'fonts', 'other', 'galleria']);
 };
