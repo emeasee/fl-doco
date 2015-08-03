@@ -94,26 +94,20 @@
       "content": "These Instructions allows for specific Logic/Structure to be defined in the Script execution."
     },
     {
-      "type": "text",
-      "content": "<b>If () Then ... Else ... :</b> Defines a Conditional Block. The JavaScript expression is evaluated and the result must be a Boolean value (true or false). If the result is 'true', the Then Instruction is executed, if the Result is 'false' and there is an Else Instruction defined this one is executed."
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-2a.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": "<b>If () Then ... Else ... :</b> Defines a Conditional Block. The JavaScript expression is evaluated and the result must be a Boolean value (true or false). If the result is 'true', the Then Instruction is executed, if the Result is 'false' and there is an Else Instruction defined this one is executed."
     },
     {
       "type": "warn",
       "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
     },
     {
-      "type": "text",
-      "content": "<b>While () ... :</b> Defines a While Loop. At each Iteration, the JavaScript Expression in Condition is evaluated and the result must be a Boolean (true or false). If the result is 'true', the Sub-Instruction is executed for another Iteration. If the result is 'false', the loop stops."
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-2b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": "<b>While () ... :</b> Defines a While Loop. At each Iteration, the JavaScript Expression in Condition is evaluated and the result must be a Boolean (true or false). If the result is 'true', the Sub-Instruction is executed for another Iteration. If the result is 'false', the loop stops."
     },
     {
       "type": "warn",
@@ -129,22 +123,16 @@
       "content": "These Instructions allows manipulation of the values of Global Variables. Global Variables are named values that are shared between different Scripts, while Local Variables stays local to the Script/Block they are defined in."
     },
     {
-      "type": "text",
-      "content": "<b> Get Global Value :</b> Retrieves the current value for a Global Variable and stores it in a LocalVariable"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-3a.png",
-      "imgAlt":"Script Edition"
-    },
-    {
-      "type": "text",
-      "content": "<b>Set Global Value :</b> Executes the JavaScript expression and sets the result as the current value for a Global Variable"
+      "imgAlt":"Script Edition",
+      "caption": "<b>Get Global Value :</b> Retrieves the current value for a Global Variable and stores it in a LocalVariable"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-3b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": "<b>Set Global Value :</b> Executes the JavaScript expression and sets the result as the current value for a Global Variable"
     },
     {
       "type": "warn",
@@ -166,7 +154,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-4a.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "text",
@@ -175,7 +164,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-4b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "warn",
@@ -197,7 +187,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5a.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "warn",
@@ -210,7 +201,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "text",
@@ -219,7 +211,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5c.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "warn",
@@ -241,7 +234,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-6a.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "warn",
@@ -258,7 +252,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-6b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     },
     {
       "type": "info",
@@ -280,7 +275,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-7a.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption": ""
     }
   ]
 }
