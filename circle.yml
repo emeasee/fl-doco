@@ -1,3 +1,3 @@
 general:
   artifacts:
-    - "latest.zip"
+    - "dist/latest.zip"

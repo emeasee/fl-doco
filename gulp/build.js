@@ -88,9 +88,9 @@ module.exports = function(options) {
   });
   
   gulp.task('zip', function () {
-    return gulp.src('dist/*')
+    return gulp.src(options.dist + '/**/*')
     	.pipe($.zip('latest.zip'))
-    	.pipe(gulp.dest(options.src));
+    	.pipe(gulp.dest(options.dist + '/'));
   });
 
   gulp.task('clean', function (done) {
