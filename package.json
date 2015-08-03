@@ -1,9 +1,9 @@
 {
   "name": "flDoco",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {},
   "scripts": {
-    "test": "gulp test"
+    "test": ""
   },
   "devDependencies": {
     "gulp": "~3.8.10",
