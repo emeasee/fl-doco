@@ -90,7 +90,7 @@ module.exports = function(options) {
   gulp.task('zip', function () {
     return gulp.src('dist/*')
     	.pipe($.zip('latest.zip'))
-    	.pipe(dest(options.src));
+    	.pipe(gulp.dest(options.src));
   });
 
   gulp.task('clean', function (done) {
