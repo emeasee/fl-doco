@@ -73,22 +73,16 @@
       "content": "1.3.8.3.1. Basic Instructions"
     },
     {
-      "type": "text",
-      "content": "<b>Block '{...}' :</b> A Block Instruction is a simple list of Instructions. New Instructions can be added using the '+' button at the top of the Block, and removed using the '-' button at the bottom of the Instruction to remove."
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-1a.png",
-      "imgAlt":"Script Edition"
-    },
-    {
-      "type": "text",
-      "content": "<b>Expression Evaluation :</b> A Basic Instruction that executes the JavaScript expression, and eventually stores the result in a LocalVariable"
+      "imgAlt":"Script Edition",
+      "caption":"<b>Block '{...}' :</b> A Block Instruction is a simple list of Instructions. New Instructions can be added using the '+' button at the top of the Block, and removed using the '-' button at the bottom of the Instruction to remove."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-1b.png",
-      "imgAlt":"Script Edition"
+      "imgAlt":"Script Edition",
+      "caption":"<b>Expression Evaluation :</b> A Basic Instruction that executes the JavaScript expression, and eventually stores the result in a LocalVariable"
     },
     {
       "type": "h2",

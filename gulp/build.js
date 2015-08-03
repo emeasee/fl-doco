@@ -86,6 +86,12 @@ module.exports = function(options) {
     ])
       .pipe(gulp.dest(options.dist + '/galleria'));
   });
+  
+  gulp.task('zip', function () {
+    return gulp.src('dist/*')
+    	.pipe($.zip('latest.zip'))
+    	.pipe(dest(options.src));
+  });
 
   gulp.task('clean', function (done) {
     $.del([options.dist + '/', options.tmp + '/'], done);
