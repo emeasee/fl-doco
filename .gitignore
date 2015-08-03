@@ -6,3 +6,4 @@ dist/
 .idea/
 .codenvy/
 doco-images/
+.gitconfig
