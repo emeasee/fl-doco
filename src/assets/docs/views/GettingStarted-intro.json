@@ -1,0 +1,40 @@
+{
+  "title": "Introduction to FieldLogs",
+  "id": "fieldlogs-intro",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "What is a FieldLogs?"
+    },
+    {
+      "type": "text",
+      "content": "FieldLogs is a state fo the art Cloud Platform allowing Enterprise Level processes to be executed on the Field with all evidenciary information recorded seemlessly."
+    },
+    {
+      "type": "slideshow",
+      "images": [
+        {
+          "src":"assets/images/doco-images/slide_getstart_1.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_2.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_3.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_4.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_5.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_6.jpg"
+        },
+        {
+          "src":"assets/images/doco-images/slide_getstart_7.jpg"
+        }
+      ]
+    }
+  ]
+}

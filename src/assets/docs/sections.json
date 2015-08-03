@@ -1,15 +1,5 @@
 [
   {
-    "header": "FieldLogs",
-    "sections": [
-      {
-        "name": "Getting Started",
-        "type": "link",
-        "id": "GettingStarted-intro"
-      }
-    ]
-  },
-  {
     "header": "1. Templates",
     "sections": [
       {

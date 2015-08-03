@@ -3,6 +3,7 @@
 html {
   font-family: 'Roboto', serif;
   position: relative;
+  background: black;
 }
 
 body{
@@ -171,6 +172,37 @@ md-divider{
   margin: 0 auto;
   text-align: center;
   display: block;
+}
+
+.galleria{
+  max-width: 1300px;
+  height: 600px;
+
+  .galleria-theme-classic {
+    background:white;
+  }
+
+  .galleria-counter {
+    color:black;
+  }
+}
+
+.galleria-thumbnails-container{
+  .galleria-thumbnails{
+    margin:0 auto;
+
+    .galleria-image{
+      background: none;
+      border: none;
+      color: #4A4A4A;
+      text-align: center;
+      padding-top: 10px;
+
+      &.active{
+
+      }
+    }
+  }
 }
 
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject

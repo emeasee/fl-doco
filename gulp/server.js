@@ -32,7 +32,9 @@ module.exports = function(options) {
     browserSync.instance = browserSync.init({
       startPath: '/',
       server: server,
-      browser: browser
+      scriptPath: function (path) {
+    		return path;
+		}
     });
   }
 

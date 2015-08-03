@@ -101,6 +101,9 @@
           "text":"<b>Lifecycles</b> facilitate collaborative template edition."
         },
         {
+          "text":"<b>Security Exceptions</b> define specific access for a user to a securable object where otherwise it would be denied. "
+        },
+        {
           "text":"<b>Everything</b> refers to everything above."
         }
       ]
@@ -153,7 +156,7 @@
     },
     {
       "type": "text",
-      "content":"Some access rights can give a user to several access rights at once. The access rights list below shows each access right along with the set of additional access rights that will be granted."
+      "content":"Some access rights can grant several access rights at once. The access rights list below shows each access right along with the set of additional access rights that will be granted."
     },
     {
       "type": "bullet",
@@ -319,6 +322,10 @@
       "img":"assets/images/doco-images/img_2-3-4-6.png",
       "imgAlt":"Image Alt",
       "caption": "An assignee will also have the ability to request access to the resource from the assignor. This can achieved by clicking on the fix button in the task inbox section. This will notify the assignor that the assignee does not have access."
+    },
+    {
+      "type": "warn",
+      "content": "A Template or Job much be shared or public, otherwise access will continue to be denied even with the security exception."
     },
     {
       "type": "h2",

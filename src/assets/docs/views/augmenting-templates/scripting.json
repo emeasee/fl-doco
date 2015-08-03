@@ -27,13 +27,13 @@
     },
     {
       "type": "text",
-      "content": "A script is defined as a list of Instructions to execute when a specific event occured for a step."
+      "content": "A script is defined as a list of Instructions to execute when a specific event occurred for a step."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-2a.png",
       "imgAlt":"Script Edition",
-      "caption": "Start by adding a new Script, and giving it a name for furture reference."
+      "caption": "Start by adding a new Script, and giving it a name for future reference."
     },
     {
       "type": "image",
