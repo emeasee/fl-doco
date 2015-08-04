@@ -40,7 +40,7 @@ module.exports = function(options) {
     return gulp.src(options.tmp + '/serve/*.html')
       .pipe($.inject(partialsInjectFile, partialsInjectOptions))
       .pipe(assets = $.useref.assets())
-      .pipe($.rev())
+      //.pipe($.rev())
       .pipe(jsFilter)
       .pipe($.ngAnnotate())
       .pipe($.uglify({ preserveComments: $.uglifySaveLicense })).on('error', options.errorHandler('Uglify'))
@@ -50,7 +50,7 @@ module.exports = function(options) {
       .pipe(cssFilter.restore())
       .pipe(assets.restore())
       .pipe($.useref())
-      .pipe($.revReplace())
+      //.pipe($.revReplace())
       .pipe(htmlFilter)
       .pipe($.minifyHtml({
         empty: true,
