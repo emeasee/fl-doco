@@ -20,6 +20,11 @@
       "type": "h2",
       "content": "1.2.4.2. Creating Tables in the Editor"
     },
+        {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-2-4-2.png",
+      "imgAlt":"Image Alt"
+    },
     {
       "type": "numbers",
       "points": [

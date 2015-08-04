@@ -148,24 +148,16 @@
       "content": "These Instructions allows manipulation of the current values of template steps."
     },
     {
-      "type": "text",
-      "content": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the template and stores it in a LocalVariable"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-4a.png",
       "imgAlt":"Script Edition",
-      "caption": ""
-    },
-    {
-      "type": "text",
-      "content": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the template"
+      "caption": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the template and stores it in a LocalVariable"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-4b.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the template"
     },
     {
       "type": "warn",
@@ -181,38 +173,26 @@
       "content": "These Instructions allows manipulation of the current values of tables in template steps."
     },
     {
-      "type": "text",
-      "content": "<b>Add New Row in Table :</b> Adds a new Row at the end of the selected Table, and eventually stores its rowIndex in the Local Variable"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5a.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Add New Row in Table :</b> Adds a new Row at the end of the selected Table, and eventually stores its rowIndex in the Local Variable"
     },
     {
       "type": "warn",
       "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
     },
     {
-      "type": "text",
-      "content": "<b>Get Value of Cell of Table :</b> Retrieves the current value of the cell at the selected Row in the selected Column of the selected Table"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5b.png",
       "imgAlt":"Script Edition",
-      "caption": ""
-    },
-    {
-      "type": "text",
-      "content": "<b>Set Value in Cell of Table :</b> Executes the JavaScript expression and sets the result as the current value of the cell at the selected Row in the selected Column of the selected Table"
+      "caption": "<b>Get Value of Cell of Table :</b> Retrieves the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-5c.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Set Value in Cell of Table :</b> Executes the JavaScript expression and sets the result as the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
     {
       "type": "warn",
@@ -228,14 +208,10 @@
       "content": "These Instructions allows to perform HTTP/HTTPS calls to external server either to retrieve values for use in the Template/Script or to push values to an external server."
     },
     {
-      "type": "text",
-      "content": "<b>Get External Call Value :</b> Perform the call specified by the given URL and stores the server response in the Local Variable"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-6a.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Get External Call Value :</b> Perform the call specified by the given URL and stores the server response in the Local Variable"
     },
     {
       "type": "warn",
@@ -246,14 +222,10 @@
       "content": "This Instruction can not be used in <a href='#/section/augmenting-templates/conditions'>'Condition'</a> definition, only in Scripts."
     },
     {
-      "type": "text",
-      "content": "<b>Post Value in External Call:</b> Executes the JavaScript expression and sets the result as the payload of an HTTP request posted to the given URL"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-6b.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Post Value in External Call:</b> Executes the JavaScript expression and sets the result as the payload of an HTTP request posted to the given URL"
     },
     {
       "type": "info",
@@ -269,14 +241,10 @@
       "content": "1.3.8.3.7. Identity Instructions: "
     },
     {
-      "type": "text",
-      "content": "<b>Get Value of an Identity Property :</b> Retrieves the value of the selected Property of the selected Identity in the current user profile, and stores it in the Local Variable"
-    },
-    {
       "type": "image",
       "img":"assets/images/doco-images/img_1-3-8-3-7a.png",
       "imgAlt":"Script Edition",
-      "caption": ""
+      "caption": "<b>Get Value of an Identity Property :</b> Retrieves the value of the selected Property of the selected Identity in the current user profile, and stores it in the Local Variable"
     }
   ]
 }

@@ -21,6 +21,11 @@
       "content": "1.2.1.2. Creating Labels in the Editor"
     },
     {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-2-1-2.png",
+      "imgAlt":"Image Alt"
+    },
+    {
       "type": "numbers",
       "points": [
         {
@@ -45,13 +50,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-1-2.png",
       "imgAlt":"Labels on iOS",
-      "caption": "A <i></i> Label was created to separate the different phases of a surgical procedures SOP. It allows to visually create a separator between the different section of this template."
+      "caption": "<b>Labels display the web</b><br/>A <i></i> Label was created to separate the different phases of a diagnostics procedure. It allows to visually create a separator between the different section of this template."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-1-3.png",
       "imgAlt":"Labels on iOS 2",
-      "caption": "Under the same template, another <i></i> Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
+      "caption": "<b>Labels display on mobile devices</b><br/> For a different template created to separate the different phases of a surgical procedures SOP, another <i></i> Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
     },
     {
       "type": "info",

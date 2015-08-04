@@ -20,6 +20,11 @@
       "type": "h2",
       "content": "1.2.5.2. Creating Loops in the Editor"
     },
+        {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-2-5-2.png",
+      "imgAlt":"Image Alt"
+    },
     {
       "type": "numbers",
       "points": [
