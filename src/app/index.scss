@@ -1,5 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic|Material+Icons);
 
+@font-face {
+  font-family: 'fieldlogs';
+  src:url('../fonts/fieldlogs.eot?-j294g3');
+  src:url('../fonts/fieldlogs.eot?#iefix-j294g3') format('embedded-opentype'),
+    url('../fonts/fieldlogs.woff?-j294g3') format('woff'),
+    url('../fonts/fieldlogs.ttf?-j294g3') format('truetype'),
+    url('../fonts/fieldlogs.svg?-j294g3#fieldlogs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fl-"], [class*=" fl-"] {
+  font-family: 'fieldlogs';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
   font-family: 'Roboto', serif;
   position: relative;
@@ -203,6 +228,178 @@ md-divider{
       }
     }
   }
+}
+
+
+/* FIELDLOGS FONT v1.4 */
+
+.fl-camera:before {
+	content: "\e600";
+}
+.fl-cat_assets:before {
+	content: "\e601";
+}
+.fl-cat_audit:before {
+	content: "\e602";
+}
+.fl-cat_customer:before {
+	content: "\e603";
+}
+.fl-cat_delivery:before {
+	content: "\e604";
+}
+.fl-cat_evidence:before {
+	content: "\e605";
+}
+.fl-cat_explore:before {
+	content: "\e606";
+}
+.fl-cat_hazard:before {
+	content: "\e607";
+}
+.fl-cat_hse:before {
+	content: "\e608";
+}
+.fl-cat_installation:before {
+	content: "\e609";
+}
+.fl-cat_internal:before {
+	content: "\e60a";
+}
+.fl-cat_itinerary:before {
+	content: "\e60b";
+}
+.fl-cat_main:before {
+	content: "\e60c";
+}
+.fl-cat_measure:before {
+	content: "\e60d";
+}
+.fl-cat_planning:before {
+	content: "\e60e";
+}
+.fl-cat_progress:before {
+	content: "\e60f";
+}
+.fl-cat_recon:before {
+	content: "\e610";
+}
+.fl-cat_remote:before {
+	content: "\e611";
+}
+.fl-cat_repair:before {
+	content: "\e612";
+}
+.fl-cat_rig:before {
+	content: "\e613";
+}
+.fl-cat_road:before {
+	content: "\e614";
+}
+.fl-cat_survey:before {
+	content: "\e615";
+}
+.fl-cat_trai:before {
+	content: "\e616";
+}
+.fl-clip:before {
+	content: "\e617";
+}
+.fl-comment:before {
+	content: "\e618";
+}
+.fl-cover_job:before {
+	content: "\e619";
+}
+.fl-cover_task:before {
+	content: "\e61a";
+}
+.fl-cover_temp:before {
+	content: "\e61b";
+}
+.fl-mic:before {
+	content: "\e61c";
+}
+.fl-side_hidden:before {
+	content: "\e61d";
+}
+.fl-side_open:before {
+	content: "\e61e";
+}
+.fl-video:before {
+	content: "\e61f";
+}
+.fl-w_cloud:before {
+	content: "\e620";
+}
+.fl-w_night:before {
+	content: "\e621";
+}
+.fl-w_rain:before {
+	content: "\e622";
+}
+.fl-w_snow:before {
+	content: "\e623";
+}
+.fl-w_sun:before {
+	content: "\e624";
+}
+.fl-w_wind:before {
+	content: "\e625";
+}
+.fl-wf_boolean:before {
+	content: "\e626";
+}
+.fl-wf_branch:before {
+	content: "\e627";
+}
+.fl-wf_check:before {
+	content: "\e628";
+}
+.fl-wf_choice:before {
+	content: "\e629";
+}
+.fl-wf_draw:before {
+	content: "\e62a";
+}
+.fl-wf_end:before {
+	content: "\e62b";
+}
+.fl-wf_form:before {
+	content: "\e62c";
+}
+.fl-wf_free:before {
+	content: "\e62d";
+}
+.fl-wf_goto:before {
+	content: "\e62e";
+}
+.fl-wf_label:before {
+	content: "\e62f";
+}
+.fl-wf_loop:before {
+	content: "\e630";
+}
+.fl-wf_media:before {
+	content: "\e631";
+}
+.fl-wf_multi:before {
+	content: "\e632";
+}
+.fl-wf_num:before {
+	content: "\e633";
+}
+.fl-wf_sig:before {
+	content: "\e634";
+}
+.fl-wf_step:before {
+	content: "\e635";
+}
+.fl-wf_table:before {
+	content: "\e636";
+}
+.fl-wf_time:before {
+	content: "\e637";
 }
 
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject

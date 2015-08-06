@@ -19,7 +19,7 @@
     {
       "type": "h2",
       "content": "1.2.1.2. Creating Labels in the Editor"
-    },
+    },    
     {
       "type": "img",
       "img":"assets/images/doco-images/img_1-2-1-2.png",
@@ -29,7 +29,7 @@
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Label Step icon: <i></i>"
+          "text":"Select the Label Step icon: <i style='color:orange;' class='fl-wf_label'></i>"
         },
         {
           "text":"Choose where you want to put the Label Step in the orange bar below"
@@ -38,7 +38,7 @@
           "text":"Add Label text to the input field"
         },
         {
-          "text":"Validate the Step by clicking the green tick: <i></i>"
+          "text":"Validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
