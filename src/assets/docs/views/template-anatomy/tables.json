@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A <i></i> Table helps template designers create a table formatted input element containing columns of different data types, giving a traditional spreadsheet structure to data. Each row of the Table is a new input iteration over the specified data types. They are especially useful to enter a large volume of information in a structured way, quickly."
+      "content": "A <i style='color:orange;' class='fl-wf_table'></i> Table helps template designers create a table formatted input element containing columns of different data types, giving a traditional spreadsheet structure to data. Each row of the Table is a new input iteration over the specified data types. They are especially useful to enter a large volume of information in a structured way, quickly."
     },
     {
       "type": "h2",
@@ -29,7 +29,7 @@
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Table Step icon: <i></i>"
+          "text":"Select the Table Step icon: <i style='color:orange;' class='fl-wf_table'></i>"
         },
         {
           "text":"Choose where you want to put the Table Step in the orange bar below"
@@ -41,7 +41,7 @@
           "text":"Add different <a href='#/section/template-anatomy/input-elements'>Input elements</a> into the Table Step"
         },
         {
-          "text":"Validate the Step by clicking the green tick: <i></i>"
+          "text":"Validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -52,12 +52,18 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-4.png",
-      "imgAlt":"Tables on iOS",
-      "caption": "Caption"
+      "imgAlt":"Tables on the web",
+      "caption": "<b>Tables on the web</b><br/>This template uses a Table to facilitate rapid input of gauge readings, visually presenting it in a way that gives a global overview and easily allowing the addition and editing of values on new and existing rows."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-4-1.png",
+      "imgAlt":"Tables on mobile devices",
+      "caption": "<b>Tables on mobile devices</b><br/>"
     },
     {
       "type": "info",
-      "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
+      "content": "Tapping the fullscreen icon (when active) to the right of the table, opens the table in a larger view showing more columns and rows."
     }
   ]
 }

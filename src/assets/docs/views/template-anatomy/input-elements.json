@@ -22,17 +22,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.2. <i></i> Free Input"
+      "content": "1.2.6.2. Free Input <i class='fl-wf_free'></i>"
     },
     {
       "type": "text",
-      "content": "Free Input inputs <i></i> are ideal to collect user information via text-fields in your workflows. There are cases when information captured cannot be anticipated and some flexibility is required in term of the format of what is collected, whether it is raw text and number."
+      "content": "Free Input inputs are ideal to collect user information via text-fields in your workflows. There are cases when information captured cannot be anticipated and some flexibility is required in term of the format of what is collected, whether it is raw text and number."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Free Input icon: <i></i>"
+          "text":"Select the Free Input icon: <i class='fl-wf_free'></i>"
         },
         {
           "text":"Choose where you want to put the Free Input in the orange bar below"
@@ -41,7 +41,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -57,17 +57,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.3. <i></i> Yes/No/NA Input"
+      "content": "1.2.6.3. Yes/No/NA Input <i class='fl-wf_boolean'></i>"
     },
     {
       "type": "text",
-      "content": "This step <i></i> simple lets the user running a workflow answer Yes or No to a question scripted in your workflow."
+      "content": "This step simple lets the user running a workflow answer Yes or No to a question scripted in your workflow."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Yes/No/NA Input icon: <i></i>"
+          "text":"Select the Yes/No/NA Input icon: <i class='fl-wf_boolean'></i>"
         },
         {
           "text":"Choose where you want to put the Yes/No/NA Input in the orange bar below"
@@ -76,7 +76,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -92,17 +92,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.4. <i></i> Multi-choice Input"
+      "content": "1.2.6.4. Multi-choice Input <i class='fl-wf_choice'></i>"
     },
     {
       "type": "text",
-      "content": "Much like a drop down list, the Multi-choice input <i></i> presents a list of predefined values to facilitate the collection of data. Only one value can be selected from a Multi choice input."
+      "content": "Much like a drop down list, the Multi-choice input presents a list of predefined values to facilitate the collection of data. Only one value can be selected from a Multi choice input."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Multi-choice Input icon: <i></i>"
+          "text":"Select the Multi-choice Input icon: <i class='fl-wf_choice'></i>"
         },
         {
           "text":"Choose where you want to put the Multi-choice Input in the orange bar below"
@@ -111,10 +111,10 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Add choices that the user can select when running the Template. The <i></i> plus icon adds a new answer."
+          "text":"Add choices that the user can select when running the Template. The <i class='fa fa-plus'></i> plus icon adds a new answer."
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -130,17 +130,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.5. <i></i> Multi-check Input"
+      "content": "1.2.6.5. Multi-check Input <i class='fl-wf_multi'></i>"
     },
     {
       "type": "text",
-      "content": "A <i></i> Multi-check input is similar to a Multi-choice input except that the user can select multiple answers from the list."
+      "content": "A Multi-check input is similar to a Multi-choice input except that the user can select multiple answers from the list."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Multi-check Input icon: <i></i>"
+          "text":"Select the Multi-check Input icon: <i class='fl-wf_multi'></i>"
         },
         {
           "text":"Choose where you want to put the Multi-check Input in the orange bar below"
@@ -149,10 +149,10 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Add choices that the user can select when running the Template. The <i></i> plus icon adds a new answer."
+          "text":"Add choices that the user can select when running the Template. The <i class='fa fa-plus'></i> plus icon adds a new answer."
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -180,17 +180,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.6. <i></i> Check Input"
+      "content": "1.2.6.6. Check Input <i class='fl-wf_check'></i>"
     },
     {
       "type": "text",
-      "content": "A <i></i> Check input is the best way for users to efficiently acknowledge a task was accomplished."
+      "content": "A Check input is the best way for users to efficiently acknowledge a task was accomplished."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the check Input icon: <i></i>"
+          "text":"Select the check Input icon: <i class='fl-wf_check'></i>"
         },
         {
           "text":"Choose where you want to put the check Input in the orange bar below"
@@ -199,7 +199,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -215,17 +215,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.7. <i></i> Date/Time Input"
+      "content": "1.2.6.7. Date/Time Input <i class='fl-wf_time'></i>"
     },
     {
       "type": "text",
-      "content": "Your templates may required for users to enter a date or time component, such as the time an incident occurred in the past or when a future maintenance is required. All tasks acted upon in a workflow are time stamped automatically. A <i></i> Date/Time input is to capture dates and/or time that are outside of the context of a given workflow."
+      "content": "Your templates may required for users to enter a date or time component, such as the time an incident occurred in the past or when a future maintenance is required. All tasks acted upon in a workflow are time stamped automatically. A Date/Time input is to capture dates and/or time that are outside of the context of a given workflow."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Date/Time Input icon: <i></i>"
+          "text":"Select the Date/Time Input icon: <i class='fl-wf_time'></i>"
         },
         {
           "text":"Choose where you want to put the Date/Time Input in the orange bar below"
@@ -237,7 +237,7 @@
           "text":"Select a format for you input"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -265,17 +265,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.8. <i></i> Numeric Input"
+      "content": "1.2.6.8. Numeric Input <i class='fl-wf_num'></i>"
     },
     {
       "type": "text",
-      "content": "A <i></i> Numeric Input is a task that lets users only enter numbers. There might be cases when you would like to enforce a strict input policy with regards to input types. Numeric Inputs also let you precise (if relevant), the corresponding unit of measurement linked with the number you are looking to capture, for instance meters (m) for a distance. The unit will display on runtime to avoid confusion as to what data is expected."
+      "content": "A Numeric Input is a task that lets users only enter numbers. There might be cases when you would like to enforce a strict input policy with regards to input types. Numeric Inputs also let you precise (if relevant), the corresponding unit of measurement linked with the number you are looking to capture, for instance meters (m) for a distance. The unit will display on runtime to avoid confusion as to what data is expected."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Numeric Input icon: <i></i>"
+          "text":"Select the Numeric Input icon: <i class='fl-wf_num'></i>"
         },
         {
           "text":"Choose where you want to put the Numeric Input in the orange bar below"
@@ -284,7 +284,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -300,17 +300,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.9. <i></i> Drawing Input"
+      "content": "1.2.6.9. Drawing Input <i class='fl-wf_draw'></i>"
     },
     {
       "type": "text",
-      "content": "When attaching a picture to a step is not sufficient, you can actually draw on top of it or from a blank sheet. This is the <i></i> Drawing input, which lets you sketch using your finger directly on your device."
+      "content": "When attaching a picture to a step is not sufficient, you can actually draw on top of it or from a blank sheet. This is the Drawing input, which lets you sketch using your finger directly on your device."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Drawing Input icon: <i></i>"
+          "text":"Select the Drawing Input icon: <i class='fl-wf_draw'></i>"
         },
         {
           "text":"Choose where you want to put the Drawing Input in the orange bar below"
@@ -319,7 +319,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -347,17 +347,17 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.10. <i></i> Signature Input"
+      "content": "1.2.6.10. Signature Input <i class='fl-wf_sig'></i>"
     },
     {
       "type": "text",
-      "content": "A <i></i> Signature input collect ones signature, as instructed in the workflow. It allows to digitally confirm one acknowledges a task was carried out as planned."
+      "content": "A Signature input collect ones signature, as instructed in the workflow. It allows to digitally confirm one acknowledges a task was carried out as planned."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Signature Input icon: <i></i>"
+          "text":"Select the Signature Input icon: <i class='fl-wf_sig'></i>"
         },
         {
           "text":"Choose where you want to put the Signature Input in the orange bar below"
@@ -366,7 +366,7 @@
           "text":"Add title text to the input field"
         },
         {
-          "text":"Validate the Input element by clicking the green tick: <i></i>"
+          "text":"Validate the Input element by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },

@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A <i></i> Form helps template designers in grouping inputs that have a thematic connection. Forms are semi-active components as they do not directly collect data from users. Like <a href='#/section/template-anatomy/tasks'>Tasks</a>, they help organize the data collection strategy. They are elements that allow the display of input fields in a compact manner. It is especially useful for rapid input of data."
+      "content": "A <i style='color:orange;' class='fl-wf_form'></i> Form helps template designers in grouping inputs that have a thematic connection. Forms are semi-active components as they do not directly collect data from users. Like <a href='#/section/template-anatomy/tasks'>Tasks</a>, they help organize the data collection strategy. They are elements that allow the display of input fields in a compact manner. It is especially useful for rapid input of data."
     },
     {
       "type": "h2",
@@ -29,7 +29,7 @@
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Form Step icon: <i></i>"
+          "text":"Select the Form Step icon: <i style='color:orange;' class='fl-wf_form'></i>"
         },
         {
           "text":"Choose where you want to put the Form Step in the orange bar below"
@@ -41,7 +41,7 @@
           "text":"Add different <a href='#/section/template-anatomy/input-elements'>Input elements</a> into the Form Step"
         },
         {
-          "text":"Validate the Step by clicking the green tick: <i></i>"
+          "text":"Validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -52,8 +52,14 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-3.png",
-      "imgAlt":"Forms on iOS",
-      "caption": "This template uses a Form <i></i> to thematically group the instructions. Here, they have been used to "
+      "imgAlt":"Forms on the web",
+      "caption": "<b>Form display the web</b><br/>This template uses a Form <i></i> to thematically group the instructions. Here, they have been used to provide a small sign off form on a template needing final verification. Note the key characteristic of the layout of forms that provide a more compact view."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-3-1.png",
+      "imgAlt":"Forms on mobile devices",
+      "caption": "<b>Form display the web</b><br/>"
     },
     {
       "type": "info",

@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A Label is not an active component of a workflow, in the sense that users do no interact with it. It is used to create headers to a workflow section or to synthesize a question asked to users in order not to repeat unnecessary information. On the Template a Label comprises of a chunk of text that will be displayed as is when users run the template."
+      "content": "A <i style='color:orange;' class='fl-wf_label'></i> Label is not an active component of a workflow, in the sense that users do no interact with it. It is used to create headers to a workflow section or to synthesize a question asked to users in order not to repeat unnecessary information. On the Template a Label comprises of a chunk of text that will be displayed as is when users run the template."
     },
     {
       "type": "h2",
@@ -49,14 +49,14 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-1-2.png",
-      "imgAlt":"Labels on iOS",
-      "caption": "<b>Labels display the web</b><br/>A <i></i> Label was created to separate the different phases of a diagnostics procedure. It allows to visually create a separator between the different section of this template."
+      "imgAlt":"Labels on web",
+      "caption": "<b>Labels display the web</b><br/>A Label was created to separate the different phases of a diagnostics procedure. It allows to visually create a separator between the different section of this template."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-1-3.png",
-      "imgAlt":"Labels on iOS 2",
-      "caption": "<b>Labels display on mobile devices</b><br/> For a different template created to separate the different phases of a surgical procedures SOP, another <i></i> Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
+      "imgAlt":"Labels on iOS",
+      "caption": "<b>Labels display on mobile devices</b><br/> For a different template created to separate the different phases of a surgical procedures SOP, another Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the template easier to read and to act upon."
     },
     {
       "type": "info",

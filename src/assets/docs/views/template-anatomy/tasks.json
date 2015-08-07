@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A <i></i> Task helps template designers in grouping subsequent actions that have a logical connection. Tasks are semi-active components as they do not directly collect data from users. They help organize the data collection strategy. They are elements that are collapsible, helping users navigating through their workflow. It is especially useful for use with reduced screen sizes."
+      "content": "A <i style='color:orange;' class='fl-wf_step'></i> Task helps template designers in grouping subsequent actions that have a logical connection. Tasks are semi-active components as they do not directly collect data from users. They help organize the data collection strategy. They are elements that are collapsible, helping users navigating through their workflow. It is especially useful for use with reduced screen sizes."
     },
     {
       "type": "h2",
@@ -29,7 +29,7 @@
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Task Step icon: <i></i>"
+          "text":"Select the Task Step icon: <i style='color:orange;' class='fl-wf_step'></i>"
         },
         {
           "text":"Choose where you want to put the Task Step in the orange bar below"
@@ -38,7 +38,7 @@
           "text":"Add Task text to the input field"
         },
         {
-          "text":"Validate the Step by clicking the green tick: <i></i>"
+          "text":"Validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -49,12 +49,18 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-2.png",
-      "imgAlt":"Tasks on iOS",
-      "caption": "This template uses a Task <i></i> to logically group the following three instructions. The red badge on the right suggests the Task comprises of three instructions. Below the badge is an arrow that suggests the whole task can be collapsed."
+      "imgAlt":"Tasks on web",
+      "caption": "<b>Tasks display the web</b><br/>This template uses a Task to logically group the following three instructions. At the bottom a button exists that marks the entire task as done, validating all inputs contained within it. This will collapse the Task automatically." 
     },
     {
       "type": "info",
       "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-2-1.png",
+      "imgAlt":"Tasks on web",
+      "caption": "<b>Tasks display the mobile devices</b><br/>The display of Tasks on the mobile devices is much like the web. You may also notice additionally a small red number above the collapse button that indicates the number of required inputs of a given task." 
     }
   ]
 }

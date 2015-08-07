@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "Loops <i></i> are a way to iterate multiple times through a set of questions or tasks. Loops can “embed” any of the step types exiting in the system, marking it highly powerful."
+      "content": "Loops <i style='color:orange;' class='fl-wf_loop'></i> are a way to iterate multiple times through a set of questions or tasks. Loops can “embed” any of the step types exiting in the system, marking it highly powerful."
     },
     {
       "type": "h2",
@@ -29,7 +29,7 @@
       "type": "numbers",
       "points": [
         {
-          "text":"Select the Loop Step icon: <i></i>"
+          "text":"Select the Loop Step icon: <i style='color:orange;' class='fl-wf_loop'></i>"
         },
         {
           "text":"Choose where you want to put the Loop Step in the orange bar below"
@@ -44,7 +44,7 @@
           "text":"Add different <a href='#/section/template-anatomy/input-elements'>Input elements</a> into the Loop Step to loop over"
         },
         {
-          "text":"Validate the Step by clicking the green tick: <i></i>"
+          "text":"Validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
         }
       ]
     },
@@ -55,18 +55,18 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-5.png",
-      "imgAlt":"Loops on iOS",
-      "caption": "Under (2.2.1) is a loop to collect two pieces of information, a location and cable run. In this example, users where required to iterate through various on-site locations."
+      "imgAlt":"Loops on the web",
+      "caption": "<b>Loops on the web</b><br/>Step 3 is a loop to collect two pieces of information, a location and cable run. In this example, users where required to iterate through various on-site locations. Once done with the first location, a user would enter values for the next location by tapping on “Create Next Iteration”. Loops <i></i> can have a fixed number of iterations or can be infinite."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-5-1.png",
       "imgAlt":"Loops on iOS",
-      "caption": "Once done with the first location, a user would enter values for the next location by tapping on “Create Next Iteration” (previous screen). Loops <i></i> can have a fixed number of iterations or can be infinite. The current number of iterations is displayed in a badge next to the related question or task. In this example, there are two iterations."
+      "caption": "<b>Loops on mobile devices</b><br/>The UI on the mobile devices is very similar to that of the web. In addition, however, the current number of iterations is displayed in a badge next to each input inside the loop. "
     },
     {
       "type": "info",
-      "content": "You can easily fold and unfold any structural element containing other elements. Simple tap on the arrow on the right of the element cell in the table."
+      "content": "For infinite loops, marking a loop as done will stop the loop from continuing to add iterations after answering the inputs in each current iteration."
     }
   ]
 }
