@@ -1,16 +1,16 @@
 {
   "title": "Input Elements",
   "id": "input-elements",
-  "section": "1.2. Template Anatomy",
+  "section": "1.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.6. Input Elements"
+      "content": "1.4.6. Input Elements"
     },
     {
       "type": "h2",
-      "content": "1.2.6.1. What are Input Elements?"
+      "content": "1.4.6.1. What are Input Elements?"
     },
     {
       "type": "text",
@@ -29,37 +29,37 @@
       "type":"bullet",
       "points": [
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#free'>1.2.6.2. Free Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#free'>1.4.6.2. Free Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#yesno'>1.2.6.3. Yes/No/NA Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#yesno'>1.4.6.3. Yes/No/NA Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#multichoice'>1.2.6.4. Multi-choice Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#multichoice'>1.4.6.4. Multi-choice Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#multicheck'>1.2.6.5. Multi-check Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#multicheck'>1.4.6.5. Multi-check Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#check'>1.2.6.6. Check Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#check'>1.4.6.6. Check Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#datetime'>1.2.6.7. Date/Time Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#datetime'>1.4.6.7. Date/Time Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#numeric'>1.2.6.8. Numeric Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#numeric'>1.4.6.8. Numeric Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#drawing'>1.2.6.9. Drawing Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#drawing'>1.4.6.9. Drawing Input</a>"
         },
         {
-          "text":"<a href='#/section/template-anatomy/input-elements#signature'>1.2.6.10. Signature Input</a>"
+          "text":"<a href='#/section/template-anatomy/input-elements#signature'>1.4.6.10. Signature Input</a>"
         }
       ]
     },
     {
       "type": "h1",
-      "content": "1.2.6.2. Free Input <i class='fl-wf_free'></i>",
+      "content": "1.4.6.2. Free Input <i class='fl-wf_free'></i>",
       "id":"free"
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.2.1. Usage examples"
+      "content": "1.4.6.2.1. Usage examples"
     },
         {
       "type": "image",
@@ -101,7 +101,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.3. Yes/No/NA Input <i class='fl-wf_boolean'></i>",
+      "content": "1.4.6.3. Yes/No/NA Input <i class='fl-wf_boolean'></i>",
       "id":"yesno"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.3.1. Usage examples"
+      "content": "1.4.6.3.1. Usage examples"
     },
     {
       "type": "image",
@@ -143,7 +143,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.4. Multi-choice Input <i class='fl-wf_choice'></i>",
+      "content": "1.4.6.4. Multi-choice Input <i class='fl-wf_choice'></i>",
       "id":"multichoice"
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.4.1. Usage examples"
+      "content": "1.4.6.4.1. Usage examples"
     },
     {
       "type": "image",
@@ -188,7 +188,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.5. Multi-check Input <i class='fl-wf_multi'></i>",
+      "content": "1.4.6.5. Multi-check Input <i class='fl-wf_multi'></i>",
       "id":"multicheck"
     },
     {
@@ -217,7 +217,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.5.1. Usage examples"
+      "content": "1.4.6.5.1. Usage examples"
     },
     {
       "type": "image",
@@ -245,7 +245,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.6. Check Input <i class='fl-wf_check'></i>",
+      "content": "1.4.6.6. Check Input <i class='fl-wf_check'></i>",
       "id":"check"
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.6.1. Usage examples"
+      "content": "1.4.6.6.1. Usage examples"
     },
     {
       "type": "image",
@@ -287,7 +287,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.7. Date/Time Input <i class='fl-wf_time'></i>",
+      "content": "1.4.6.7. Date/Time Input <i class='fl-wf_time'></i>",
       "id":"datetime"
     },
     {
@@ -316,7 +316,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.7.1. Usage examples"
+      "content": "1.4.6.7.1. Usage examples"
     },
     {
       "type": "image",
@@ -344,7 +344,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.8. Numeric Input <i class='fl-wf_num'></i>",
+      "content": "1.4.6.8. Numeric Input <i class='fl-wf_num'></i>",
       "id":"numeric"
     },
     {
@@ -370,7 +370,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.8.1. Usage examples"
+      "content": "1.4.6.8.1. Usage examples"
     },
     {
       "type": "image",
@@ -382,11 +382,11 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-8.png",
       "imgAlt":"Numeric input on iOS",
-      "caption": "<b>On mobile devices</b><br/>On (2.2.1.2) the input will require users to enter a number in meters."
+      "caption": "<b>On mobile devices</b><br/>On (2.2.1.4) the input will require users to enter a number in meters."
     },
     {
       "type": "h1",
-      "content": "1.2.6.9. Drawing Input <i class='fl-wf_draw'></i>",
+      "content": "1.4.6.9. Drawing Input <i class='fl-wf_draw'></i>",
       "id":"drawing"
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.9.1. Usage examples"
+      "content": "1.4.6.9.1. Usage examples"
     },
         {
       "type": "image",
@@ -440,7 +440,7 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.10. Signature Input <i class='fl-wf_sig'></i>",
+      "content": "1.4.6.10. Signature Input <i class='fl-wf_sig'></i>",
       "id":"signature"
     },
     {
@@ -470,7 +470,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.6.10.1. Usage examples"
+      "content": "1.4.6.10.1. Usage examples"
     },
     {
       "type": "image",

@@ -1,6 +1,11 @@
 {
-  "title": "Constructing a Template",
+  "title": "1.3. Constructing a Template",
   "id": "templates-construct",
   "intro": "",
-  "blocks": []
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.1. Constructing a Template"
+    }
+  ]
 }

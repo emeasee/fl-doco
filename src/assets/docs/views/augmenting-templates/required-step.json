@@ -1,16 +1,16 @@
 {
   "title": "Required Step",
   "id": "required-step",
-  "section": "1.3. Augmenting your Template",
+  "section": "1.5. Augmenting your Template",
   "intro": "Required steps <i></i> are helpful in introducing constraints into a template, and forcing users to answer a given question.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.3. Required Steps"
+      "content": "1.5.3. Required Steps"
     },
     {
       "type": "h2",
-      "content": "1.3.3.1. On the Web"
+      "content": "1.5.3.1. On the Web"
     },
     {
       "type": "text",
@@ -23,7 +23,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.3.2. Usage Examples"
+      "content": "1.5.3.2. Usage Examples"
     },
     {
       "type": "image",

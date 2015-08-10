@@ -1,16 +1,16 @@
 {
   "title": "Forms",
   "id": "forms",
-  "section": "1.2. Template Anatomy",
+  "section": "1.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.3. Forms"
+      "content": "1.4.3. Forms"
     },
     {
       "type": "h2",
-      "content": "1.2.3.1. What are Forms?"
+      "content": "1.4.3.1. What are Forms?"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.3.2. Creating Forms in the Editor"
+      "content": "1.4.3.2. Creating Forms in the Editor"
     },
         {
       "type": "img",
@@ -47,7 +47,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.3.3. Usage examples"
+      "content": "1.4.3.3. Usage examples"
     },
     {
       "type": "image",

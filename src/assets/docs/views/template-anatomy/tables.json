@@ -1,16 +1,16 @@
 {
   "title": "Tables",
   "id": "tables",
-  "section": "1.2. Template Anatomy",
+  "section": "1.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.4. Tables"
+      "content": "1.4.4. Tables"
     },
     {
       "type": "h2",
-      "content": "1.2.4.1. What are Tables?"
+      "content": "1.4.4.1. What are Tables?"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.4.2. Creating Tables in the Editor"
+      "content": "1.4.4.2. Creating Tables in the Editor"
     },
         {
       "type": "img",
@@ -47,7 +47,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.4.3. Usage examples"
+      "content": "1.4.4.3. Usage examples"
     },
     {
       "type": "image",

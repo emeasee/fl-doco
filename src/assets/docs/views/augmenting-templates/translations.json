@@ -1,16 +1,16 @@
 {
   "title": "Translating Templates",
   "id": "translations",
-  "section": "1.3. Augmenting your Template",
+  "section": "1.5. Augmenting your Template",
   "intro": "FieldLogs gives you the ability to create translations of your Templates right from the Template Editor screen. This is especially useful if you wish to share the same template across multiple individuals in different countries.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.7. Translating Templates"
+      "content": "1.5.7. Translating Templates"
     },
     {
       "type": "h2",
-      "content": "1.3.7.1. On the Web"
+      "content": "1.5.7.1. On the Web"
     },
     {
       "type": "text",
@@ -23,7 +23,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.7.2. Usage Examples"
+      "content": "1.5.7.2. Usage Examples"
     },
     {
       "type": "image",

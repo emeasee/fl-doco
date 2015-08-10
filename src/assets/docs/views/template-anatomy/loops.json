@@ -1,16 +1,16 @@
 {
   "title": "Loops",
   "id": "loops",
-  "section": "1.2. Template Anatomy",
+  "section": "1.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.5. Loops"
+      "content": "1.4.5. Loops"
     },
     {
       "type": "h2",
-      "content": "1.2.5.1. What are Loops?"
+      "content": "1.4.5.1. What are Loops?"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.5.2. Creating Loops in the Editor"
+      "content": "1.4.5.2. Creating Loops in the Editor"
     },
         {
       "type": "img",
@@ -50,7 +50,7 @@
     },
     {
       "type": "h2",
-      "content": "1.2.5.3. Usage examples"
+      "content": "1.4.5.3. Usage examples"
     },
     {
       "type": "image",
