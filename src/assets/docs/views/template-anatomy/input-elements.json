@@ -17,12 +17,50 @@
       "content": "Input elements are different types of data input specifically formatted to provide consistent input formats & enhance user experience when running Templates and acquiring data in the field. Here we will provide information about each type currently supported by FieldLogs."
     },
     {
+      "type":"img",
+      "img":"assets/images/doco-images/img_1-2-6-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
       "type": "info",
       "content": "To re-edit elements you have validated, simply double click them or right click and select 'Edit' from the contextual menu."
     },
     {
+      "type":"bullet",
+      "points": [
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#free'>1.2.6.2. Free Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#yesno'>1.2.6.3. Yes/No/NA Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#multichoice'>1.2.6.4. Multi-choice Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#multicheck'>1.2.6.5. Multi-check Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#check'>1.2.6.6. Check Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#datetime'>1.2.6.7. Date/Time Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#numeric'>1.2.6.8. Numeric Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#drawing'>1.2.6.9. Drawing Input</a>"
+        },
+        {
+          "text":"<a href='#/section/template-anatomy/input-elements#signature'>1.2.6.10. Signature Input</a>"
+        }
+      ]
+    },
+    {
       "type": "h1",
-      "content": "1.2.6.2. Free Input <i class='fl-wf_free'></i>"
+      "content": "1.2.6.2. Free Input <i class='fl-wf_free'></i>",
+      "id":"free"
     },
     {
       "type": "text",
@@ -49,15 +87,22 @@
       "type": "h2",
       "content": "1.2.6.2.1. Usage examples"
     },
+        {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-2-1.png",
+      "imgAlt":"Free input on web",
+      "caption": "<b>On the web</b><br/>Free Input inputs are here shown for a simple form to collect a car owners information after an accident. The inptus are normal text inputs. After input, the user must hit enter on the keyboard or validate the step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
+    },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-2.png",
       "imgAlt":"Free input on iOS",
-      "caption": "Three <i></i> Free Input inputs are highlighted here (2.4.5 to 2.4.7). In this example the user is required to enter the version of a protocol, a 'media' and a location. The answer provided by users will be collected as is."
+      "caption": "<b>On mobile devices</b><br/>Three <i></i> Free Input inputs are highlighted here (2.4.5 to 2.4.7). In this example the user is required to enter the version of a protocol, a 'media' and a location. The answer provided by users will be collected as is."
     },
     {
       "type": "h1",
-      "content": "1.2.6.3. Yes/No/NA Input <i class='fl-wf_boolean'></i>"
+      "content": "1.2.6.3. Yes/No/NA Input <i class='fl-wf_boolean'></i>",
+      "id":"yesno"
     },
     {
       "type": "text",
@@ -86,13 +131,20 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-3-0.png",
+      "imgAlt":"Yes/No/NA input on web",
+      "caption": "<b>On the web</b><br/>Here the user clicks from a choice of three buttons to answer the input. Clicking one instantly validates the step."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-3.png",
       "imgAlt":"Yes/No/NA input on iOS",
-      "caption": "3.11.5 has a <i></i> Yes/No/NA Step to which the user answer by tapping on the desired answer."
+      "caption": "<b>On mobile devices</b><br/>3.11.5 has a <i></i> Yes/No/NA Step to which the user answer by tapping on the desired answer."
     },
     {
       "type": "h1",
-      "content": "1.2.6.4. Multi-choice Input <i class='fl-wf_choice'></i>"
+      "content": "1.2.6.4. Multi-choice Input <i class='fl-wf_choice'></i>",
+      "id":"multichoice"
     },
     {
       "type": "text",
@@ -124,13 +176,20 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-4-0.png",
+      "imgAlt":"Multi-choice input on web",
+      "caption": "<b>On the web</b><br/>A multi-choice selector dropdown on the web limits the user from choosing only one answer in response. Selecting one automatically validates the step."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-4.png",
       "imgAlt":"Multi-choice input on iOS",
-      "caption": "A clear message denotes the users ability to tap and select from a list of choices."
+      "caption": "<b>On mobile devices</b><br/>A clear message denotes the users ability to tap and select from a list of choices."
     },
     {
       "type": "h1",
-      "content": "1.2.6.5. Multi-check Input <i class='fl-wf_multi'></i>"
+      "content": "1.2.6.5. Multi-check Input <i class='fl-wf_multi'></i>",
+      "id":"multicheck"
     },
     {
       "type": "text",
@@ -162,9 +221,15 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-5-0.png",
+      "imgAlt":"Multi-check input on web",
+      "caption": "<b>On the web</b><br/>A multi-check selector dropdown on the web allows the user to select multiple responses. Once selection is complete the user must validate the step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-5.png",
       "imgAlt":"Multi-check input on iOS",
-      "caption": "2.3.4 displays a <i></i> Multi-check input from a user perspective. The user would tap on the “Select answer(s)” field to bring up the possible answers."
+      "caption": "<b>On mobile devices</b><br/>2.3.4 displays a <i></i> Multi-check input from a user perspective. The user would tap on the “Select answer(s)” field to bring up the possible answers."
     },
     {
       "type": "image",
@@ -180,7 +245,8 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.6. Check Input <i class='fl-wf_check'></i>"
+      "content": "1.2.6.6. Check Input <i class='fl-wf_check'></i>",
+      "id":"check"
     },
     {
       "type": "text",
@@ -209,13 +275,20 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-6-0.png",
+      "imgAlt":"Check input on web",
+      "caption": "<b>On the web</b><br/>A Check step on the web consists of a clearly marked message in a button that toggles checked/un-checked when clicked. Clicking the Check toggle automatically validates the step."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-6.png",
       "imgAlt":"Check input on iOS",
-      "caption": "A clearly marked action message on the button lets user toggle the input as checked or un-checked"
+      "caption": "<b>On mobile devices</b><br/>Much like on the web, a clearly marked action message on the button lets user toggle the input as checked or un-checked"
     },
     {
       "type": "h1",
-      "content": "1.2.6.7. Date/Time Input <i class='fl-wf_time'></i>"
+      "content": "1.2.6.7. Date/Time Input <i class='fl-wf_time'></i>",
+      "id":"datetime"
     },
     {
       "type": "text",
@@ -247,25 +320,32 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-7-0.png",
+      "imgAlt":"Date/Time input on web",
+      "caption": "<b>On the web</b><br/>The user is able to select a pre-formatted date/time entry using the provided date/time popup. Once a date/time is selected the step is automatically validated."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7.png",
       "imgAlt":"Date/Time input on iOS",
-      "caption": "A clearly marked action message on the button lets the user enter a date/time"
+      "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter a date/time."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7-1.png",
       "imgAlt":"Date/Time input on iOS",
-      "caption": "The user is able to select a specific date or, optionally, simply select the current Date/Time by tapping 'Now' on the toolbar"
+      "caption": "The user is able to select a specific date or, optionally, simply select the current Date/Time by tapping 'Now' on the toolbar."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7-2.png",
       "imgAlt":"Date/Time input on iOS",
-      "caption": "The correctly formatted date/time is submitted"
+      "caption": "The correctly formatted date/time is submitted. Tapping on the answer will allow the user to change the date/time if it has been incorrectly entered."
     },
     {
       "type": "h1",
-      "content": "1.2.6.8. Numeric Input <i class='fl-wf_num'></i>"
+      "content": "1.2.6.8. Numeric Input <i class='fl-wf_num'></i>",
+      "id":"numeric"
     },
     {
       "type": "text",
@@ -294,13 +374,20 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-8-0.png",
+      "imgAlt":"Numeric input on web",
+      "caption": "<b>On the web</b><br/>Here the user is asked to enter a numeric value for Traction Pressure (6.1) in 'psi'. Any entered text that it not numeric will display in red and will not allow validation of the step."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-8.png",
       "imgAlt":"Numeric input on iOS",
-      "caption": "On (2.2.1.2) the input will require users to enter a number in meters."
+      "caption": "<b>On mobile devices</b><br/>On (2.2.1.2) the input will require users to enter a number in meters."
     },
     {
       "type": "h1",
-      "content": "1.2.6.9. Drawing Input <i class='fl-wf_draw'></i>"
+      "content": "1.2.6.9. Drawing Input <i class='fl-wf_draw'></i>",
+      "id":"drawing"
     },
     {
       "type": "text",
@@ -327,11 +414,17 @@
       "type": "h2",
       "content": "1.2.6.9.1. Usage examples"
     },
+        {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-9-0.png",
+      "imgAlt":"Drawing input on web",
+      "caption": "<b>On the web</b><br/>The action message on the button, when clicked, allows the user to upload a pre-created drawing from their computer."
+    },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-9.png",
       "imgAlt":"Drawing input on iOS",
-      "caption": "A clearly marked action message on the button lets the user enter the sketching screen"
+      "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter the sketching screen"
     },
     {
       "type": "image",
@@ -347,7 +440,8 @@
     },
     {
       "type": "h1",
-      "content": "1.2.6.10. Signature Input <i class='fl-wf_sig'></i>"
+      "content": "1.2.6.10. Signature Input <i class='fl-wf_sig'></i>",
+      "id":"signature"
     },
     {
       "type": "text",
@@ -380,9 +474,15 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-2-6-10-0.png",
+      "imgAlt":"Signature input on web",
+      "caption": "<b>On the web</b><br/>The action message on the button, when clicked, allows the user to upload a pre-created signature from their computer."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-10.png",
       "imgAlt":"Signature input on iOS",
-      "caption": "A clearly marked action message on the button lets the user enter the sketching screen"
+      "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter the sketching screen"
     },
     {
       "type": "image",
