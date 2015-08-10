@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.5. Defining Conditions"
+      "content": "1.3.6. Defining Conditions"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.5.1. Adding New Conditions"
+      "content": "1.3.6.1. Adding New Conditions"
     },
     {
       "type": "text",
@@ -30,7 +30,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.5.3. Usage Examples"
+      "content": "1.3.6.3. Usage Examples"
     },
     {
       "type": "text",

@@ -1,0 +1,21 @@
+{
+  "title": "Editor Side Panel Introduction",
+  "id": "sidepanel-intro",
+  "section": "1.3. Augmenting your Template",
+  "intro": "In this section we will provide a brief introduction to using the Template Editor's Side panels in order to augment you Template with various different features available in FieldLogs. ",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.1. Editor Side Panel Introduction"
+    },
+    {
+      "type": "text",
+      "content": "In the Template Editor section of the FieldLogs website, and once logged in with a Template selected from the Template list, you will see a button on the right of the toolbar enabling you to add a side panel to the Editor."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-0-1.png",
+      "imgAlt":"Add documentation button"
+    }
+  ]
+}

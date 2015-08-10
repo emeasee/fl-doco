@@ -6,11 +6,11 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.4. Forcing Step Attachment"
+      "content": "1.3.5. Forcing Step Attachment"
     },
     {
       "type": "h2",
-      "content": "1.3.4.1. On the Web"
+      "content": "1.3.5.1. On the Web"
     },
     {
       "type": "text",
@@ -32,7 +32,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.4.2. Usage Examples"
+      "content": "1.3.5.2. Usage Examples"
     },
     {
       "type": "image",

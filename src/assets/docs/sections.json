@@ -51,6 +51,10 @@
         "closed": true,
         "children": [
           {
+            "name": "Editor Side Panel Introduction",
+            "id": "sidepanel-intro"
+          },
+          {
             "name": "Attaching Documentation",
             "id": "attach-documentation"
           },

@@ -37,11 +37,11 @@
     },
     {
       "type": "text",
-      "content": "Once loaded you should see an empty Template Editor as can be seen below. Go ahead and click New to start making your first Template"
+      "content": "Below we have broken down the Template Editor into it's key segments & interface elements. The Template list on the left of the screen can be collapsed by tapping the <i class='fl-side_open'></i> icon."
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-0-2.png",
+      "img":"assets/images/doco-images/img_1-0-5.png",
       "imgAlt":"Template editor empty"
     }
   ]
