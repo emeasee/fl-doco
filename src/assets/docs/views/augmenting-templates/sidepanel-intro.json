@@ -2,7 +2,7 @@
   "title": "Editor Side Panel Introduction",
   "id": "sidepanel-intro",
   "section": "1.3. Augmenting your Template",
-  "intro": "In this section we will provide a brief introduction to using the Template Editor's Side panels in order to augment you Template with various different features available in FieldLogs. ",
+  "intro": "In this section we will provide a brief introduction to using the Template Editor's Side panels in order to augment you Template with various different features available in FieldLogs.",
   "blocks": [
     {
       "type": "h1",
@@ -15,6 +15,66 @@
     {
       "type": "img",
       "img":"assets/images/doco-images/img_1-3-0-1.png",
+      "imgAlt":"Add documentation button"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.1. Side Panel Sections"
+    },
+    {
+      "type": "text",
+      "content": "Below is a quick reference to understand the functions of the different side panels in relation to creating your Template. For each, click 'More Info' link to get more indepth information about each."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-3-0-3.png",
+      "imgAlt":"Add documentation button",
+      "caption":"Before detailing some of the different side panel sections, below we have some notes on the various interface icons and what they do: <br/><br/>The <i style='color:grey;' class='fa fa-times'></i> icon removes the panel from the Template Editor<br/><br/>The <i style='color:grey;' class='fa fa-arrows'></i> icon allows for toggling between different sizes of the individual side panels. This is dependant on which side panel section is being viewed.<br/><br/>The <i style='color:grey;' class='fa fa-th-list'></i> shows side panel section toggle buttons which have been truncated due to a lack of space."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<i class='fa fa-pencil'></i>: Edit Construct panel allows the detail editing of any contruct added to the Template definition. <a href='#/'>More Info</a><br/><br/>"
+        },
+        {
+          "text":"<i class='fl-cover_temp'></i>: Edit Template Info panel allows the editing of a Templates global information like its name, description or Share status. <a href='#/'>More Info</a><br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-play-circle'></i>: This panel allows the user to see how the Template will look and behave once it is being Run.<br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-question-circle'></i>: This allows the user to access the Help Documentation from inside the Template Editor, without needing to open a separate tab or window in their browser.<br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-paperclip'></i>: Documentation panel is where creators of a Template can optionally attach documentation to specific Template constructs to help provide background material or additional instructions. <a href='#/section/augmenting-templates/attach-documentation'>More Info</a><br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-filter'></i>: The Condition Editor allows creators to introduce decision logic into their Templates to simply the running of a Template and to collect data only when required following some conditional rules.<a href='#/section/augmenting-templates/conditions'>More Info</a><br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-code'></i>: The Script Editor allows for the creation of scripts inside a Template using a scripting execution engine aimed to create dynamic execution and link data to external sources.<a href='#/section/augmenting-templates/scripting'>More Info</a><br/><br/>"
+        },
+        {
+          "text":"<i class='fa fa-tags'></i>: The Tag Editor allows a creator of a Template to add additional meta-tags to contructs inside the Template.<a href='#/section/augmenting-templates/tags'>More Info</a><br/><br/>"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "content": "It is important to note that any changes made to constructs using the Edit Construct panel or the Edit Template panel need to be saved using the 'Save' button in the top left corner of screen in the toolbar (only appears when there are changes to be saved)."
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.2. Multiple Side Panels"
+    },
+    {
+      "type": "text",
+      "content": "The Template Editor follows an additive design pattern for side panels, meaning that it is possible to add multiple side panels (depending on the screen resolution and available real estate in the browser window)."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-3-0-2.png",
       "imgAlt":"Add documentation button"
     }
   ]

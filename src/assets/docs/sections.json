@@ -13,6 +13,11 @@
         "id": "editor-access"
       },
       {
+        "name": "Constructing a Template",
+        "type": "link",
+        "id": "templates-contruct"
+      },
+      {
         "name": "Template Anatomy",
         "type": "toggle",
         "id": "template-anatomy",
