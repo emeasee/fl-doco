@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'fieldlogs';
-  src:url('../fonts/fieldlogs.eot?-j294g3');
-  src:url('../fonts/fieldlogs.eot?#iefix-j294g3') format('embedded-opentype'),
+  src: url('../fonts/fieldlogs.eot?-j294g3');
+  src: url('../fonts/fieldlogs.eot?#iefix-j294g3') format('embedded-opentype'),
     url('../fonts/fieldlogs.woff?-j294g3') format('woff'),
     url('../fonts/fieldlogs.ttf?-j294g3') format('truetype'),
     url('../fonts/fieldlogs.svg?-j294g3#fieldlogs') format('svg');
@@ -11,18 +11,18 @@
   font-style: normal;
 }
 
-[class^="fl-"], [class*=" fl-"] {
+[class^="fl-"],
+[class*=" fl-"] {
   font-family: 'fieldlogs';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
+  // Better Font Rendering
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
 }
 
 html {

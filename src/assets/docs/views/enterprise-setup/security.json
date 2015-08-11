@@ -284,7 +284,8 @@
     },
     {
       "type": "h1",
-      "content": "2.3.4.8 Security Exceptions"
+      "content": "2.3.4.8 Security Exceptions",
+      "id": "exceptions"
     },
     {
       "type": "text",
