@@ -14,7 +14,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-0-1.png",
+      "img":"assets/images/doco-images/img_1-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-0-3.png",
+      "img":"assets/images/doco-images/img_1-5-0-3.png",
       "imgAlt":"Add documentation button",
       "caption":"Before detailing some of the different side panel sections, below we have some notes on the various interface icons and what they do: <br/><br/>The <i style='color:grey;' class='fa fa-times'></i> icon removes the panel from the Template Editor<br/><br/>The <i style='color:grey;' class='fa fa-arrows'></i> icon allows for toggling between different sizes of the individual side panels. This is dependant on which side panel section is being viewed.<br/><br/>The <i style='color:grey;' class='fa fa-th-list'></i> shows side panel section toggle buttons which have been truncated due to a lack of space."
     },
@@ -74,7 +74,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-0-2.png",
+      "img":"assets/images/doco-images/img_1-5-0-2.png",
       "imgAlt":"Add documentation button"
     }
   ]

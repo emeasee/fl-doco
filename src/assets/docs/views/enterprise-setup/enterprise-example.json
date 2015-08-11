@@ -32,7 +32,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-6-3.png",
       "imgAlt":"Image Alt",
-      "caption": "Changing an entities name (Group or Template DB) can be done in the panel on the right hand side of the screen. You can change the name & icon of Groups and name & availability (public / private) of Template DB's."
+      "caption": "Changing an elements name (Group or Template DB) can be done in the panel on the right hand side of the screen. You can change the name & icon of Groups and name & availability (public / private) of Template DB's."
     },
     {
       "type": "h2",

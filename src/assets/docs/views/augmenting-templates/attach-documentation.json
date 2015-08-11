@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-1-1.png",
+      "img":"assets/images/doco-images/img_1-5-1-1.png",
       "imgAlt":"Add documentation button"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-1-1-1.png",
+      "img":"assets/images/doco-images/img_1-5-1-1-1.png",
       "imgAlt":"Documentation window"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-1-1-2.png",
+      "img":"assets/images/doco-images/img_1-5-1-1-2.png",
       "imgAlt":"Documentation visual"
     },
     {
@@ -49,13 +49,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-1-2.png",
+      "img":"assets/images/doco-images/img_1-5-1-2.png",
       "imgAlt":"Documentation visuals on table",
       "caption": "A thumbnail shows a documentation attached to a step"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-1-2-1.png",
+      "img":"assets/images/doco-images/img_1-5-1-2-1.png",
       "imgAlt":"Doco-Mode",
       "caption": "When tapping on the documentation, the user is taken to the 'Doco-Mode' navigation where a large version of all documentation attached to step can be seen. Here, one can also action of the relevant step."
     }

@@ -1,11 +1,84 @@
 {
   "title": "1.3. Constructing a Template",
   "id": "templates-construct",
-  "intro": "",
+  "intro": "Templates are represented in the Template Editor as a nested table/tree structure. This way of viewing the Template is specifically important for Template creators as it allows a global view of the Template no matter the complexity. One key aspect of this is to facilitate the moving and addition of Steps to any point in the Template definition structure. Much like a programming IDE, the nesting of different Steps, sub-tasks and Inputs increases the readability of the large amount of information attached to a Template definition. In this section we will provide a detailed overview of creating a Template.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.1. Constructing a Template"
+      "content": "1.3.1. Creating a New Template"
+    },
+    {
+      "type":"text",
+      "content":"The first thing is to create a new Template to your Template list by clicking on 'New' at the top left of the list section on the Editor. This will bring up a pop-up that lets you enter the Templates name, Template description, assign/create a Suite & Package and add a cover image.<br/><br/>Once the Template has been created, you will be presented with an empty Template. Constructs can be added by clicking the different types of constructs."
+    },
+    {
+      "type":"info",
+      "content":"Once clicked on the type of construct desired, you will be presented with a choice of where to add the construct presented as a yellow overlay on top of the construct icons. (You can find in-depth explanations of all the different types of construct under the 'Template Anatomy' subsection in the side menu, starting with the <a href='#/section/template-anatomy/labels'>Label construct</a>)"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.1. Adding Steps to a Template"
+    },
+    {
+      "type":"img",
+      "img":"assets/images/doco-images/img_1-3-1-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type":"text",
+      "content":"To re-enter edit mode once a step has been save and in a 'closed' state, you can double click to re-open the step for editing. Depending on the type of construct used to create a step, you will be presented with relevant options. Below are options for a Check step added inside the Label (1):"
+    },
+    {
+      "type":"img",
+      "img":"assets/images/doco-images/img_1-3-1-2.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type":"info",
+      "content":"You can use the Enter/Return key on your keyboard to also Save & close edit mode on a Step you are editing."
+    },
+    {
+      "type": "h2",
+      "content": "1.3.1.2. Edit a Template in a side panel"
+    },
+    {
+      "type":"text",
+      "content":"A large majority of a Template can be edited from a side panel (More information about adding side panels to your Editor can be found at: <a href=''>Editor Side Panel Introduction</a>). Lets take a look at how we might edit a Templates title, for example:"
+    },
+    {
+      "type":"image",
+      "img":"assets/images/doco-images/img_1-3-1-3.png",
+      "imgAlt":"Image Alt",
+      "caption":"First of all, we want to access the ability to edit a Templates basic information by selecting the action from the action menu at the relevant Template in our Template list. This will automatically open a side panel and toggle the Edit Template Info view."
+    },
+    {
+      "type":"text",
+      "content":"The panel will provide you with all the appropriate input fields and controls to edit your Template. The Template List automatically gets hidden to optimise the space available on your browser, culminating in the layout below."
+    },
+    {
+      "type":"warn",
+      "content":"Any changes made in the side panel will need to be saved by the user by clicking the 'Save' button at the top left of the screen."
+    },
+    {
+      "type":"img",
+      "img":"assets/images/doco-images/img_1-3-1-4.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h1",
+      "content": "1.3.2. Editing an existing Template"
+    },
+    {
+      "type": "h2",
+      "content": "1.3.2.1. The Action Menu"
+    },
+    {
+      "type":"text",
+      "content":""
+    },
+    {
+      "type": "h2",
+      "content": "1.3.2.2. Drag & Drop "
     }
   ]
 }

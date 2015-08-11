@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-3-1.png",
+      "img":"assets/images/doco-images/img_1-5-3-1.png",
       "imgAlt":"Blocking step toggle"
     },
     {
@@ -27,13 +27,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-3-2.png",
+      "img":"assets/images/doco-images/img_1-5-3-2.png",
       "imgAlt":"Blocking step visual runtime",
       "caption": "There is no visual cue that there is a blocking step from a user perspective. 2.2 is a “blocking step”."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-3-3.png",
+      "img":"assets/images/doco-images/img_1-5-3-3.png",
       "imgAlt":"Blocking step answered",
       "caption": "Once the step is answered the rest of the Template originally blocked by the blocking step will appear."
     }

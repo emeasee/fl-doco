@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-7-1.png",
+      "img":"assets/images/doco-images/img_1-5-7-1.png",
       "imgAlt":"Adding tags from the editor"
     },
     {
@@ -27,13 +27,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-7-1-1.png",
+      "img":"assets/images/doco-images/img_1-5-7-1-1.png",
       "imgAlt":"Tag editor empty",
       "caption": "Tags are added by simply typing a tag in the input field and clicking Add"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-7-1-2.png",
+      "img":"assets/images/doco-images/img_1-5-7-1-2.png",
       "imgAlt":"Added tag to Tag editor",
       "caption": "The ability to manage your tags are displayed below the input field. Here it is possible to remove tags, if required, by clicking the cross."
     }

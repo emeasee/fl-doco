@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-4-1.png",
+      "img":"assets/images/doco-images/img_1-5-4-1.png",
       "imgAlt":"Attachment requirements"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-4-1-1.png",
+      "img":"assets/images/doco-images/img_1-5-4-1-1.png",
       "imgAlt":"Attachment requirements toggled"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-4-2.png",
+      "img":"assets/images/doco-images/img_1-5-4-2.png",
       "imgAlt":"Required attachment runtime visuals",
       "caption": "A user running a workflow with a required attachment, will be reminded in three locations about the requirement.."
     }

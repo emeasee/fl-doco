@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-3-6-1.png",
+      "img":"assets/images/doco-images/img_1-5-6-1.png",
       "imgAlt":"Language dropdown"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-3-6-2.png",
+      "img":"assets/images/doco-images/img_1-5-6-2.png",
       "imgAlt":"Translation visual runtime",
       "caption": "A user would not be able to process the next task/question unless the present one is answered."
     }
