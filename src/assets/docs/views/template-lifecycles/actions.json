@@ -2,7 +2,7 @@
   "title": "Lifecycle Actions",
   "id": "actions",
   "section": "2.4. Template Edition Platform",
-  "intro": "A primary component of the Template Edition Platform is providing members with clear actions that allow Templates to be edited, reviewed, submitted, rejected and eventually, published. In this section we will look at the interaction of members and Lifecycle tasks via Actions to facilitate this collaboration.",
+  "intro": "A primary component of the Template Edition Platform is providing Members with clear actions that allow Templates to be edited, reviewed, submitted, rejected and eventually, published. In this section we will look at the interaction of Members and Lifecycle Tasks via Actions to facilitate this collaboration.",
   "blocks": [
     {
       "type": "h1",
@@ -10,7 +10,7 @@
     },
     {
       "type": "text",
-      "content":"Lifecycle Actions are the way that members confirm that a certain lifecycle stage has been completed. These actions can be given specific names when creating a Lifecycle for the Enterprise."
+      "content":"Lifecycle Actions are the way that users confirm that a certain Lifecycle stage has been completed. These actions can be given specific names when creating a Lifecycle for the Enterprise."
     },
     {
       "type": "warn",
@@ -31,13 +31,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-2-0.png",
       "imgAlt":"Image Alt",
-      "caption": "<b>Confirm</b> actions are identified as <i></i> ticks.<br/>These confirm that the current task for this stage in the Lifecycle has been completed.<br/><br/><b>Reject</b> actions are identified as <i></i> crosses.<br/>This action sends the Template back to a previous stage. An example would be a Template in review getting Rejected and sent back to the Edit stage for Authors to make changes before submitting again."
+      "caption": "<b>Confirm</b> actions are identified as <i></i> ticks.<br/>These confirm that the current Task for this stage in the Lifecycle has been completed.<br/><br/><b>Reject</b> actions are identified as <i></i> crosses.<br/>This action sends the Template back to a previous stage. An example would be a Template in review getting Rejected and sent back to the Edit stage for Authors to make changes before submitting again."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-2-1.png",
       "imgAlt":"Image Alt",
-      "caption": "In the Enterprise administration panel, selecting a Lifecycle and a specific stage allows one to rename the 'Confirm' and 'Reject' actions for each stage depending on the nature and context of the Stage. Here for example, instead of Confirm the administrator has renamed the action to Initiate."
+      "caption": "In the Enterprise administration panel, selecting a Lifecycle and a specific stage allows one to rename the 'Confirm' and 'Reject' actions for each stage depending on the nature and context of the Stage. Here for example, instead of Confirm the Administrator has renamed the action to Initiate."
     },
     {
       "type": "h2",
@@ -45,7 +45,7 @@
     },
     {
       "type": "text",
-      "content":"To review, Lifecycle Actions are the way that members confirm within FieldLogs that a certain lifecycle stage is complete. These actions can be given specific names when creating a Lifecycle for the Enterprise."
+      "content":"To review, Lifecycle Actions are the way that Members confirm within FieldLogs that a certain Lifecycle stage is complete. These actions can be given specific names when creating a Lifecycle for the Enterprise."
     },
     {
       "type": "text",
@@ -59,8 +59,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-2-3.png",
-      "imgAlt":"Template lifecycle submission",
-      "caption": "Once a member is sure of submission, the Submission popup window allows the member to choose a Lifecycle and add any additional comments before submitting the Template. Once submitted, the Template will automatically move to the first stage in the Lifecycle and the relevant roles will receive Tasks in the their Inboxes."
+      "imgAlt":"Template Lifecycle submission",
+      "caption": "Once a user is sure of submission, the Submission popup window allows the user to choose a Lifecycle and add any additional comments before submitting the Template. Once submitted, the Template will automatically move to the first stage in the Lifecycle and the relevant Roles will receive Tasks in the their Inboxes."
     },
     {
       "type": "h2",
@@ -68,7 +68,7 @@
     },
     {
       "type": "text",
-      "content":"Once a Template reaches a given stage, all members assigned a specific role will receive a Task in their Inboxes. Tapping 'View' on the Task cell will open the Template in the Template Editor and display the relevant Actions depending on the Lifecycle stage. Below you can see an example of a Template needing Review with the relevant actions in the top right hand side of the screen:"
+      "content":"Once a Template reaches a given stage, all Members assigned a specific Role will receive a Task in their Inboxes. Tapping 'View' on the Task cell will open the Template in the Template Editor and display the relevant Actions depending on the Lifecycle stage. Below you can see an example of a Template needing Review with the relevant actions in the top right hand side of the screen:"
     },
     {
       "type": "img",
@@ -83,7 +83,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-2-5.png",
       "imgAlt":"Archiving action buttons",
-      "caption":"The Archive action is an action specially reserved for a designated role (assigned at Lifecycle creation by an administrator) that allows for the removal of a Template from a Lifecycle so that it cannot finish. The Template is not deleted in the case, but simply removed from the Lifecycle and will need to be submitted again.<br/><br/>Any member who has the correct access rights can request for a Template to be archived which will send a Task that requires confirmation by the assigned Archiving role."
+      "caption":"The Archive action is an action specially reserved for a designated Role (assigned at Lifecycle creation by an Administrator) that allows for the removal of a Template from a Lifecycle so that it cannot finish. The Template is not deleted in the case, but simply removed from the Lifecycle and will need to be submitted again.<br/><br/>Any Member who has the correct access rights can request for a Template to be archived which will send a Task that requires confirmation by the assigned Archiving Role."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Re-assigning or Sharing a Task",
   "id": "share-reassign",
   "section": "2.5. Collaborative Jobs",
-  "intro": "There are often circumstances in the day to day assignment of Templates and Jobs in an Enterprise that require more individuals to be kept up to date on a running Job or Tasks to be re-assigned to other members due to member absence and other such situations. FieldLogs provides a few useful tools that we detail here.",
+  "intro": "There are often circumstances in the day to day assignment of Templates and Jobs in an Enterprise that require more individuals to be kept up to date on a running Job or Tasks to be re-assigned to other Members due to Member absence and other such situations. FieldLogs provides a few useful tools that we detail here.",
   "blocks": [
     {
       "type": "h1",
@@ -10,11 +10,11 @@
     },
     {
       "type": "text",
-      "content":"Tasks may need to be re-assigned or shared to other members by the original assignee. Re-assigning a Task simply creates a new assignment task for the member that it is being re-assigned to. The original assigner and the member re-assigning will both have a 'Sent' task in their Inboxes allowing them to follow the progress of the task if ran."
+      "content":"Tasks may need to be re-assigned or shared to other Members by the original assignee. Re-assigning a Task simply creates a new assignment Task for the Member that it is being re-assigned to. The original assigner and the Member re-assigning will both have a 'Sent' Task in their Inboxes allowing them to follow the progress of the Task if ran."
     },
     {
       "type": "text",
-      "content":"Sharing tasks to other members is a simple way to inform other members of a task that they have been assigned. Think of this as a 'CC' of a task, much like the feature when sending emails."
+      "content":"Sharing Tasks to other Members is a simple way to inform other Members of a Task that they have been assigned. Think of this as a 'CC' of a Task, much like the feature when sending emails."
     },
     {
       "type": "h2",
@@ -22,7 +22,7 @@
     },
     {
       "type":"text",
-      "content":"From the web, this can be easily achieved by using the Action button dropdown and selecting Re-assign. Much like the Assignment pop up window, the resulting popup window allows the member to choose who to re-assign the task to and to then confirm that choice."
+      "content":"From the web, this can be easily achieved by using the Action button dropdown and selecting Re-assign. Much like the Assignment pop up window, the resulting popup window allows the user to choose who to re-assign the Task to and to then confirm that choice."
     },
     {
       "type": "img",
@@ -33,7 +33,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-5-2-9.png",
       "imgAlt":"Image Alt",
-      "caption": "From the app re-assignment can be achieved by tapping on a task and choosing Re-assign from the Action panel. Following the on screen member selection screen allows the member to confirm the re-assignment."
+      "caption": "From the app re-assignment can be achieved by tapping on a Task and choosing Re-assign from the Action panel. Following the on screen Member selection screen allows the user to confirm the re-assignment."
     },
     {
       "type": "h2",
@@ -41,15 +41,15 @@
     },
     {
       "type":"text",
-      "content":"Members have the ability to 'share' Tasks with members other than the assigner. This allows those members to follow the progress of the Task giving them access to follow in Real-Time job acquisition."
+      "content":"Members have the ability to 'share' Tasks with Members other than the assigner. This allows those Members to follow the progress of the Task giving them access to follow in Real-Time Job acquisition."
     },
     {
       "type": "warn",
-      "content": "Sharing tasks can only be done once Tasks have been 'Started', i.e. there is already an acquisition (Job) in progress."
+      "content": "Sharing Tasks can only be done once Tasks have been 'Started', i.e. there is already an acquisition (Job) in progress."
     },
     {
       "type":"text",
-      "content":"From the web, much like re-assigning a task, the member opens the Action button dropdown and select Share. This opens a similar pop up window in which the member must confirm the member to share with."
+      "content":"From the web, much like re-assigning a Task, the user opens the Action button dropdown and select Share. This opens a similar pop up window in which the user must confirm the Member to share with."
     },
     {
       "type": "img",
@@ -60,7 +60,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-5-2-11.png",
       "imgAlt":"Image Alt",
-      "caption": "From the app, the member selects Share from the Action panel. A Member selection screen similar to re-assigning a task then allows the successful sharing of a task."
+      "caption": "From the app, the user selects Share from the Action panel. A Member selection screen similar to re-assigning a Task then allows the successful sharing of a Task."
     }
   ]
 }

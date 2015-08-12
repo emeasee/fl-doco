@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "content": "FieldLogs Enterprise is a product upgrade which enables an advanced set of features tailored at groups of individuals such as small businesses, research expert groups or large company organisations. Key improvement of Enterprise is the ability to collectively author, review and publish Templates through Lifecycles (a governance process) as well as managing Tasks (such as authoring Templates or assigning, follwoing or viewing Jobs) to members within the Enterprise. Alongside all of this, everything is managed with granular authorization security."
+      "content": "FieldLogs Enterprise is a product upgrade which enables an advanced set of features tailored at groups of individuals such as small businesses, research expert groups or large company organisations. Key improvement of Enterprise is the ability to collectively author, review and publish Templates through Lifecycles (a governance process) as well as managing Tasks (such as authoring Templates or assigning, follwoing or viewing Jobs) to Members within the Enterprise. Alongside all of this, everything is managed with granular authorization security."
     },
     {
       "type": "text",
@@ -23,16 +23,16 @@
       "type": "bullet",
       "points": [
         {
-          "text":"Enterprise roles & rules (Template and Job access authorization, Enterprise administration)"
+          "text":"Enterprise Roles & Rules (Template and Job access authorization, Enterprise administration)"
         },
         {
-          "text":"Lifecycle Template definition for various business contexts. Maps directly to Member roles."
+          "text":"Lifecycle Template definition for various business contexts. Maps directly to Member Roles."
         },
         {
-          "text":"Collaborative Jobs and Tasks assignment from Member roles via Templates."
+          "text":"Collaborative Jobs and Tasks assignment from Member Roles via Templates."
         },
         {
-          "text":"Inbox to allow members to filter & view the progress of Tasks assigned to others."
+          "text":"Inbox to allow Members to filter & view the progress of Tasks assigned to others."
         },
         {
           "text":"Granular Search through Enterprise data."

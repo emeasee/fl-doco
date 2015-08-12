@@ -2,7 +2,7 @@
   "title": "Required Step",
   "id": "required-step",
   "section": "1.5. Augmenting your Template",
-  "intro": "Required steps <i></i> are helpful in introducing constraints into a template, and forcing users to answer a given question.",
+  "intro": "Required Steps <i></i> are helpful in introducing constraints into a Template, and forcing users to answer a given question.",
   "blocks": [
     {
       "type": "h1",
@@ -14,12 +14,12 @@
     },
     {
       "type": "text",
-      "content": "Under a Template step options you can simply enable the step as “required” by tapping it."
+      "content": "Under a Template Step options you can simply enable the Step as “required” by tapping it."
     },
     {
       "type": "img",
       "img":"assets/images/doco-images/img_1-5-2-1.png",
-      "imgAlt":"Required step toggle"
+      "imgAlt":"Required Step toggle"
     },
     {
       "type": "h2",
@@ -28,8 +28,8 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-2-2.png",
-      "imgAlt":"Required step visual runtime",
-      "caption": "A user would not be able to process the next task/question unless the present one is answered."
+      "imgAlt":"Required Step visual runtime",
+      "caption": "A user would not be able to process the next Step or Input unless the present one is answered."
     }
   ]
 }

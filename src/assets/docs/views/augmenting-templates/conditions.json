@@ -2,7 +2,7 @@
   "title": "Adding Conditions",
   "id": "conditions",
   "section": "1.5. Augmenting your Template",
-  "intro": "FieldLogs embeds a decision engine aimed at providing smarter templates. It dramatically reduces the number of steps/actions a user has to scan in order to find what is relevant. Conditions are a great way to collect data only when required.",
+  "intro": "FieldLogs embeds a decision engine aimed at providing smarter templates. It dramatically reduces the number of Steps and actions a user has to scan in order to find what is relevant. Conditions are a great way to collect data only when required.",
   "blocks": [
     {
       "type": "h1",

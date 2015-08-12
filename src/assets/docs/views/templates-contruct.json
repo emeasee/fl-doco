@@ -1,7 +1,7 @@
 {
   "title": "1.3. Constructing a Template",
   "id": "templates-construct",
-  "intro": "Templates are represented in the Template Editor as a nested table/tree structure. This way of viewing the Template is specifically important for Template creators as it allows a global view of the Template no matter the complexity. One key aspect of this is to facilitate the moving and addition of Steps to any point in the Template definition structure. Much like a programming IDE, the nesting of different Steps, sub-tasks and Inputs increases the readability of the large amount of information attached to a Template definition. In this section we will provide a detailed overview of creating a Template.",
+  "intro": "Templates are represented in the Template Editor as a nested table/tree structure. This way of viewing the Template is specifically important for Template creators as it allows a global view of the Template no matter the complexity. One key aspect of this is to facilitate the moving and addition of Steps to any point in the Template definition structure. Much like a programming IDE, the nesting of different Steps, sub-steps and Inputs increases the readability of the large amount of information attached to a Template definition. In this section we will provide a detailed overview of creating a Template.",
   "blocks": [
     {
       "type": "h1",
@@ -26,7 +26,7 @@
     },
     {
       "type":"text",
-      "content":"To re-enter edit mode once a step has been save and in a 'closed' state, you can double click to re-open the step for editing. Depending on the type of construct used to create a step, you will be presented with relevant options. Below are options for a Check step added inside the Label (1):"
+      "content":"To re-enter edit mode once a Step has been save and in a 'closed' state, you can double click to re-open the Step for editing. Depending on the type of construct used to create a Step, you will be presented with relevant options. Below are options for a Check Step added inside the Label (1):"
     },
     {
       "type":"img",

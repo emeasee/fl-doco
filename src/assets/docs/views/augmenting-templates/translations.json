@@ -2,7 +2,7 @@
   "title": "Translating Templates",
   "id": "translations",
   "section": "1.5. Augmenting your Template",
-  "intro": "FieldLogs gives you the ability to create translations of your Templates right from the Template Editor screen. This is especially useful if you wish to share the same template across multiple individuals in different countries.",
+  "intro": "FieldLogs gives you the ability to create translations of your Templates right from the Template Editor screen. This is especially useful if you wish to share the same Template across multiple individuals in different countries.",
   "blocks": [
     {
       "type": "h1",
@@ -29,7 +29,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-6-2.png",
       "imgAlt":"Translation visual runtime",
-      "caption": "A user would not be able to process the next task/question unless the present one is answered."
+      "caption": "A user would not be able to process the next Step or Input unless the present one is answered."
     }
   ]
 }

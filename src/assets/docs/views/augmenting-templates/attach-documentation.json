@@ -2,7 +2,7 @@
   "title": "Attaching Documentation",
   "id": "attach-documentation",
   "section": "1.5. Augmenting your Template",
-  "intro": "While controlling the exactness of data that users will capture, you can provide them with supplementary information on how one can carry out a task. This is done through <i></i> Documentation. Each task present in a workflow can be augmented by adding documentation to it. A documentation takes form of a file, a picture a voice or text memo or a URL. Users running your template are then free to consult the documentation provided to help them in their tasks.",
+  "intro": "While controlling the exactness of data that users will capture, you can provide them with supplementary information on how one can carry out a Task. This is done through <i></i> Documentation. Each Task present in a workflow can be augmented by adding documentation to it. A documentation takes form of a file, a picture a voice or text memo or a URL. Users running your Template are then free to consult the documentation provided to help them in their Tasks.",
   "blocks": [
     {
       "type": "h1",
@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "In the Template Editor, expand a task where documentation should be added, and hit the “Add documentation” link."
+      "content": "In the Template Editor, expand a Task where documentation should be added, and hit the “Add documentation” link."
     },
     {
       "type": "img",
@@ -32,7 +32,7 @@
     },
     {
       "type": "text",
-      "content": "The documentation section visually informs you a documentation has been added to the task."
+      "content": "The documentation section visually informs you a documentation has been added to the Task."
     },
     {
       "type": "img",
@@ -41,7 +41,7 @@
     },
     {
       "type": "info",
-      "content": "To re-open of edit the Documentation added to a step, click on any visual icon for a documentation and the Documentation editor window will pop-up again."
+      "content": "To re-open of edit the Documentation added to a Step, click on any visual icon for a documentation and the Documentation editor window will pop-up again."
     },
     {
       "type": "h2",
@@ -51,13 +51,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-1-2.png",
       "imgAlt":"Documentation visuals on table",
-      "caption": "A thumbnail shows a documentation attached to a step"
+      "caption": "A thumbnail shows a documentation attached to a Step"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-1-2-1.png",
       "imgAlt":"Doco-Mode",
-      "caption": "When tapping on the documentation, the user is taken to the 'Doco-Mode' navigation where a large version of all documentation attached to step can be seen. Here, one can also action of the relevant step."
+      "caption": "When tapping on the documentation, the user is taken to the 'Doco-Mode' navigation where a large version of all documentation attached to Step can be seen. Here, one can also action of the relevant Step."
     }
   ]
 }

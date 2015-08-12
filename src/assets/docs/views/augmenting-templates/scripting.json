@@ -27,7 +27,7 @@
     },
     {
       "type": "text",
-      "content": "A script is defined as a list of Instructions to execute when a specific event occurred for a step."
+      "content": "A script is defined as a list of Instructions to execute when a specific event occurred for a Step."
     },
     {
       "type": "image",
@@ -48,10 +48,10 @@
           "text":"<b>OnLoad</b> triggers the execution when the Job Execution starts (or restarts after the application stops, or the Job is Continued). Use this event to initialize some data used in other scripts"
         },
         {
-          "text":"<b>BeforeValidation</b> triggers the execution when the step is validated by the User, but before the value is actually saved in the Job."
+          "text":"<b>BeforeValidation</b> triggers the execution when the Step is validated by the User, but before the value is actually saved in the Job."
         },
         {
-          "text":"<b>AfterValidation</b> triggers the execution when the step is validated by the User, but after the value is actually saved in the Job."
+          "text":"<b>AfterValidation</b> triggers the execution when the Step is validated by the User, but after the value is actually saved in the Job."
         }
       ]
     },
@@ -145,19 +145,19 @@
     },
     {
       "type": "text",
-      "content": "These Instructions allows manipulation of the current values of template steps."
+      "content": "These Instructions allows manipulation of the current values of Template Steps."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-8-3-4a.png",
       "imgAlt":"Script Edition",
-      "caption": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the template and stores it in a LocalVariable"
+      "caption": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the Template and stores it in a LocalVariable"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-8-3-4b.png",
       "imgAlt":"Script Edition",
-      "caption": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the template"
+      "caption": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the Template"
     },
     {
       "type": "warn",
@@ -170,7 +170,7 @@
     },
     {
       "type": "text",
-      "content": "These Instructions allows manipulation of the current values of tables in template steps."
+      "content": "These Instructions allows manipulation of the current values of tables in Template Steps."
     },
     {
       "type": "image",

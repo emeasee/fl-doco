@@ -64,7 +64,7 @@
     },
     {
       "type": "text",
-      "content": "Free Input inputs are ideal to collect user information via text-fields in your workflows. There are cases when information captured cannot be anticipated and some flexibility is required in term of the format of what is collected, whether it is raw text and number."
+      "content": "Free Inputs are ideal to collect user information via text-fields in your workflows. There are cases when information captured cannot be anticipated and some flexibility is required in term of the format of what is collected, whether it is raw text and number."
     },
     {
       "type": "numbers",
@@ -91,13 +91,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-2-1.png",
       "imgAlt":"Free input on web",
-      "caption": "<b>On the web</b><br/>Free Input inputs are here shown for a simple form to collect a car owners information after an accident. The inptus are normal text inputs. After input, the user must hit enter on the keyboard or validate the step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
+      "caption": "<b>On the web</b><br/>Free Inputs are here shown for a simple form to collect a car owners information after an accident. The Inptus are normal text inputs. After input, the user must hit enter on the keyboard or validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-2.png",
       "imgAlt":"Free input on iOS",
-      "caption": "<b>On mobile devices</b><br/>Three <i></i> Free Input inputs are highlighted here (2.4.5 to 2.4.7). In this example the user is required to enter the version of a protocol, a 'media' and a location. The answer provided by users will be collected as is."
+      "caption": "<b>On mobile devices</b><br/>Three <i></i> Free Inputs are highlighted here (2.4.5 to 2.4.7). In this example the user is required to enter the version of a protocol, a 'media' and a location. The answer provided by users will be collected as is."
     },
     {
       "type": "h1",
@@ -106,7 +106,7 @@
     },
     {
       "type": "text",
-      "content": "This step simple lets the user running a workflow answer Yes or No to a question scripted in your workflow."
+      "content": "This Step simple lets the user running a workflow answer Yes or No to a question scripted in your workflow."
     },
     {
       "type": "numbers",
@@ -132,13 +132,13 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-3-0.png",
-      "imgAlt":"Yes/No/NA input on web",
-      "caption": "<b>On the web</b><br/>Here the user clicks from a choice of three buttons to answer the input. Clicking one instantly validates the step."
+      "imgAlt":"Yes/No/NA Input on web",
+      "caption": "<b>On the web</b><br/>Here the user clicks from a choice of three buttons to answer the Input. Clicking one instantly validates the Step."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-3.png",
-      "imgAlt":"Yes/No/NA input on iOS",
+      "imgAlt":"Yes/No/NA Input on iOS",
       "caption": "<b>On mobile devices</b><br/>3.11.5 has a <i></i> Yes/No/NA Step to which the user answer by tapping on the desired answer."
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "type": "text",
-      "content": "Much like a drop down list, the Multi-choice input presents a list of predefined values to facilitate the collection of data. Only one value can be selected from a Multi choice input."
+      "content": "Much like a drop down list, the Multi-choice Input presents a list of predefined values to facilitate the collection of data. Only one value can be selected from a Multi-choice Input."
     },
     {
       "type": "numbers",
@@ -177,13 +177,13 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-4-0.png",
-      "imgAlt":"Multi-choice input on web",
-      "caption": "<b>On the web</b><br/>A multi-choice selector dropdown on the web limits the user from choosing only one answer in response. Selecting one automatically validates the step."
+      "imgAlt":"Multi-choice Input on web",
+      "caption": "<b>On the web</b><br/>A multi-choice selector dropdown on the web limits the user from choosing only one answer in response. Selecting one automatically validates the Step."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-4.png",
-      "imgAlt":"Multi-choice input on iOS",
+      "imgAlt":"Multi-choice Input on iOS",
       "caption": "<b>On mobile devices</b><br/>A clear message denotes the users ability to tap and select from a list of choices."
     },
     {
@@ -193,7 +193,7 @@
     },
     {
       "type": "text",
-      "content": "A Multi-check input is similar to a Multi-choice input except that the user can select multiple answers from the list."
+      "content": "A Multi-check Input is similar to a Multi-choice Input except that the user can select multiple answers from the list."
     },
     {
       "type": "numbers",
@@ -222,25 +222,25 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-5-0.png",
-      "imgAlt":"Multi-check input on web",
-      "caption": "<b>On the web</b><br/>A multi-check selector dropdown on the web allows the user to select multiple responses. Once selection is complete the user must validate the step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
+      "imgAlt":"Multi-check Input on web",
+      "caption": "<b>On the web</b><br/>A multi-check selector dropdown on the web allows the user to select multiple responses. Once selection is complete the user must validate the Step by clicking the green tick: <i style='color:#639A2E;' class='fa fa-check-circle'></i>"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-5.png",
-      "imgAlt":"Multi-check input on iOS",
-      "caption": "<b>On mobile devices</b><br/>2.3.4 displays a <i></i> Multi-check input from a user perspective. The user would tap on the “Select answer(s)” field to bring up the possible answers."
+      "imgAlt":"Multi-check Input on iOS",
+      "caption": "<b>On mobile devices</b><br/>2.3.4 displays a <i></i> Multi-check Input from a user perspective. The user would tap on the “Select answer(s)” field to bring up the possible answers."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-5-1.png",
-      "imgAlt":"Multi-check input on iOS",
+      "imgAlt":"Multi-check Input on iOS",
       "caption": "Selecting various answers."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-5-2.png",
-      "imgAlt":"Multi-check input on iOS",
+      "imgAlt":"Multi-check Input on iOS",
       "caption": "Once submitted, answers appear inline with the rest of the workflow."
     },
     {
@@ -250,16 +250,16 @@
     },
     {
       "type": "text",
-      "content": "A Check input is the best way for users to efficiently acknowledge a task was accomplished."
+      "content": "A Check Input is the best way for users to efficiently acknowledge a Task was accomplished."
     },
     {
       "type": "numbers",
       "points": [
         {
-          "text":"Select the check Input icon: <i class='fl-wf_check'></i>"
+          "text":"Select the Check Input icon: <i class='fl-wf_check'></i>"
         },
         {
-          "text":"Choose where you want to put the check Input in the orange bar below"
+          "text":"Choose where you want to put the Check Input in the orange bar below"
         },
         {
           "text":"Add title text to the input field"
@@ -276,13 +276,13 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-6-0.png",
-      "imgAlt":"Check input on web",
-      "caption": "<b>On the web</b><br/>A Check step on the web consists of a clearly marked message in a button that toggles checked/un-checked when clicked. Clicking the Check toggle automatically validates the step."
+      "imgAlt":"Check Input on web",
+      "caption": "<b>On the web</b><br/>A Check Step on the web consists of a clearly marked message in a button that toggles checked/un-checked when clicked. Clicking the Check toggle automatically validates the Step."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-6.png",
-      "imgAlt":"Check input on iOS",
+      "imgAlt":"Check Input on iOS",
       "caption": "<b>On mobile devices</b><br/>Much like on the web, a clearly marked action message on the button lets user toggle the input as checked or un-checked"
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "type": "text",
-      "content": "Your templates may required for users to enter a date or time component, such as the time an incident occurred in the past or when a future maintenance is required. All tasks acted upon in a workflow are time stamped automatically. A Date/Time input is to capture dates and/or time that are outside of the context of a given workflow."
+      "content": "Your Templates may required for users to enter a date or time component, such as the time an incident occurred in the past or when a future maintenance is required. All Tasks acted upon in a workflow are time stamped automatically. A Date/Time Input is to capture dates and/or time that are outside of the context of a given workflow."
     },
     {
       "type": "numbers",
@@ -321,25 +321,25 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7-0.png",
-      "imgAlt":"Date/Time input on web",
-      "caption": "<b>On the web</b><br/>The user is able to select a pre-formatted date/time entry using the provided date/time popup. Once a date/time is selected the step is automatically validated."
+      "imgAlt":"Date/Time Input on web",
+      "caption": "<b>On the web</b><br/>The user is able to select a pre-formatted date/time entry using the provided date/time popup. Once a date/time is selected the Step is automatically validated."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7.png",
-      "imgAlt":"Date/Time input on iOS",
+      "imgAlt":"Date/Time Input on iOS",
       "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter a date/time."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7-1.png",
-      "imgAlt":"Date/Time input on iOS",
+      "imgAlt":"Date/Time Input on iOS",
       "caption": "The user is able to select a specific date or, optionally, simply select the current Date/Time by tapping 'Now' on the toolbar."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-7-2.png",
-      "imgAlt":"Date/Time input on iOS",
+      "imgAlt":"Date/Time Input on iOS",
       "caption": "The correctly formatted date/time is submitted. Tapping on the answer will allow the user to change the date/time if it has been incorrectly entered."
     },
     {
@@ -349,7 +349,7 @@
     },
     {
       "type": "text",
-      "content": "A Numeric Input is a task that lets users only enter numbers. There might be cases when you would like to enforce a strict input policy with regards to input types. Numeric Inputs also let you precise (if relevant), the corresponding unit of measurement linked with the number you are looking to capture, for instance meters (m) for a distance. The unit will display on runtime to avoid confusion as to what data is expected."
+      "content": "A Numeric Input is a Task that lets users only enter numbers. There might be cases when you would like to enforce a strict input policy with regards to Input types. Numeric Inputs also let you precise (if relevant), the corresponding unit of measurement linked with the number you are looking to capture, for instance meters (m) for a distance. The unit will display on runtime to avoid confusion as to what data is expected."
     },
     {
       "type": "numbers",
@@ -375,14 +375,14 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-8-0.png",
-      "imgAlt":"Numeric input on web",
-      "caption": "<b>On the web</b><br/>Here the user is asked to enter a numeric value for Traction Pressure (6.1) in 'psi'. Any entered text that it not numeric will display in red and will not allow validation of the step."
+      "imgAlt":"Numeric Input on web",
+      "caption": "<b>On the web</b><br/>Here the user is asked to enter a numeric value for Traction Pressure (6.1) in 'psi'. Any entered text that it not numeric will display in red and will not allow validation of the Step."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-8.png",
-      "imgAlt":"Numeric input on iOS",
-      "caption": "<b>On mobile devices</b><br/>On (2.2.1.4) the input will require users to enter a number in meters."
+      "imgAlt":"Numeric Input on iOS",
+      "caption": "<b>On mobile devices</b><br/>On (2.2.1.4) the Input will require users to enter a number in meters."
     },
     {
       "type": "h1",
@@ -391,7 +391,7 @@
     },
     {
       "type": "text",
-      "content": "When attaching a picture to a step is not sufficient, you can actually draw on top of it or from a blank sheet. This is the Drawing input, which lets you sketch using your finger directly on your device."
+      "content": "When attaching a picture to a Step is not sufficient, you can actually draw on top of it or from a blank sheet. This is the Drawing Input, which lets you sketch using your finger directly on your device."
     },
     {
       "type": "numbers",
@@ -417,26 +417,26 @@
         {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-9-0.png",
-      "imgAlt":"Drawing input on web",
+      "imgAlt":"Drawing Input on web",
       "caption": "<b>On the web</b><br/>The action message on the button, when clicked, allows the user to upload a pre-created drawing from their computer."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-9.png",
-      "imgAlt":"Drawing input on iOS",
+      "imgAlt":"Drawing Input on iOS",
       "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter the sketching screen"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-9-1.png",
-      "imgAlt":"Drawing input on iOS",
-      "caption": "Here we have provided useful options for simple sketching on a device. Once the sketch is finished, tapping 'Use' attaches the sketch to the step"
+      "imgAlt":"Drawing Input on iOS",
+      "caption": "Here we have provided useful options for simple sketching on a device. Once the sketch is finished, tapping 'Use' attaches the sketch to the Step"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-9-2.png",
-      "imgAlt":"Drawing input on iOS",
-      "caption": "As with other logs, the sketch is attached below the step with a preview so it can be easily identified."
+      "imgAlt":"Drawing Input on iOS",
+      "caption": "As with other Logs, the sketch is attached below the Step with a preview so it can be easily identified."
     },
     {
       "type": "h1",
@@ -445,7 +445,7 @@
     },
     {
       "type": "text",
-      "content": "A Signature input collect ones signature, as instructed in the workflow. It allows to digitally confirm one acknowledges a task was carried out as planned."
+      "content": "A Signature Input collect ones signature, as instructed in the workflow. It allows to digitally confirm one acknowledges a Task was carried out as planned."
     },
     {
       "type": "numbers",
@@ -466,7 +466,7 @@
     },
     {
       "type": "warn",
-      "content": "Signature elements are required by default when the template is run. You will see it is automatically toggled on creation in the Editor."
+      "content": "Signature elements are required by default when the Template is run. You will see it is automatically toggled on creation in the Editor."
     },
     {
       "type": "h2",
@@ -475,26 +475,26 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-10-0.png",
-      "imgAlt":"Signature input on web",
+      "imgAlt":"Signature Input on web",
       "caption": "<b>On the web</b><br/>The action message on the button, when clicked, allows the user to upload a pre-created signature from their computer."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-10.png",
-      "imgAlt":"Signature input on iOS",
+      "imgAlt":"Signature Input on iOS",
       "caption": "<b>On mobile devices</b><br/>A clearly marked action message on the button lets the user enter the sketching screen"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-10-1.png",
-      "imgAlt":"Signature input on iOS",
+      "imgAlt":"Signature Input on iOS",
       "caption": "A simple scratchpad allows for freehand drawing an entering of the desired signature"
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-6-10-2.png",
-      "imgAlt":"Signature input on iOS",
-      "caption": "As with other logs, the signature is attached below the step with a preview so it can be easily identified."
+      "imgAlt":"Signature Input on iOS",
+      "caption": "As with other Logs, the signature is attached below the Step with a preview so it can be easily identified."
     }
   ]
 }

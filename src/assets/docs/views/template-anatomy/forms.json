@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A <i style='color:orange;' class='fl-wf_form'></i> Form helps template designers in grouping inputs that have a thematic connection. Forms are semi-active components as they do not directly collect data from users. Like <a href='#/section/template-anatomy/tasks'>Tasks</a>, they help organize the data collection strategy. They are elements that allow the display of input fields in a compact manner. It is especially useful for rapid input of data."
+      "content": "A <i style='color:orange;' class='fl-wf_form'></i> Form helps Template designers in grouping Inputs that have a thematic connection. Forms are semi-active components as they do not directly collect data from users. Like <a href='#/section/template-anatomy/tasks'>Tasks</a>, they help organize the data collection strategy. They are elements that allow the display of input fields in a compact manner. It is especially useful for rapid input of data."
     },
     {
       "type": "h2",
@@ -53,7 +53,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-3.png",
       "imgAlt":"Forms on the web",
-      "caption": "<b>Form display the web</b><br/>This template uses a Form <i></i> to thematically group the instructions. Here, they have been used to provide a small sign off form on a template needing final verification. Note the key characteristic of the layout of forms that provide a more compact view."
+      "caption": "<b>Form display the web</b><br/>This Template uses a Form <i></i> to thematically group the instructions. Here, they have been used to provide a small sign off form on a Template needing final verification. Note the key characteristic of the layout of forms that provide a more compact view."
     },
     {
       "type": "image",

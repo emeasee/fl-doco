@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "A <i style='color:orange;' class='fl-wf_table'></i> Table helps template designers create a table formatted input element containing columns of different data types, giving a traditional spreadsheet structure to data. Each row of the Table is a new input iteration over the specified data types. They are especially useful to enter a large volume of information in a structured way, quickly."
+      "content": "A <i style='color:orange;' class='fl-wf_table'></i> Table helps Template designers create a table formatted input element containing columns of different data types, giving a traditional spreadsheet structure to data. Each row of the Table is a new input iteration over the specified data types. They are especially useful to enter a large volume of information in a structured way, quickly."
     },
     {
       "type": "h2",
@@ -53,7 +53,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_1-2-4.png",
       "imgAlt":"Tables on the web",
-      "caption": "<b>Tables on the web</b><br/>This template uses a Table to facilitate rapid input of gauge readings, visually presenting it in a way that gives a global overview and easily allowing the addition and editing of values on new and existing rows."
+      "caption": "<b>Tables on the web</b><br/>This Template uses a Table to facilitate rapid input of gauge readings, visually presenting it in a way that gives a global overview and easily allowing the addition and editing of values on new and existing rows."
     },
     {
       "type": "image",

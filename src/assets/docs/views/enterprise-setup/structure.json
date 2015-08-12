@@ -10,21 +10,21 @@
     },
     {
       "type": "text",
-      "content":"FieldLogs Enterprise provides a tree based enterprise structure that an administrator of an Enterprise account can quickly build and maintain. FieldLogs Enterprise uses <b>Groups</b> to structure a resources (Members, Lifecycles, Template DB, etc.) to provide maximum flexibility in emulating a variety of organizational structures and to enforce a <b>Data Scope</b> (detailed below)."
+      "content":"FieldLogs Enterprise provides a tree based Enterprise structure that an Administrator of an Enterprise account can quickly build and maintain. FieldLogs Enterprise uses <b>Groups</b> to structure a Resources (Members, Lifecycles, Template DB, etc.) to provide maximum flexibility in emulating a variety of organizational structures and to enforce a <b>Data Scope</b> (detailed below)."
     },
     {
       "type": "info",
-      "content": "Members with the correct security permissions (usually Enterprise administrators) can create resources in the Hierarchy by clicking the 'Add' button or hovering over an element and clicking the smaller add button that appears in the cell. Note that Members are created/invited elsewhere."
+      "content": "Members with the correct security permissions (usually Enterprise Administrators) can create Resources in the Hierarchy by clicking the 'Add' button or hovering over an element and clicking the smaller add button that appears in the cell. Note that Members are created/invited elsewhere."
     },
     {
       "type":"text",
-      "content":"The hierarchy group approach provides the basic data scoping mechanism used by all elements in the Enterprise hierarchy. In general, resources located at a certain point in the hierarchy can (actually ‘may’) have access to those lower from their element. But not above in the hierarchy. This principle is the basis we will use to discuss resources and scoping. <br/><br/>There are two additional key elements:"
+      "content":"The Hierarchy group approach provides the basic data scoping mechanism used by all elements in the Enterprise Hierarchy. In general, Resources located at a certain point in the Hierarchy can (actually ‘may’) have access to those lower from their element. But not above in the Hierarchy. This principle is the basis we will use to discuss Resources and scoping. <br/><br/>There are two additional key elements:"
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"Member data access scoping follows a principle of ‘deny first, authorize explicitly’. That means that even if a user should have access to a Group below him or her, it must have explicitly authorization via at least one of his/her role to access such resource."
+          "text":"Member data access scoping follows a principle of ‘deny first, authorize explicitly’. That means that even if a user should have access to a Group below him or her, it must have explicitly authorization via at least one of his/her Role to access such Resource."
         },
         {
           "text":"Exceptions are available to allow access to unauthorized data. These must be explicitly requested and granted. All exceptions are logged. See more about creating exceptions in the <a href='#/section/enterprise-setup/security#exceptions'>Security Exceptions</a> section on the Security page"
@@ -43,10 +43,10 @@
       "type": "bullet",
       "points": [
         {
-          "text":"<b>Groups</b> <i class='fa fa-group'></i> are aggregation elements that group members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside other Groups. These can come to mean whatever is required for your organisations structure.<br/><br/>"
+          "text":"<b>Groups</b> <i class='fa fa-group'></i> are aggregation elements that group Members and all the other structural elements to build the tree structure. Groups, for example, can be nested inside other Groups. These can come to mean whatever is required for your organisations structure.<br/><br/>"
         },
         {
-          "text":"<b>Template DBs</b> <i class='fa fa-database'></i> are repositories of Templates with the same level of access (scope) as other elements inside its parent group. They store approved (‘Published’) Templates that are of use to a particular group for job execution. There are also public and private repositories. In a nutshell, and by default, a public Template DB let’s anyone up and down that hierarchy access a publish Template. A private Template DB restricts access only to Members within and above that level. Please see <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition<a/> for information about the difference between Public and Private repositories.<br/><br/>"
+          "text":"<b>Template DBs</b> <i class='fa fa-database'></i> are repositories of Templates with the same level of access (scope) as other elements inside its parent group. They store approved (‘Published’) Templates that are of use to a particular group for Job execution. There are also public and private repositories. In a nutshell, and by default, a public Template DB let’s anyone up and down that Hierarchy access a publish Template. A private Template DB restricts access only to Members within and above that level. Please see <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition<a/> for information about the difference between Public and Private repositories.<br/><br/>"
         },
         {
           "text":"<b>Lifecycles</b> <i class='fa fa-list-ul'></i> are specific authoring workflows for Templates that produce such Published Templates and store them in Template DBs for access by the Enterprise.<br/><br/>"
@@ -63,19 +63,19 @@
     },
     {
       "type": "text",
-      "content":"When adding elements to your Hierarchy it is important to understand their scope and its importance in data separation for the various other groups of your Enterprise structure. By default, members in a Group will have access to all information with the Group they have been assigned to. They will also have access to any sub-Groups created inside it, but not above. This allows an administrator to create a structure where the data between various departments is separate. As organization are rarely purely hierarchical, there are many ways to model these differences."
+      "content":"When adding elements to your Hierarchy it is important to understand their scope and its importance in data separation for the various other groups of your Enterprise structure. By default, Members in a Group will have access to all information with the Group they have been assigned to. They will also have access to any sub-Groups created inside it, but not above. This allows an Administrator to create a structure where the data between various departments is separate. As organization are rarely purely hierarchical, there are many ways to model these differences."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2.png",
       "imgAlt":"Image Alt",
-      "caption": "In this example structure, the data (Templates & Jobs) of Group 'OGBU1' will only be accessible by members directly associated with this Group; in this case there are two:<i>OGManager1 & OGUser2</i>.<br/><br/>The data associated with the sub-group 'OGSubBU1' is accessible by its members <i>OGManager2, OGUser2 & OGUser4</i> <b>and</b> is also accessible by the main groups members (OGBU1) since 'OGSubBU1' is a child group of its parent, 'OGBU1'. <br/><br/>Using this logic it is easy to see therefore, that all data associated with both Group elements mentioned above is accessible by members associated with the root of the Enterprise 'OilGasNewCorp' (OGUser1 & OGUser9) since the group OGBU1 is a child group of the root. <br><br/>A very similar scope logic applies to the other types of elements FieldLogs uses in the Enterprise definition: Lifecycles, Template repositories. We examine those in details in the next section."
+      "caption": "In this example structure, the data (Templates & Jobs) of Group 'OGBU1' will only be accessible by Members directly associated with this Group; in this case there are two:<i>OGManager1 & OGUser2</i>.<br/><br/>The data associated with the sub-group 'OGSubBU1' is accessible by its Members <i>OGManager2, OGUser2 & OGUser4</i> <b>and</b> is also accessible by the main Group's Members (OGBU1) since 'OGSubBU1' is a child group of its parent, 'OGBU1'. <br/><br/>Using this logic it is easy to see therefore, that all data associated with both Group elements mentioned above is accessible by Members associated with the root of the Enterprise 'OilGasNewCorp' (OGUser1 & OGUser9) since the group OGBU1 is a child group of the root. <br><br/>A very similar scope logic applies to the other types of elements FieldLogs uses in the Enterprise definition: Lifecycles, Template repositories. We examine those in details in the next section."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-1.png",
       "imgAlt":"Image Alt",
-      "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined. Members added at this level will be able to view & edit (except if explicitly prevented by their security role) Templates of the entire Enterprise."
+      "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined. Members added at this level will be able to view & edit (except if explicitly prevented by their security Role) Templates of the entire Enterprise."
     },
     {
       "type": "image",
@@ -87,13 +87,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-3.png",
       "imgAlt":"Image Alt",
-      "caption": "This designates a Lifecycle that can be used by group members to collaboratively 'approve' Templates for use in the Enterprise – such Templates become Published. Templates approved using this Lifecycle will be stored in the 'OGBU2PublicRepository' repository."
+      "caption": "This designates a Lifecycle that can be used by Group Members to collaboratively 'approve' Templates for use in the Enterprise – such Templates become Published. Templates approved using this Lifecycle will be stored in the 'OGBU2PublicRepository' repository."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2-4.png",
       "imgAlt":"Image Alt",
-      "caption": "Once turned on, it is possible to see where members are within the hierarchy. It is possible to see a simple count at all times on the right side of any Group in the Hierarchy window."
+      "caption": "Once turned on, it is possible to see where Members are within the Hierarchy. It is possible to see a simple count at all times on the right side of any Group in the Hierarchy window."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "content": "Templates within FieldLogs are structured workflow definitions built using common user interface components (input fields, text, media) that allow a creator of a Template to accurately define Standard Work procedures. A FieldLogs template has additional elements that make it particularly useful for this role. Below are some of these:"
+      "content": "Templates within FieldLogs are structured workflow definitions built using common user interface components (input fields, text, media) that allow a creator of a Template to accurately define Standard Work procedures. A FieldLogs template has additional elements that make it particularly useful for this Role. Below are some of these:"
     },
     {
       "type": "bullet",
@@ -18,7 +18,7 @@
           "text":"Structural elements like Labels, Tables, Forms and Loops that allow the creator of a template to give some logical structure depending on their data acquisition needs. (See more under 'Template Anatomy')"
         },
         {
-          "text":"Various types of input elements such as Yes/No, Multi-choice, Check or Free text input to easily input various types of data."
+          "text":"Various types of Input elements such as Yes/No, Multi-choice, Check or Free text Input to easily Input various types of data."
         },
         {
           "text":"The ability to mark Templates as private (for your use only) or public (for sharing with others through email)"
@@ -27,7 +27,7 @@
           "text":"Ability to add translations of a Template for different languages. (<a href='#/section/augmenting-templates/translations'>More Info</a>)"
         },
         {
-          "text":"Add documentation and rich media to steps in the Template to guide user executing templates. Think of this as a way to provide detailed reference material while 'on the job'. (<a href='#/section/augmenting-templates/attach-documentation'>More Info</a>)"
+          "text":"Add documentation and rich media to Steps in the Template to guide user executing Templates. Think of this as a way to provide detailed reference material while 'on the job'. (<a href='#/section/augmenting-templates/attach-documentation'>More Info</a>)"
         },
         {
           "text":"Add powerful script execution that can help you build computation & external calls to other services right into your Templates. (<a href='#/section/augmenting-templates/scripting'>More Info</a>)"

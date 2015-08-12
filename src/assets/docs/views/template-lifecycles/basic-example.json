@@ -2,7 +2,7 @@
   "title": "Basic Usage Example",
   "id": "basic-example",
   "section": "2.4. Template Edition Platform",
-  "intro": "On this page we will cover a very basic example of a Lifecycle in action. We have set up a small enterprise structure and have created a Lifecycle. (If you don't know how to create a lifecycle, please refer to our page in the Enterprise Setup section, <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition</a>",
+  "intro": "On this page we will cover a very basic example of a Lifecycle in action. We have set up a small Enterprise structure and have created a Lifecycle. (If you don't know how to create a Lifecycle, please refer to our page in the Enterprise Setup section, <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition</a>",
   "blocks": [
     {
       "type": "h1",
@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content":"Assuming that you have already set up your Enterprise structure, have more than a single member and have created a Lifecycle, let's now run through a basic scenario to see how Lifecycle-based Template Edition works. If you want to run through the example yourself make sure to have the following:"
+      "content":"Assuming that you have already set up your Enterprise structure, have more than a single Member and have created a Lifecycle, let's now run through a basic scenario to see how Lifecycle-based Template Edition works. If you want to run through the example yourself make sure to have the following:"
     },
     {
       "type": "bullet",
@@ -23,10 +23,10 @@
           "text":"Access to 2 to 3 different accounts"
         },
         {
-          "text":"A lifecycle set up in the same Group as these accounts"
+          "text":"A Lifecycle set up in the same Group as these accounts"
         },
         {
-          "text":"Each member should have a different role assigned that covers the Lifecycle stages"
+          "text":"Each Member should have a different Role assigned that covers the Lifecycle stages"
         }
       ]
     },
@@ -38,13 +38,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-1.png",
       "imgAlt":"Image Alt",
-      "caption": "We've created a new Template and made sure to give it a name. The Template itself is empty since we will be submitting it to an Author role member to fill in the detail. Clicking on 'Submit' we are presented with the Submission window."
+      "caption": "We've created a new Template and made sure to give it a name. The Template itself is empty since we will be submitting it to an 'Author' Role Member to fill in the detail. Clicking on 'Submit' we are presented with the Submission window."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-2.png",
       "imgAlt":"Image Alt",
-      "caption": "When submitting the Template, a member must select the Lifecycle to submit it to. This can be done in the dropdown show here. Once submitted the member will see a small notification to confirm the successful submission."
+      "caption": "When submitting the Template, a user must select the Lifecycle to submit it to. This can be done in the dropdown show here. Once submitted the user will see a small notification to confirm the successful submission."
     },
     {
       "type": "h2",
@@ -54,13 +54,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-3.png",
       "imgAlt":"Image Alt",
-      "caption": "In our example, we have set up an Initiate stage which specifies that the Template is required to go through approval by a Product Manager role to start the Lifecycle process for the Template. At this point therefore a member with the Product Manager role picks up the Task from their Dashboard by clicking 'View'."
+      "caption": "In our example, we have set up an Initiate stage which specifies that the Template is required to go through approval by a 'Product Manager' Role to start the Lifecycle process for the Template. At this point therefore a Member with the 'Product Manager' Role picks up the Task from their Dashboard by clicking 'View'."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-4.png",
       "imgAlt":"Image Alt",
-      "caption": "Our Product Manager member approves of the need for this type of Template therefore he clicks the Lifecycle action 'Initiate'. Here we are confirming this action."
+      "caption": "Our 'Product Manager' Member approves of the need for this type of Template therefore he clicks the Lifecycle action 'Initiate'. Here we are confirming this action."
     },
     {
       "type": "h2",
@@ -70,7 +70,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-5.png",
       "imgAlt":"Image Alt",
-      "caption": "The Task is opened in the Template Editor and allows the Author member to continue to add more detail to the Template definition structure."
+      "caption": "The Task is opened in the Template Editor and allows the 'Author' Member to continue to add more detail to the Template definition structure."
     },
     {
       "type": "image",
@@ -82,7 +82,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-7.png",
       "imgAlt":"Image Alt",
-      "caption": "Upon submission, the member is asked to confirm their choice. As before, the member will receive a notification confirming the submission."
+      "caption": "Upon submission, the user is asked to confirm their choice. As before, the user will receive a notification confirming the submission."
     },
     {
       "type": "h2",
@@ -92,13 +92,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-8.png",
       "imgAlt":"Image Alt",
-      "caption": "For those members with reviewing roles, the task will show up in their Inboxes and display the correct information. Like the previous tasks, the member clicks 'View' to open the Template in the Template Editor."
+      "caption": "For those Members with reviewing Roles, the Task will show up in their Inboxes and display the correct information. Like the previous Tasks, the user clicks 'View' to open the Template in the Template Editor."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-9.png",
       "imgAlt":"Image Alt",
-      "caption": "Reviewing Templates displays a read-only version of the Template which gives a full overview of the entire structure without the ability to add or delete steps from the Template. A member happy with the Template can use the appropriate Lifecycle actions to move the Template to the next stage."
+      "caption": "Reviewing Templates displays a read-only version of the Template which gives a full overview of the entire structure without the ability to add or delete Steps from the Template. A user happy with the Template can use the appropriate Lifecycle actions to move the Template to the next stage."
     },
     {
       "type": "h2",
@@ -108,13 +108,13 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-10.png",
       "imgAlt":"Image Alt",
-      "caption": "Depending on your Lifecycle stage setup, you may pass through many review stages before a final review stage allowing members with the correct role to finally approve the Template and publish it to the Enterprise. Here, we show the Inbox Task relating to the stage."
+      "caption": "Depending on your Lifecycle stage setup, you may pass through many review stages before a final review stage allowing users with the correct Role to finally approve the Template and publish it to the Enterprise. Here, we show the Inbox Task relating to the stage."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-4-3-11.png",
       "imgAlt":"Image Alt",
-      "caption": "Much like the previous stages, and since this is also considered a Review stage, once a member has opened the Task they are given a read-only view of the Template."
+      "caption": "Much like the previous stages, and since this is also considered a Review stage, once a user has opened the Task they are given a read-only view of the Template."
     },
     {
       "type": "image",

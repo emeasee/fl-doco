@@ -2,7 +2,7 @@
   "title": "Blocking Step",
   "id": "blocked-step",
   "section": "1.5. Augmenting your Template",
-  "intro": "A Blocking Step <i></i> is a property given to a step during the design of a template. When ran, the template will only show subsequent steps (to the “blocking step) when the blocking step is answered.",
+  "intro": "A Blocking Step <i></i> is a property given to a Step during the design of a Template. When ran, the Template will only show subsequent Steps (to the “blocking Step) when the blocking Step is answered.",
   "blocks": [
     {
       "type": "h1",
@@ -14,12 +14,12 @@
     },
     {
       "type": "text",
-      "content": "Under a Template step options you can simply enable the step as “blocking” by tapping it."
+      "content": "Under a Template Step options you can simply enable the Step as “blocking” by tapping it."
     },
     {
       "type": "img",
       "img":"assets/images/doco-images/img_1-5-3-1.png",
-      "imgAlt":"Blocking step toggle"
+      "imgAlt":"Blocking Step toggle"
     },
     {
       "type": "h2",
@@ -28,14 +28,14 @@
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-3-2.png",
-      "imgAlt":"Blocking step visual runtime",
-      "caption": "There is no visual cue that there is a blocking step from a user perspective. 2.2 is a “blocking step”."
+      "imgAlt":"Blocking Step visual runtime",
+      "caption": "There is no visual cue that there is a blocking Step from a user perspective. 2.2 is a “blocking Step”."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_1-5-3-3.png",
-      "imgAlt":"Blocking step answered",
-      "caption": "Once the step is answered the rest of the Template originally blocked by the blocking step will appear."
+      "imgAlt":"Blocking Step answered",
+      "caption": "Once the Step is answered the rest of the Template originally blocked by the blocking Step will appear."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Security",
   "id": "security",
   "section": "2.3. Setting up an Enterprise",
-  "intro": " Managing roles and having fine grain control over security privileges gets complex the larger an organisation gets. There is need for a product that provides a simple user interface between a products core functionality and a changing hierarchy structure of people in large & small groups.",
+  "intro": "Member data access follows a principle of ‘deny first, authorize explicitly’. That means that once Members are assigned to Groups, Security Roles are used to explicitly authorize them to access Resources that are accessible given the Groups and Resources structure. This FieldLogs set of features allows for fine grained control over security privileges while help manage these over large Member population.",
   "blocks": [
     {
       "type": "h1",
@@ -10,11 +10,7 @@
     },
     {
       "type": "text",
-      "content":"FieldLogs Enterprise's Security Manager allows administrators the ability to create and edit roles that exist within the Enterprise. Members are assigned a role within the Enterprise which dictates their access to various elements of the FieldLogs platform. Roles are given rules that contain extra conditional logic, giving very fine grain control over access to types of Templates, Jobs and more. By default every Enterprise comes with a set of roles already configured to cover a modern SWI workflow. Administrators may wish to edit these default roles by renaming or adding custom rules, or even adding new roles that suit better the enterprise workflow."
-    },
-    {
-      "type": "warn",
-      "content": "The Security Manager is currently in active development and may have some features missing that allow ultimate control over roles and rules. We are working hard on this important aspect and you will see more features appear over time."
+      "content":"FieldLogs Enterprise's Security Manager lets Administrators create and edit Roles that are necessary within the Enterprise. Members are assigned one of more Roles within the Enterprise which dictate their access to various Resources of the FieldLogs platform. Roles are in effect rules that contain specific conditional logic, giving a very fine grain control access over types of Resources such as  Templates, Jobs and more. By default every Enterprise comes with a set of Roles already configured to help get started. Administrators may wish to edit these default Roles by renaming or adding custom Rules, or even adding new Roles that suit better the Enterprise business."
     },
     {
       "type": "h2",
@@ -22,31 +18,31 @@
     },
     {
       "type": "text",
-      "content":"It's important to understand how a Role is constructed and what it means to assign a role to a member in your Enterprise. Roles consist of security rules that explicitly tells FieldLogs what kind of access rights a role has to certain securable objects.<br><br/> This differs from the Hierarchy structure in that it allows the ability to define access to functionality and data for members inside a specific group."
+      "content":"It's important to understand how a Role is constructed and what it means to assign a Role to a Member in your Enterprise. Roles consist of security Rules that explicitly tells FieldLogs what kind of access rights a Role has to certain Resource objects.<br><br/> This differs from the Hierarchy structure in that it allows the ability to define access to functionality and data for Members inside a specific group and over the data scope context of the related Groups."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-2.png",
       "imgAlt":"Image Alt",
-      "caption": "As an example, let's take another look at our Hierarchy structure. In the subgroup 'OGSubBU1' you will see one manager member and two normal members. Structure-wise the hierarchy shows a manager with two users. <br/><br/>But using <b>Roles</b> we are able to specify a specific role for  members of a group that dictates their access rights to data & role in a the <a href='#/section/enterprise-setup/lifecycles-definition'>Template Edition Platform</a>."
+      "caption": "As an example, let's take another look at our Hierarchy structure. In the subgroup 'OGSubBU1' you will see one 'Manager' Member and two 'Employee' Members. Structure-wise the Hierarchy shows a 'Manager' with two users the same group scope level. <br/><br/>But using Roles we are able to specify a specific Role, and hence fine grained Rule, for Members of a Group that dictates their access rights to Resources."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-0.png",
       "imgAlt":"Image Alt",
-      "caption": "The roles of a member can be added/changed through the member management panel in the middle of the Enterprise screen. Here you can see in more detail that actually we have a distinction between two members that originally appeared to have the same role in the hierarchy. OGUser3 is a template author and OGUser4 is an SME Reviewer."
+      "caption": "The Roles of a Member can be added/updated through the Member Management panel in the middle of the Enterprise screen. These can be assigned in bulk if necessary. Here you can see in more detail that actually we have a distinction between two Members that originally appeared to have the same Role in the Enterprise Hierarchy. OGUser3 is a Template 'Author' and OGUser4 is an 'SME Reviewer'."
     },
     {
       "type": "h2",
-      "content": "2.3.4.2 Configuring roles with rules"
+      "content": "2.3.4.2 Configuring Roles with Rules"
     },
     {
       "type": "text",
-      "content":"Configuring roles can be achieved by navigating to the 'Security' sub-tab when you are on the Enterprise section of the FieldLogs website. Here, the Security Manager provides a simple UI for defining & editing roles with fine grain rules. Let's take a look below in the context of our Enterprise:"
+      "content":"Configuring Roles can be achieved by navigating to the 'Security' sub-tab when you are on the Enterprise section of the FieldLogs website. Here, the Security Manager provides a simple UI for defining & editing Roles with fine grain Rules. Let's take a look below in the context of our Enterprise:"
     },
     {
       "type": "info",
-      "content": "Click on the 'Add new rule' button to add new rules to a Role."
+      "content": "Click on the 'Add new Rule' button to add new Rules to a Role."
     },
     {
       "type": "img",
@@ -55,19 +51,19 @@
     },
     {
       "type": "text",
-      "content":"Viewing the rules for the roles it will become clear that there can real differences between the roles. The Hierarchy showed these users at the same level in the group but members can have roles to define their relevance to a specific group."
+      "content":"When viewing the Rules for a Role, it will becomes clear that there can be real differences between Roles. The Hierarchy showed these users at the same level in the Group but Members can have Roles to define their function within a specific Group."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-0-1.png",
       "imgAlt":"Image Alt",
-      "caption": "Here the Author role only has access to data-themed securable objects, with the ability to create Templates and Jobs, yet no access to administration functions of the Enterprise."
+      "caption": "Here the Author Role only has access to data-themed 'Securable Objects' (these are the Resources previously mentioned), with the ability to create Templates and Jobs, yet no access to administration functions of the Enterprise."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-0-2.png",
       "imgAlt":"Image Alt",
-      "caption": "The Product Manager role however has addition rules that allow for a certain amount of administration and viewing of Enterprise elements that are relevant to his job."
+      "caption": "The 'Product Manager' Role however has addition Rules that allow for a certain amount of administration and viewing of Enterprise Resources that are relevant to his job."
     },
     {
       "type": "h2",
@@ -77,28 +73,28 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-2.png",
       "imgAlt":"Image Alt",
-      "caption": "A securable object needs to be selected for a rule. Templates is the default selection."
+      "caption": "A 'Securable Object' needs to be selected for a Rule. Templates is the default selection."
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"<b>Templates</b> & <b>Jobs</b> are the core content that FieldLogs allows users to create using it's platform."
+          "text":"<b>Templates</b> & <b>Jobs</b> are the core content (Resources) that FieldLogs users create."
         },
         {
-          "text":"<b>User</b> means the members of FieldLogs Enterprises."
+          "text":"<b>User</b> means a Members of FieldLogs Enterprises."
         },
         {
-          "text":"<b>Enterprise</b> is anything do with the Enterprise structure."
+          "text":"<b>Enterprise</b> is anything do with the Enterprise Hierarchy structure."
         },
         {
-          "text":"<b>Tasks</b> are generated notifications of job assignments & lifecycle stages."
+          "text":"<b>Tasks</b> are generated notifications of Job assignments & Job Lifecycle stages."
         },
         {
           "text":"<b>Roles</b> mean security roles."
         },
         {
-          "text":"<b>Lifecycles</b> facilitate collaborative template edition."
+          "text":"<b>Lifecycles</b> facilitate collaborative Template edition Lifecycles."
         },
         {
           "text":"<b>Security Exceptions</b> define specific access for a user to a securable object where otherwise it would be denied. "
@@ -116,22 +112,22 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-3.png",
       "imgAlt":"Image Alt",
-      "caption": "Read is the default access right for newly created rules. Click the dropdown to view rules for a selected Securable object."
+      "caption": "Read is the default access right for newly created Rules. Click the dropdown to view Rules for a selected 'Securable Object'."
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"<b>Read</b> refers to the ability to read information."
+          "text":"<b>Read</b> refers to the ability have read access to an object, hence accessing its information."
         },
         {
-          "text":"<b>Write</b> refers to the ability to write new information."
+          "text":"<b>Write</b> refers to the ability have write access to a Resource."
         },
         {
-          "text":"<b>Translate</b> is the act of translating templates, therefore only available for Templates."
+          "text":"<b>Translate</b> is the ability to translate Templates (therefore only available for Templates)."
         },
         {
-          "text":"<b>Assign</b> is the ability to assign a template or Job to other members."
+          "text":"<b>Assign</b> is the ability to assign a Template or Job to other Members."
         },
         {
           "text":"<b>Acquire data</b> is the ability to acquire data related to a Job or Template."
@@ -140,75 +136,31 @@
           "text":"<b>Edit info</b> refers to the ability to edit meta data relating to Jobs or Templates."
         },
         {
-          "text":"<b>Export</b> is the right to export Job data in Excel format."
+          "text":"<b>Export</b> is the right to export Job data."
         },
         {
-          "text":"<b>Edit logs</b> refers specifically to the right to edit logs attached to a Job."
+          "text":"<b>Edit Logs</b> refers specifically to the right to edit Logs attached to a Job."
         },
         {
-          "text":"<b>All</b> applies all the available access rights to the selected securable object."
+          "text":"<b>All</b> applies all the available access rights to the selected Resource."
         }
       ]
     },
     {
       "type": "h2",
-      "content": "2.3.4.5 Access right permissions"
+      "content": "2.3.4.5 Effects of Roles and Rules on the user interface"
     },
     {
       "type": "text",
-      "content":"Some access rights can grant several access rights at once. The access rights list below shows each access right along with the set of additional access rights that will be granted."
-    },
-    {
-      "type": "bullet",
-      "points": [
-        {
-          "text":"<b>Read</b> grants read access only."
-        },
-        {
-          "text":"<b>Write</b> grants read access, write access, translate access (Templates), edit info access, assign access, export access (Jobs), edit logs access (Jobs), and acquire data access (Jobs)."
-        },
-        {
-          "text":"<b>Translate</b> grants read access and translate access."
-        },
-        {
-          "text":"<b>Assign</b> grants assign access only."
-        },
-        {
-          "text":"<b>Acquire data</b> grants read access, acquire data acces, and edit logs access (Jobs)."
-        },
-        {
-          "text":"<b>Edit info</b> grants read access and edit info access."
-        },
-        {
-          "text":"<b>Export</b> grants read access and export access."
-        },
-        {
-          "text":"<b>Edit logs</b> grants read access and edit logs access."
-        },
-        {
-          "text":"<b>All</b> grants all access."
-        }
-      ]
-    },
-    {
-      "type": "warn",
-      "content": "Not all access rights are available for all securable objects as it depends on the nature of the object. "
+      "content": "Fieldlogs dynamically changes its runtime user interface (UI) depending on the level of access associated with the user. For example, if 'OGContractor1' is assigned the 'Author' Role then access will be granted to write Templates, but access will be denied to delete Templates not belonging to 'OGContractor1'. This is reflected in the UI where the delete button will be removed from all runtime UI elements associated with the Template being accessed."
     },
     {
       "type": "h2",
-      "content": "2.3.4.6 Effects of roles and rules on the user interface"
+      "content": "2.3.4.6 Examples"
     },
     {
       "type": "text",
-      "content": "Fieldlogs dynamically renders the user interface depending on the level of access associated with the user. For example, if OGContractor1 is assigned the Author role then access will be granted to write templates, but access will be denied to delete templates not belonging to OGContractor1. This is reflected in the UI where the delete button will be removed from all UI elements associated with the template being accessed."
-    },
-    {
-      "type": "h2",
-      "content": "2.3.4.7 Examples"
-    },
-    {
-      "type": "text",
-      "content":"Let's go ahead and look at some examples of some key roles and their rule combinations and delve into what they mean."
+      "content":"Let's go ahead and look at some examples of some key Roles, their Rule combinations, and delve into what they mean."
     },
     {
       "type": "img",
@@ -217,24 +169,28 @@
     },
     {
       "type":"text",
-      "content": "The Manager Role (above) is a typical administration role that can be used to allows the adminstration of a Group's Members, Templates & Lifecycles within the Enterprise structure. The rule combinations here allow:"
+      "content": "The 'Manager' Role (above) is a typical administration role that can be used to allows the administration of a Group's Members, Templates & Lifecycles within the Enterprise Group structure. The Rule combinations here allow:"
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"Full administration rights (create, delete, assign, etc) of Templates at the Managers scope in the hierarchy."
+          "text":"Full administration rights (create, delete, assign, etc) of Templates at the 'Manager' users scope in the Hierarchy."
         },
         {
-          "text":"Read rights to the Enterprise structure. This would give this role access to the Enterprise tab to view a scoped view of the Enterprise hierarchy."
+          "text":"Read rights to the Enterprise structure. This would give this Role access to the Enterprise tab to view the Group filtered view of the Enterprise Hierarchy, i.e., only the Group where the user belongs and below."
         },
         {
-          "text":"Full administration rights to manage users within the Manager's scoped Enterprise structure."
+          "text":"Full administration rights to manage users within the 'Managers' scoped Enterprise structure, i.e., the relevant Groups as in the point above."
         },
         {
           "text":"Full administration rights to manage Lifecycles within the Manager's scoped Enterprise structure."
         }
       ]
+    },
+    {
+      "type":"info",
+      "content":"Note that to be fully operational a 'Manager' needs to be a FieldLogs Member with both “Manager” and “Employee” Roles. One augments the other. This approach is considered best practice as it allows scaling Roles by building a simple hierarchy of Roles."
     },
     {
       "type": "img",
@@ -243,7 +199,7 @@
     },
     {
       "type":"text",
-      "content": "The Employee Role example above is a standard rule collection used to provide the necessary rights for a member of an Enterprise to be able to use Enterprise templates. The rule combinations here specifically allow:"
+      "content": "The Employee Role example above is a standard Rule collection used to provide the necessary rights for a member of an Enterprise to be able to use Enterprise Templates. The Rule combinations here specifically allow:"
     },
     {
       "type": "bullet",
@@ -255,7 +211,7 @@
           "text":"Full rights to administer Jobs such as creating, deleting, editing, exporting and assigning the continuation of Jobs."
         },
         {
-          "text":"The full ability to view, run and re-assign tasks including creating security exceptions if needed when assigning Tasks to other members within the Employee's Enterprise scope."
+          "text":"The full ability to view, run and re-assign Tasks including creating Security Exceptions if needed when assigning Tasks to other Members within the 'Employee's' Enterprise scope."
         }
       ]
     },
@@ -266,7 +222,7 @@
     },
     {
       "type":"text",
-      "content": "A Contractor Role is specifically aimed at temporary or restricted members of an Enterprise that only need access to data within a narrow scope in the Enterprise. With similar rights as an Employee Role, this role can be considered more as a label. The rule combinations here specifically allow:"
+      "content": "A 'Contractor' Role is specifically aimed at temporary or restricted Members of an Enterprise that only need access to data within a narrow scope in the Enterprise – we recommend typically that a Group be created per Contractor  company you may use. With similar rights as an 'Employee' Role, this Role can be considered more as a label. The Rule combinations here specifically allow:"
     },
     {
       "type": "bullet",
@@ -278,40 +234,40 @@
           "text":"Full rights to administer Jobs such as creating, deleting, editing, exporting and assigning the continuation of Jobs."
         },
         {
-          "text":"The full ability to view, run and re-assign tasks including creating security exceptions if needed when assigning Tasks to other members within the Contractor's Enterprise scope."
+          "text":"The full ability to view, run and re-assign Tasks including creating Security Exceptions if needed when assigning Tasks to other Members within the 'Contractor's' Enterprise scope."
         }
       ]
     },
     {
       "type": "h1",
-      "content": "2.3.4.8 Security Exceptions",
+      "content": "2.3.4.7 Security Exceptions",
       "id": "exceptions"
     },
     {
       "type": "text",
-      "content":"In some situations an administrator or privileged user may find it necessary to allow a user access to a particular resource not located on the same branch of the user. As this breaks the default restrictions of the enterprise hierarchy authorisation, a security exception needs to be created telling the system that access should be granted in this particular case. Repositories can’t be used as this would grant multiple users access to the resource."
+      "content":"In some situations an Administrator or privileged user may find it necessary to allow a user access to a particular Resource not located within the users In-scope Hierarchy. As this overrides the intended behavior of the Enterprise authorization, a Security Exception needs to be created informing the system that access is requested in this particular case."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-5-0.png",
       "imgAlt":"Image Alt",
-      "caption": "Consider a situation where OGUser7 would like to assign a task to OGContractor1. As OGContractor1 is located lower in the hierarchy structure, access will be denied to the resource associated with the assign task. The only way to bypass this constraint is to create a security exception for OGContractor1 to the resource."
+      "caption": "Consider a situation where 'OGUser7' would like to assign a Task to 'OGContractor1'. As 'OGContractor1' is located in a different branch of the Enterprise Hierarchy structure, access will be denied to the Resource associated with the assign Task. The only way to override this constraint is to create a Security Exception for 'OGContractor1' to the Resource."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-5-4.png",
       "imgAlt":"Image Alt",
-      "caption": "To create a security exception, we first need to navigate to the cell of the item. On the right, there will be a dropdown list of actions, one of which is the Assign action. When the assign button is clicked, the assign task popup will appear. Here, we can select the user we want to assign the resource to. In OGUser7’s case, OGContractor1 will be selected. This will prompt the creation of a security exception for OGContractor1."
+      "caption": "To create a Security Exception, we first need to navigate to the cell of the item. On the right, there is a dropdown list of actions, one of which is the Assign action. When the assign button is selected, the assign Task popup will appear. Here, we can select or enter the user we want to assign the Resource to. In 'OGUser7’s' case, 'OGContractor1' will be selected. This will prompt the creation of a Security Exception for 'OGContractor1'."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-5.png",
       "imgAlt":"Image Alt",
-      "caption": "For security reasons, Fieldlogs does now allow for the direct creation of security exceptions. Instead, Fieldlogs will present the option to create a security exception in the case where the system knows that the assignee of the task will not have access to the resource."
+      "caption": "For security reasons, Fieldlogs does now allow for the direct creation of Security Exceptions. Instead, Fieldlogs will present the option to create a Security Exception in the case where the system knows that the assignee of the Task will not have access to the Resource."
     },
     {
       "type": "text",
-      "content": "An assignee will also have the ability to request access to the resource from the assignor. This can achieved by clicking on the fix button in the task inbox section."
+      "content": "An assignee will also have the ability to request access to the Resource from the assignor. This can achieved by clicking on the fix button in the Task inbox section."
     },
     {
       "type": "img",
@@ -322,40 +278,40 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-4-6.png",
       "imgAlt":"Image Alt",
-      "caption": "An assignee will also have the ability to request access to the resource from the assignor. This can achieved by clicking on the fix button in the task inbox section. This will notify the assignor that the assignee does not have access."
+      "caption": "This will notify the assignor that the assignee does not have access. Upon confirmation, the Task in error in the assignors Inbox will change to inform the assignor that access has been requested and he/she can then proceed to create a Security Exception as shown above."
     },
     {
       "type": "warn",
-      "content": "A Template or Job much be shared or public, otherwise access will continue to be denied even with the security exception."
+      "content": "A Template or Job Resource much be in a shared or public state, otherwise access will continue to be denied even with the Security Exception."
     },
     {
       "type": "h2",
-      "content": "2.3.4.8.1 Security Exceptions Manager"
+      "content": "2.3.4.7.1 Security Exceptions Manager"
     },
     {
       "type": "text",
-      "content":"At any time, created security exceptions can be managed via the Security Exceptions Manager subsection under the Enterprise section. Here we can see the list of security exceptions created throughout the enterprise. Privileged users located higher in the hierarchy will have access to view security exceptions created by users located lower down in the hierarchy. In the manager we can see, and modify a few of, the following attributes associated with security exception:"
+      "content":"At any time, created Security Exceptions can be managed via the Security Exceptions Manager subsection under the Enterprise section. Here we can see the list of Security Exceptions created throughout the Enterprise. Privileged users located higher in the Hierarchy will have access to view Security Exceptions created by users located at or lower down in the Hierarchy. In the manager we can see, and modify a few of, the following attributes associated with Security Exception:"
     },
     {
       "type": "bullet",
       "points": [
         {
-          "text":"The type of security exception created."
+          "text":"The type of Security Exception created."
         },
         {
-          "text":"The creator (grantor) of the exception."
+          "text":"The creator (grantor) of the Exception."
         },
         {
-          "text":"The grantee (granted to) of the exception."
+          "text":"The grantee (granted to) of the Exception."
         },
         {
-          "text":"The start and end date during which the exception will grant access."
+          "text":"The start and end date during which the Exception will grant access."
         },
         {
-          "text":"The resource (item) being accessed."
+          "text":"The Resource (item) being accessed."
         },
         {
-          "text":"Whether or not the exception is currently enabled."
+          "text":"Whether or not the Exception is currently enabled."
         }
       ]
     },

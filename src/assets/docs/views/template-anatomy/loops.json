@@ -14,7 +14,7 @@
     },
     {
       "type": "text",
-      "content": "Loops <i style='color:orange;' class='fl-wf_loop'></i> are a way to iterate multiple times through a set of questions or tasks. Loops can “embed” any of the step types exiting in the system, marking it highly powerful."
+      "content": "Loops <i style='color:orange;' class='fl-wf_loop'></i> are a way to iterate multiple times through a set of Steps or Inputs. Loops can “embed” any of the step types exiting in the system, marking it highly powerful."
     },
     {
       "type": "h2",
