@@ -2,8 +2,7 @@
   "title": "Forcing Step Attachment",
   "id": "force-step-attachment",
   "section": "1.5. Augmenting your Template",
-  "intro": "An individual Step can be set as required to force users to respond to it prior to moving on. Similarly, a
-  Template can be built to force users to attach some more information to a Step. This can take the form of rich content such as a picture, a voice/text memo or even a video. Regardless of the type of Step, there might be cases where you would like an operator to take a picture upon reassembly of a machine. Forcing a Step attachment will enforce this, in just a single click.",
+  "intro": "An individual Step can be set as required to force users to respond to it prior to moving on. Similarly, a Template can be built to force users to attach some more information to a Step. This can take the form of rich content such as a picture, a voice/text memo or even a video. Regardless of the type of Step, there might be cases where you would like an operator to take a picture upon reassembly of a machine. Forcing a Step attachment will enforce this, in just a single click.",
   "blocks": [
     {
       "type": "h1",

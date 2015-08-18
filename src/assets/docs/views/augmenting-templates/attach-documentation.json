@@ -2,46 +2,46 @@
   "title": "Attaching Documentation",
   "id": "attach-documentation",
   "section": "1.5. Augmenting your Template",
-  "intro": "While controlling the exactness of data that users will capture, you can provide them with supplementary information on how one can carry out a Task. This is done through <i></i> Documentation. Each Task present in a workflow can be augmented by adding documentation to it. A documentation takes form of a file, a picture a voice or text memo or a URL. Users running your Template are then free to consult the documentation provided to help them in their Tasks.",
+  "intro": "While controlling the exactness of data that users will capture, you can provide them with supplementary information on how one can carry out a Step. This is done through <i></i> Documentation. Each Step present in a workflow can be augmented by adding documentation to it. A documentation takes the form of a file, a picture a voice or text memo or a URL. Users running your Template are then free to consult the documentation provided to help them in their Tasks.",
   "blocks": [
     {
       "type": "h1",
       "content": "1.5.2. Attaching Documentation"
     },
     {
-      "type": "h2",
-      "content": "1.5.2.1. On the Web"
-    },
-    {
       "type": "text",
-      "content": "In the Template Editor, expand a Task where documentation should be added, and hit the “Add documentation” link."
+      "content": "In the Template Editor, go ahead and open a new side panel from the top right hand corner. "
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-1-1.png",
+      "img":"assets/images/doco-images/img_1-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
-      "type": "text",
-      "content": "A new window opens, select the type of documentation you wish to add on the left, and supply the relevant information on the right side of the screen. Save when done."
+      "type": "info",
+      "content": "Make sure you've selected the desired Step from the Template that you wish to add Documentation. Steps with existing Documentation have a small orange paperclip to the right of the cell showing this."
     },
     {
-      "type": "img",
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-5-1-1.png",
+      "imgAlt":"Add documentation button",
+      "caption":"To view the Documentation detail side panel, click on the <i class='fa fa-paperclip'></i> icon. The icons at the top of the panel indicate the different types of Documentation that can be added to a step. <br/><br/>Clicking on these will add an empty Documentation of that type to Step."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-5-1-1-1.png",
-      "imgAlt":"Documentation window"
+      "imgAlt":"Documentation window",
+      "caption":"Once added, the User can continue to add or upload any specific required media depending on the type of Documentation. Here for example, we have added an empty Text Documentation into which the User can type any extra information."
     },
     {
-      "type": "text",
-      "content": "The documentation section visually informs you a documentation has been added to the Task."
-    },
-    {
-      "type": "img",
+      "type": "image",
       "img":"assets/images/doco-images/img_1-5-1-1-2.png",
-      "imgAlt":"Documentation visual"
+      "imgAlt":"Documentation visual",
+      "caption":"Multiple documentation types can be added, without limit, to an individual Step allowing a User to build rich Documentation sets that include a variety of medias and extra useful information."
     },
     {
       "type": "info",
-      "content": "To re-open of edit the Documentation added to a Step, click on any visual icon for a documentation and the Documentation editor window will pop-up again."
+      "content": "Documentations are displayed on devices at Runtime in the order they are added. You can easily, as the Template creator/editor, re-arrange Documentation elements by simply dragging and dropping the desired element above or below others in the list."
     },
     {
       "type": "h2",
@@ -49,9 +49,19 @@
     },
     {
       "type": "image",
+      "img":"assets/images/doco-images/img_1-5-1-2-2.png",
+      "imgAlt":"Documentation visuals on table",
+      "caption": "<br/><b>Documentation on the web</b><br/>A thumbnail below the Step text is clickable and allows the User to view the media in a separate pop-up box."
+    },
+    {
+      "type": "info",
+      "content": "Hovering your mouse over a Documentation icon on the Step shows a small preview of the attached Documentation so a User can get a quick sense of what is attached where."
+    },
+    {
+      "type": "image",
       "img":"assets/images/doco-images/img_1-5-1-2.png",
       "imgAlt":"Documentation visuals on table",
-      "caption": "A thumbnail shows a documentation attached to a Step"
+      "caption": "<b>Documentation on mobile devices</b><br/>Much like on the web, a thumbnail shows a documentation attached to a Step."
     },
     {
       "type": "image",

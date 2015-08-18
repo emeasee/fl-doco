@@ -69,16 +69,36 @@
       "content": "1.3.2. Editing an existing Template"
     },
     {
+      "type":"text",
+      "content":"There are a few more options when it comes to editing a Template that has already been started or that may have been duplicated into an account for further modification."
+    },
+    {
       "type": "h2",
       "content": "1.3.2.1. The Action Menu"
     },
     {
       "type":"text",
-      "content":""
+      "content":"The Template Editor provides a handy Action Menu when right clicking on Template Steps."
+    },
+    {
+      "type":"image",
+      "img":"assets/images/doco-images/img_1-3-2-1.png",
+      "imgAlt":"Image Alt",
+      "caption":"Upon activation the Action Menu provides an editor as way to use the standard functions for Cut, Copy and Paste to edit their Templates. This can be acheived by right clicking Cut on a desired Step and then continuing to right click and select Paste and confirming at which exact position to add the Cut Step.<br/><br/>The Action Menu also provides an additional action, 'Clone', which duplicates the Steps and inserts it below the chosen Step."
     },
     {
       "type": "h2",
       "content": "1.3.2.2. Drag & Drop "
+    },
+    {
+      "type":"text",
+      "content":"Drag & Drop functionality has also been built into the Template Editor allowing editors to just move Steps around in the Template Definition by holding down the left mouse key and moving the Step to the desired location."
+    },
+    {
+      "type":"image",
+      "img":"assets/images/doco-images/img_1-3-2-2.png",
+      "imgAlt":"Image Alt",
+      "caption":"A heavy green line indicates where the Step will be moved to, as it is being dragged to different areas of the Template. On release of the mouse button the Step is moved to the desired location."
     }
   ]
 }

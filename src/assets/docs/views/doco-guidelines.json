@@ -1,15 +1,15 @@
 {
-  "title": "1.4. Step Documentation Guidelines",
+  "title": "1.6. Step Documentation Guidelines",
   "id": "doco-guidelines",
   "intro": "Please refer to these simple guidelines when uploading your Documentation to your Template Steps. This will ensure that your media is presented well across all devices & platforms.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.4.1. Images"
+      "content": "1.6.1. Images"
     },
     {
       "type": "h2",
-      "content": "1.4.1.1. General Guidelines"
+      "content": "1.6.1.1. General Guidelines"
     },
     {
       "type": "bullet",
@@ -33,7 +33,7 @@
     },
     {
       "type": "h2",
-      "content": "1.4.1.2. Cover Images"
+      "content": "1.6.1.2. Cover Images"
     },
     {
       "type": "bullet",
@@ -54,7 +54,7 @@
     },
     {
       "type": "h2",
-      "content": "1.4.1.3. Resizing and Creating optimal imagery"
+      "content": "1.6.1.3. Resizing and Creating optimal imagery"
     },
     {
       "type": "text",
@@ -62,11 +62,11 @@
     },
     {
       "type": "h1",
-      "content": "1.4.2. Videos"
+      "content": "1.6.2. Videos"
     },
     {
       "type": "h2",
-      "content": "1.4.2.1. Recommended settings for uploading Videos"
+      "content": "1.6.2.1. Recommended settings for uploading Videos"
     },
     {
       "type": "bullet",
@@ -84,7 +84,7 @@
     },
     {
       "type": "h2",
-      "content": "1.4.2.2. Resizing and formatting video for use on FieldLogs."
+      "content": "1.6.2.2. Resizing and formatting video for use on FieldLogs."
     },
     {
       "type": "text",
