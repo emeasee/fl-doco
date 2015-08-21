@@ -9,17 +9,26 @@
       "content": "1.5.7. Translating Templates"
     },
     {
-      "type": "h2",
-      "content": "1.5.7.1. On the Web"
-    },
-    {
       "type": "text",
       "content": "To get started, you will first need to select the language you wish to translate to. My clicking the language dropdown you will see the language currently supported by the FieldLogs platform."
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-6-1.png",
+      "img":"assets/images/doco-images/img_1-5-7-1.png",
       "imgAlt":"Language dropdown"
+    },
+    {
+      "type": "text",
+      "content": "Once in Translation mode you will notice an obvious orange bar indicating this fact. From this point, any modifications made to the text of the Template will create an Translation for the selected Step associated with the chosen language. A User running the Template will be able to switch the language and see the Step text replaced by the translation provided here."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-5-7-2.png",
+      "imgAlt":"Language dropdown"
+    },
+    {
+      "type": "warn",
+      "content": "While translating it is not possible to add new Constructs to the Template. Likewise you are unable to edit Step options outside of editing the just the text of a Step."
     },
     {
       "type": "h2",
@@ -27,9 +36,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-6-2.png",
+      "img":"assets/images/doco-images/img_.png",
       "imgAlt":"Translation visual runtime",
-      "caption": "A user would not be able to process the next Step or Input unless the present one is answered."
+      "caption": ""
+    },
+    {
+      "type": "warn",
+      "content": "Currently it is not possible to run a Template in a different language on the web. This option is only available on the mobile devices."
     }
   ]
 }

@@ -9,33 +9,23 @@
       "content": "1.5.8. Adding Tags"
     },
     {
-      "type": "h2",
-      "content": "1.5.8.1. On the Web"
-    },
-    {
       "type": "text",
-      "content": "Any Step has the ability to add a tag. Simple select the '+ Tags' button to open the Tag Editor"
+      "content": "In the Template Editor, go ahead and open a new side panel from the top right hand corner."
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-7-1.png",
-      "imgAlt":"Adding tags from the editor"
-    },
-    {
-      "type": "text",
-      "content": "Once open, the Tag editor allows a user to add simple text based tags. The user has the ability to add multiple tags."
+      "img":"assets/images/doco-images/img_1-5-0-1.png",
+      "imgAlt":"Add documentation button"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-7-1-1.png",
-      "imgAlt":"Tag editor empty",
-      "caption": "Tags are added by simply typing a tag in the input field and clicking Add"
+      "img":"assets/images/doco-images/img_1-5-8-1.png",
+      "imgAlt":"Adding tags from the editor",
+      "caption":"Once open, the Tag editor allows a user to add simple text based tags. The user has the ability to add multiple tags also. To remove a Tag click the cross."
     },
     {
-      "type": "image",
-      "img":"assets/images/doco-images/img_1-5-7-1-2.png",
-      "imgAlt":"Added tag to Tag editor",
-      "caption": "The ability to manage your tags are displayed below the input field. Here it is possible to remove tags, if required, by clicking the cross."
+      "type": "info",
+      "content": "The Tag Edit panel button may not show in the toggle buttons at the top of the side panel. Click the 'More' <i class='fa fa-th-list' style='color:grey;'></i> to see the Tag <i class='fa fa-tag'></i> icon to access the Tag side panel."
     }
   ]
 }

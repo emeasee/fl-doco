@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-8-1.png",
+      "img":"assets/images/doco-images/img_1-5-9-1.png",
       "imgAlt":"Script Edition"
     },
     {
@@ -31,13 +31,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-2a.png",
+      "img":"assets/images/doco-images/img_1-5-9-2a.png",
       "imgAlt":"Script Edition",
       "caption": "Start by adding a new Script, and giving it a name for future reference."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-2b.png",
+      "img":"assets/images/doco-images/img_1-5-9-2b.png",
       "imgAlt":"Script Edition",
       "caption": "Then select the Event that will trigger the execution"
     },
@@ -74,13 +74,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-1a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-1a.png",
       "imgAlt":"Script Edition",
       "caption":"<b>Block '{...}' :</b> A Block Instruction is a simple list of Instructions. New Instructions can be added using the '+' button at the top of the Block, and removed using the '-' button at the bottom of the Instruction to remove."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-1b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-1b.png",
       "imgAlt":"Script Edition",
       "caption":"<b>Expression Evaluation :</b> A Basic Instruction that executes the JavaScript expression, and eventually stores the result in a LocalVariable"
     },
@@ -95,7 +95,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-2a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-2a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>If () Then ... Else ... :</b> Defines a Conditional Block. The JavaScript expression is evaluated and the result must be a Boolean value (true or false). If the result is 'true', the Then Instruction is executed, if the Result is 'false' and there is an Else Instruction defined this one is executed."
     },
@@ -105,7 +105,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-2b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-2b.png",
       "imgAlt":"Script Edition",
       "caption": "<b>While () ... :</b> Defines a While Loop. At each Iteration, the JavaScript Expression in Condition is evaluated and the result must be a Boolean (true or false). If the result is 'true', the Sub-Instruction is executed for another Iteration. If the result is 'false', the loop stops."
     },
@@ -124,13 +124,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-3a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-3a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Get Global Value :</b> Retrieves the current value for a Global Variable and stores it in a LocalVariable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-3b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-3b.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Set Global Value :</b> Executes the JavaScript expression and sets the result as the current value for a Global Variable"
     },
@@ -149,13 +149,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-4a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-4a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Get Step Value :</b> Retrieves the current value for a given Step of the Template and stores it in a LocalVariable"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-4b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-4b.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Set Step Value :</b> Executes the JavaScript expression and sets the result as the current value for a given Step of the Template"
     },
@@ -174,7 +174,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-5a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-5a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Add New Row in Table :</b> Adds a new Row at the end of the selected Table, and eventually stores its rowIndex in the Local Variable"
     },
@@ -184,13 +184,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-5b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-5b.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Get Value of Cell of Table :</b> Retrieves the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-5c.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-5c.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Set Value in Cell of Table :</b> Executes the JavaScript expression and sets the result as the current value of the cell at the selected Row in the selected Column of the selected Table"
     },
@@ -209,7 +209,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-6a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-6a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Get External Call Value :</b> Perform the call specified by the given URL and stores the server response in the Local Variable"
     },
@@ -223,7 +223,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-6b.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-6b.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Post Value in External Call:</b> Executes the JavaScript expression and sets the result as the payload of an HTTP request posted to the given URL"
     },
@@ -242,7 +242,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-8-3-7a.png",
+      "img":"assets/images/doco-images/img_1-5-9-3-7a.png",
       "imgAlt":"Script Edition",
       "caption": "<b>Get Value of an Identity Property :</b> Retrieves the value of the selected Property of the selected Identity in the current user profile, and stores it in the Local Variable"
     }
