@@ -1,12 +1,12 @@
 {
   "title": "Security",
   "id": "security",
-  "section": "2.3. Setting up an Enterprise",
+  "section": "3.3. Setting up an Enterprise",
   "intro": "Member data access follows a principle of ‘deny first, authorize explicitly’. That means that once Members are assigned to Groups, Security Roles are used to explicitly authorize them to access Resources that are accessible given the Groups and Resources structure. This FieldLogs set of features allows for fine grained control over security privileges while help manage these over large Member population.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.4. Security"
+      "content": "3.3.4. Security"
     },
     {
       "type": "text",
@@ -14,7 +14,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.1 Roles & the Hierarchy"
+      "content": "3.3.4.1 Roles & the Hierarchy"
     },
     {
       "type": "text",
@@ -34,7 +34,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.2 Configuring Roles with Rules"
+      "content": "3.3.4.2 Configuring Roles with Rules"
     },
     {
       "type": "text",
@@ -67,7 +67,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.3 Types of Securable Objects"
+      "content": "3.3.4.3 Types of Securable Objects"
     },
     {
       "type": "image",
@@ -106,7 +106,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.4 Types of Access Rights"
+      "content": "3.3.4.4 Types of Access Rights"
     },
     {
       "type": "image",
@@ -148,7 +148,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.5 Effects of Roles and Rules on the user interface"
+      "content": "3.3.4.5 Effects of Roles and Rules on the user interface"
     },
     {
       "type": "text",
@@ -156,7 +156,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.6 Examples"
+      "content": "3.3.4.6 Examples"
     },
     {
       "type": "text",
@@ -240,7 +240,7 @@
     },
     {
       "type": "h1",
-      "content": "2.3.4.7 Security Exceptions",
+      "content": "3.3.4.7 Security Exceptions",
       "id": "exceptions"
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.4.7.1 Security Exceptions Manager"
+      "content": "3.3.4.7.1 Security Exceptions Manager"
     },
     {
       "type": "text",

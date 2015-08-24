@@ -1,16 +1,16 @@
 {
   "title": "Example Enterprise Set up",
   "id": "enterprise-example",
-  "section": "2.3. Setting up an Enterprise",
+  "section": "3.3. Setting up an Enterprise",
   "intro": "To help understand how the basic concepts for setting up an Enterprise come together, we will run through setting up an example enterprise.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.6. Example Enterprise Set up"
+      "content": "3.3.6. Example Enterprise Set up"
     },
     {
       "type": "h2",
-      "content": "2.3.6.1. Hierarchy Set up"
+      "content": "3.3.6.1. Hierarchy Set up"
     },
     {
       "type": "text",
@@ -36,7 +36,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.6.2. Setting up Roles"
+      "content": "3.3.6.2. Setting up Roles"
     },
     {
       "type": "text",
@@ -56,7 +56,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.6.5. Template Repositories (DBs) & Lifecycles"
+      "content": "3.3.6.5. Template Repositories (DBs) & Lifecycles"
     },
     {
       "type": "text",

@@ -101,7 +101,47 @@
     ]
   },
   {
-    "header": "2. Enterprise",
+    "header": "2. Jobs",
+    "sections": [
+      {
+        "name": "Introduction",
+        "type": "link",
+        "id": "jobs-intro"
+      },
+      {
+        "name": "Creating Jobs",
+        "type": "link",
+        "id": "jobs-creation"
+      },
+      {
+        "name": "Viewing Jobs & the Job List",
+        "type": "toggle",
+        "id": "job-actions",
+        "closed": true,
+        "children": [
+          {
+            "name": "Accessing the Jobs List",
+            "id": "accessing-list"
+          },
+          {
+            "name": "Viewing a Job",
+            "id": "viewing-job"
+          },
+          {
+            "name": "Editing a Job",
+            "id": "editing-job"
+          }
+        ]
+      },
+      {
+        "name": "Continuing Jobs",
+        "type": "link",
+        "id": "jobs-continue"
+      }
+    ]
+  },
+  {
+    "header": "3. Enterprise",
     "sections": [
       {
         "name": "Introduction",

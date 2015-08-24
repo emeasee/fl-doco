@@ -1,12 +1,12 @@
 {
   "title": "Assigning a Job",
   "id": "assign-job",
-  "section": "2.5. Collaborative Jobs",
+  "section": "3.5. Collaborative Jobs",
   "intro": "Jobs that have been started from a Template can sometimes need the involvement of multiple Members to complete. For example, a specific Template might require two stages of work in different locations by different departments to complete. This is where assignment of the continuation of a Job becomes useful",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.5.2. Assigning an existing Job"
+      "content": "3.5.2. Assigning an existing Job"
     },
     {
       "type": "text",
@@ -22,7 +22,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.2.1. Assigning a Job from the web"
+      "content": "3.5.2.1. Assigning a Job from the web"
     },
     {
       "type": "image",
@@ -32,7 +32,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.2.2. Assigning a Job from the App"
+      "content": "3.5.2.2. Assigning a Job from the App"
     },
     {
       "type": "image",

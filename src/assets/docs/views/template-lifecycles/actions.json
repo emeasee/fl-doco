@@ -1,12 +1,12 @@
 {
   "title": "Lifecycle Actions",
   "id": "actions",
-  "section": "2.4. Template Edition Platform",
+  "section": "3.4. Template Edition Platform",
   "intro": "A primary component of the Template Edition Platform is providing Members with clear actions that allow Templates to be edited, reviewed, submitted, rejected and eventually, published. In this section we will look at the interaction of Members and Lifecycle Tasks via Actions to facilitate this collaboration.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.2. Lifecycle Actions"
+      "content": "3.4.2. Lifecycle Actions"
     },
     {
       "type": "text",
@@ -41,7 +41,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.2.1. Submitting a Template to a Lifecycle"
+      "content": "3.4.2.1. Submitting a Template to a Lifecycle"
     },
     {
       "type": "text",
@@ -64,7 +64,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.2.2. Taking action on Templates in a Lifecycle"
+      "content": "3.4.2.2. Taking action on Templates in a Lifecycle"
     },
     {
       "type": "text",
@@ -77,7 +77,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.2.3. Archiving"
+      "content": "3.4.2.3. Archiving"
     },
     {
       "type": "image",

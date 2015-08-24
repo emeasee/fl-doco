@@ -1,15 +1,15 @@
 {
-  "title": "2.1. Enterprise Introduction",
+  "title": "3.1. Enterprise Introduction",
   "id": "enterprise-intro",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.1.1. What is FieldLogs Enterprise?"
+      "content": "3.1.1. What is FieldLogs Enterprise?"
     },
     {
       "type": "text",
-      "content": "FieldLogs Enterprise is a product upgrade which enables an advanced set of features tailored at groups of individuals such as small businesses, research expert groups or large company organisations. Key improvement of Enterprise is the ability to collectively author, review and publish Templates through Lifecycles (a governance process) as well as managing Tasks (such as authoring Templates or assigning, follwoing or viewing Jobs) to Members within the Enterprise. Alongside all of this, everything is managed with granular authorization security."
+      "content": "FieldLogs Enterprise is a product upgrade which enables an advanced set of features tailored at groups of individuals such as small businesses, research expert groups or large company organisations. Key improvement of Enterprise is the ability to collectively author, review and publish Templates through Lifecycles (a governance process) as well as managing Tasks (such as authoring Templates or assigning, following or viewing Jobs) to Members within the Enterprise. Alongside all of this, everything is managed with granular authorization security."
     },
     {
       "type": "text",

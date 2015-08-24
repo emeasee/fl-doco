@@ -1,12 +1,12 @@
 {
   "title": "Re-assigning or Sharing a Task",
   "id": "share-reassign",
-  "section": "2.5. Collaborative Jobs",
+  "section": "3.5. Collaborative Jobs",
   "intro": "There are often circumstances in the day to day assignment of Templates and Jobs in an Enterprise that require more individuals to be kept up to date on a running Job or Tasks to be re-assigned to other Members due to Member absence and other such situations. FieldLogs provides a few useful tools that we detail here.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.5.3. Re-assignment and Sharing a Task"
+      "content": "3.5.3. Re-assignment and Sharing a Task"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.3.1 Re-assigning a Task"
+      "content": "3.5.3.1 Re-assigning a Task"
     },
     {
       "type":"text",
@@ -37,7 +37,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.3.2. Sharing a Task"
+      "content": "3.5.3.2. Sharing a Task"
     },
     {
       "type":"text",

@@ -1,16 +1,16 @@
 {
   "title": "Real-Time Jobs & Enterprise",
   "id": "rt-enterprise",
-  "section": "2.5. Collaborative Jobs",
+  "section": "3.5. Collaborative Jobs",
   "intro": "Of equal importance to the ability to assign Tasks to Members is the ability to keep track of the resulting Jobs and collect the field data as fast as possible. With FieldLogs this process is in real-time. On this page we will outline the various features of FieldLogs and their relevance to an Enterprise set up.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.5.4. Real-Time Jobs"
+      "content": "3.5.4. Real-Time Jobs"
     },
     {
       "type": "h2",
-      "content": "2.5.4.1. Task feedback"
+      "content": "3.5.4.1. Task feedback"
     },
     {
       "type": "text",
@@ -27,7 +27,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.4.2. Chat"
+      "content": "3.5.4.2. Chat"
     },
     {
       "type": "text",

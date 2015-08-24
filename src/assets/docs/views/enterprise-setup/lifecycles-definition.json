@@ -1,12 +1,12 @@
 {
   "title": "Template Lifecycle Definition",
   "id": "lifecycles-definition",
-  "section": "2.3. Setting up an Enterprise",
+  "section": "3.3. Setting up an Enterprise",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.5. Template Lifecycles"
+      "content": "3.3.5. Template Lifecycles"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.5.1. Public & Private Template DBs"
+      "content": "3.3.5.1. Public & Private Template DBs"
     },
     {
       "type": "text",
@@ -42,7 +42,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.5.2. Creating a Lifecycle"
+      "content": "3.3.5.2. Creating a Lifecycle"
     },
     {
       "type": "text",

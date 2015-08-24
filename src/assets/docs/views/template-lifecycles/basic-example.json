@@ -1,12 +1,12 @@
 {
   "title": "Basic Usage Example",
   "id": "basic-example",
-  "section": "2.4. Template Edition Platform",
+  "section": "3.4. Template Edition Platform",
   "intro": "On this page we will cover a very basic example of a Lifecycle in action. We have set up a small Enterprise structure and have created a Lifecycle. (If you don't know how to create a Lifecycle, please refer to our page in the Enterprise Setup section, <a href='#/section/enterprise-setup/lifecycles-definition'>Template Lifecycle Definition</a>",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.3. Basic Usage Example"
+      "content": "3.4.3. Basic Usage Example"
     },
     {
       "type": "info",
@@ -32,7 +32,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.3.1. Submitting a Template"
+      "content": "3.4.3.1. Submitting a Template"
     },
     {
       "type": "image",
@@ -48,7 +48,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.3.2. Initiating Template Lifecycle process"
+      "content": "3.4.3.2. Initiating Template Lifecycle process"
     },
     {
       "type": "image",
@@ -64,7 +64,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.3.3. Submitting a Template for Review/Approval"
+      "content": "3.4.3.3. Submitting a Template for Review/Approval"
     },
     {
       "type": "image",
@@ -86,7 +86,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.3.4. Reviewing a Template"
+      "content": "3.4.3.4. Reviewing a Template"
     },
     {
       "type": "image",
@@ -102,7 +102,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.3.5. Final Approval & Publishing a Template"
+      "content": "3.4.3.5. Final Approval & Publishing a Template"
     },
     {
       "type": "image",

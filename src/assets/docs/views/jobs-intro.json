@@ -1,0 +1,40 @@
+{
+  "title": "2.1. Introduction to Jobs",
+  "id": "enterprise-intro",
+  "intro": "Now that we are familiar with the concept of Templates <a href='#/section/templates-intro'>(See Templates Introduction)</a> we shall introduce the concept of a Job in FieldLogs. In providing a platform for evidentary Field Data capture through Templates, we also provide a way to store securely the Data created. In FieldLogs we call this a Job.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.1.1. What is a Job?"
+    },
+    {
+      "type": "text",
+      "content": "Data that is acquired during a period of time using the FieldLogs platform, whether on the web or on a mobile device, is generally referred to as a Job. Put another way, a Job consists of a GPS track, with optionally attached media Logs, that describes a period of acquisition that may or may not be based around a Template.<br/><br/>This provides a neat way to collect, organise and review all the periods of acquisition that a User does with their account."
+    },
+    {
+      "type": "text",
+      "content": "Let's get a better idea about how a Job is created:"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"A User creates a Template for the first time, synchronizes and 'Runs' it on their mobile device using the FieldLogs app."
+        },
+        {
+          "text":"As soon as Running starts, a Job is created in the User's Job List."
+        },
+        {
+          "text":"From the point that the User starts the Running of a Template to the moment he/she stops Running (otherwise known as Acquisition), becomes the time bounds for the Job."
+        },
+        {
+          "text":"Once Acquisition has ended, the Job continues to be stored in the Job List for record. All activity including any media attachments as saved in the bounds of the Job."
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "content": "Only one Job can be created simultaneously by an individual User."
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "title": "Structure Definition",
   "id": "structure",
-  "section": "2.3. Setting up an Enterprise",
+  "section": "3.3. Setting up an Enterprise",
   "intro": "Visually expressing the structure of your company, along with the groups & teams within it, gives you an overview serving as a starting point for building, governing, and deploying your desired field processes.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.2. The Enterprise Structure"
+      "content": "3.3.2. The Enterprise Structure"
     },
     {
       "type": "text",
@@ -33,7 +33,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.2.1. Hierarchy Elements in the Enterpise"
+      "content": "3.3.2.1. Hierarchy Elements in the Enterpise"
     },
     {
       "type": "text",
@@ -59,7 +59,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.2.2. Data Scope"
+      "content": "3.3.2.2. Data Scope"
     },
     {
       "type": "text",

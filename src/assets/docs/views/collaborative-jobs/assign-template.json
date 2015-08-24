@@ -1,12 +1,12 @@
 {
   "title": "Assigning a Template",
   "id": "assign-template",
-  "section": "2.5. Collaborative Jobs",
+  "section": "3.5. Collaborative Jobs",
   "intro": "Being able to collaborative create Templates is only one side of FieldLogs. The other is the ability to assign Templates to those in the field so that you can set a standard work practice for field data capture that can optionally be viewed in real-time by others in the Enterprise. The ability fully utilises the apps that we have built for modern mobile devices. A product manager, for example, can assign a newly approved Template to their teams in the field, in less than a few minutes.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.5.1. Assigning a Template"
+      "content": "3.5.1. Assigning a Template"
     },
     {
       "type": "text",
@@ -22,7 +22,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.1.1. Assigning a Template from the web"
+      "content": "3.5.1.1. Assigning a Template from the web"
     },
     {
       "type": "image",
@@ -38,7 +38,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.1.2. Assigning a Template from the App"
+      "content": "3.5.1.2. Assigning a Template from the App"
     },
     {
       "type": "image",
@@ -84,7 +84,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.1.4. The New flag and Synchronization"
+      "content": "3.5.1.4. The New flag and Synchronization"
     },
     {
       "type": "image",
@@ -100,7 +100,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.1.3. Completing a Task"
+      "content": "3.5.1.3. Completing a Task"
     },
     {
       "type": "image",

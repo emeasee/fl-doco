@@ -1,12 +1,12 @@
 {
   "title": "Issues & Errors",
   "id": "errors",
-  "section": "2.5. Collaborative Jobs",
+  "section": "3.5. Collaborative Jobs",
   "intro": "Since security is a major component of the FieldLogs platform, error reporting due to permission problems is of great importance to help refine and fix issues in your Enterprise structure and security set up.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.5.5. Issues & Errors"
+      "content": "3.5.5. Issues & Errors"
     },
     {
       "type": "text",
@@ -35,7 +35,7 @@
     },
     {
       "type": "h2",
-      "content": "2.5.5.1 Identifying errors"
+      "content": "3.5.5.1 Identifying errors"
     },
     {
       "type":"text",

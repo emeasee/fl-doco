@@ -56,15 +56,7 @@
     },
     {
       "type": "text",
-      "content": "Not only can you create your own Templates using FieldLogs but you can also 'Run' your Templates directly from the Web or on your mobile devices. Running a Template simply means to use the procedure defined in the Template to acquire data about that procedure. In FieldLogs, this is then called a Job."
-    },
-    {
-      "type": "h2",
-      "content": "1.1.2.1. Jobs"
-    },
-    {
-      "type": "text",
-      "content": "Jobs are evidentary records of the acquisition of data using a Template. "
+      "content": "Not only can you create your own Templates using FieldLogs but you can also 'Run' your Templates directly from the Web or on your mobile devices. Running a Template simply means to use the procedure defined in the Template to acquire data about that procedure. In FieldLogs, this is then called a Job. <br/><br/>For more information on Job, see the dedicated section '2. Jobs' starting with <a href='#/section/jobs-intro'>Introduction to Jobs</a>."
     }
   ]
 }
