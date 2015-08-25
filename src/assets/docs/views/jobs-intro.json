@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "content": "Let's get a better idea about how a Job is created:"
+      "content": "Let's get a better idea about how a Job is created. For more in-depth information about creating Jobs in different devices see <a href='#/section/jobs-creation'>'Creating Jobs'</a>"
     },
     {
       "type": "numbers",

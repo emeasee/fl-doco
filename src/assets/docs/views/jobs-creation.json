@@ -1,0 +1,19 @@
+{
+  "title": "2.2. Creating Jobs",
+  "id": "jobs-creation",
+  "intro": "As explained in the <a href='#/section/jobs-intro'>Introduction</a> to this section, Jobs are created by using the FieldLogs platform to acquire data, either Running a Template or Running 'Ad-hoc'. In this section we will explain in more detail the difference between the two and provide some examples of how to create Jobs.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "2.2.1. Creating Jobs"
+    },
+    {
+      "type": "text",
+      "content": "Jobs can be created on all FieldLogs apps, across our supported clients (iOS, Android & our website). Jobs started while online are immediately and continuously synchronized to the Cloud, allowing such features as following a live Job in Real-Time. Jobs started while a device is offline (iOS & Android only) is stored locally until such moment that the device is back online. At which point, the Job is synchronized to the Cloud."
+    },
+    {
+      "type": "text",
+      "content": "Let's get a better idea about how a Job is created. For more in-depth information about creating Jobs in different devices see <a href='#/section/jobs-creation'>'Creating Jobs'</a>"
+    }
+  ]
+}

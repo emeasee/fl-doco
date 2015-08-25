@@ -26,13 +26,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-5-2.png",
+      "img":"assets/images/doco-images/img_3-3-5-2.png",
       "imgAlt":"Image Alt",
       "caption": "<b>Public Template DBs</b>, as can be seen in this Hierarchy as 'OGBU2PublicRepository', are Repositories of Templates that make data (Templates) available to sub-groups that are within the Group of the Repository. As an example: the Templates created with the Lifecycle 'OGBU2 Template Lifecycle' are stored in the repository 'OGBU2PublicRepository' which is Public. Therefore the Templates are also available to Members within 'OGContractor1' and 'OGCustomer1' groups.<br/><br/><i>Why would you want to do this?</i><br/><br/>Here we have also given some context. Group 'OGBU2' contains sub-groups for Contractors and Customers, which are the types of Members that, as an Enterprise, you  may prefer to limit data scope to Repositories. However, here you also wish to provide a way for Members of the parent group, OGBU2, to create and deliver Templates to the Repository."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-5-3.png",
+      "img":"assets/images/doco-images/img_3-3-5-3.png",
       "imgAlt":"Image Alt",
       "caption": "<b>Private Template DBs</b>, seen here as 'OGBU1PrivateRepository', are Repositories which limit the data scope of the contained Templates to only the Group in which the Template DB resides (and directly up the Hierarchy tree). The Members of 'OGSubBU1' here, for example, cannot see Templates made by 'OGBU1 Template Lifecycle' and contained within 'OGBU1PrivateRepository'. The same is true for the availability of the Lifecycle, this also is not available to this sub-group as an option to submit Templates to. Only the Members of the parent group, 'OGBU1' and the root, 'OilGassNewCorp' can see Templates in this repository and submit Templates to this Lifecycle.<br/><br/><i>Why would you want to do this?</i><br/><br/>An example may be that you wish to hide sensitive information from Contractor/Customer Members or simple provide a clear separation of Templates that have every different functions or exist to service very different fields of expertise. e.g. Management vs. Field operations."
     },
@@ -50,7 +50,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-3-5-1.png",
+      "img":"assets/images/doco-images/img_3-3-5-1.png",
       "imgAlt":"Image Alt"
     },
     {

@@ -33,7 +33,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-4-1-1.png",
+      "img":"assets/images/doco-images/img_3-4-1-1.png",
       "imgAlt":"Lifecycle Task cell"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-4-1-2.png",
+      "img":"assets/images/doco-images/img_3-4-1-2.png",
       "imgAlt":"Inbox filters",
       "caption": "A simple way to see only Lifecycle Tasks is to use the filter bar at the top of the Inbox. Simply toggle all the other types of Tasks off and make sure the <i></i> Lifecycle Tasks is the only icon with an orange selected bar."
     }

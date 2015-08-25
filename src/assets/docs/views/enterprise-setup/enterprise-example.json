@@ -18,19 +18,19 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-1.png",
+      "img":"assets/images/doco-images/img_3-3-6-1.png",
       "imgAlt":"Image Alt",
       "caption": "From the root of the Enterprise we are going to set up a few empty Groups to simulate departments of my Enterprise. Clicking on the 'Add' button in the header of the Hierarchy window gives you the available options."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-2.png",
+      "img":"assets/images/doco-images/img_3-3-6-2.png",
       "imgAlt":"Image Alt",
       "caption": "Here we have added a new Group inside another group, effectively nesting it. In this case we have used it to denote a separate team inside a larger department."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-3.png",
+      "img":"assets/images/doco-images/img_3-3-6-3.png",
       "imgAlt":"Image Alt",
       "caption": "Changing an elements name (Group or Template DB) can be done in the panel on the right hand side of the screen. You can change the name & icon of Groups and name & availability (public / private) of Template DB's."
     },
@@ -44,13 +44,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-4.png",
+      "img":"assets/images/doco-images/img_3-3-6-4.png",
       "imgAlt":"Image Alt",
       "caption": "Selecting the 'Security' tab in the top bar will allow you to navigate to the Security Manager."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-5.png",
+      "img":"assets/images/doco-images/img_3-3-6-5.png",
       "imgAlt":"Image Alt",
       "caption": "All Enterprises are created with default Roles which can be edited to suit your needs. Refer to our dedicated guide on the <a href='#/section/enterprise-setup/security'>Security Manager</a> to help you set up the correct Rules for your Roles."
     },
@@ -64,13 +64,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-6.png",
+      "img":"assets/images/doco-images/img_3-3-6-6.png",
       "imgAlt":"Image Alt",
       "caption": "Template repositories allow you to control the availability of Templates to the Members of your Hierarchy, otherwise known as the data scope. Here we have created a structure to give a specific team its own repository along with a Lifecycle that can be used to collaboratively create Templates for internal use within the team."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-6-7.png",
+      "img":"assets/images/doco-images/img_3-3-6-7.png",
       "imgAlt":"Image Alt",
       "caption": "Once the Lifecycle has been added to the Hierarchy it is important to customise it to you needs, specifically selecting which stages are needed, names of stages, action labels & Roles that are to be linked to each stage. (As defined in the previous points above)."
     }
