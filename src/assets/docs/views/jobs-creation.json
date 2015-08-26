@@ -12,8 +12,65 @@
       "content": "Jobs can be created on all FieldLogs apps, across our supported clients (iOS, Android & our website). Jobs started while online are immediately and continuously synchronized to the Cloud, allowing such features as following a live Job in Real-Time. Jobs started while a device is offline (iOS & Android only) is stored locally until such moment that the device is back online. At which point, the Job is synchronized to the Cloud."
     },
     {
+      "type": "h2",
+      "content": "2.2.1.1. Creating a Job based on a Template on the Web"
+    },
+    {
       "type": "text",
-      "content": "Let's get a better idea about how a Job is created. For more in-depth information about creating Jobs in different devices see <a href='#/section/jobs-creation'>'Creating Jobs'</a>"
+      "content": "The recommended way to create Jobs in FieldLogs is to Run a Template. This process takes a Template definition and asks the User running the Job to answer it's various Inputs and Steps in the order specified in the Template, recording the answers and optional media as a Job. The benefit of this is that all contextual information about a Job done is attached to the Job so a User can go back and view all key information such as which Template was used, when what the Job completed and a range of meta-data."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-2-1-1-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "text",
+      "content": "Once the Job has started and you are in the state 'Running..' (or 'Live') you will be taken to the Job Viewer screen indicating you can action on the Template and start recording data for inclusion in the Job. When you are done, simply clicking Stop will end the current Job. "
+    },
+    {
+      "type": "info",
+      "content": "As you answer Inputs on the Template, your validated answers will be correlated with GPS points added to the map. These may not be very visible unless you are moving, in which case you will see a red line showing your movements."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-2-1-1-2.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "text",
+      "content": "Jobs that are completed (or even currently Running) are listed on the Jobs section. This can be accessed on at the top from the Jobs menu item or on the Apps using relevant menu items. From here there are wide variety of actions available for administering your Jobs including a global map to see where they were created."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-2-1-1-3.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "info",
+      "content": "For more information about all the different actions, see the <a href='#/section/job-actions/accessing-list'>'Accessing the Jobs List'</a> section."
+    },
+    {
+      "type": "h2",
+      "content": "2.2.1.2. Creating a Job based on a Template on mobile devices"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-2-1-2-1.png",
+      "imgAlt":"Image Alt",
+      "caption":"Creating Jobs based on Templates on the mobile devices can be done"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-2-1-2-2.png",
+      "imgAlt":"Image Alt",
+      "caption":""
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-2-1-2-3.png",
+      "imgAlt":"Image Alt",
+      "caption":""
     }
   ]
 }
