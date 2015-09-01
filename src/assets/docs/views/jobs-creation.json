@@ -26,7 +26,7 @@
     },
     {
       "type": "text",
-      "content": "Once the Job has started and you are in the state 'Running..' (or 'Live') you will be taken to the Job Viewer screen indicating you can action on the Template and start recording data for inclusion in the Job. When you are done, simply clicking Stop will end the current Job. "
+      "content": "Once the Job has started and you are in the state 'Running' (or 'Live') you will be taken to the Job Viewer screen indicating you can action on the Template and start recording data for inclusion in the Job. When you are done, simply clicking Stop will end the current Job. "
     },
     {
       "type": "info",
@@ -58,19 +58,57 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-2-1-2-1.png",
       "imgAlt":"Image Alt",
-      "caption":"Creating Jobs based on Templates on the mobile devices can be done"
+      "caption":"Creating Jobs based on Templates on the mobile devices can be done from the Templates screen by selecting a desired Template that you want to Run (create a Job from) and selecting the Action 'Run' from the Action menu that pops in from the right hand side. This will automatically create a new Job and start acquisition on your mobile device."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-2-1-2-2.png",
       "imgAlt":"Image Alt",
-      "caption":""
+      "caption":"Much like on the website, the mobile app presents the User with the Template Definition that can be answered and the responses recorded inside the Job.<br/><br/>Options related to the Running of Jobs and other App-wide specific actions can be accessed in the Menu by tapping the FieldLogs logo at the top of the screen."
     },
     {
       "type": "image",
       "img":"assets/images/doco-images/img_2-2-1-2-3.png",
       "imgAlt":"Image Alt",
-      "caption":""
+      "caption":"On the Menu panel there exists a range of quick shortcuts to different Actions related to a Users context. Here there is a clearly labelled button to allow a User to stop the currently Running Job"
+    },
+    {
+      "type": "info",
+      "content": "This Menu is available throughout the app making it easy to Stop a Running Job even if you are on a different section."
+    },
+    {
+      "type": "image",
+      "img": "assets/images/doco-images/img_2-2-1-2-4.png",
+      "imgAlt": "Image Alt",
+      "caption": "Just as on the web, a Job in the Job List indicates whether or not it has been created using a Template by including the Template title below the main Job title."
+    },
+    {
+      "type": "info",
+      "content": "A Job that has been created from a Template, is automatically given the same name as the Template used to create it if no other name is given."
+    },
+    {
+      "type": "h2",
+      "content": "2.2.1.3. Creating 'Ad-hoc' Jobs"
+    },
+    {
+      "type": "text",
+      "content": "Ad-hoc Jobs are Jobs that have been created without a Template. They exist solely as a way to track GPS and Logs between a start and stop point. Ad-hoc Jobs can be useful for simple documentation of a Job being performed rather than expecting a procedure to be adhered to, as per a Template. As an example, this might be useful to document an experimental repair procedure or for location scouting."
+    },
+    {
+      "type": "warn",
+      "content": "Ad-hoc Jobs can only be created on mobile devices running the FieldLogs app. They cannot be created on the Web."
+    },
+    {
+      "type": "image",
+      "img": "assets/images/doco-images/img_2-2-1-3-1.png",
+      "imgAlt": "Image Alt",
+      "caption": "Ad-hoc Jobs are most commonly started from the Ad-hoc Tab on the App. A Job can be started in 2 ways. To quickly start an Ad-hoc Job, a User can simple start by creating a Log (media item) from the choices on the right side of the map. This will automatically start GPS acquisition and the Job.<br/><br/>Another way to start an Ad-hoc Job is to go through the global menu (Point 3.)"
+    },
+    {
+      "type": "image",
+      "img": "assets/images/doco-images/img_2-2-1-3-2.png",
+      "imgAlt": "Image Alt",
+      "caption": "Once the Menu is open you will see an option to 'Start new Job'.<br/><br/><b>GPS Mode</b><br/>An additional option available to Users running both Ad-hoc and Template-based Jobs is a global setting in the Menu allowing the switch between 'Step-by-Step' acquisition and 'Continuous' acquisition.<br/>'Step-by-Step' acquisition only acquires GPS data points when the User either creates a Log or validates a Step in a Template. This mode helps to save on device battery power and is recommended for long Jobs where a clear GPS route may not be as important. 'Continuous' acquires GPS points automatically and continuously leading to a clear GPS 'track' on the map."
     }
   ]
 }

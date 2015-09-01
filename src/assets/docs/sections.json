@@ -112,31 +112,6 @@
         "name": "Creating Jobs",
         "type": "link",
         "id": "jobs-creation"
-      },
-      {
-        "name": "Viewing Jobs & the Job List",
-        "type": "toggle",
-        "id": "job-actions",
-        "closed": true,
-        "children": [
-          {
-            "name": "Accessing the Jobs List",
-            "id": "accessing-list"
-          },
-          {
-            "name": "Viewing a Job",
-            "id": "viewing-job"
-          },
-          {
-            "name": "Editing a Job",
-            "id": "editing-job"
-          }
-        ]
-      },
-      {
-        "name": "Continuing Jobs",
-        "type": "link",
-        "id": "jobs-continue"
       }
     ]
   },
