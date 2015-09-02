@@ -13,18 +13,7 @@
     },
     {
       "type": "text",
-      "content": "To access the Template Editor simply navigate via the top menu of the FieldLogs website by selecting 'Templates'. This will load the following screen:"
-    },
-    {
-      "type": "bullet",
-      "points": [
-        {
-          "text":"At the top of the screen"
-        },
-        {
-          "text":"Select 'Templates'"
-        }
-      ]
+      "content": "To access the Template Editor simply navigate via the top menu of the FieldLogs website by selecting 'Templates'."
     },
     {
       "type": "info",

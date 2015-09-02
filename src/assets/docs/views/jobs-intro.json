@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "content": "Data that is acquired during a period of time using the FieldLogs platform, whether on the web or on a mobile device, is generally referred to as a Job. Put another way, a Job consists of a GPS track, with optionally attached media Logs, that describes a period of acquisition that may or may not be based around a Template.<br/><br/>This provides a neat way to collect, organise and review all the periods of acquisition that a User does with their account."
+      "content": "Data that is acquired during periods of time using the FieldLogs platform, whether on the web or on a mobile device, is generally referred to as a Job. Put another way, a Job consists of GPS data, with optionally attached media Logs, that describe periods of acquisition that may or may not be based around a Template.<br/><br/>This provides a neat way to collect, organise and review all the periods of acquisition that a User does with their account."
     },
     {
       "type": "text",

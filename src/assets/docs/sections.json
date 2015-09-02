@@ -112,6 +112,40 @@
         "name": "Creating Jobs",
         "type": "link",
         "id": "jobs-creation"
+      },
+      {
+        "name": "Sharing Jobs",
+        "type": "link",
+        "id": "jobs-sharing"
+      },
+      {
+        "name": "Interacting with Jobs",
+        "type": "toggle",
+        "id": "job-actions",
+        "closed": true,
+        "children": [
+          {
+            "name": "Accessing the Jobs List",
+            "id": "accessing-list"
+          },
+          {
+            "name": "Viewing a Job",
+            "id": "viewing-job"
+          },
+          {
+            "name": "Following a Real-Time Job",
+            "id": "following-job"
+          },
+          {
+            "name": "Editing a Job",
+            "id": "editing-job"
+          }
+        ]
+      },
+      {
+        "name": "Continuing Jobs",
+        "type": "link",
+        "id": "jobs-continue"
       }
     ]
   },
