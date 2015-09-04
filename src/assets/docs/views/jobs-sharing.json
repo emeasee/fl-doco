@@ -1,7 +1,7 @@
 {
   "title": "2.3.3. Sharing a Job",
   "id": "jobs-sharing",
-  "intro": "",
+  "intro": "A key aspect of FieldLogs is collaboration. Often in doing a Job, individuals need help or need to delivery evidence of work done. This has been built into the core of FieldLogs, allowing Users to share a Job so that others (with or without FieldLogs accounts) can view them. Jobs can even be shared while they are in progress, allowing others to see moment-by-moment updates in Real-Time.",
   "blocks": [
     {
       "type": "h1",
@@ -9,7 +9,31 @@
     },
     {
       "type": "text",
-      "content": ""
+      "content": "Sharing Jobs in FieldLogs can be done from both the web and mobile apps, whether they are currently in progress or after the fact. We will explore how to do this on the web but first let's explore an example of when it would be important to share Jobs and how do so on the mobile apps."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.3.1. Sharing while Creating a Job"
+    },
+    {
+      "type": "text",
+      "content": "Let's imagine we have a User who has started to Run a Template. This has created a Job and he/she is acquiring data."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-1-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "During the procedure, the User has been asked by a manager to share with him the Job so that he can make see for himself the progress of the Job.<br/><br/>Sharing the Job at this point will send what is called a 'Real-Time' or 'Live' Job to the recipient. See more about following Real-Time Jobs in the <a href='#/section/job-actions/following-job'>'Following a Real-Time Job'</a> section."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-1-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "The User opens the Apps menu and proceeds to share the Job. Tapping share here, does a couple of things: <br/><br/><ol><li>The Job is changed from being set to Private (only you have access to it) to being Public (anyone with the correct link can view it)</li><li>A standard E-mail compose message is brought up with prepopulated information asking only for the email address of the individual that the User wants to share with</li></ol>"
+    },
+    {
+      "type": "info",
+      "content": "The Email can be any email, it does not need to be a FieldLogs registered account. Anyone with the correct link can view the Job without needing an account or needing to Login"
     }
   ]
 }
