@@ -9,7 +9,25 @@
     },
     {
       "type": "text",
-      "content": "Sharing Jobs in FieldLogs can be done from both the web and mobile apps, whether they are currently in progress or after the fact. We will explore how to do this on the web but first let's explore an example of when it would be important to share Jobs and how do so on the mobile apps."
+      "content": "Sharing Jobs in FieldLogs can be done from both the web and mobile apps, whether they are currently in progress or after the fact. We will explore how to do this on the web but first we will outline what a Jobs status is an what it means then we shall explore an example of when it would be important to share Jobs and how do so on the mobile apps."
+    },
+    {
+      "type": "text",
+      "content": "Jobs have a status which indicates whether it is available to be viewed outside of a Users account or not. These status are Private, Shared and Public."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Public</b> means the Job and its containing data is available for viewing to those who have the web link generated when Sharing the Job."
+        },
+        {
+          "text":"<b>Shared (Enterprise only)</b> indicates a Job is available within an Enterprise, therefore to the members of that Enterprise."
+        },
+        {
+          "text":"<b>Private</b> means the Job is available for viewing only by the User who created it."
+        }
+      ]
     },
     {
       "type": "h2",
@@ -23,7 +41,7 @@
       "type": "image",
       "img":"assets/images/doco-images/img_2-3-3-1-1.png",
       "imgAlt":"Image Alt",
-      "caption": "During the procedure, the User has been asked by a manager to share with him the Job so that he can make see for himself the progress of the Job.<br/><br/>Sharing the Job at this point will send what is called a 'Real-Time' or 'Live' Job to the recipient. See more about following Real-Time Jobs in the <a href='#/section/job-actions/following-job'>'Following a Real-Time Job'</a> section."
+      "caption": "During the procedure, the User has been asked by a manager to share with him the Job so that he can see for himself the progress of the Job.<br/><br/>Sharing the Job at this point will send what is called a 'Real-Time' or 'Live' Job to the recipient. See more about following Real-Time Jobs in the <a href='#/section/job-actions/following-job'>'Following a Real-Time Job'</a> section."
     },
     {
       "type": "image",
@@ -34,6 +52,42 @@
     {
       "type": "info",
       "content": "The Email can be any email, it does not need to be a FieldLogs registered account. Anyone with the correct link can view the Job without needing an account or needing to Login"
+    },
+    {
+      "type": "text",
+      "content": "In much the same way as on mobile devices, a Job can shared from the web whether it is a static Job or 'Live'. Un-like the mobile devices however and for both Normal & Live Jobs, the way to do this is the same. Below you can see how to access the Share dialog box allowing a User to enter the recipient email addresses and an additional text comment."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-3-1-3.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h2",
+      "content": "2.3.3.2. Sharing a Finished Job"
+    },
+    {
+      "type": "text",
+      "content": "Job that have been Finished (stopped by the User from acquiring anymore data) are, of course, also available for sharing. When sharing Jobs, if a Job has been set to Private it will automatically be changed to Public. A User has responsibility to setting the Job back to Private if so desired. This process is achieved by <a href='#/section/job-actions/editing-job'>Editing a Job</a>.<br><br/>On the Web, sharing a Finished Job while viewing is exactly the same as above (Sharing a Live Job), by clicking the Share button next to the Open Chat button. Finished Jobs, however, can also be shared through the Job List as below:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-3-2-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-3-3-2-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "Users of the FieldLogs mobile apps can also Share jobs directly from the action panel of the list of Jobs on the Jobs tab. <br/><br/>As opposed to Sharing on the web, the apps allow a User to share in a few more ways relevant to a mobile device. In addition to Sharing by email, it is also possible to share via SMS or to generate a QR Code for the Job that can be Shared a proximity."
+    },
+    {
+      "type": "h2",
+      "content": "2.3.3.3. Viewing a Shared Job"
+    },
+    {
+      "type": "text",
+      "content": "Jobs that are shared (whether they are Live or not) are viewed by opening the URL inside the email recieved by the recipient. The same link could also be shared via an SMS from the mobile apps."
     }
   ]
 }
