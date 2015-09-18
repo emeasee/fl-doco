@@ -87,7 +87,16 @@
     },
     {
       "type": "text",
-      "content": "Jobs that are shared (whether they are Live or not) are viewed by opening the URL inside the email recieved by the recipient. The same link could also be shared via an SMS from the mobile apps."
+      "content": "Jobs that are shared (whether they are Live or not) are viewed by opening the URL inside the email received by the recipient. The same link could also be shared via an SMS from the mobile apps. Below is an example of the email that the recipient would receive when sharing a Job with them."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-3-3-3-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "info",
+      "content": "Clicking the link in the email above will open the Job for viewing in your default browser. If you open this link on a mobile device with FieldLogs installed, it will automatically open the Job in the FieldLogs app. See more at <a href='#/section/job-actions/viewing-job'>'Viewing a Job'</a> for more information about viewing Jobs."
     }
   ]
 }

@@ -1,16 +1,63 @@
 {
   "title": "Viewing a Job",
   "id": "viewing-job",
-  "section":"2.3. Interacting with Jobs",
-  "intro": "",
+  "section":"2.4. Interacting with Jobs",
+  "intro": "Viewing Jobs allows for the looking back at evidentary evidence of work done. FieldLogs fully supported the viewing back and exporting of all a Users data acquired during Job creation. A User can choose to simply view the Job back on the FieldLogs platform allowing them to 'relive' a particular Job completed or to export raw data in Excel format for later processing. In this section we will explore the first of these two, Viewing Jobs on FieldLogs.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.2. Viewing a Job"
+      "content": "2.4.2. Viewing a Job"
+    },
+    {
+      "type": "h2",
+      "content": "2.4.2.1. On the Web"
     },
     {
       "type": "text",
-      "content": ""
+      "content": "Jobs are sometimes preferably viewed on the web as having a larger screen allows viewing of GPS data alongside other Job elements such as answers to Steps in a Template or attached Logs. Viewing Jobs on the web is as simple as selecting a Job from the Job List and clicking the 'View' action button to the right of a Job cell."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_2-4-2-1-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "text",
+      "content": "An overview of the key features and why they are useful:"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"To the left of the screen is a panel containing either answers to a Template alongside the Template definition (if a Template was used to create the Job) or a simple list of attached Logs in the order in which they were taken.<br><br>"
+        },
+        {
+          "text":"A Job created with a Template has a toggle allowing the Viewer to see either the content of the side panel inline with the Template definition structure or the historical timeline of when answers to Steps were validated or edited.<br><br>"
+        },
+        {
+          "text":"Being able to see a visualisation of the historical GPS track alongside the Jobs data gives an overview of the Job and its in-the-field context. To the right of the screen is a map that shows the GPS track and GPS locations of each answer to a Step or attached Log. Clicking the pins on the map will highlight the relevant data in the panel on the left.<br><br>"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "2.4.2.2. On mobile devices"
+    },
+    {
+      "type": "text",
+      "content": "Since Jobs are most likely created on mobile devices, they can, of course, be viewed on them. Much like on the web, the User can do this through the Jobs tab, selecting a Job and selecting View on the Action panel that appears from the right of the screen."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-4-2-2-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "Viewing Jobs on a mobile device is effectively the inverse of that of the web. The screen is instead split horizontally with a view of the map above and the table (in the form of swipe-able cards) at the bottom."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_2-4-2-2-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "Jobs made from Templates are better viewed in Table view. Opposite you can see how to switch viewing modes depending on a Users preferance or nature of the Job."
     }
   ]
 }
