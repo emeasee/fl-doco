@@ -2,7 +2,7 @@
   "title": "Following a Real-Time Job",
   "id": "viewing-job",
   "section":"2.4. Interacting with Jobs",
-  "intro": "",
+  "intro": "A key aspect of creating evidencing work done on the FieldLogs platform is the ability to share the process & status in Real-Time. This vastly improves coordination and communication between staff in the field & staff on-site. Real-Time reporting & guidance is one of the main use cases but there are many others.",
   "blocks": [
     {
       "type": "h1",
@@ -10,7 +10,30 @@
     },
     {
       "type": "text",
-      "content": ""
+      "content": "Real-Time Jobs are simply Jobs that have been shared (and subsequently viewed by the recipient) while they are still in acquisition by the User that started it. They are accessed through a simple, sharable, URL which either opens the Real-Time Job in the viewers default web browser or directly in the FieldLogs app (if installed)."
+    },
+    {
+      "type": "info",
+      "content": "For a run through of how to share & view Jobs, please start with <a href='#/section/jobs-sharing'>'Sharing Jobs'</a>"
+    },
+    {
+      "type": "text",
+      "content": "Let's take a look at how to identify whether a Job you are viewing is Real-Time. Opening a Real-Time Job on the web displays a few clues:"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "info",
+      "content": "Real-Time Jobs update automatically so there is no need to refresh your browser. The loading bar on the top left indicates the refresh interval."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_.png",
+      "imgAlt":"Image Alt",
+      "caption": "On the FieldLogs mobile apps, Real-Time Jobs are displayed just like <a href='#/section/job-actions/viewing-job'>Normal Jobs</a>, however with 2 key differences:<ol><li>A 'Live' indicator hovers over the map with a growing red dot indicating the refresh rate (when the app receives new information about the Real-Time Job)</li><br><br><li>Real-Time Jobs are loaded with the most recent answer to a Step (if with a Template) or the most recent Log appearing in the swipe-able area at the bottom of the screen. When new data arrives a small notification prompts the User they can swipe forward to view the latest updates.</li></ol>"
     }
   ]
 }
