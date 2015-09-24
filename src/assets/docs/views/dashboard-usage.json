@@ -1,0 +1,33 @@
+{
+  "title": "1.2. Dashboard Usage",
+  "id": "dashboard-usage",
+  "intro": "This section will run through the basic usage of the Dashboard including visually showing the difference between a normal & Enterprise Dashboard (with the inclusion of the Inbox).",
+  "blocks": [
+    {
+      "type": "h2",
+      "content": "1.2.1. The Dashboard UI"
+    },
+    {
+      "type": "text",
+      "content": "The Dashboard core is two lists for both Latest Templates & Jobs. Both are scrollable independently and show the latest 12 Templates & the latest 10 Jobs. As is identified below, both lists can be refreshed independently to update the information if changes where made during the initial load of the Dashboard page."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-2-1-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h2",
+      "content": "1.2.2. The Enterprise Dashboard"
+    },
+    {
+      "type": "text",
+      "content": "The Dashboard is designed to change depending on a Users context. An simple example of this is that new Users have a quickstart panel greeting them on the Dashboard but this can be removed and will persist. If the User logs in again, the Quickstart will still be gone.<br><br>When a User becomes a Member of an Enterprise they will notice the Dashboard change to bring to the center the Inbox. 'Recent' lists are reduced in size and stacked to the right. Their behaviour stays the same however."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-2-1-2.png",
+      "imgAlt":"Image Alt"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "title": "Forms",
   "id": "forms",
-  "section": "1.4. Template Anatomy",
+  "section": "2.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.4.3. Forms"
+      "content": "2.4.3. Forms"
     },
     {
       "type": "h2",
-      "content": "1.4.3.1. What are Forms?"
+      "content": "2.4.3.1. What are Forms?"
     },
     {
       "type": "text",
@@ -18,11 +18,11 @@
     },
     {
       "type": "h2",
-      "content": "1.4.3.2. Creating Forms in the Editor"
+      "content": "2.4.3.2. Creating Forms in the Editor"
     },
         {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-2-3-2.png",
+      "img":"assets/images/doco-images/img_2-2-3-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -47,17 +47,17 @@
     },
     {
       "type": "h2",
-      "content": "1.4.3.3. Usage examples"
+      "content": "2.4.3.3. Usage examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-3.png",
+      "img":"assets/images/doco-images/img_2-2-3.png",
       "imgAlt":"Forms on the web",
       "caption": "<b>Form display the web</b><br/>This Template uses a Form <i></i> to thematically group the instructions. Here, they have been used to provide a small sign off form on a Template needing final verification. Note the key characteristic of the layout of forms that provide a more compact view."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-3-1.png",
+      "img":"assets/images/doco-images/img_2-2-3-1.png",
       "imgAlt":"Forms on mobile devices",
       "caption": "<b>Form display the web</b><br/>"
     },

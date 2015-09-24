@@ -1,11 +1,11 @@
 {
-  "title": "2.3.3. Sharing a Job",
+  "title": "3.3.3. Sharing a Job",
   "id": "jobs-sharing",
   "intro": "A key aspect of FieldLogs is collaboration. Often in doing a Job, individuals need help or need to delivery evidence of work done. This has been built into the core of FieldLogs, allowing Users to share a Job so that others (with or without FieldLogs accounts) can view them. Jobs can even be shared while they are in progress, allowing others to see moment-by-moment updates in Real-Time.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.3.3. Sharing a Job"
+      "content": "3.3.3. Sharing a Job"
     },
     {
       "type": "text",
@@ -31,7 +31,7 @@
     },
     {
       "type": "h2",
-      "content": "2.3.3.1. Sharing while Creating a Job"
+      "content": "3.3.3.1. Sharing while Creating a Job"
     },
     {
       "type": "text",
@@ -39,13 +39,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-3-1-1.png",
+      "img":"assets/images/doco-images/img_3-3-3-1-1.png",
       "imgAlt":"Image Alt",
       "caption": "During the procedure, the User has been asked by a manager to share with him the Job so that he can see for himself the progress of the Job.<br/><br/>Sharing the Job at this point will send what is called a 'Real-Time' or 'Live' Job to the recipient. See more about following Real-Time Jobs in the <a href='#/section/job-actions/following-job'>'Following a Real-Time Job'</a> section."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-3-1-2.png",
+      "img":"assets/images/doco-images/img_3-3-3-1-2.png",
       "imgAlt":"Image Alt",
       "caption": "The User opens the Apps menu and proceeds to share the Job. Tapping share here, does a couple of things: <br/><br/><ol><li>The Job is changed from being set to Private (only you have access to it) to being Public (anyone with the correct link can view it)</li><li>A standard E-mail compose message is brought up with prepopulated information asking only for the email address of the individual that the User wants to share with</li></ol>"
     },
@@ -59,12 +59,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-3-3-1-3.png",
+      "img":"assets/images/doco-images/img_3-3-3-1-3.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "h2",
-      "content": "2.3.3.2. Sharing a Finished Job"
+      "content": "3.3.3.2. Sharing a Finished Job"
     },
     {
       "type": "text",
@@ -72,18 +72,18 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-3-3-2-1.png",
+      "img":"assets/images/doco-images/img_3-3-3-2-1.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-3-3-2-2.png",
+      "img":"assets/images/doco-images/img_3-3-3-2-2.png",
       "imgAlt":"Image Alt",
       "caption": "Users of the FieldLogs mobile apps can also Share jobs directly from the action panel of the list of Jobs on the Jobs tab. <br/><br/>As opposed to Sharing on the web, the apps allow a User to share in a few more ways relevant to a mobile device. In addition to Sharing by email, it is also possible to share via SMS or to generate a QR Code for the Job that can be Shared a proximity."
     },
     {
       "type": "h2",
-      "content": "2.3.3.3. Viewing a Shared Job"
+      "content": "3.3.3.3. Viewing a Shared Job"
     },
     {
       "type": "text",
@@ -91,7 +91,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-3-3-3-1.png",
+      "img":"assets/images/doco-images/img_3-3-3-3-1.png",
       "imgAlt":"Image Alt"
     },
     {

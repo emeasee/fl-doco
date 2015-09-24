@@ -1,12 +1,12 @@
 {
   "title": "Assigning a Job",
   "id": "assign-job",
-  "section": "3.5. Collaborative Jobs",
+  "section": "4.5. Collaborative Jobs",
   "intro": "Jobs that have been started from a Template can sometimes need the involvement of multiple Members to complete. For example, a specific Template might require two stages of work in different locations by different departments to complete. This is where assignment of the continuation of a Job becomes useful",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.5.2. Assigning an existing Job"
+      "content": "4.5.2. Assigning an existing Job"
     },
     {
       "type": "text",
@@ -22,21 +22,21 @@
     },
     {
       "type": "h2",
-      "content": "3.5.2.1. Assigning a Job from the web"
+      "content": "4.5.2.1. Assigning a Job from the web"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-1.png",
+      "img":"assets/images/doco-images/img_4-5-2-1.png",
       "imgAlt":"Image Alt",
       "caption": "Jobs can be assigned from either the Job list on the Dashboard or from the Jobs section. In this example we show assignment from the Job section which is achieved using the action dropdown on the Job cell. At this point the user will see a very similar assignment window as is show in <a href='#/section/collaborative-jobs/assign-template'>Assigning a Template</a>."
     },
     {
       "type": "h2",
-      "content": "3.5.2.2. Assigning a Job from the App"
+      "content": "4.5.2.2. Assigning a Job from the App"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-2.png",
+      "img":"assets/images/doco-images/img_4-5-2-2.png",
       "imgAlt":"Image Alt",
       "caption": "From the App (Android, iPhone & iPad) the assignment can be achieved by selecting a Job from the Jobs tab and finding the correct action from the Action Panel. At this point the user will see a very similar assignment screen as is show in <a href='#/section/collaborative-jobs/assign-template'>Assigning a Template</a>.<br/><br/>Much like with the assignment of Templates, the assigner will receive a Sent Task in their Inbox allowing them to follow any progress like Real-Time acquisition or if the Task is marked as completed by the assignee."
     }

@@ -1,16 +1,16 @@
 {
   "title": "Tasks",
   "id": "tasks",
-  "section": "1.4. Template Anatomy",
+  "section": "2.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.4.2. Tasks"
+      "content": "2.4.2. Tasks"
     },
     {
       "type": "h2",
-      "content": "1.4.2.1. What are Tasks?"
+      "content": "2.4.2.1. What are Tasks?"
     },
     {
       "type": "text",
@@ -18,11 +18,11 @@
     },
     {
       "type": "h2",
-      "content": "1.4.2.2. Creating Tasks in the Editor"
+      "content": "2.4.2.2. Creating Tasks in the Editor"
     },
         {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-2-2-2.png",
+      "img":"assets/images/doco-images/img_2-2-2-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -44,11 +44,11 @@
     },
     {
       "type": "h2",
-      "content": "1.4.2.3. Usage examples"
+      "content": "2.4.2.3. Usage examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-2.png",
+      "img":"assets/images/doco-images/img_2-2-2.png",
       "imgAlt":"Tasks on web",
       "caption": "<b>Tasks display the web</b><br/>This Template uses a Task to logically group the following three instructions. At the bottom a button exists that marks the entire Task as done, validating all inputs contained within it. This will collapse the Task automatically."
     },
@@ -58,7 +58,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-2-1.png",
+      "img":"assets/images/doco-images/img_2-2-2-1.png",
       "imgAlt":"Tasks on web",
       "caption": "<b>Tasks display the mobile devices</b><br/>The display of Tasks on the mobile devices is much like the web. You may also notice additionally a small red number above the collapse button that indicates the number of required inputs of a given Task."
     }

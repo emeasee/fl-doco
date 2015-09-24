@@ -1,12 +1,12 @@
 {
   "title": "Structure Definition",
   "id": "structure",
-  "section": "3.3. Setting up an Enterprise",
+  "section": "4.3. Setting up an Enterprise",
   "intro": "Visually expressing the structure of your company, along with the groups & teams within it, gives you an overview serving as a starting point for building, governing, and deploying your desired field processes.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.3.2. The Enterprise Structure"
+      "content": "4.3.2. The Enterprise Structure"
     },
     {
       "type": "text",
@@ -33,7 +33,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.2.1. Hierarchy Elements in the Enterpise"
+      "content": "4.3.2.1. Hierarchy Elements in the Enterpise"
     },
     {
       "type": "text",
@@ -59,7 +59,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.2.2. Data Scope"
+      "content": "4.3.2.2. Data Scope"
     },
     {
       "type": "text",
@@ -67,31 +67,31 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2.png",
+      "img":"assets/images/doco-images/img_4-3-2.png",
       "imgAlt":"Image Alt",
       "caption": "In this example structure, the data (Templates & Jobs) of Group 'OGBU1' will only be accessible by Members directly associated with this Group; in this case there are two:<i>OGManager1 & OGUser2</i>.<br/><br/>The data associated with the sub-group 'OGSubBU1' is accessible by its Members <i>OGManager2, OGUser2 & OGUser4</i> <b>and</b> is also accessible by the main Group's Members (OGBU1) since 'OGSubBU1' is a child group of its parent, 'OGBU1'. <br/><br/>Using this logic it is easy to see therefore, that all data associated with both Group elements mentioned above is accessible by Members associated with the root of the Enterprise 'OilGasNewCorp' (OGUser1 & OGUser9) since the group OGBU1 is a child group of the root. <br><br/>A very similar scope logic applies to the other types of elements FieldLogs uses in the Enterprise definition: Lifecycles, Template repositories. We examine those in details in the next section."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2-1.png",
+      "img":"assets/images/doco-images/img_4-3-2-1.png",
       "imgAlt":"Image Alt",
       "caption": "This is the root of the Enterprise from which all Enterprise structures can start to be defined. Members added at this level will be able to view & edit (except if explicitly prevented by their security Role) Templates of the entire Enterprise."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2-2.png",
+      "img":"assets/images/doco-images/img_4-3-2-2.png",
       "imgAlt":"Image Alt",
       "caption": "An example of a Template DB within the specific group, 'OGBU2', which also contains a Lifecycle 'OGBU2 Template Lifecycle'. Templates authored with this Lifecycle will be stored in the DB 'OGBU2PublicRepository."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2-3.png",
+      "img":"assets/images/doco-images/img_4-3-2-3.png",
       "imgAlt":"Image Alt",
       "caption": "This designates a Lifecycle that can be used by Group Members to collaboratively 'approve' Templates for use in the Enterprise – such Templates become Published. Templates approved using this Lifecycle will be stored in the 'OGBU2PublicRepository' repository."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2-4.png",
+      "img":"assets/images/doco-images/img_4-3-2-4.png",
       "imgAlt":"Image Alt",
       "caption": "Once turned on, it is possible to see where Members are within the Hierarchy. It is possible to see a simple count at all times on the right side of any Group in the Hierarchy window."
     }

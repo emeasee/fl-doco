@@ -1,12 +1,12 @@
 {
   "title": "Editor Side Panel Introduction",
   "id": "sidepanel-intro",
-  "section": "1.5. Augmenting your Template",
+  "section": "2.5. Augmenting your Template",
   "intro": "In this section we will provide a brief introduction to using the Template Editor's Side panels in order to augment you Template with various different features available in FieldLogs.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.5.1. Editor Side Panel Introduction"
+      "content": "2.5.1. Editor Side Panel Introduction"
     },
     {
       "type": "text",
@@ -14,12 +14,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-0-1.png",
+      "img":"assets/images/doco-images/img_2-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
       "type": "h2",
-      "content": "1.5.1.1. Side Panel Sections"
+      "content": "2.5.1.1. Side Panel Sections"
     },
     {
       "type": "text",
@@ -27,7 +27,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-0-3.png",
+      "img":"assets/images/doco-images/img_2-5-0-3.png",
       "imgAlt":"Add documentation button",
       "caption":"Before detailing some of the different side panel sections, below we have some notes on the various interface icons and what they do: <br/><br/>The <i style='color:grey;' class='fa fa-times'></i> icon removes the panel from the Template Editor<br/><br/>The <i style='color:grey;' class='fa fa-arrows'></i> icon allows for toggling between different sizes of the individual side panels. This is dependant on which side panel section is being viewed.<br/><br/>The <i style='color:grey;' class='fa fa-th-list'></i> shows side panel section toggle buttons which have been truncated due to a lack of space."
     },
@@ -66,7 +66,7 @@
     },
     {
       "type": "h2",
-      "content": "1.5.1.2. Multiple Side Panels"
+      "content": "2.5.1.2. Multiple Side Panels"
     },
     {
       "type": "text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-0-2.png",
+      "img":"assets/images/doco-images/img_2-5-0-2.png",
       "imgAlt":"Add documentation button"
     }
   ]

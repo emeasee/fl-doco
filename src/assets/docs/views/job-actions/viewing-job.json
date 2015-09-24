@@ -1,16 +1,16 @@
 {
   "title": "Viewing a Job",
   "id": "viewing-job",
-  "section":"2.4. Interacting with Jobs",
+  "section":"3.4. Interacting with Jobs",
   "intro": "Viewing Jobs allows for the looking back at evidentary evidence of work done. FieldLogs fully supported the viewing back and exporting of all a Users data acquired during Job creation. A User can choose to simply view the Job back on the FieldLogs platform allowing them to 'relive' a particular Job completed or to export raw data in Excel format for later processing. In this section we will explore the first of these two, Viewing Jobs on FieldLogs.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.2. Viewing a Job"
+      "content": "3.4.2. Viewing a Job"
     },
     {
       "type": "h2",
-      "content": "2.4.2.1. On the Web"
+      "content": "3.4.2.1. On the Web"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-4-2-1-1.png",
+      "img":"assets/images/doco-images/img_3-4-2-1-1.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "type": "h2",
-      "content": "2.4.2.2. On mobile devices"
+      "content": "3.4.2.2. On mobile devices"
     },
     {
       "type": "text",
@@ -49,13 +49,13 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-4-2-2-1.png",
+      "img":"assets/images/doco-images/img_3-4-2-2-1.png",
       "imgAlt":"Image Alt",
       "caption": "Viewing Jobs on a mobile device is effectively the inverse of that of the web. The screen is instead split horizontally with a view of the map above and the table (in the form of swipe-able cards) at the bottom."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-4-2-2-2.png",
+      "img":"assets/images/doco-images/img_3-4-2-2-2.png",
       "imgAlt":"Image Alt",
       "caption": "Jobs made from Templates are better viewed in Table view. Opposite you can see how to switch viewing modes depending on a Users preferance or nature of the Job."
     }

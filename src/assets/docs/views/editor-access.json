@@ -1,15 +1,15 @@
 {
-  "title": "1.2. Accessing the Editor",
+  "title": "2.2. Accessing the Editor",
   "id": "editor-access",
   "intro": "The Template Editor allows individuals to create, manage Templates and to perform a variety of Enterprise-managed process flow Tasks on those Templates. In this section we will outline the various user interface elements, what they do and how to access them.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.1. Accessing the Template Editor"
+      "content": "2.2.1. Accessing the Template Editor"
     },
     {
       "type": "h2",
-      "content": "1.2.1.1. On the Web"
+      "content": "2.2.1.1. On the Web"
     },
     {
       "type": "text",
@@ -21,7 +21,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-0-1.png",
+      "img":"assets/images/doco-images/img_2-0-1.png",
       "imgAlt":"Dashboard empty"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-0-5.png",
+      "img":"assets/images/doco-images/img_2-0-5.png",
       "imgAlt":"Template editor empty"
     }
   ]

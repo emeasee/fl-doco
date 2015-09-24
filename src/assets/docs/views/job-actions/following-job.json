@@ -1,12 +1,12 @@
 {
   "title": "Following a Real-Time Job",
   "id": "viewing-job",
-  "section":"2.4. Interacting with Jobs",
+  "section":"3.4. Interacting with Jobs",
   "intro": "A key aspect of creating evidencing work done on the FieldLogs platform is the ability to share the process & status in Real-Time. This vastly improves coordination and communication between staff in the field & staff on-site. Real-Time reporting & guidance is one of the main use cases but there are many others.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.3. Following a Real-Time Job"
+      "content": "3.4.3. Following a Real-Time Job"
     },
     {
       "type": "text",

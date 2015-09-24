@@ -1,12 +1,12 @@
 {
   "title": "Upgrading",
   "id": "upgrading",
-  "section": "3.3. Setting up an Enterprise",
+  "section": "4.3. Setting up an Enterprise",
   "intro": "If you wish to upgrade to FieldLogs Enterprise the process is simple. Simply follow the instructions in this section.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.3.1. Upgrading Step by Step"
+      "content": "4.3.1. Upgrading Step by Step"
     },
     {
       "type": "numbers",
@@ -31,7 +31,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-1-1.png",
+      "img":"assets/images/doco-images/img_4-3-1-1.png",
       "imgAlt":""
     }
   ]

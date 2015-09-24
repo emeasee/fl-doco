@@ -1,16 +1,16 @@
 {
   "title": "Labels",
   "id": "labels",
-  "section": "1.4. Template Anatomy",
+  "section": "2.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.4.1. Labels"
+      "content": "2.4.1. Labels"
     },
     {
       "type": "h2",
-      "content": "1.4.1.1. What are Labels?"
+      "content": "2.4.1.1. What are Labels?"
     },
     {
       "type": "text",
@@ -18,11 +18,11 @@
     },
     {
       "type": "h2",
-      "content": "1.4.1.4. Creating Labels in the Editor"
+      "content": "2.4.1.4. Creating Labels in the Editor"
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-2-1-2.png",
+      "img":"assets/images/doco-images/img_2-2-1-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -44,17 +44,17 @@
     },
     {
       "type": "h2",
-      "content": "1.4.1.3. Usage examples"
+      "content": "2.4.1.3. Usage examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-1-2.png",
+      "img":"assets/images/doco-images/img_2-1-2.png",
       "imgAlt":"Labels on web",
       "caption": "<b>Labels display the web</b><br/>A Label was created to separate the different phases of a diagnostics procedure. It allows to visually create a separator between the different section of this Template."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-1-3.png",
+      "img":"assets/images/doco-images/img_2-1-3.png",
       "imgAlt":"Labels on iOS",
       "caption": "<b>Labels display on mobile devices</b><br/> For a different Template created to separate the different phases of a surgical procedures SOP, another Label was used to synthesize a piece of information that would otherwise be repeated, in this case “Does the patient have a”, making the Template easier to read and to act upon."
     },

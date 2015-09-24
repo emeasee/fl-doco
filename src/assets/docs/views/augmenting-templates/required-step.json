@@ -1,12 +1,12 @@
 {
   "title": "Required Step",
   "id": "required-step",
-  "section": "1.5. Augmenting your Template",
+  "section": "2.5. Augmenting your Template",
   "intro": "Required Steps <i class='fa fa-asterisk' style='color:red;'></i> are helpful in introducing constraints into a Template, and forcing users to answer a given question. This is particularly useful in explicitly requiring work to be done on a Template before the User can validate (store it's data in the Job and therefore on FieldLogs) a specific Step.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.5.3. Required Steps"
+      "content": "2.5.3. Required Steps"
     },
     {
       "type": "text",
@@ -14,28 +14,28 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-0-1.png",
+      "img":"assets/images/doco-images/img_2-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-2-1.png",
+      "img":"assets/images/doco-images/img_2-5-2-1.png",
       "imgAlt":"Add documentation button",
       "caption":"To set a Step as Required, switch to the Step Information side panel by clicking on the <i class='fa fa-pencil'></i> icon. The are many addition pieces of Step-specific information that can be edited here but to mark a Step as Required we need to check the Required checkbox in the Step Options section.<br/><br/>This will mark the Step in the Template definition with a red asterisk <i class='fa fa-asterisk' style='color:red;'></i>"
     },
     {
       "type": "h2",
-      "content": "1.5.3.1. Usage Examples"
+      "content": "2.5.3.1. Usage Examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-2-3.png",
+      "img":"assets/images/doco-images/img_2-5-2-3.png",
       "imgAlt":"Required Step visual runtime",
       "caption": "<b>Required Steps on the web</b><br/>A step is given shown a small red asterisk to indicate that the Step or Input is required an answer by the User."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-2-2.png",
+      "img":"assets/images/doco-images/img_2-5-2-2.png",
       "imgAlt":"Required Step visual runtime",
       "caption": "<b>Required Steps on mobile devices</b><br/>A red informative banner appears if the User tries to validate the Step without providing an answer to the Input. On the map view here, for example, a user would not be able to process the next Step or Input unless the present one is answered."
     }

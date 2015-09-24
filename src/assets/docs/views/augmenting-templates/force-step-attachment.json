@@ -1,12 +1,12 @@
 {
   "title": "Forcing Step Attachment",
   "id": "force-step-attachment",
-  "section": "1.5. Augmenting your Template",
+  "section": "2.5. Augmenting your Template",
   "intro": "An individual Step can be set as required to force users to respond to it prior to moving on. Similarly, a Template can be built to force users to attach some more information to a Step. This can take the form of rich content such as a picture, a voice/text memo or even a video. Regardless of the type of Step, there might be cases where you would like an operator to take a picture upon reassembly of a machine. Forcing a Step attachment will enforce this, in just a single click.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.5.5. Forcing Step Attachment"
+      "content": "2.5.5. Forcing Step Attachment"
     },
     {
       "type": "text",
@@ -14,12 +14,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-0-1.png",
+      "img":"assets/images/doco-images/img_2-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-4-1.png",
+      "img":"assets/images/doco-images/img_2-5-4-1.png",
       "imgAlt":"Add documentation button",
       "caption":"Toggling a required Attachment is as simple as toggling the desired media type. More than one type of media can be toggled and required by the User at runtime."
     },
@@ -29,22 +29,22 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-4-2.png",
+      "img":"assets/images/doco-images/img_2-5-4-2.png",
       "imgAlt":"Attachment requirements toggled"
     },
     {
       "type": "h2",
-      "content": "1.5.5.2. Usage Examples"
+      "content": "2.5.5.2. Usage Examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-4-3.png",
+      "img":"assets/images/doco-images/img_2-5-4-3.png",
       "imgAlt":"Required attachment runtime visuals",
       "caption": "<b>Forced Step Attachment on the web</b><br/>The required Attachments are clearly indicated below the Step title and Input in orange. Clicking the icons will allow the User to quickly attach the a media to the Step, creating a Log. "
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-4-4.png",
+      "img":"assets/images/doco-images/img_2-5-4-4.png",
       "imgAlt":"Required attachment runtime visuals",
       "caption": "<b>Forced Step Attachment on mobile devices</b><br/>A user running a Template with a required attachment, will be reminded in three locations about the requirement. On the Runtime Template Table, the view is very similar to the above image for the display on the web."
     }

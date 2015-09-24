@@ -1,15 +1,15 @@
 {
-  "title": "3.2. Accessing Enterprise",
+  "title": "4.2. Accessing Enterprise",
   "id": "enterprise-access",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.2.1. Accessing the Enterprise section"
+      "content": "4.2.1. Accessing the Enterprise section"
     },
     {
       "type": "h2",
-      "content": "3.2.1.1. On the Web"
+      "content": "4.2.1.1. On the Web"
     },
     {
       "type": "text",
@@ -25,7 +25,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-2-1-1.png",
+      "img":"assets/images/doco-images/img_4-2-1-1.png",
       "imgAlt":"Enterprise management screen"
     }
   ]

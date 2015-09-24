@@ -1,12 +1,12 @@
 {
   "title": "Assigning a Template",
   "id": "assign-template",
-  "section": "3.5. Collaborative Jobs",
+  "section": "4.5. Collaborative Jobs",
   "intro": "Being able to collaborative create Templates is only one side of FieldLogs. The other is the ability to assign Templates to those in the field so that you can set a standard work practice for field data capture that can optionally be viewed in real-time by others in the Enterprise. The ability fully utilises the apps that we have built for modern mobile devices. A product manager, for example, can assign a newly approved Template to their teams in the field, in less than a few minutes.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.5.1. Assigning a Template"
+      "content": "4.5.1. Assigning a Template"
     },
     {
       "type": "text",
@@ -22,33 +22,33 @@
     },
     {
       "type": "h2",
-      "content": "3.5.1.1. Assigning a Template from the web"
+      "content": "4.5.1.1. Assigning a Template from the web"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-1-1.png",
+      "img":"assets/images/doco-images/img_4-5-1-1.png",
       "imgAlt":"Image Alt",
       "caption": "Templates can be assigned from either the Template list on the Dashboard or from the Template editor Template List. Here we show assignment from the Template Editor list which is achieved using the action dropdown on the Template cell."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-1-3.png",
+      "img":"assets/images/doco-images/img_4-5-1-3.png",
       "imgAlt":"Image Alt",
       "caption": "Once selected the popup window allows a Member to choose assignee for the Task, any additional comments they might have to help in completion of the Task and a due date for completion of the Task.<br/><br/>When assigning a Template we are essentially asking another Member to perform an acquisition (Job) based on the Template chosen. Setting a due date, much like other Task managers, gives the assignee a visual indication of when the Task must be completed by."
     },
     {
       "type": "h2",
-      "content": "3.5.1.2. Assigning a Template from the App"
+      "content": "4.5.1.2. Assigning a Template from the App"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-1-2.png",
+      "img":"assets/images/doco-images/img_4-5-1-2.png",
       "imgAlt":"Image Alt",
       "caption": "From the App (Android, iPhone & iPad) the assignment can be achieved by selecting a Template from the Template tab and finding the correct action from the Action Panel.<br/><br/>This is particularly useful for managerial roles who are on the move a lot by keeping track & engaging with people in Field on a mobile device. Once assigned, a 'Sent' Task is added to the App Inbox so updates to the execution of the Task can be followed in real-time, even the Job itself of course."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-1-4.png",
+      "img":"assets/images/doco-images/img_4-5-1-4.png",
       "imgAlt":"Image Alt",
       "caption": "On the mobile apps, confirmation of assignment happens on a dedicated screen where Members have the same attributes of the Task to specify before assignment as on the web."
     },
@@ -70,7 +70,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-5-1-5.png",
+      "img":"assets/images/doco-images/img_4-5-1-5.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -79,44 +79,44 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-5-1-6.png",
+      "img":"assets/images/doco-images/img_4-5-1-6.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "h2",
-      "content": "3.5.1.4. The New flag and Synchronization"
+      "content": "4.5.1.4. The New flag and Synchronization"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-3.png",
+      "img":"assets/images/doco-images/img_4-5-2-3.png",
       "imgAlt":"Image Alt",
       "caption": "A Task is shown as New if the assignee has not actioned on the Task in anyway. This quick visual indicator easily identifies New Tasks from other Tasks."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-4.png",
+      "img":"assets/images/doco-images/img_4-5-2-4.png",
       "imgAlt":"Image Alt",
       "caption": "If the Task is viewed, started or if the assignee views the Task information then the New flag is automatically removed. This action is synchronized with the assigner so that they can be kept up to date as to whether the Task has been successfully received. (Think of this as a Read Receipt for the Tasks that a Member assigns to others."
     },
     {
       "type": "h2",
-      "content": "3.5.1.3. Completing a Task"
+      "content": "4.5.1.3. Completing a Task"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-5.png",
+      "img":"assets/images/doco-images/img_4-5-2-5.png",
       "imgAlt":"Image Alt",
       "caption": "Once an assignee has received a Task in their Inbox they are required to explicitly action upon to by indicating to 'Run' it. This will start acquisition straight away whether they are on a device or on the web."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-6.png",
+      "img":"assets/images/doco-images/img_4-5-2-6.png",
       "imgAlt":"Image Alt",
       "caption": "Once acquisition is complete for the given Task and the Member is sure that they have completed the Task they can mark it as completed. This signals to the assigner that all acquisition is complete for a given Task, confirming that viewing the Job will show complete data for a given Task."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-7.png",
+      "img":"assets/images/doco-images/img_4-5-2-7.png",
       "imgAlt":"Image Alt",
       "caption": "Here is an example of the visual communication shown for the 'Done' Task. These Tasks are automatically moved to the 'Past' section on the App and can be toggled to show or not using the Inbox filters."
     }

@@ -1,12 +1,12 @@
 {
   "title": "Blocking Step",
   "id": "blocked-step",
-  "section": "1.5. Augmenting your Template",
+  "section": "2.5. Augmenting your Template",
   "intro": "A Blocking Step is a property given to a Step during the design of a Template. When ran, the Template will only show subsequent Steps (to the “blocking Step) when the blocking Step is answered.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.5.4. Blocking Step"
+      "content": "2.5.4. Blocking Step"
     },
     {
       "type": "text",
@@ -14,34 +14,34 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-5-0-1.png",
+      "img":"assets/images/doco-images/img_2-5-0-1.png",
       "imgAlt":"Add documentation button"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-3-1.png",
+      "img":"assets/images/doco-images/img_2-5-3-1.png",
       "imgAlt":"Add documentation button",
       "caption":"To set a Step as Blocking, switch to the Step Information side panel by clicking on the <i class='fa fa-pencil'></i> icon. The are many addition pieces of Step-specific information that can be edited here but to mark a Step as Blocking we need to check the Blocking checkbox in the Step Options section.<br/><br/>This will mark the Step in the Template definition with a blue exclamation sign <i class='fa fa-exclamation-triangle' style='color:blue;'></i>"
     },
     {
       "type": "h2",
-      "content": "1.5.4.2. Usage Examples"
+      "content": "2.5.4.2. Usage Examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-3-2.png",
+      "img":"assets/images/doco-images/img_2-5-3-2.png",
       "imgAlt":"Blocking Step visual runtime",
       "caption": "<b>Blocking Steps on the web</b><br/>There is no visual icon that identifies a Step as being blocking. However, it is obvious here, as they are grayed out and disabled, that Step 3.1.1 is blocking the rest of the Check Inputs in this particular Task Step."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-3-3.png",
+      "img":"assets/images/doco-images/img_2-5-3-3.png",
       "imgAlt":"Blocking Step visual runtime",
       "caption": "<b>Blocking Steps on mobile devices</b><br/>Like on the web, there is no visual cue that there is a blocking Step from a user perspective. 2.2 is a “blocking Step”."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-5-3-4.png",
+      "img":"assets/images/doco-images/img_2-5-3-4.png",
       "imgAlt":"Blocking Step answered",
       "caption": "Once the Step is answered the rest of the Template originally blocked by the blocking Step will appear."
     }

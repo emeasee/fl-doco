@@ -1,16 +1,16 @@
 {
   "title": "Tables",
   "id": "tables",
-  "section": "1.4. Template Anatomy",
+  "section": "2.4. Template Anatomy",
   "intro": "",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.4.4. Tables"
+      "content": "2.4.4. Tables"
     },
     {
       "type": "h2",
-      "content": "1.4.4.1. What are Tables?"
+      "content": "2.4.4.1. What are Tables?"
     },
     {
       "type": "text",
@@ -18,11 +18,11 @@
     },
     {
       "type": "h2",
-      "content": "1.4.4.2. Creating Tables in the Editor"
+      "content": "2.4.4.2. Creating Tables in the Editor"
     },
         {
       "type": "img",
-      "img":"assets/images/doco-images/img_1-2-4-2.png",
+      "img":"assets/images/doco-images/img_2-2-4-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -47,17 +47,17 @@
     },
     {
       "type": "h2",
-      "content": "1.4.4.3. Usage examples"
+      "content": "2.4.4.3. Usage examples"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-4.png",
+      "img":"assets/images/doco-images/img_2-2-4.png",
       "imgAlt":"Tables on the web",
       "caption": "<b>Tables on the web</b><br/>This Template uses a Table to facilitate rapid input of gauge readings, visually presenting it in a way that gives a global overview and easily allowing the addition and editing of values on new and existing rows."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-2-4-1.png",
+      "img":"assets/images/doco-images/img_2-2-4-1.png",
       "imgAlt":"Tables on mobile devices",
       "caption": "<b>Tables on mobile devices</b><br/>"
     },

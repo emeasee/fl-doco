@@ -1,16 +1,16 @@
 {
   "title": "Accessing the Jobs List",
   "id": "accessing-list",
-  "section":"2.4. Interacting with Jobs",
+  "section":"3.4. Interacting with Jobs",
   "intro": "Since Jobs are a key aspect of the FieldLogs platform, they are stored in the account of the User that creates them. Jobs created by a User are listed and available for viewing in the Jobs List on both the web and on the FieldLogs apps.",
   "blocks": [
     {
       "type": "h1",
-      "content": "2.4.1. Accessing the Jobs List"
+      "content": "3.4.1. Accessing the Jobs List"
     },
     {
       "type":"h2",
-      "content":"2.4.1.1. On the Web"
+      "content":"3.4.1.1. On the Web"
     },
     {
       "type": "text",
@@ -22,12 +22,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_2-4-1-1.png",
+      "img":"assets/images/doco-images/img_3-4-1-1.png",
       "imgAlt":"Image Alt"
     },
     {
       "type":"h2",
-      "content":"2.4.1.2. On mobile devices"
+      "content":"3.4.1.2. On mobile devices"
     },
     {
       "type": "info",
@@ -35,7 +35,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_2-4-1-2.png",
+      "img":"assets/images/doco-images/img_3-4-1-2.png",
       "imgAlt":"Image Alt",
       "caption":"The Jobs List on mobile devices have their own Tab/Menu item to which a User can navigate to view the Jobs List."
     }

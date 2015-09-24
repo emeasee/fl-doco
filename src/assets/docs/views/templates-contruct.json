@@ -1,11 +1,11 @@
 {
-  "title": "1.3. Constructing a Template",
+  "title": "2.3. Constructing a Template",
   "id": "templates-construct",
   "intro": "Templates are represented in the Template Editor as a nested table/tree structure. This way of viewing the Template is specifically important for Template creators as it allows a global view of the Template no matter the complexity. One key aspect of this is to facilitate the moving and addition of Steps to any point in the Template definition structure. Much like a programming IDE, the nesting of different Steps, sub-steps and Inputs increases the readability of the large amount of information attached to a Template definition. In this section we will provide a detailed overview of creating a Template.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.3.1. Creating a New Template"
+      "content": "2.3.1. Creating a New Template"
     },
     {
       "type":"text",
@@ -17,11 +17,11 @@
     },
     {
       "type": "h2",
-      "content": "1.3.1.1. Adding Steps to a Template"
+      "content": "2.3.1.1. Adding Steps to a Template"
     },
     {
       "type":"img",
-      "img":"assets/images/doco-images/img_1-3-1-1.png",
+      "img":"assets/images/doco-images/img_2-3-1-1.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "type":"img",
-      "img":"assets/images/doco-images/img_1-3-1-2.png",
+      "img":"assets/images/doco-images/img_2-3-1-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.1.2. Edit a Template in a side panel"
+      "content": "2.3.1.2. Edit a Template in a side panel"
     },
     {
       "type":"text",
@@ -47,7 +47,7 @@
     },
     {
       "type":"image",
-      "img":"assets/images/doco-images/img_1-3-1-3.png",
+      "img":"assets/images/doco-images/img_2-3-1-3.png",
       "imgAlt":"Image Alt",
       "caption":"First of all, we want to access the ability to edit a Templates basic information by selecting the action from the action menu at the relevant Template in our Template list. This will automatically open a side panel and toggle the Edit Template Info view."
     },
@@ -61,12 +61,12 @@
     },
     {
       "type":"img",
-      "img":"assets/images/doco-images/img_1-3-1-4.png",
+      "img":"assets/images/doco-images/img_2-3-1-4.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "h1",
-      "content": "1.3.2. Editing an existing Template"
+      "content": "2.3.2. Editing an existing Template"
     },
     {
       "type":"text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "h2",
-      "content": "1.3.2.1. The Action Menu"
+      "content": "2.3.2.1. The Action Menu"
     },
     {
       "type":"text",
@@ -82,13 +82,13 @@
     },
     {
       "type":"image",
-      "img":"assets/images/doco-images/img_1-3-2-1.png",
+      "img":"assets/images/doco-images/img_2-3-2-1.png",
       "imgAlt":"Image Alt",
       "caption":"Upon activation the Action Menu provides an editor as way to use the standard functions for Cut, Copy and Paste to edit their Templates. This can be acheived by right clicking Cut on a desired Step and then continuing to right click and select Paste and confirming at which exact position to add the Cut Step.<br/><br/>The Action Menu also provides an additional action, 'Clone', which duplicates the Steps and inserts it below the chosen Step."
     },
     {
       "type": "h2",
-      "content": "1.3.2.2. Drag & Drop "
+      "content": "2.3.2.2. Drag & Drop "
     },
     {
       "type":"text",
@@ -96,7 +96,7 @@
     },
     {
       "type":"image",
-      "img":"assets/images/doco-images/img_1-3-2-2.png",
+      "img":"assets/images/doco-images/img_2-3-2-2.png",
       "imgAlt":"Image Alt",
       "caption":"A heavy green line indicates where the Step will be moved to, as it is being dragged to different areas of the Template. On release of the mouse button the Step is moved to the desired location."
     }

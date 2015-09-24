@@ -1,12 +1,12 @@
 {
   "title": "Security",
   "id": "security",
-  "section": "3.3. Setting up an Enterprise",
+  "section": "4.3. Setting up an Enterprise",
   "intro": "Member data access follows a principle of ‘deny first, authorize explicitly’. That means that once Members are assigned to Groups, Security Roles are used to explicitly authorize them to access Resources that are accessible given the Groups and Resources structure. This FieldLogs set of features allows for fine grained control over security privileges while help manage these over large Member population.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.3.4. Security"
+      "content": "4.3.4. Security"
     },
     {
       "type": "text",
@@ -14,7 +14,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.4.1 Roles & the Hierarchy"
+      "content": "4.3.4.1 Roles & the Hierarchy"
     },
     {
       "type": "text",
@@ -22,19 +22,19 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-2.png",
+      "img":"assets/images/doco-images/img_4-3-2.png",
       "imgAlt":"Image Alt",
       "caption": "As an example, let's take another look at our Hierarchy structure. In the subgroup 'OGSubBU1' you will see one 'Manager' Member and two 'Employee' Members. Structure-wise the Hierarchy shows a 'Manager' with two users the same group scope level. <br/><br/>But using Roles we are able to specify a specific Role, and hence fine grained Rule, for Members of a Group that dictates their access rights to Resources."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-0.png",
+      "img":"assets/images/doco-images/img_4-3-4-0.png",
       "imgAlt":"Image Alt",
       "caption": "The Roles of a Member can be added/updated through the Member Management panel in the middle of the Enterprise screen. These can be assigned in bulk if necessary. Here you can see in more detail that actually we have a distinction between two Members that originally appeared to have the same Role in the Enterprise Hierarchy. OGUser3 is a Template 'Author' and OGUser4 is an 'SME Reviewer'."
     },
     {
       "type": "h2",
-      "content": "3.3.4.2 Configuring Roles with Rules"
+      "content": "4.3.4.2 Configuring Roles with Rules"
     },
     {
       "type": "text",
@@ -46,7 +46,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-1.png",
+      "img":"assets/images/doco-images/img_4-3-4-1.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -55,23 +55,23 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-0-1.png",
+      "img":"assets/images/doco-images/img_4-3-4-0-1.png",
       "imgAlt":"Image Alt",
       "caption": "Here the Author Role only has access to data-themed 'Securable Objects' (these are the Resources previously mentioned), with the ability to create Templates and Jobs, yet no access to administration functions of the Enterprise."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-0-2.png",
+      "img":"assets/images/doco-images/img_4-3-4-0-2.png",
       "imgAlt":"Image Alt",
       "caption": "The 'Product Manager' Role however has addition Rules that allow for a certain amount of administration and viewing of Enterprise Resources that are relevant to his job."
     },
     {
       "type": "h2",
-      "content": "3.3.4.3 Types of Securable Objects"
+      "content": "4.3.4.3 Types of Securable Objects"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-2.png",
+      "img":"assets/images/doco-images/img_4-3-4-2.png",
       "imgAlt":"Image Alt",
       "caption": "A 'Securable Object' needs to be selected for a Rule. Templates is the default selection."
     },
@@ -106,11 +106,11 @@
     },
     {
       "type": "h2",
-      "content": "3.3.4.4 Types of Access Rights"
+      "content": "4.3.4.4 Types of Access Rights"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-3.png",
+      "img":"assets/images/doco-images/img_4-3-4-3.png",
       "imgAlt":"Image Alt",
       "caption": "Read is the default access right for newly created Rules. Click the dropdown to view Rules for a selected 'Securable Object'."
     },
@@ -148,7 +148,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.4.5 Effects of Roles and Rules on the user interface"
+      "content": "4.3.4.5 Effects of Roles and Rules on the user interface"
     },
     {
       "type": "text",
@@ -156,7 +156,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.4.6 Examples"
+      "content": "4.3.4.6 Examples"
     },
     {
       "type": "text",
@@ -164,7 +164,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-5-1.png",
+      "img":"assets/images/doco-images/img_4-3-4-5-1.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-5-2.png",
+      "img":"assets/images/doco-images/img_4-3-4-5-2.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -217,7 +217,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-5-3.png",
+      "img":"assets/images/doco-images/img_4-3-4-5-3.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -240,7 +240,7 @@
     },
     {
       "type": "h1",
-      "content": "3.3.4.7 Security Exceptions",
+      "content": "4.3.4.7 Security Exceptions",
       "id": "exceptions"
     },
     {
@@ -249,19 +249,19 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-5-0.png",
+      "img":"assets/images/doco-images/img_4-3-4-5-0.png",
       "imgAlt":"Image Alt",
       "caption": "Consider a situation where 'OGUser7' would like to assign a Task to 'OGContractor1'. As 'OGContractor1' is located in a different branch of the Enterprise Hierarchy structure, access will be denied to the Resource associated with the assign Task. The only way to override this constraint is to create a Security Exception for 'OGContractor1' to the Resource."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-5-4.png",
+      "img":"assets/images/doco-images/img_4-3-4-5-4.png",
       "imgAlt":"Image Alt",
       "caption": "To create a Security Exception, we first need to navigate to the cell of the item. On the right, there is a dropdown list of actions, one of which is the Assign action. When the assign button is selected, the assign Task popup will appear. Here, we can select or enter the user we want to assign the Resource to. In 'OGUser7’s' case, 'OGContractor1' will be selected. This will prompt the creation of a Security Exception for 'OGContractor1'."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-5.png",
+      "img":"assets/images/doco-images/img_4-3-4-5.png",
       "imgAlt":"Image Alt",
       "caption": "For security reasons, Fieldlogs does now allow for the direct creation of Security Exceptions. Instead, Fieldlogs will present the option to create a Security Exception in the case where the system knows that the assignee of the Task will not have access to the Resource."
     },
@@ -271,12 +271,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-8.png",
+      "img":"assets/images/doco-images/img_4-3-4-8.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-4-6.png",
+      "img":"assets/images/doco-images/img_4-3-4-6.png",
       "imgAlt":"Image Alt",
       "caption": "This will notify the assignor that the assignee does not have access. Upon confirmation, the Task in error in the assignors Inbox will change to inform the assignor that access has been requested and he/she can then proceed to create a Security Exception as shown above."
     },
@@ -286,7 +286,7 @@
     },
     {
       "type": "h2",
-      "content": "3.3.4.7.1 Security Exceptions Manager"
+      "content": "4.3.4.7.1 Security Exceptions Manager"
     },
     {
       "type": "text",
@@ -317,7 +317,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-3-4-7.png",
+      "img":"assets/images/doco-images/img_4-3-4-7.png",
       "imgAlt":"Image Alt"
     }
   ]

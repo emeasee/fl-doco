@@ -1,11 +1,11 @@
 {
-  "title": "1.1. Introduction to Templates",
+  "title": "2.1. Introduction to Templates",
   "id": "templates-intro",
   "intro": "A core concept in FieldLogs is the concept of a Template. In this Section we will introduce the concept of a Template, how to create your own and we will go into detail about all the different aspects and usage of a Template within FieldLogs.",
   "blocks": [
     {
       "type": "h1",
-      "content": "1.1.1. What is a Template?"
+      "content": "2.1.1. What is a Template?"
     },
     {
       "type": "text",
@@ -36,23 +36,23 @@
     },
     {
       "type": "h2",
-      "content": "1.1.1.1. Template List"
+      "content": "2.1.1.1. Template List"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-0-3.png",
+      "img":"assets/images/doco-images/img_2-0-3.png",
       "imgAlt":"Image Alt",
       "caption": "Templates on the web and on our mobile apps can be easily recognized as a simple list item displaying the information as shown here. On the web you can view available actions by using the button to the right of the cell."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_1-0-4.png",
+      "img":"assets/images/doco-images/img_2-0-4.png",
       "imgAlt":"Image Alt",
       "caption": "Templates list in the iOS application. The main difference is to access actions relating to a Template one must tap on a Template to access it's Action side menu."
     },
     {
       "type": "h1",
-      "content": "1.1.2. Running Templates"
+      "content": "2.1.2. Running Templates"
     },
     {
       "type": "text",

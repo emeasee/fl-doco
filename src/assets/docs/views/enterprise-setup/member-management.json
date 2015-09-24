@@ -1,12 +1,12 @@
 {
   "title": "Member Management",
   "id": "member-management",
-  "section": "3.3. Setting up an Enterprise",
+  "section": "4.3. Setting up an Enterprise",
   "intro": "Managing your Enterprise users is a key activity in FieldLogs.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.3.3. Member Management"
+      "content": "4.3.3. Member Management"
     },
     {
       "type": "text",
@@ -18,29 +18,29 @@
     },
     {
       "type": "h2",
-      "content": "3.3.3.1. Adding a Member"
+      "content": "4.3.3.1. Adding a Member"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-3-1.png",
+      "img":"assets/images/doco-images/img_4-3-3-1.png",
       "imgAlt":"Image Alt",
       "caption": "Begin by typing the full email address of the user you wish to add to a certain Group in your Enterprise Hierarchy."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-3-2.png",
+      "img":"assets/images/doco-images/img_4-3-3-2.png",
       "imgAlt":"Image Alt",
       "caption": "Hit enter on your keyboard to add the email to the Members list of the Group. The input field also doubles as a search field for existing Members. Therefore as you type the list will be filtered to reveal if the email your entered already exists."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-3-3.png",
+      "img":"assets/images/doco-images/img_4-3-3-3.png",
       "imgAlt":"Image Alt",
       "caption": "Once the user has been added to the list, you need to complete the process by inviting the user by clicking the Invite to Enterprise button. Alternatively if you have added a number of emails you can simply click Invite all in the top bar of the Enterprise Members to invite all outstanding additions to the Members list."
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-3-3-4.png",
+      "img":"assets/images/doco-images/img_4-3-3-4.png",
       "imgAlt":"Image Alt",
       "caption": "Either before or after the user has been invited, it is possible (and recommended) to assign a specific Role granting, or limiting, them access to various Resources of FieldLogs Enterprise. <a href='#/section/enterprise-setup/security'>View our page</a> on Security to understand the concept of Roles & Rules in FieldLogs"
     },

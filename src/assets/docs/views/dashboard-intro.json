@@ -1,0 +1,27 @@
+{
+  "title": "1.1. Introduction to the Dashboard",
+  "id": "dashboard-intro",
+  "intro": "Upon first logging into FieldLogs, the User is taken to the Dashboard. As FieldLogs has a variety of elements & various types of data all of which can be updated or added to from a variety of devices, there is an obvious need for a core 'Dashboard' displaying the most recent updates & changes to a User's account as well as providing easy shortcuts to recent Jobs & Templates.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.1. The Dashboard"
+    },
+    {
+      "type": "text",
+      "content": "The Dashboard displays 3 key lists. A 'Latest Templates' & 'Latest Jobs' lists showing a list of Templates & Jobs ordered by recent activity or changes. A Quickstart panel, to run through key concepts and to familiarize a User with the interface (this shows to new Users signing in and showing until dismissed). And, for Enterprise Users, the Inbox of Tasks assigned or related to you within the Enterprise. (For more about Enterprise & Tasks, start with the <a href='#/section/enterprise-intro'>Enterprise Introduction</a>"
+    },
+    {
+      "type": "info",
+      "content": "Both lists are ordered by most recent changes made to items. So on both lists, more recently created Templates or Jobs will be at the top. Templates have the additional behaviour taking into account modification date. Therefore if they are most recently modified they will jump to the top of the list."
+    },
+    {
+      "type": "h2",
+      "content": "1.1.1. The Dashboard on Enterprise"
+    },
+    {
+      "type": "text",
+      "content": "With the addition of Tasks in Enterprise, Users who are members of Enterprises will also have access to their list of Tasks through the 'Inbox'. This Inbox allows the filtering and viewing of various types of Tasks that exist within FieldLogs Enterprise. With powerful filtering by type and/or date, the Inbox on the Dashboard is a key screen for the entire Enterprise to manage communication and notification during Template authoring and Job execution.<br><br>For more information specifically on the Inbox, please visit: <a href='#/section/inbox-usage/inbox-intro'>Using the Inbox</a>."
+    }
+  ]
+}

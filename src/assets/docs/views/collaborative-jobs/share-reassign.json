@@ -1,12 +1,12 @@
 {
   "title": "Re-assigning or Sharing a Task",
   "id": "share-reassign",
-  "section": "3.5. Collaborative Jobs",
+  "section": "4.5. Collaborative Jobs",
   "intro": "There are often circumstances in the day to day assignment of Templates and Jobs in an Enterprise that require more individuals to be kept up to date on a running Job or Tasks to be re-assigned to other Members due to Member absence and other such situations. FieldLogs provides a few useful tools that we detail here.",
   "blocks": [
     {
       "type": "h1",
-      "content": "3.5.3. Re-assignment and Sharing a Task"
+      "content": "4.5.3. Re-assignment and Sharing a Task"
     },
     {
       "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "type": "h2",
-      "content": "3.5.3.1 Re-assigning a Task"
+      "content": "4.5.3.1 Re-assigning a Task"
     },
     {
       "type":"text",
@@ -26,18 +26,18 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-5-2-8.png",
+      "img":"assets/images/doco-images/img_4-5-2-8.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-9.png",
+      "img":"assets/images/doco-images/img_4-5-2-9.png",
       "imgAlt":"Image Alt",
       "caption": "From the app re-assignment can be achieved by tapping on a Task and choosing Re-assign from the Action panel. Following the on screen Member selection screen allows the user to confirm the re-assignment."
     },
     {
       "type": "h2",
-      "content": "3.5.3.2. Sharing a Task"
+      "content": "4.5.3.2. Sharing a Task"
     },
     {
       "type":"text",
@@ -53,12 +53,12 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_3-5-2-10.png",
+      "img":"assets/images/doco-images/img_4-5-2-10.png",
       "imgAlt":"Image Alt"
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_3-5-2-11.png",
+      "img":"assets/images/doco-images/img_4-5-2-11.png",
       "imgAlt":"Image Alt",
       "caption": "From the app, the user selects Share from the Action panel. A Member selection screen similar to re-assigning a Task then allows the successful sharing of a Task."
     }

@@ -1,6 +1,33 @@
 [
   {
-    "header": "1. Templates",
+    "header": "1. Dashboard",
+    "sections": [
+      {
+        "name": "Introduction",
+        "type": "link",
+        "id": "dashboard-intro"
+      },
+      {
+        "name": "Using the Dashboard",
+        "type": "link",
+        "id": "dashboard-usage"
+      },
+      {
+        "name": "The Inbox",
+        "type": "toggle",
+        "id": "inbox-usage",
+        "closed": true,
+        "children": [
+          {
+            "name": "Using the Inbox",
+            "id": "inbox-intro"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "2. Templates",
     "sections": [
       {
         "name": "Introduction",
@@ -101,7 +128,7 @@
     ]
   },
   {
-    "header": "2. Jobs",
+    "header": "3. Jobs",
     "sections": [
       {
         "name": "Introduction",
@@ -150,7 +177,7 @@
     ]
   },
   {
-    "header": "3. Enterprise",
+    "header": "4. Enterprise",
     "sections": [
       {
         "name": "Introduction",
