@@ -19,8 +19,16 @@
         "closed": true,
         "children": [
           {
+            "name": "Tasks & Task Types",
+            "id": "tasks-types"
+          },
+          {
             "name": "Using the Inbox",
             "id": "inbox-intro"
+          },
+          {
+            "name": "Assignment Example",
+            "id": "tasks-assign"
           }
         ]
       }
