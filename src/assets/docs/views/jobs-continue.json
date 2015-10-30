@@ -1,15 +1,38 @@
 {
   "title": "3.5. Continuing a Job",
   "id": "jobs-continue",
-  "intro": "",
+  "intro": "Once a Job is finished (it has been stopped) acquisition and the ability to edit or answer Steps in a Template is not unavailable. However, if so wished, a Job can be continued at a later time. This action effectively 're-opens' a Job and starts GPS acquisition, continuing from where it last left off. Additionally, if a Job was created using a Template, the User has the ability to continue answering Steps from where they left off or edit any Step answered already.",
   "blocks": [
     {
       "type": "h1",
-      "content": ""
+      "content": "3.5. Continuing a Job"
+    },
+    {
+      "type": "h2",
+      "content": "3.5.1. On the Web"
     },
     {
       "type": "text",
-      "content": ""
+      "content": "Continuing a Job on the web is as simple as running a Template. Below highlights the ways to do this from the Job List. Alternatively a User may like to do so from the Dashboard, in which case the option is equally available in the action menu."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_3-5-1-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h2",
+      "content": "3.5.2. On mobile devices"
+    },
+    {
+      "type": "text",
+      "content": "On mobile devices the action to Continue a Job can be found, like all other actions, in the slide-out action menu once a User has selected and tapped on a Job in the list on the Jobs screen."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_3-5-1-2.png",
+      "imgAlt":"Image Alt",
+      "caption":"Upon continuing an existing Job you will automatically be taken to the 'Runtime' view of the selected Job."
     }
   ]
 }

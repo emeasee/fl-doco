@@ -2,15 +2,96 @@
   "title": "Editing a Job",
   "id": "editing-job",
   "section":"3.4. Interacting with Jobs",
-  "intro": "",
+  "intro": "A Job may be stopped but certain elements can be edited after the fact which allows post-processing, organization and export of Jobs and their data. On both the web and on mobile devices, a User has the ability to edit certain parts of their own Jobs. Here we will have a look more in depth about how and why a User might want to do this.",
   "blocks": [
     {
       "type": "h1",
-      "content": ""
+      "content": "3.4.4. Editing a Job"
+    },
+    {
+      "type": "h2",
+      "content": "3.4.4.1. Edit a Job's metadata"
     },
     {
       "type": "text",
-      "content": ""
+      "content": "Once a Job is finished, there is no way to edit it's template responses or GPS acquisition data (other than to 'Continue' a Job and start acquiring data again) however it is possible to edit certain attributes and metadata of a Job such as it's title & description. This is achieved by selecting the 'Edit Job Info' action on the web and on mobile devices. Editing in this way does not require the Job to continued again.<br><br>There is a range of information that can edited (or added)."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>Name/Title</b>: Defaults to the Template name if none is given"
+        },
+        {
+          "text":"<b>Description</b>: Short additional description of the Job"
+        },
+        {
+          "text":"<b>Rating</b>: Out of 5 star rating of the Job"
+        },
+        {
+          "text":"<b>Status</b>: Availability of Job. Public, Private or Shared"
+        },
+        {
+          "text":"<b>Categories</b>: Additional categorization; multiple can be selected."
+        },
+        {
+          "text":"<b>Weather</b>: Additional information to specify weather during Job creation."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "3.4.4.2. Editing metadata on the web"
+    },
+    {
+      "type": "text",
+      "content": "On the web, editing Job metadata is achieved on the Edit Job Info panel which can be accessed below."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_3-4-4-2-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "h2",
+      "content": "3.4.4.3. Edit metadata on mobile devices"
+    },
+    {
+      "type": "text",
+      "content": "On mobile devices, the edit panel can be accessed using the Action panel and selecting 'Edit Job'."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_3-4-4-3-1.png",
+      "imgAlt":"Image Alt",
+      "caption": "With the addition of a dedicated panel, the Edit Job screen also shows additional information about a Jobs Template (if created from a Template) and easy interactions for setting the metadata elements described above in 3.4.4.1. <br><br>Tapping the top icon (indicating the Job cover) the User has the ability to select a different cover from the available image Logs that exist inside the Job."
+    },
+    {
+      "type": "info",
+      "content": "A Job's cover defaults to the first image taken historically inside the Job. This can of course be changed as explained above."
+    },
+    {
+      "type": "h2",
+      "content": "3.4.4.4. Edit a Job's logs"
+    },
+    {
+      "type": "text",
+      "content": "There is one element of a Job that can be edited without having to Continue it. While viewing a Job (on the web only) the User has the ability, when viewing a Log attached to a Step for example, to edit the attached log by either deleting, or adding an missing media type that could be attached alongside the media type already existing in the Log."
+    },
+    {
+      "type": "warn",
+      "content": "It is not possible to add a new Log alongside a Step or existing Logs, only to edit existing Logs attached to a Step."
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_3-4-4-4-1.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_3-4-4-4-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "To familiarize yourself with the expected interface please refer to the image opposite. <br><br>The individual actions will provide you with the necessary information to make sure that Users upload the correct file types."
     }
   ]
 }

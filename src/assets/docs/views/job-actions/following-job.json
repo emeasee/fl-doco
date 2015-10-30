@@ -22,7 +22,7 @@
     },
     {
       "type": "img",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_3-4-3-1.png",
       "imgAlt":"Image Alt"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "type": "image",
-      "img":"assets/images/doco-images/img_.png",
+      "img":"assets/images/doco-images/img_3-4-3-2.png",
       "imgAlt":"Image Alt",
       "caption": "On the FieldLogs mobile apps, Real-Time Jobs are displayed just like <a href='#/section/job-actions/viewing-job'>Normal Jobs</a>, however with 2 key differences:<ol><li>A 'Live' indicator hovers over the map with a growing red dot indicating the refresh rate (when the app receives new information about the Real-Time Job)</li><br><br><li>Real-Time Jobs are loaded with the most recent answer to a Step (if with a Template) or the most recent Log appearing in the swipe-able area at the bottom of the screen. When new data arrives a small notification prompts the User they can swipe forward to view the latest updates.</li></ol>"
     }
