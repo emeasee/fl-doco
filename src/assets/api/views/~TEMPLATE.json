@@ -1,0 +1,118 @@
+{
+  "title": "Documentation Page Template",
+  "id": "editor-intro",
+  "intro": "Use this file to select or view the different components for use in the FieldLogs help documentation.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "This is a Main Title"
+    },
+    {
+      "type": "h2",
+      "content": "This is a smaller title"
+    },
+    {
+      "type": "h6",
+      "content": "This is a title with a border underneath"
+    },
+    {
+      "type": "text",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+      "type": "image",
+      "img":"assets/images/doco-images/img_1-1-2.png",
+      "imgAlt":"Image Alt",
+      "caption": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, setr, sed diam nonumy eirmod tempor invidunt ut sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"This is a bullet point 1"
+        },
+        {
+          "text":"This is a bullet point 2"
+        },
+        {
+          "text":"This is a bullet point 3"
+        },
+        {
+          "text":"This is a bullet point 4"
+        }
+      ]
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"This is a number point 1"
+        },
+        {
+          "text":"This is a number point 2"
+        },
+        {
+          "text":"This is a number point 3"
+        },
+        {
+          "text":"This is a number point 4"
+        }
+      ]
+    },
+    {
+      "type": "code",
+      "content": "Info text for this component. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+    },
+    {
+      "type": "info",
+      "content": "Info text for this component. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+    },
+    {
+      "type": "warn",
+      "content": "Warning text for this component. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+    },
+    {
+      "type": "img",
+      "img":"assets/images/doco-images/img_1-1-2.png",
+      "imgAlt":"Image Alt"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "titles": [
+        {
+          "text": "Column 1"
+        },
+        {
+          "text": "Column 2"
+        }
+      ],
+      "rows": [
+        {
+          "row": [
+            {
+              "cell": [
+                {
+                  "type": "code",
+                  "content": "Any existing element except images"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type": "text",
+                  "content": "Any existing element except images"
+                },
+                {
+                  "type": "info",
+                  "content": "Info text for this component. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,15 @@
   font-style: normal;
 }
 
+.orange{
+  background: rgb(241, 151, 38);
+  color: white;
+}
+
+.orange-lighter{
+  background-color: lighten(rgb(241, 151, 38), 40%);
+}
+
 [class^="fl-"],
 [class*=" fl-"] {
   font-family: 'fieldlogs';
@@ -60,8 +69,14 @@ body{
   }
 }
 
+md-toolbar{
+  h2{
+    margin: 0 0 0 10px;
+  }
+}
+
 h2{
-  margin: 0 0 0 10px;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 h3{
@@ -148,7 +163,6 @@ h3{
 
   .fold{
 
-    float: right;
     padding: 4px;
     color: #fff;
   }
@@ -166,6 +180,19 @@ md-divider{
   img{
     width: 100%;
   }
+}
+
+.indent{
+  p{
+    padding-left: 30px;
+  }
+}
+
+code{
+  background-color: #f3f3f3;
+  padding: 8px;
+  display: block;
+  margin-bottom: 30px;
 }
 
 .singleimg{
@@ -228,6 +255,47 @@ md-divider{
       }
     }
   }
+}
+
+.md-api-table {
+  margin-bottom: 16px;
+  max-width: 100%;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 2px;
+  overflow: hidden;
+
+  td,th{
+    padding: 12px 16px;
+    text-align: left;
+  }
+
+  td{
+    vertical-align: top;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.2);
+
+    div{
+      p{
+        margin: 0;
+      }
+      code{
+        background: none;
+        padding: 3px;
+      }
+    }
+
+  }
+
+  td.description *:first-child{
+    margin-top: 0;
+  }
+
+  td.description *:last-child{
+    margin-bottom: 0;
+  }
+
 }
 
 

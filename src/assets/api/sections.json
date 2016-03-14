@@ -1,0 +1,59 @@
+[
+  {
+    "header": "1. API Basics",
+    "sections": [
+      {
+        "name": "1.1 Introduction",
+        "type": "link",
+        "id": "api-intro"
+      },
+      {
+        "name": "1.2 Basic Structure",
+        "type": "link",
+        "id": "api-basic-structure"
+      }
+    ]
+  },
+  {
+    "header": "2. Administration",
+    "sections": [
+      {
+        "name": "Introduction",
+        "type": "link",
+        "id": "administration-intro"
+      },
+      {
+        "name": "2.1 User Management",
+        "type": "toggle",
+        "id": "user-management",
+        "closed": true,
+        "children": [
+          {
+            "name": "2.1.1 Managing Users",
+            "id": "managing-users"
+          },
+          {
+            "name": "2.1.2 Managing User Roles",
+            "id": "managing-user-roles"
+          }
+        ]
+      },
+      {
+        "name": "2.2 Enterprise Management",
+        "type": "toggle",
+        "id": "enterprise-management",
+        "closed": true,
+        "children": [
+          {
+            "name": "Using the Inbox",
+            "id": "inbox-intro"
+          },
+          {
+            "name": "Tasks & Task Types",
+            "id": "tasks-types"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "title": "1.1 Introduction to FieldLogs APIs",
+  "id": "api-intro",
+  "intro": "This page describes the basic elements to understand to start using the FieldLogs API.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.1.1. Global FieldLogs concepts"
+    },
+    {
+      "type": "h2",
+      "content": "Server or Node"
+    },
+    {
+      "type": "text",
+      "content": "The FieldLogs platform contains 2 types fo server or Nodes and each API call should be directed to the right server"
+    },
+    {
+      "type": "numbers",
+      "points": [
+        {
+          "text":"The platform Main Node: This is the entry point. It allows the administration of Users and to retrieve the Node on which a specific User account is served."
+        },
+        {
+          "text":"The Grid Nodes: For platform scalability, the Users' account are dispatched to logical server called Grids or Nodes. To access User specific data, the caller must first obtain the servername of the grid hosting that User's account by requesting it from the Main. See <a href=''>GetUserNode API service</a> for details."
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "content": "Two Grid Nodes will be involved when accessing data of a User Account. One will be the Node hosting the User's data itself, and the other one will be the one hosting the data of the Enterprise the User is part of. Both can be located on different Grids, so each APi Service call must be directed to the corresponding Grid server."
+    }
+  ]
+}

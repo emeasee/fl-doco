@@ -1,0 +1,13 @@
+<!-- API table -->
+  <thead class="{{block.color}}">
+  <tr>
+    <th ng-repeat="title in block.titles" ng-bind-html="title.text | to_trusted"></th>
+  </tr>
+  </thead>
+  <tbody class="{{block.color}}-lighter">
+  <tr ng-repeat="r in block.rows">
+    <td ng-repeat="row in r.row">
+      <div ng-repeat="block in row.cell" ng-include="'app/components/standard/standard.html'"></div>
+    </td>
+  </tr>
+  </tbody>

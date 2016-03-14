@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('flDoco')
-  .controller('PageCtrl',['$scope', '$stateParams', '$http', function ($scope, $stateParams, $http) {
+  .controller('PageCtrl',['$scope', '$rootScope', '$stateParams', '$http', function ($scope, $rootScope, $stateParams, $http) {
     function sectionExists(sec){
       if (sec){
         return $stateParams.section;
@@ -10,8 +10,10 @@ angular.module('flDoco')
       }
     }
 
+    var docType = $rootScope.$rootScope.type;
+
     $http.get(
-      'assets/docs/views/'
+      'assets/'+ docType +'/views/'
       + sectionExists($stateParams.section)
       + '/' + $stateParams.id
       + '.json')

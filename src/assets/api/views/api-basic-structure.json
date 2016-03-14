@@ -1,0 +1,45 @@
+{
+  "title": "1.2 Basic API Structure",
+  "id": "api-basic-structure",
+  "intro": "This page describes the basic structure of each API call managed by the FieldLogs platform.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.2.1. Global API call structure"
+    },
+    {
+      "type": "text",
+      "content": "Each API call structure contains the following elements:"
+    },
+    {
+      "type": "info",
+      "content": "&lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt;/&lt;apiVersion&gt;/&lt;servicePath&gt;?&lt;authenticationParameters&gt;&&lt;apiServiceParameters&gt;"
+    },
+    {
+      "type": "bullet",
+      "points": [
+        {
+          "text":"<b>protocol</b> : Defines the protocol to use to connect to the server. It must be <b>https</b> when going after production platform"
+        },
+        {
+          "text":"<b>servername</b> : Defines the hostname of the server hosting the service. This can be the platform Main hostname, or the Grid Node hostname for account specific services."
+        },
+        {
+          "text":"<b>webappname</b> : Defines the API deployment. It must be <b>MainWebApp</b> when going after the Main host and <b>GridWebApp</b> when going after a Grid Node host."
+        },
+        {
+          "text":"<b>apiVersion</b> : Defines the version of the API to use. The latest version is always available at <b>api/latest</b>."
+        },
+        {
+          "text":"<b>servicePath</b> : Defines the API service to call. This is defined in each of the API calls documentation."
+        },
+        {
+          "text":"<b>authenticationParameters</b> : Defines the parameters and values that will identify the caller and authorize the access to the requested API service."
+        },
+        {
+          "text":"<b>apiServiceParameters</b> : Defines the parameters and values required to perform the API service call. These are specified for each API call documentation"
+        }
+      ]
+    }
+  ]
+}

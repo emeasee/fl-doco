@@ -1,19 +1,13 @@
 <md-toolbar class="md-whiteframe-z1" ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
 
-<md-content md-scroll-y flex layout-padding style="padding: 25px;height:1px;">
+<md-content md-scroll-y flex style="padding: 25px;height:1px;">
   <!-- Introduction first -->
   <p ng-bind-html="view.intro | to_trusted"></p>
 
   <div ng-repeat="block in view.blocks">
 
-    <!-- Big header-->
-    <h1 id="{{ block.id }}" ng-if="block.type === 'h1'" ng-bind-html="block.content | to_trusted"></h1>
-
-    <!-- Small header-->
-    <h4 id="{{ block.id }}" ng-if="block.type === 'h2'" ng-bind-html="block.content | to_trusted"></h4>
-
-    <!-- Normal text-->
-    <p id="{{ block.id }}" ng-if="block.type === 'text'" ng-bind-html="block.content | to_trusted"></p>
+    <!-- Standard style elements -->
+    <div ng-include="'app/components/standard/standard.html'"></div>
 
     <!-- Image with caption-->
     <div id="{{ block.id }}" class="blockimg" layout="row" layout-sm="column" layout-padding style="padding:20px;" ng-if="block.type === 'image'">
@@ -26,34 +20,15 @@
       <img class="md-whiteframe-z3 singleimg" style="margin-top:20px;" ng-src="{{ block.img }}" alt="{{ block.imgAlt }}"/>
     </span>
 
-    <!-- Bullet list-->
-    <ul id="{{ block.id }}" ng-if="block.type === 'bullet'">
-      <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
-    </ul>
-
-    <!-- Numbered list-->
-    <ol id="{{ block.id }}" ng-if="block.type === 'numbers'">
-      <li ng-repeat="bullet in block.points" ng-bind-html="bullet.text | to_trusted"></li>
-    </ol>
-
-    <!-- Info Box-->
-    <div id="{{ block.id }}" class="infobox" layout="row" layout-padding ng-if="block.type === 'info'">
-      <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Info"> info </md-icon>
-      <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
-    </div>
-
-    <!-- Warning box-->
-    <div id="{{ block.id }}" class="warnbox" layout="row" layout-padding ng-if="block.type === 'warn'">
-      <md-icon style="padding:0px;" flex="5" flex-sm="10" aria-label="Warning"> warning </md-icon>
-      <span flex="95" flex-sm="90" ng-bind-html="block.content | to_trusted"></span>
-    </div>
-
     <!-- Slide Show-->
     <div id="{{ block.id }}" ng-if="block.type === 'slideshow'">
       <div class="galleria">
         <img ng-repeat="image in block.images" src="{{image.src}}" data-title="{{image.title}}" data-description="{{image.description}}">
       </div>
     </div>
+
+    <!-- API Table -->
+    <table id="{{ block.id }}" class="md-api-table" ng-if="block.type === 'table'" ng-include="'app/components/apitable/apitable.html'"></table>
 
   </div>
 
