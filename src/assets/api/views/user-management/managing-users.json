@@ -1,0 +1,923 @@
+{
+  "title": "2.1.1 Managing Users",
+  "id": "managing-users",
+  "intro": "This page describes the different API services available to manage Users.",
+  "blocks": [
+    {
+      "type": "links"
+    },
+    {
+      "type": "h6",
+      "id": "CreateNewUser",
+      "content": "Create a new User"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/Create"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"appId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Application of the Product the User will use. For production platform it has to be : aa, for QA environment, it has to be bb."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User Account. Usually an email address to ensure unicity."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"pwd"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Password of the User Account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"email"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The email address of the User. Can be the same value as the buyerId if an email address is used as Identifier"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"region"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The region in which the User account's data will be stored."
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"'us-east-1' for America"
+                    },
+                    {
+                      "text":"'eu-west-1' for Europe"
+                    },
+                    {
+                      "text":"'ap-southeast-1' for Asia"
+                    },
+                    {
+                      "text":"'ap-northeast-1' for Japan"
+                    },
+                    {
+                      "text":"<b>QA Platform only runs in region us-east-1, no other value will work.</b>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Buyer buyerId successfully created"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Buyer already exist"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because a user with the same buyerId already exists"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/Create?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&buyerId=buyerToCreate@test.com&pwd=Password&email=buyerEmail@test.com&region=us-east-1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Buyer buyerToCreate@test.com successfully created\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "type": "h6",
+      "id": "GetUserGridRef",
+      "content": "Get User's Grid"
+    },
+    {
+      "type": "text",
+      "content": "Go back to <a href=\"#/api-basic-structure#GetUserGrid\">Basic Structure</a>"
+    },
+
+
+
+    {
+      "type": "h6",
+      "id": "ChangeUserPwd",
+      "content": "Change User's Password"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/ChangePwd"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User Account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"pwd"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The current Password of the User Account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"newPwd"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The new Password of the User Account"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Password successfully changed"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the password or the user."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangePwd?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&pwd=Password&newPwd=NewPassword"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Password successfully changed\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "type": "h6",
+      "id": "ChangeUserEmail",
+      "content": "Change User's E-mail"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/ChangeEmail"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User Account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"email"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The new e-mail address."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Email successfully changed"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the e-mail or the user."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangeEmail?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&email=emaildAddress@test.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Email successfully changed\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    }
+  ]
+}

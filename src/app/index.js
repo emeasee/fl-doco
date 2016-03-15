@@ -6,6 +6,7 @@ angular.module('flDoco', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngResource', 
     $stateProvider
       .state('home', {
         url: '/',
+        templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       })
       .state('section', {
@@ -30,4 +31,10 @@ angular.module('flDoco', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngResource', 
       .accentPalette('orange', {
         'default': 'A700'
       });
+
+      $mdThemingProvider.theme('api')
+        .primaryPalette('grey', {
+          'default': '100'
+        });
+
   }]);

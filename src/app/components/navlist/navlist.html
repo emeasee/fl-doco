@@ -1,4 +1,5 @@
-<a ng-href="#/"><img src="assets/images/side_logo.png" alt=""/></a>
+<a ng-if="$rootScope.type === 'docs'" ng-href="#/"><img src="assets/images/side_logo.png" alt=""/></a>
+<a ng-if="$rootScope.type === 'api'" ng-href="#/"><img src="assets/images/side_logo_api.png" alt=""/></a>
 
 <md-list flex class="menu" ng-controller="ListCtrl">
   <div class="content">
@@ -19,8 +20,8 @@
         <li ng-if="section.type === 'toggle'">
           <ul class="md-button list-btn" ng-click="section.closed = !section.closed">
             {{ section.name }}
-            <md-icon ng-if="!section.closed" class="fold" aria-label="Menu"> keyboard_arrow_down </md-icon>
-            <md-icon ng-if="section.closed" class="fold" aria-label="Menu"> keyboard_arrow_left </md-icon>
+            <md-icon ng-if="!section.closed" ng-class="$rootScope.type" class="fold md-primary" aria-label="Menu"> keyboard_arrow_down </md-icon>
+            <md-icon ng-if="section.closed" ng-class="$rootScope.type" class="fold md-primary" aria-label="Menu"> keyboard_arrow_left </md-icon>
           </ul>
 
           <ul class="list-item" ng-hide="section.closed" ng-repeat="child in section.children">
@@ -31,7 +32,7 @@
 
         </li>
 
-        <md-divider></md-divider>
+        <md-divider class="md-accent"></md-divider>
 
       </ul>
 

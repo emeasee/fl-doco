@@ -1,0 +1,95 @@
+{
+  "title": "1.3 FieldLogs APIs Authentication",
+  "id": "api-basic-authentication",
+  "intro": "This page describes the Authentication mechanisms available to use the FieldLogs API.",
+  "blocks": [
+    {
+      "type": "h1",
+      "content": "1.3.1. User Level Authentication"
+    },
+    {
+      "type": "text",
+      "content": "The User Level Authentication allows an APi call to be performed on behalf of a given FieldLogs User.<br>This call will be made with the User Credentials, and the Authorization will be Granted or Denied regarding the specific Roles and Rules this User has."
+    },
+    {
+      "type": "h6",
+      "content": "Table defining the authenticationParameters to use."
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Parameter",
+          "width":"150px"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User Account. Usually an email address to ensure unicity."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"pwd"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Password of the User Account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

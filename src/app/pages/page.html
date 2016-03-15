@@ -2,9 +2,16 @@
 
 <md-content md-scroll-y flex style="padding: 25px;height:1px;">
   <!-- Introduction first -->
-  <p ng-bind-html="view.intro | to_trusted"></p>
+  <p id="top" ng-bind-html="view.intro | to_trusted"></p>
 
   <div ng-repeat="block in view.blocks">
+
+    <!-- Quick links -->
+    <div class="qlinks" ng-if="block.type === 'links'">
+      <div ng-repeat="link in view.blocks" ng-if="link.type === 'h6'">
+        <a ng-click="gotoLink( link.id )" ng-bind-html="link.content | to_trusted"></a>
+      </div>
+    </div>
 
     <!-- Standard style elements -->
     <div ng-include="'app/components/standard/standard.html'"></div>
@@ -29,6 +36,9 @@
 
     <!-- API Table -->
     <table id="{{ block.id }}" class="md-api-table" ng-if="block.type === 'table'" ng-include="'app/components/apitable/apitable.html'"></table>
+
+    <!-- Back to top -->
+    <md-button class="top" ng-if="block.type === 'back'" ng-click="gotoLink('top')">Back to Top</md-button>
 
   </div>
 

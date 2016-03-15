@@ -25,24 +25,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <ui-view style="height: 100%;" ng-cloak>
-      <div layout-fill layout="row">
-
-        <md-sidenav layout="column" ng-include="'app/components/navlist/navlist.html'" class="md-sidenav-left sidebar-nav md-whiteframe-z1"  md-component-id="left" md-is-locked-open="$mdMedia('min-width: 1000px')"></md-sidenav>
-
-        <div ui-view layout="column">
-          <md-toolbar ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
-          <md-content md-scroll-y flex layout-padding style="padding: 20px;" ng-cloak>
-            <h3>Welcome to the FieldLogs documentation reference</h3>
-            <p>
-              This documentation exists to provide help, guidance and answers to frequently asked questions. Please use the menu on the left to easily navigate the various topics.
-            </p>
-          </md-content>
-        </div>
-
-
-      </div>
-    </ui-view>
+    <ui-view style="height: 100%;" ng-cloak></ui-view>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('flDoco')
-  .controller('PageCtrl',['$scope', '$rootScope', '$stateParams', '$http', function ($scope, $rootScope, $stateParams, $http) {
+  .controller('PageCtrl',['$scope', '$rootScope', '$location', '$anchorScroll', '$stateParams', '$http', function ($scope, $rootScope, $location, $anchorScroll, $stateParams, $http) {
     function sectionExists(sec){
       if (sec){
         return $stateParams.section;
@@ -20,6 +20,11 @@ angular.module('flDoco')
       .success(function(data) {
         $scope.view = data;
     });
+
+    $scope.gotoLink = function(link) {
+      $location.hash(link);
+      $anchorScroll();
+    }
 
     Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
     // See http://galleria.io/docs/options/ for a list of Options available

@@ -10,7 +10,9 @@ angular.module('flDoco')
     });
 
     $scope.openLeftMenu = function () {
-      $mdSidenav('left').toggle();
+      $mdSidenav('left').toggle().then(function(){
+        console.log('toggled');
+      });
     };
 
   }]);

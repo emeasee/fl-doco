@@ -11,6 +11,11 @@
         "name": "1.2 Basic Structure",
         "type": "link",
         "id": "api-basic-structure"
+      },
+      {
+        "name": "1.3 Authentication",
+        "type": "link",
+        "id": "api-basic-authentication"
       }
     ]
   },

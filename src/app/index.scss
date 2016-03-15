@@ -20,6 +20,33 @@
   background-color: lighten(rgb(241, 151, 38), 40%);
 }
 
+.blue{
+  background: RGB(62, 78, 184);
+  color: white;
+}
+
+.blue-lighter{
+  background-color: lighten(rgb(62, 78, 184), 40%);
+}
+
+.green{
+  background: RGB(137, 197, 64);
+  color: black;
+}
+
+.green-lighter{
+  background-color: lighten(rgb(137, 197, 64), 40%);
+}
+
+.grey{
+  background: RGB(95, 125, 140);
+  color: white;
+}
+
+.grey-lighter{
+  background-color: lighten(rgb(95, 125, 140), 40%);
+}
+
 [class^="fl-"],
 [class*=" fl-"] {
   font-family: 'fieldlogs';
@@ -65,8 +92,14 @@ body{
   }
 
   img{
-    width: 100%;
+    width: 100%!important;
   }
+
+  &.api{
+    background: RGB(245, 245, 245);
+    color: #333;
+  }
+
 }
 
 md-toolbar{
@@ -83,6 +116,11 @@ h3{
   font-weight: 400;
 }
 
+.top{
+  color: blue;
+  cursor: hand;
+}
+
 .menu{
   overflow: auto;
   .content{
@@ -95,7 +133,7 @@ h3{
   margin: 0;
   opacity: 1;
   outline: none;
-  color: #fff;
+  //color: #fff;
   text-decoration: none;
 
   &.ng-hide {
@@ -111,11 +149,12 @@ h3{
     font-weight: bold;
 
     &:hover{
-      background: rgb(241, 151, 38);
+      background: RGBA(255, 255, 255, 0.2);
     }
 
     &.active{
-      background: rgb(143, 90, 25) !important;
+      background: RGBA(33, 33, 33, 0.5) !important;
+      color: white;
     }
 
     .list-btn{
@@ -164,12 +203,15 @@ h3{
   .fold{
 
     padding: 4px;
-    color: #fff;
+
+    &.api{
+      color:black;
+    }
   }
 }
 
 md-divider{
-  background: rgb(241, 151, 38);
+  //background: rgb(241, 151, 38);
 }
 
 .div-icon{
@@ -185,6 +227,16 @@ md-divider{
 .indent{
   p{
     padding-left: 30px;
+  }
+}
+
+.qlinks{
+  div{
+    a{
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }
 
@@ -283,6 +335,8 @@ code{
       code{
         background: none;
         padding: 3px;
+        -ms-word-break: break-all;
+        word-break: break-all;
       }
     }
 

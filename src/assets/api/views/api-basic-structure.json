@@ -5,41 +5,422 @@
   "blocks": [
     {
       "type": "h1",
-      "content": "1.2.1. Global API call structure"
+      "id": "GlobalApiStructure",
+      "content": "1.2.1 Global API call structure"
     },
     {
       "type": "text",
       "content": "Each API call structure contains the following elements:"
     },
     {
-      "type": "info",
+      "type": "code",
       "content": "&lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt;/&lt;apiVersion&gt;/&lt;servicePath&gt;?&lt;authenticationParameters&gt;&&lt;apiServiceParameters&gt;"
     },
     {
-      "type": "bullet",
-      "points": [
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
         {
-          "text":"<b>protocol</b> : Defines the protocol to use to connect to the server. It must be <b>https</b> when going after production platform"
+          "text":"Element",
+          "width":"150px"
         },
         {
-          "text":"<b>servername</b> : Defines the hostname of the server hosting the service. This can be the platform Main hostname, or the Grid Node hostname for account specific services."
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>protocol</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the protocol to use to connect to the server. It must be <b>https</b> when going after production platform."
+                }
+              ]
+            }
+          ]
         },
         {
-          "text":"<b>webappname</b> : Defines the API deployment. It must be <b>MainWebApp</b> when going after the Main host and <b>GridWebApp</b> when going after a Grid Node host."
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servername</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the hostname of the server hosting the service. This can be the platform <b>Main Node</b> hostname, or the <b>Grid Node</b> hostname for User Account or Enterprise data specific services."
+                }
+              ]
+            }
+          ]
         },
         {
-          "text":"<b>apiVersion</b> : Defines the version of the API to use. The latest version is always available at <b>api/latest</b>."
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>webappname</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the API deployment. It must be <b>MainWebApp</b> when going after the Main host and <b>GridWebApp</b> when going after a Grid Node host."
+                }
+              ]
+            }
+          ]
         },
         {
-          "text":"<b>servicePath</b> : Defines the API service to call. This is defined in each of the API calls documentation."
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>apiVersion</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the version of the API to use. The latest version is always available at <b>api/latest</b>."
+                }
+              ]
+            }
+          ]
         },
         {
-          "text":"<b>authenticationParameters</b> : Defines the parameters and values that will identify the caller and authorize the access to the requested API service."
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the API service to call. This is defined in each of the API calls documentation."
+                }
+              ]
+            }
+          ]
         },
         {
-          "text":"<b>apiServiceParameters</b> : Defines the parameters and values required to perform the API service call. These are specified for each API call documentation"
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>authenticationParameters</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the parameters and values that will identify the caller and authorize the access to the requested API service. See <a href=\"#/section/api-basic-authentication\">Authentication</a> for more details."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>apiServiceParameters</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Defines the parameters and values required to perform the API service call. These are specified for each API call documentation."
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "h1",
+      "id": "EssentialAPIcalls",
+      "content": "1.2.2 Essential API calls"
+    },
+    {
+      "type": "h6",
+      "id": "GetUserNodeApi",
+      "content": "Get User Node servername"
+    },
+    {
+      "type": "text",
+      "content": "This service is used to retrieve the servername hosting the data of a specific User Account, or Enterprise."
+    },
+    {
+      "type": "info",
+      "content": "This service can be used to retrieve the Grid Node hosting an Enterprise, and not only a User Account"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Node"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/GetUserGrid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"appId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Application of the Product the User will use. For production platform it has to be : aa, for QA environment, it has to be bb."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User Account or the Enterprise. Usually an email address for a User Account to ensure unicity. For an Enterprise, the identifier is returned at creation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Return the full server reference to create calls to that Grid Node"
+                },
+                {
+                  "type":"code",
+                  "content":"&lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/GetUserGrid?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&buyerId=buyerToRequest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://123456789012345678901234.grid-trekea.com/GridWebApp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Go back to <a href=\"#/section/user-management/managing-users#CreateNewUser\">Top</a>"
     }
   ]
 }
