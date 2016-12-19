@@ -1,7 +1,7 @@
 'use strict';
 
 //TODO make sure that we put the injections into an array to stop issues with minification
-angular.module('flDoco', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngResource', 'ui.router', 'ngMaterial'])
+angular.module('flDoco', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngResource', 'ui.router', 'ngMaterial', 'angular-loading-bar'])
   .config(['$stateProvider', '$urlRouterProvider', '$mdThemingProvider', function ($stateProvider, $urlRouterProvider, $mdThemingProvider) {
     $stateProvider
       .state('home', {

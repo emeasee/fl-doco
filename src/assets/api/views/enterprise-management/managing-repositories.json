@@ -1,15 +1,15 @@
 {
-  "title": "2.1.1 Managing Users",
-  "id": "managing-users",
-  "intro": "This page describes the different API services available to manage Users.",
+  "title": "2.1.2 Managing Repositories",
+  "id": "managing-repositories",
+  "intro": "This page describes the different API services available to manage the Template Repositories inside the Enterprise Hierarchy and the Template Lifecycles that govern the publication process of the Templates inside a specific Repository.",
   "blocks": [
     {
       "type": "links"
     },
     {
       "type": "h6",
-      "id": "CreateNewUser",
-      "content": "Create a new User"
+      "id": "CreateNewRepository",
+      "content": "Create a new Template Repository"
     },
     {
       "type": "table",
@@ -38,7 +38,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Main Grid"
+                  "content":"Enterprise Grid"
                 }
               ]
             }
@@ -58,7 +58,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"/user/Create"
+                  "content":"/repository/CreateReadingRepository"
                 }
               ]
             }
@@ -105,7 +105,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"appId"
+                  "content":"entityId"
                 }
               ]
             },
@@ -113,7 +113,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"This parameter defines the Application of the Product the User will use. For production platform it has to be : aa, for QA environment, it has to be bb."
+                  "content":"Id of the hierarchical group the repository will belong to."
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"buyerId"
+                  "content":"alias"
                 }
               ]
             },
@@ -133,7 +133,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Identifier of the User Account. Usually an email address to ensure unicity."
+                  "content":"Name of the repository."
                 }
               ]
             }
@@ -145,7 +145,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"pwd"
+                  "content":"type"
                 }
               ]
             },
@@ -153,65 +153,20 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Password of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
+                  "content":"Type of the repository."
+                },
                 {
-                  "type":"code",
-                  "content":"email"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The email address of the User. Can be the same value as the buyerId if an email address is used as Identifier"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"region"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The region in which the User account's data will be stored."
+                    "type":"text",
+                    "content":"Values:"
                 },
                 {
                   "type": "bullet",
                   "points": [
                     {
-                      "text":"'us-east-1' for America"
+                      "text":"<b>0</b> : private repository"
                     },
                     {
-                      "text":"'eu-west-1' for Europe"
-                    },
-                    {
-                      "text":"'ap-southeast-1' for Asia"
-                    },
-                    {
-                      "text":"'ap-northeast-1' for Japan"
-                    },
-                    {
-                      "text":"<b>QA Platform only runs in region us-east-1, no other value will work.</b>"
+                      "text":"<b>1</b> : public repository"
                     }
                   ]
                 }
@@ -251,7 +206,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Buyer buyerId successfully created"
+                  "content":"1234567890abcdef1234567890abcdef"
                 }
               ]
             },
@@ -259,7 +214,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The request was successfully performed"
+                  "content":"Id of the new repository."
                 }
               ]
             }
@@ -279,7 +234,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Buyer already exist"
+                  "content":"Access Denied"
                 }
               ]
             },
@@ -287,7 +242,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Call failed because a user with the same buyerId already exists"
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to create a new repository."
                 }
               ]
             }
@@ -322,7 +277,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/Create?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&buyerId=buyerToCreate@test.com&pwd=Password&email=buyerEmail@test.com&region=us-east-1"
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/repository/CreateReadingRepository?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=fedcba0987654321fedcba0987654321&alias=MyRepository+DB&type=1"
                 }
               ]
             }
@@ -342,7 +297,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"&lt;success message=\"Buyer buyerToCreate@test.com successfully created\"/&gt;"
+                  "content":"1234567890abcdef1234567890abcdef"
                 }
               ]
             }
@@ -354,20 +309,8 @@
 
     {
       "type": "h6",
-      "id": "GetUserGridRef",
-      "content": "Get User's Grid"
-    },
-    {
-      "type": "text",
-      "content": "Go back to <a href=\"#/section/api-basic-structure#GetUserNodeApi\">Basic Structure</a>"
-    },
-
-
-
-    {
-      "type": "h6",
-      "id": "ChangeUserPwd",
-      "content": "Change User's Password"
+      "id": "DeleteRepository",
+      "content": "Delete a Template Repository"
     },
     {
       "type": "table",
@@ -396,7 +339,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Main Grid"
+                  "content":"Enterprise Grid"
                 }
               ]
             }
@@ -416,7 +359,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"/user/ChangePwd"
+                  "content":"/repository/DeleteReadingRepository"
                 }
               ]
             }
@@ -457,6 +400,26 @@
             }
           ]
         },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the hierarchical group the repository belongs to."
+                }
+              ]
+            }
+          ]
+        },
 
         {
           "row":[
@@ -464,7 +427,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"buyerId"
+                  "content":"id"
                 }
               ]
             },
@@ -472,47 +435,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Identifier of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"pwd"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The current Password of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"newPwd"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The new Password of the User Account"
+                  "content":"Id of the repository to delete"
                 }
               ]
             }
@@ -550,7 +473,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Password successfully changed"
+                  "content":"Repository successfully deleted"
                 }
               ]
             },
@@ -558,7 +481,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The request was successfully performed"
+                  "content":"The request was successfully performed."
                 }
               ]
             }
@@ -586,7 +509,35 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the password or the user."
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to delete a repository."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Undefined repository"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The repository cannot be found."
                 }
               ]
             }
@@ -621,7 +572,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangePwd?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&pwd=Password&newPwd=NewPassword"
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/repository/DeleteReadingRepository?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=fedcba0987654321fedcba0987654321&id=1234567890abcdef1234567890abcdef"
                 }
               ]
             }
@@ -641,7 +592,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"&lt;success message=\"Password successfully changed\"/&gt;"
+                  "content":"&lt;success message=\"Repository successfully deleted\"/&gt;"
                 }
               ]
             }
@@ -653,8 +604,8 @@
 
     {
       "type": "h6",
-      "id": "ChangeUserEmail",
-      "content": "Change User's E-mail"
+      "id": "EditRepository",
+      "content": "Edit a Template Repository"
     },
     {
       "type": "table",
@@ -683,7 +634,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Main Grid"
+                  "content":"Enterprise Grid"
                 }
               ]
             }
@@ -703,7 +654,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"/user/ChangeEmail"
+                  "content":"/repository/EditReadingRepository"
                 }
               ]
             }
@@ -730,6 +681,37 @@
               "cell": [
                 {
                   "type":"code",
+                  "content":"op"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Type of operation to perform"
+                }
+              ]
+            },
+            {
+              "type": "bullet",
+              "points": [
+                {
+                  "text":"<b>0</b>: set repository name.<br/><i>Parameters: customerId, entityId, id, alias.</i>"
+                },
+                {
+                  "text":"<b>1</b>: set repository type.<br/><i>Parameters: customerId, entityId, id, type.</i>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
                   "content":"customerId"
                 }
               ]
@@ -738,7 +720,27 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'<br/><br/><i>Required for all operations</i>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the hierarchical group the repository belongs to.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
@@ -751,7 +753,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"buyerId"
+                  "content":"id"
                 }
               ]
             },
@@ -759,19 +761,20 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Identifier of the User Account."
+                  "content":"Id of the repository to edit.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
           ]
         },
+
         {
           "row":[
             {
               "cell": [
                 {
                   "type":"code",
-                  "content":"email"
+                  "content":"alias"
                 }
               ]
             },
@@ -779,7 +782,43 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The new e-mail address."
+                  "content":"Required only for the operation <b>0</b>: the new name of the repository."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"type"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Required only for the operation <b>1</b>: the new type of the repository."
+                },
+                {
+                    "type":"text",
+                    "content":"Values:"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"<b>0</b> : private repository"
+                    },
+                    {
+                      "text":"<b>1</b> : public repository"
+                    }
+                  ]
                 }
               ]
             }
@@ -817,7 +856,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Email successfully changed"
+                  "content":"Repository successfully edited"
                 }
               ]
             },
@@ -825,7 +864,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The request was successfully performed"
+                  "content":"The request was successfully performed."
                 }
               ]
             }
@@ -853,7 +892,35 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the e-mail or the user."
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to edit a repository."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Undefined repository"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The repository cannot be found."
                 }
               ]
             }
@@ -888,7 +955,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangeEmail?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&email=emaildAddress@test.com"
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/repository/EditReadingRepository?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=fedcba0987654321fedcba0987654321&id=1234567890abcdef1234567890abcdef&op=0&alias=New+Name"
                 }
               ]
             }
@@ -908,7 +975,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"&lt;success message=\"Email successfully changed\"/&gt;"
+                  "content":"&lt;success message=\"Repository successfully edited\"/&gt;"
                 }
               ]
             }
@@ -916,6 +983,8 @@
         }
       ]
     },
+
+
     {
       "type": "back"
     }

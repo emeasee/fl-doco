@@ -12,39 +12,39 @@
 }
 
 .orange{
-  background: rgb(241, 151, 38);
-  color: white;
+  background: lighten(rgb(241, 151, 38), 20%);
+  //color: white;
 }
 
 .orange-lighter{
-  background-color: lighten(rgb(241, 151, 38), 40%);
+  background-color: lighten(rgb(241, 151, 38), 42%);
 }
 
 .blue{
-  background: RGB(62, 78, 184);
-  color: white;
+  background: lighten(rgb(62, 78, 184), 20%);
+  //color: white;
 }
 
 .blue-lighter{
-  background-color: lighten(rgb(62, 78, 184), 40%);
+  background-color: lighten(rgb(62, 78, 184), 50%);
 }
 
 .green{
-  background: RGB(137, 197, 64);
-  color: black;
+  background: lighten(rgb(137, 197, 64), 20%);
+  //color: black;
 }
 
 .green-lighter{
-  background-color: lighten(rgb(137, 197, 64), 40%);
+  background-color: lighten(rgb(137, 197, 64), 45%);
 }
 
 .grey{
-  background: RGB(95, 125, 140);
-  color: white;
+  background: lighten(rgb(95, 125, 140), 20%);
+  //color: white;
 }
 
 .grey-lighter{
-  background-color: lighten(rgb(95, 125, 140), 40%);
+  background-color: lighten(rgb(95, 125, 140), 52%);
 }
 
 [class^="fl-"],
@@ -352,6 +352,9 @@ code{
 
 }
 
+#loading-bar .bar {
+  background: #2a2a2a;
+}
 
 /* FIELDLOGS FONT v1.4 */
 

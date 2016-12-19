@@ -1,0 +1,2478 @@
+{
+  "title": "2.1.2 Managing Groups / Hierarchy",
+  "id": "managing-entities",
+  "intro": "This page describes the different API services available to manage the Enterprise Hierarchy and the different Groups that define it.",
+  "blocks": [
+    {
+      "type": "links"
+    },
+    {
+      "type": "h6",
+      "id": "CreateNewGroup",
+      "content": "Create a new Group"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"user/CreateEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"parentId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Identifier of the Parent Group this new Group will be child of. This can be the Identifier of the Enterprise to define a Root level Group."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityName"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Human readable Name of the new Group to create."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Fully Qualified Identifier of the newly created Group"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to Create a Sub Group of that Parent Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/CreateEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&parentId=1234567890ABCDEF1234567890&entityName=Name of the New Group"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"FieldLogs@@ABCDEF1234567890ABCDEF1234567890"
+                },
+                {
+                  "type": "info",
+                  "content": "Fully Qualified Identifier always starts with the <b>customerId</b>, followed by the actual Identifier of the Object, separated by '@@'. Usually the Object Id is extracted for further use in other API calls."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+
+    {
+      "type": "h6",
+      "id": "EditGroupName",
+      "content": "Edit existing Group Name"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"user/CreateEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Identifier of the Group to modify. This can be the Identifier of the Enterprise to modify the Displayed Name of the Enterprise."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityName"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the new Human readable Name of the Group."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"op"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Value must be <b>1</b> to indicate the Edit name operation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Fully Qualified Identifier of the newly created Group"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to modify that Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/CreateEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890&entityName=New Name For the Group"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"FieldLogs@@ABCDEF1234567890ABCDEF1234567890"
+                },
+                {
+                  "type": "info",
+                  "content": "Fully Qualified Identifier always starts with the <b>customerId</b>, followed by the actual Identifier of the Object, separated by '@@'. Usually the Object Id is extracted for further use in other API calls."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+
+
+    {
+      "type": "h6",
+      "id": "DeleteGroup",
+      "content": "Delete Group"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/DeleteEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the Group to be deleted."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Entity successfully deleted"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to delete that Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/DeleteEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Entity successfully deleted\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+
+    {
+      "type": "h6",
+      "id": "LinkBuyer",
+      "content": "Link User to Group"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/LinkEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the Group to be link the User to."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User to link to the Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Entity successfully updated"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Unable to link user"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the User is already Linked to a Group. See <a href=\"#/section/enterprise-management/managing-entities#UpdateEnterpriseHierarchy\">UpdateEnterpriseHierarchy</a> to move a User to another Group in the Hierarchy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to perform that operation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/LinkEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890&buyerId=buyerToLink@enterprise.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Entity successfully updated\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+
+    {
+      "type": "h6",
+      "id": "UnlinkBuyer",
+      "content": "Unlink User from a Group"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/UnlinkEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the Group the User was linked to."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"buyerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the User to unlink from the Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Entity successfully updated"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Unable to link user"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the User is not Linked to the Group."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to perform that operation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/UnlinkEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890&buyerId=buyerToLink@enterprise.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"Entity successfully updated\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+
+    {
+      "type": "h6",
+      "id": "UpdateEnterpriseHierarchy",
+      "content": "Update the Enterprise Hierarchy"
+    },
+    {
+      "type": "warn",
+      "content": "That API call triggers a background process that will reorganize the data according to the requested Operation.<br>That process can take some time regarding the Operation and the amount of data impacted.<br>While that process is not finished, other Operations are not allowed and will trigger a specific Error message: <b>error.update.hierarchy.already.running</b>"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/entity/UpdateEnterpriseHierarchy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Common Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"appId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Application of the Product the User will use. For production platform it has to be : aa, for QA environment, it has to be bb."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"op"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Operation to be executed. Valid Operation values are:"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"1 : Move an Object to another Group in the Hierarchy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"type"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the type of Object the Operation is manipulating. Valid Type values are:"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"1 : Template Repository"
+                    },
+                    {
+                      "text":"2 : Group"
+                    },
+                    {
+                      "text":"3 : User"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the target Group."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"id"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the Object to manipulate."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"the hierarchy update is being processed"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"error.update.hierarchy.already.running"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because another Hierarchy Update is currently being performed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"unknow data type: "
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the requested operation is not supported on the requested Object type."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"unknow operation: "
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the requested Operation is not supported."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to perform that operation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"To Move a User :https://www.fieldlogs.com/MainWebApp/api/latest/user/UpdateEntityHierarchy?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&op=1&type=3&entityId=1234567890ABCDEF1234567890&id=buyerToMove@enterprise.com"
+                },
+                {
+                  "type":"code",
+                  "content":"To Move a Group :https://www.fieldlogs.com/MainWebApp/api/latest/user/UpdateEntityHierarchy?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&op=1&type=2&entityId=1234567890ABCDEF1234567890&id=groupToMove"
+                },
+                {
+                  "type":"code",
+                  "content":"To Move a Repository :https://www.fieldlogs.com/MainWebApp/api/latest/user/UpdateEntityHierarchy?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&op=1&type=1&entityId=1234567890ABCDEF1234567890&id=repositoryToMove"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message=\"the hierarchy update is being processed\"/&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },
+    {
+      "type": "h6",
+      "id": "GetEnterpriseHierarchy",
+      "content": "Query information about the Enterprise Hierarchy"
+    },
+    {
+      "type": "text",
+      "content": "This API Service allows to retrieve an XML Stream containing the different information about the Structural element of the Enterprise. See <a href=\"#/section/enterprise-management/managing-entities#GetEnterpriseHierarchyXMLStructure\">XML Format</a> for more details.<br>By default it returns the information about the requested Group and all its parents Group up to the Enterprise Root.<br>Additional type of Hierarchy Object can be requested in the same call by using the different optional parameters."
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Grid Node of the Enterprise"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/entity/GetEnterpriseHierarchy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines the Identifier of the Group to request info about."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entities"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines if the sub-groups of the requested groups are to be included in the response. Value must be <b>true</b> to include them, defaults to false if the parameter is not set."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"users"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines if the users linked to each group are to be included in the response. Value must be <b>true</b> to include them, defaults to false if the parameter is not set."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"repositories"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines if the Repositories of each group are to be included in the response. Value must be <b>true</b> to include them, defaults to false if the parameter is not set."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"lifecycles"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines if the lifecycles of each Repository are to be included in the response. Value must be <b>true</b> to include them, defaults to false if the parameter is not set."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"roles"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"This parameter defines if the definitions of each Role defined in the Enterprise are to be included in the response. Value must be <b>true</b> to include them, defaults to false if the parameter is not set."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"The XML Stream containing information about the different elements requested"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to perform that operation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"To Move a User :&lt;gridNodeUrl&gt;/api/latest/user/UpdateEntityHierarchy?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890&entities=true&users=true&repositories=true&lifecycles=true&roles=true"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"See XML Stream structure below."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "h6",
+      "id": "GetEnterpriseHierarchyXMLStructure",
+      "content": "XML Structure of the Ouput of the <a href=\"#/section/enterprise-management/managing-entities#GetEnterpriseHierarchy\">GetEnterpriseHierarchy</a> Api call"
+    },
+    {
+      "type": "code",
+      "content": "&lt;customer id=\"FieldLogs\"&gt;<br>&ensp;&lt;entity id=\"IdOfTheEnterprise\" Email=\"null\" UserLocale=\"null\" icon=\"2\"&gt;<br>&ensp;&ensp;&lt;groups&gt;<br>&ensp;&ensp;&ensp;&lt;group id=\"IdOfTheRole\" creationDate=\"1.428479620055E9\" name=\"Admin\"&gt;<br>&ensp;&ensp;&ensp;&ensp;&lt;policies&gt;<br>&ensp;&ensp;&ensp;&ensp;&ensp;&lt;policy ruleType=\"0\" access=\"2\" objectType=\"-1\" applicationId=\"f803ef3045104e990050fc6b9425c044\" objectId=\"All\"/&gt;<br>&ensp;&ensp;&ensp;&ensp;&lt;/policies&gt;<br>&ensp;&ensp;&ensp;&ensp;&lt;buyer id=\"IdOfTheUserHavingThisRole\"/&gt;<br>&ensp;&ensp;&ensp;&lt;/group&gt;<br>&ensp;&ensp;&lt;/groups&gt;<br>&ensp;&ensp;&lt;name&gt;&lt;![CDATA[ This Is the Displayed Name of the Group ]]&gt;&lt;/name&gt;<br>&ensp;&ensp;&lt;child id=\"userId@enterprise.com\" type=\"1\" dns=\"HostingGridServerName\"/&gt;<br>&ensp;&ensp;&lt;child id=\"IdOfTheSubGroup\" type=\"2\" dns=\"HostingGridServerName\"/&gt;<br>&ensp;&lt;/entity&gt;<br><br>&ensp;&lt;repository id=\"IdOfTheRepository\" type=\"1\" creationDate=\"1.433157994416E9\" lastModified=\"1.433160922163E9\" entityPath=\"EntityPathOfTheObject\" default=\"false\"&gt;<br>&ensp;&ensp;&lt;name&gt;&lt;![CDATA[ Displayed Name of the Repository ]]&gt;&lt;/name&gt;<br>&ensp;&lt;/repository&gt;<br><br>&ensp;&lt;entity id=\"IdOfTheSubGroup\" Email=\"null\" UserLocale=\"null\" icon=\"1\"&gt;<br>&ensp;&ensp;&lt;parent id=\"IdOfTheParentGroupOfThisGroup\" dns=\"HostingGridOfTheParentServerName\"/&gt;<br>&ensp;&ensp;&lt;name&gt;&lt;![CDATA[ Displayed Name of this Group ]]&gt;&lt;/name&gt;<br>&ensp;&ensp;&lt;child id=\"IdOfAUserLinkedToThisGroup\" type=\"1\" dns=\"HostingGridOfThisUserServerName\"/&gt;<br>&ensp;&ensp;&lt;child id=\"IdOfASubGroupOfThisGroup\" type=\"2\" dns=\"HostingGridOfThisSubGroup\"/&gt;<br>&ensp;&lt;/entity&gt;<br><br>&ensp;&lt;templatelifecycle id=\"IdOfTheLifecycle\" customerid=\"FieldLogs\" entityid=\"IdOfTheRepositoryGovernedByThisLifecycle\" creationDate=\"1.447777992475E9\" useInitiate=\"false\" useReview=\"false\" useApprove=\"false\"&gt;<br>&ensp;&ensp;&lt;name key=\"PropertyKey\"&gt;&lt;![CDATA[ PropertyValue ]]&gt;&lt;/name&gt;<br>&ensp;&lt;/templatelifecycle&gt;<br>&lt;/customer&gt;"
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Object Type",
+          "width":"150px"
+        },
+        {
+          "text":"XML Structure"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"<b>entity</b> : Defines a Hierarchy Group"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;entity id=\"IdOfTheEnterprise\" Email=\"null\" UserLocale=\"null\" icon=\"2\"&gt;<br>&ensp;&ensp;&lt;groups&gt;<br>&ensp;&ensp;&lt;/groups&gt;<br>&ensp;&ensp;&lt;name&gt;&lt;![CDATA[ This Is the Displayed Name of the Group ]]&gt;&lt;/name&gt;<br>&ensp;&ensp;&lt;child id=\"userId@enterprise.com\" type=\"1\" dns=\"HostingGridServerName\"/&gt;<br>&ensp;&ensp;&lt;child id=\"IdOfTheSubGroup\" type=\"2\" dns=\"HostingGridServerName\"/&gt;<br>&lt;/entity&gt;"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"Attribute <b>id</b> : Identifier of the Group"
+                    },
+                    {
+                      "text":"Attribute <b>icon</b> : Integer specifying which Icon represents this Group in the Hierarchy"
+                    },
+                    {
+                      "text":"Element <b>groups</b> : List of All the Roles definition. Only available in the Enterprise Root Group."
+                    },
+                    {
+                      "text":"Element <b>name</b> : Displayed Name of this Group"
+                    },
+                    {
+                      "text":"Element <b>child</b> : Element referencing SubGroups or Users that are linked / part of this Group."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"<b>group</b> : Defines a Security Role"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;group id=\"IdOfTheRole\" creationDate=\"1.428479620055E9\" name=\"Admin\"&gt;<br>&ensp;&ensp;&lt;policies&gt;<br>&ensp;&ensp;&lt;/policies&gt;<br>&ensp;&ensp;&lt;buyer id=\"IdOfTheUserHavingThisRole\"/&gt;<br>&lt;/group&gt;"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"Attribute <b>id</b> : Identifier of the Role"
+                    },
+                    {
+                      "text":"Attribute <b>creationDate</b> : Timestamp of the creation of this Role"
+                    },
+                    {
+                      "text":"Attribute <b>name</b> : Displayed Name of this Role"
+                    },
+                    {
+                      "text":"Element <b>policies</b> : List of All the Security Rules of this Role"
+                    },
+                    {
+                      "text":"Element <b>buyer</b> : Reference of a User having this Role. Only contains an <b>id</b> attribute with the User Identifier."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"<b>policy</b> : Defines a Security Rule"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;policy ruleType=\"0\" access=\"2\" objectType=\"-1\" applicationId=\"f803ef3045104e990050fc6b9425c044\" objectId=\"All\"/&gt;"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"Attribute <b>ruletype</b> : Type of this Security Rule. Always <b>0</b>."
+                    },
+                    {
+                      "text":"Attribute <b>access</b> : Integer defining the Access Right allowed by this Rule"
+                    },
+                    {
+                      "text":"Attribute <b>objectType</b> : Integer defining the Type of Securable Object this Rule gives access to."
+                    },
+                    {
+                      "text":"Attribute <b>applicationId</b> : Will always be the common FieldLogs ApplicationId for the Platform"
+                    },
+                    {
+                      "text":"Attribute <b>objectId</b> : Identitifer of the SecurableObject this Rule grants access to. Can be <b>All</b> if the Rule gives access to all objects of type <b>objectType</b>."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"<b>repository</b> : Defines a Template Repository"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;repository id=\"IdOfTheRepository\" type=\"1\" creationDate=\"1.433157994416E9\" lastModified=\"1.433160922163E9\" entityPath=\"EntityPathOfTheObject\" default=\"false\"&gt;<br>&ensp;&ensp;&lt;name&gt;&lt;![CDATA[ Displayed Name of the Repository ]]&gt;&lt;/name&gt;<br>&ensp;&lt;/repository&gt;"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"Attribute <b>id</b> : The Identifier of this Repository."
+                    },
+                    {
+                      "text":"Attribute <b>type</b> : Integer defining if the Repository is Public or Private. Must be <b>1</b> for Public and <b>0</b> for Private."
+                    },
+                    {
+                      "text":"Attribute <b>creationDate</b> : Timestamp of the creation of this Repository."
+                    },
+                    {
+                      "text":"Attribute <b>lastModified</b> : Timestamp of the last modification on this Repository"
+                    },
+                    {
+                      "text":"Attribute <b>entityPath</b> : EntityPath defining where this repository is linked in the Enterprise Hierarchy."
+                    },
+                    {
+                      "text":"Attribute <b>default</b> : Unused."
+                    },
+                    {
+                      "text":"Element <b>name</b> : Display Name of this Repository."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"<b>templatelifecycle</b> : Defines a Template Lifecycle"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;templatelifecycle id=\"IdOfTheLifecycle\" customerid=\"FieldLogs\" entityid=\"IdOfTheRepositoryGovernedByThisLifecycle\" creationDate=\"1.447777992475E9\" useInitiate=\"false\" useReview=\"false\" useApprove=\"false\"&gt;<br>&ensp;&ensp;&lt;name key=\"PropertyKey\"&gt;&lt;![CDATA[ PropertyValue ]]&gt;&lt;/name&gt;<br>&ensp;&lt;/templatelifecycle&gt;"
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+                    {
+                      "text":"Attribute <b>id</b> : The Identifier of this Lifecycle."
+                    },
+                    {
+                      "text":"Attribute <b>entityId</b> : Identifier of the Repository managed by this Lifecycle"
+                    },
+                    {
+                      "text":"Attribute <b>creationDate</b> : Timestamp of the creation of this Lifecycle."
+                    },
+                    {
+                      "text":"Attribute <b>useInitiate</b> : Indicate if the Optional stage <b>Initiate</b> is used in this Lifecycle"
+                    },
+                    {
+                      "text":"Attribute <b>useReview</b> : Indicate if the Optional stage <b>SME Review</b> is used in this Lifecycle"
+                    },
+                    {
+                      "text":"Attribute <b>useApprove</b> : Indicate if the Optional stage <b>SME Approve</b> is used in this Lifecycle"
+                    },
+                    {
+                      "text":"Element <b>name</b> : Defines a Property of this Lifecycle. Contains an attribute <b>key</b> with the name of the property, and a text element with the value."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "back"
+    }
+  ]
+}

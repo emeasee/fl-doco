@@ -14,7 +14,7 @@
     },
     {
       "type": "code",
-      "content": "&lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt;/&lt;apiVersion&gt;/&lt;servicePath&gt;?&lt;authenticationParameters&gt;&&lt;apiServiceParameters&gt;"
+      "content": "<b>For calls on Main Node:</b><br>&lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt;/&lt;apiVersion&gt;/&lt;servicePath&gt;?&lt;authenticationParameters&gt;&&lt;apiServiceParameters&gt;<br><b>For calls on Grid Node:</b><br>&lt;gridNodeUrl&gt;/&lt;apiVersion&gt;/&lt;servicePath&gt;?&lt;authenticationParameters&gt;&&lt;apiServiceParameters&gt;"
     },
     {
       "type": "table",
@@ -64,7 +64,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Defines the hostname of the server hosting the service. This can be the platform <b>Main Node</b> hostname, or the <b>Grid Node</b> hostname for User Account or Enterprise data specific services."
+                  "content":"Defines the hostname of the server hosting the service. This should be the platform <b>Main Node</b> hostname, identifying the platform to use. <b>www.fieldlogs.com</b> for production platform."
                 }
               ]
             }
@@ -85,6 +85,26 @@
                 {
                   "type":"text",
                   "content":"Defines the API deployment. It must be <b>MainWebApp</b> when going after the Main host and <b>GridWebApp</b> when going after a Grid Node host."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>gridNodeUrl</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Contains &lt;protocol&gt;://&lt;servername&gt;/&lt;webappname&gt; for a specific Grid Node and is returned by the <a href=\"#/section/api-basic-structure#GetUserNodeApi\">GetUserNode API Call</a>"
                 }
               ]
             }
@@ -176,6 +196,9 @@
       "type": "h1",
       "id": "EssentialAPIcalls",
       "content": "1.2.2 Essential API calls"
+    },
+    {
+      "type": "links"
     },
     {
       "type": "h6",
@@ -419,8 +442,7 @@
       ]
     },
     {
-      "type": "text",
-      "content": "Go back to <a href=\"#/section/user-management/managing-users#CreateNewUser\">Top</a>"
+      "type": "back"
     }
   ]
 }

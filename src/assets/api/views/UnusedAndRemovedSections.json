@@ -1,0 +1,253 @@
+
+    {
+      "type": "h6",
+      "id": "GetGroupInfo",
+      "content": "Get Group Information"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information",
+          "width":"150px"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Main Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/GetEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters",
+          "width":"150px"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The Identifier of the Group to be deleted."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type",
+          "width":"150px"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"XML Stream containing all Groups information from the requested Group to the Enterprise, following the parents chain."
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to view information of that Group."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples",
+          "width":"150px"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/GetEntity?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=1234567890ABCDEF1234567890"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"TODO: Need to deploy fix on QA to see xml format"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back"
+    },

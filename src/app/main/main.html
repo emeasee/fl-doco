@@ -3,7 +3,7 @@
   <md-sidenav layout="column" ng-include="'app/components/navlist/navlist.html'" ng-class="$rootScope.type" class="md-sidenav-left sidebar-nav" md-whiteframe="3" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')"></md-sidenav>
 
   <!-- todo Remove the strange flicker on load showing this default content. Might need to move this to a JSON file that only loads once-->
-  <div ui-view layout="column">
+  <div ui-view ng-cloak layout="column">
     <md-toolbar ng-include="'app/components/navbar/navbar.html'"></md-toolbar>
     <md-content md-scroll-y flex layout-padding style="padding: 20px;" ng-cloak>
       <h3>Welcome to the FieldLogs documentation reference</h3>

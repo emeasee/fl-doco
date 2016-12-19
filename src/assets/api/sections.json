@@ -50,12 +50,12 @@
         "closed": true,
         "children": [
           {
-            "name": "Using the Inbox",
-            "id": "inbox-intro"
+            "name": "2.2.1 Managing Groups / Hierarchy",
+            "id": "managing-entities"
           },
           {
-            "name": "Tasks & Task Types",
-            "id": "tasks-types"
+            "name": "2.2.2 Managing Repositories",
+            "id": "managing-repositories"
           }
         ]
       }

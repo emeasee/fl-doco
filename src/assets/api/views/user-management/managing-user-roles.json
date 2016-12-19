@@ -1,15 +1,17 @@
 {
-  "title": "2.1.1 Managing Users",
+  "title": "2.1.2 Managing User Roles",
   "id": "managing-users",
-  "intro": "This page describes the different API services available to manage Users.",
+  "intro": "This page describes the different API services available to manage user Roles.",
   "blocks": [
     {
       "type": "links"
     },
+
+
     {
       "type": "h6",
-      "id": "CreateNewUser",
-      "content": "Create a new User"
+      "id": "CreateRoles",
+      "content": "Create Roles"
     },
     {
       "type": "table",
@@ -38,7 +40,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Main Grid"
+                  "content":"Enterprise Grid"
                 }
               ]
             }
@@ -58,7 +60,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"/user/Create"
+                  "content":"/user/CreateSharingGroup"
                 }
               ]
             }
@@ -94,6 +96,564 @@
                 {
                   "type":"text",
                   "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the enterprise: id of the root entity of the enterprise hierarchy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"groupId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Name of the role to create in the enterprise."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"1234567890abcdef1234567890abcdef"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the new role."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to create a role."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/user/CreateSharingGroup?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=&lt;enterpriseId&gt;&groupId=NewRoleName"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"1234567890abcdef1234567890abcdef"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "type": "h6",
+      "id": "DeleteRole",
+      "content": "Delete a Role"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Enterprise Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/DeleteSharingGroup"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"customerId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"entityId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the enterprise owning the role: id of the root entity of the enterprise hierarchy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"groupId"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Id of the role to delete."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "green",
+      "styles": "api_results",
+      "titles":[
+        {
+          "text":"Result Type"
+        },
+        {
+          "text":"Example"
+        },
+        {
+          "text":"Definition"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Sharing Group successfully Deleted"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Access Denied"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to delete the role."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "grey",
+      "styles": "api_samples",
+      "titles":[
+        {
+          "text":"Code samples"
+        },
+        {
+          "text":""
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical call"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/user/DeleteSharingGroup?&lt;authenticationParameters&gt;&customerId=FieldLogs&entityId=&lt;enterpriseId&gt;&groupId=1234567890abcdef1234567890abcdef"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Typical answer"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"&lt;success message&#061;&quot;Sharing Group successfully Deleted&quot;&#047;&gt;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "type": "h6",
+      "id": "EditRoles",
+      "content": "Edit Roles"
+    },
+    {
+      "type": "table",
+      "color": "orange",
+      "styles": "api_main_info",
+      "titles":[
+        {
+          "text":"Main Information"
+        },
+        {
+          "text":"Value"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>Hosting Grid</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Enterprise Grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"<b>servicePath</b>"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"/user/EditSharingGroup"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "color": "blue",
+      "styles": "api_parameters",
+      "titles":[
+        {
+          "text":"Service Parameters"
+        },
+        {
+          "text":"Definition / Usage"
+        }
+      ],
+      "rows": [
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"op"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Type of operation to perform."
+                },
+                {
+                  "type": "bullet",
+                  "points": [
+					          {
+                      "text":"<b>0</b>: Add a role to a user.<br/><i>Parameters: appId, customerId, entityId, groupId, id.</i>"
+                    },
+                    {
+                      "text":"<b>1</b>: Remove a role from a user.<br/><i>Parameters: appId, customerId, entityId, groupId, id.</i>"
+                    },
+                    {
+                      "text":"<b>2</b>: Add rules to a role.<br/><i>Parameters: appId, customerId, entityId, groupId, xml.</i>"
+                    },
+                    {
+                      "text":"<b>3</b>: Remove all the rules of a role<br/><i>Parameters: appId, customerId, entityId, groupId.</i>"
+					          },
+                    {
+                      "text":"<b>4</b>: Remove some rules from a role.<br/><i>Parameters: appId, customerId, entityId, groupId, xml.</i>"
+                    },
+                    {
+                      "text":"<b>5</b>: Change the name of a role.<br/><i>Parameters: appId, customerId, entityId, groupId, id.</i>"
+                    },
+                    {
+                      "text":"<b>6</b>: Replace all the rules of a role.<br/><i>Parameters: appId, customerId, entityId, groupId, xml.</i>"
+                    }
+                  ]
                 }
               ]
             }
@@ -113,7 +673,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"This parameter defines the Application of the Product the User will use. For production platform it has to be : aa, for QA environment, it has to be bb."
+                  "content":"This parameter defines the Application of the Product the User uses. For production platform it has to be : aa, for QA environment, it has to be bb.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
@@ -125,7 +685,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"buyerId"
+                  "content":"customerId"
                 }
               ]
             },
@@ -133,7 +693,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Identifier of the User Account. Usually an email address to ensure unicity."
+                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
@@ -145,7 +705,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"pwd"
+                  "content":"entityId"
                 }
               ]
             },
@@ -153,7 +713,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The Password of the User Account."
+                  "content":"Id of the enterprise owning the role: id of the root entity of the enterprise hierarchy.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
@@ -165,7 +725,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"email"
+                  "content":"groupId"
                 }
               ]
             },
@@ -173,7 +733,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The email address of the User. Can be the same value as the buyerId if an email address is used as Identifier"
+                  "content":"Id of the role to edit.<br/><br/><i>Required for all operations</i>"
                 }
               ]
             }
@@ -185,7 +745,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"region"
+                  "content":"id"
                 }
               ]
             },
@@ -193,27 +753,27 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"The region in which the User account's data will be stored."
-                },
+                  "content":"Required only for the operations:<ul><li><b>0</b>, <b>1</b>: id of the user account.</li><li><b>6</b>: new name of the role</li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
                 {
-                  "type": "bullet",
-                  "points": [
-                    {
-                      "text":"'us-east-1' for America"
-                    },
-                    {
-                      "text":"'eu-west-1' for Europe"
-                    },
-                    {
-                      "text":"'ap-southeast-1' for Asia"
-                    },
-                    {
-                      "text":"'ap-northeast-1' for Japan"
-                    },
-                    {
-                      "text":"<b>QA Platform only runs in region us-east-1, no other value will work.</b>"
-                    }
-                  ]
+                  "type":"code",
+                  "content":"xml"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Required only for the operations <b>2</b>, <b>4</b> and <b>6</b>: list of rules serialized in xml format."
                 }
               ]
             }
@@ -243,7 +803,7 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Expected success"
+                  "content":"Expected success for operation <b>0</b> <i>'Add a role to a user'</i>."
                 }
               ]
             },
@@ -251,7 +811,35 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Buyer buyerId successfully created"
+                  "content":"User successfully added to Sharing Group"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"The request was successfully performed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Expected success for operation <b>1</b> <i>'Remove a role from a user'</i>."
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"User successfully removed from Sharing Group"
                 }
               ]
             },
@@ -279,7 +867,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"Buyer already exist"
+                  "content":"Access Denied"
                 }
               ]
             },
@@ -287,7 +875,35 @@
               "cell": [
                 {
                   "type":"text",
-                  "content":"Call failed because a user with the same buyerId already exists"
+                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to edit the roles."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "row":[
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"Error"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"code",
+                  "content":"Invalid Policy"
+                }
+              ]
+            },
+            {
+              "cell": [
+                {
+                  "type":"text",
+                  "content":"One or more rules are not valid."
                 }
               ]
             }
@@ -322,7 +938,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/Create?&lt;authenticationParameters&gt;&customerId=FieldLogs&appId=aa&buyerId=buyerToCreate@test.com&pwd=Password&email=buyerEmail@test.com&region=us-east-1"
+                  "content":"&lt;gridNodeUrl&gt;/GridWebApp/api/latest/user/EditSharingGroup?&lt;authenticationParameters&customerId=FieldLogs&entityId=&lt;enterpriseId&gt;&op=6&groupId=1234567890abcdef1234567890abcdef&xml=%3Cpolicies%3E%3Cpolicy+ruleType%3D%220%22+access%3D%220%22+objectType%3D%225%22+applicationId%3D%22f803ef3045104e990050fc6b9425c044%22+objectId%3D%22All%22+%2F%3E%3Cpolicy+ruleType%3D%220%22+access%3D%221%22+objectType%3D%224%22+applicationId%3D%22f803ef3045104e990050fc6b9425c044%22+objectId%3D%22All%22+%2F%3E%3C%2Fpolicies%3E"
                 }
               ]
             }
@@ -342,7 +958,7 @@
               "cell": [
                 {
                   "type":"code",
-                  "content":"&lt;success message=\"Buyer buyerToCreate@test.com successfully created\"/&gt;"
+                  "content":"&lt;success message&#061;&quot;Policies successfully replaced&quot;&#047;&gt;"
                 }
               ]
             }
@@ -351,570 +967,30 @@
       ]
     },
 
-
     {
       "type": "h6",
-      "id": "GetUserGridRef",
-      "content": "Get User's Grid"
+      "id": "RulesXml",
+      "content": "Rules Xml Schemas"
     },
     {
       "type": "text",
-      "content": "Go back to <a href=\"#/section/api-basic-structure#GetUserNodeApi\">Basic Structure</a>"
-    },
-
-
-
-    {
-      "type": "h6",
-      "id": "ChangeUserPwd",
-      "content": "Change User's Password"
+      "content": "The rules are defined as lists of policies. Each rule contains:<ul><li>Rule type</li><li>Access type</li><li>Object type</li><li>Object id: the id of the object, or <b>All</b> for all object access</li><li>Application id: Id of the application of the Product the User uses. For production platform it has to be : aa, for QA environment, it has to be bb.</li></ul>"
     },
     {
-      "type": "table",
-      "color": "orange",
-      "styles": "api_main_info",
-      "titles":[
-        {
-          "text":"Main Information"
-        },
-        {
-          "text":"Value"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"<b>Hosting Grid</b>"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Main Grid"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"<b>servicePath</b>"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"/user/ChangePwd"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "type": "text",
+      "content": "Rule type values:<ul><li><b>0</b>: Exact id matching. Grants access only to the object referenced by its id in the rule</li><li><b>1</b>: Data scope matching. Grants access to the entire data scope referenced in the rule (Anything in sub-level entities).</li></ul>"
     },
     {
-      "type": "table",
-      "color": "blue",
-      "styles": "api_parameters",
-      "titles":[
-        {
-          "text":"Service Parameters"
-        },
-        {
-          "text":"Definition / Usage"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"customerId"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
-                }
-              ]
-            }
-          ]
-        },
-
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"buyerId"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The Identifier of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"pwd"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The current Password of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"newPwd"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The new Password of the User Account"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "type": "text",
+      "content": "Access type values:<ul><li><b>0</b>: Read access.</li><li><b>1</b>: Write access.</li><li><b>2</b>: All access.</li></ul>"
     },
     {
-      "type": "table",
-      "color": "green",
-      "styles": "api_results",
-      "titles":[
-        {
-          "text":"Result Type"
-        },
-        {
-          "text":"Example"
-        },
-        {
-          "text":"Definition"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Expected success"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"Password successfully changed"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The request was successfully performed"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Error"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"Access Denied"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the password or the user."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "type": "text",
+      "content": "Object type values:<ul><li><b>-1</b>: All objects.</li><li><b>1</b>: Buyer meta data.</li><li><b>4</b>: Job.</li><li><b>5</b>: Template.</li><li><b>7</b>: Entity.</li><li><b>8</b>: Buyer.</li><li><b>9</b>: Repository.</li><li><b>11</b>: Task.</li><li><b>12</b>: Life cycle.</li><li><b>13</b>: Role.</li><li><b>14</b>: Security exception.</li><li><b>15</b>: project.</li></ul>"
     },
     {
-      "type": "table",
-      "color": "grey",
-      "styles": "api_samples",
-      "titles":[
-        {
-          "text":"Code samples"
-        },
-        {
-          "text":""
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Typical call"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangePwd?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&pwd=Password&newPwd=NewPassword"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Typical answer"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"&lt;success message=\"Password successfully changed\"/&gt;"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-
-
-    {
-      "type": "h6",
-      "id": "ChangeUserEmail",
-      "content": "Change User's E-mail"
-    },
-    {
-      "type": "table",
-      "color": "orange",
-      "styles": "api_main_info",
-      "titles":[
-        {
-          "text":"Main Information"
-        },
-        {
-          "text":"Value"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"<b>Hosting Grid</b>"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Main Grid"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"<b>servicePath</b>"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"/user/ChangeEmail"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "table",
-      "color": "blue",
-      "styles": "api_parameters",
-      "titles":[
-        {
-          "text":"Service Parameters"
-        },
-        {
-          "text":"Definition / Usage"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"customerId"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"FieldLogs. This parameter defines the product for which the User is created. It has to be 'FieldLogs'."
-                }
-              ]
-            }
-          ]
-        },
-
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"buyerId"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The Identifier of the User Account."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"email"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The new e-mail address."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "table",
-      "color": "green",
-      "styles": "api_results",
-      "titles":[
-        {
-          "text":"Result Type"
-        },
-        {
-          "text":"Example"
-        },
-        {
-          "text":"Definition"
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Expected success"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"Email successfully changed"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"The request was successfully performed"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Error"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"Access Denied"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Call failed because the caller did not provide valid authentication parameters, or does not have the rights to change the e-mail or the user."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "table",
-      "color": "grey",
-      "styles": "api_samples",
-      "titles":[
-        {
-          "text":"Code samples"
-        },
-        {
-          "text":""
-        }
-      ],
-      "rows": [
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Typical call"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"https://www.fieldlogs.com/MainWebApp/api/latest/user/ChangeEmail?&lt;authenticationParameters&gt;&customerId=FieldLogs&buyerId=buyerAccount@test.com&email=emaildAddress@test.com"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "row":[
-            {
-              "cell": [
-                {
-                  "type":"text",
-                  "content":"Typical answer"
-                }
-              ]
-            },
-            {
-              "cell": [
-                {
-                  "type":"code",
-                  "content":"&lt;success message=\"Email successfully changed\"/&gt;"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "type": "code",
+      "content": "Here is an example of rules providing read access to all templates, and write access to all jobs:<br>&lt;policies&gt;<br>&ensp;&ensp;&lt;policy ruleType=\"0\" access=\"0\" objectType=\"5\" applicationId=\"aa\" objectId=\"All\" /&gt;<br>&ensp;&ensp;&lt;policy ruleType=\"0\" access=\"1\" objectType=\"4\" applicationId=\"aa\" objectId=\"All\" /&gt;<br>&lt;/policies&gt;"
     },
     {
       "type": "back"
